@@ -1,0 +1,38 @@
+name: Daily AI News Scraper
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC = 09:00 ישראל (שעון קיץ)
+  workflow_dispatch:        # הרצה ידנית מ-GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python src/scraper.py
+
+      - name: Generate dashboard
+        run: python src/generate_dashboard.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "AI News Bot"
+          git config user.email "bot@ai-news"
+          git add data.json index.html
+          git diff --staged --quiet || git commit -m "עדכון יומי $(date -u '+%d/%m/%Y %H:%M') UTC"
+          git push

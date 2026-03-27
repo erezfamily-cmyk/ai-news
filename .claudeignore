@@ -1,0 +1,26 @@
+# סביבת Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git/
+
+# נתונים גדולים / גיבויים
+data_prev.json
+*.bak
+
+# לוגים
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# סודות
+.env
+.env.*
+*.key
+*.pem
