@@ -235,8 +235,8 @@ def generate():
       <article class="news-article group" data-link="{link}" style="--cat-color:{s['color']};--cat-rgb:{s['rgb']}">
         <div class="article-inner flex flex-col md:flex-row">
           {media_html}
-          <div class="flex-1 p-5 md:p-6">
-            <div class="flex items-center gap-2 mb-2.5 flex-wrap">
+          <div class="flex-1" style="padding:22px 24px 20px">
+            <div class="flex items-center gap-2 flex-wrap" style="margin-bottom:12px">
               <span class="cat-badge" style="background:rgba({s['rgb']},.12);color:{s['color']};border-color:rgba({s['rgb']},.25)">
                 <span class="material-symbols-outlined" style="font-size:12px">{s['icon']}</span>
                 {esc(cat)}
@@ -244,11 +244,11 @@ def generate():
               {hot_badge}
               <span class="text-xs" style="color:var(--muted)">{date_s}</span>
             </div>
-            <h3 class="article-title mb-2">
+            <h3 class="article-title" style="margin-bottom:10px">
               <a href="{link}" target="_blank" rel="noopener" onclick="markRead(this)">{title}</a>
             </h3>
-            <p class="article-summary">{summary}</p>
-            <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
+            <p class="article-summary" style="margin-bottom:18px">{summary}</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap" style="padding-top:14px;border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
                 {cta}
                 {wa_btn}
@@ -721,17 +721,17 @@ body::after {{
 .news-article.is-read:hover {{ opacity:.8; }}
 
 .article-img-wrap {{
-  width:200px; flex-shrink:0;
-  height:160px;
+  width:180px; flex-shrink:0;
+  height:auto; min-height:160px;
   overflow:hidden;
 }}
 @media(max-width:767px) {{
   .article-img-wrap {{ width:100%; height:180px; }}
-  .article-img-placeholder {{ width:100% !important; height:120px !important; }}
+  .article-img-placeholder {{ width:100% !important; height:110px !important; }}
 }}
 
 .article-img-placeholder {{
-  width:160px; height:160px; flex-shrink:0;
+  width:120px; min-height:160px; flex-shrink:0;
   display:flex; align-items:center; justify-content:center;
 }}
 
