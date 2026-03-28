@@ -386,7 +386,19 @@ body::after {
 }
 
 .hero-overlay {
+  position:absolute; inset:0;
   background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.3) 55%, rgba(0,0,0,.05) 100%);
+}
+.hero-content {
+  position:relative; z-index:10;
+  padding: 2rem 2.5rem;
+  min-height:340px;
+  display:flex; flex-direction:column; justify-content:flex-end;
+}
+.hero-icon-bg {
+  position:absolute; inset:0;
+  display:flex; align-items:center; justify-content:center;
+  pointer-events:none;
 }
 
 .hero-title {
@@ -426,6 +438,12 @@ body::after {
   animation: fadeUp .35s ease both;
   position:relative;
 }
+.article-inner {
+  display:flex; flex-direction:row;
+}
+@media(max-width:767px) {
+  .article-inner { flex-direction:column; }
+}
 .news-article::before {
   content:'';
   position:absolute; top:0; right:0; left:0; height:2px;
@@ -443,7 +461,7 @@ body::after {
 
 .article-img-wrap {
   width:180px; flex-shrink:0;
-  height:auto; min-height:160px;
+  height:160px;
   overflow:hidden;
 }
 @media(max-width:767px) {
@@ -618,7 +636,7 @@ body::after {
     LIVE
   </div>
   <div class="nav-end">
-    <span class="updated-ts">עודכן 28/03/2026 18:28</span>
+    <span class="updated-ts">עודכן 28/03/2026 18:34</span>
     <div class="search-wrap">
       <span class="material-symbols-outlined search-icon">search</span>
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
@@ -722,7 +740,7 @@ body::after {
 
   <div class="sidebar-footer">
     <p class="sidebar-stat">70 פריטים סה"כ</p>
-    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:28 UTC</p>
+    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:34 UTC</p>
   </div>
 </aside>
 
@@ -783,32 +801,32 @@ body::after {
       <a href="https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="background-image:url("https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg");background-size:cover;background-position:center">
-        <div class="hero-overlay absolute inset-0"></div>
+        <div class="hero-overlay"></div>
         
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba(245,158,11,.2);color:#f59e0b;border-color:rgba(245,158,11,.35)">
               <span class="material-symbols-outlined" style="font-size:13px">newspaper</span>
               חדשות טכנולוגיה
             </span>
             <span class="hot-badge">חם</span>
-            <span class="text-xs opacity-60" style="color:#e2e8f0">28 מרץ, 2026</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">גיקטיים</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">28 מרץ, 2026</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">גיקטיים</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו</h2>
-          <p class="hero-summary mt-3">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#f59e0b">
+          <h2 class="hero-title">חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו</h2>
+          <p class="hero-summary" style="margin-top:12px">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:#f59e0b">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>
     <div class="space-y-4">
       <article class="news-article group" data-link="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/image001-1024x576.jpg" alt="וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -837,9 +855,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg" alt="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -868,9 +886,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/apple-releases-ios-26-4/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2025/10/IMG_8124-1024x768.jpg" alt="תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -899,9 +917,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/notch-ai-agents-funding/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-22-at-21.39.49.jpeg" alt="גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -930,9 +948,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/openai-kills-sora-app/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2025/11/IMG_9116-1024x768.jpg" alt="חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -961,9 +979,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/01/dreamstime_m_314701402-1024x683.jpg" alt="התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&quot;ח" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -992,9 +1010,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2024/12/UPWIND-1024x683.jpg" alt="אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1023,9 +1041,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/ChatGPT-_-Base44-1024x680.jpg" alt="פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1054,9 +1072,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" style="--cat-color:#f59e0b;--cat-rgb:245,158,11">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg" alt="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1089,32 +1107,32 @@ body::after {
       <a href="https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="background-image:url("https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg");background-size:cover;background-position:center">
-        <div class="hero-overlay absolute inset-0"></div>
+        <div class="hero-overlay"></div>
         
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba(52,211,153,.2);color:#34d399;border-color:rgba(52,211,153,.35)">
               <span class="material-symbols-outlined" style="font-size:13px">account_balance</span>
               מחשוב וממשל
             </span>
             <span class="hot-badge">חם</span>
-            <span class="text-xs opacity-60" style="color:#e2e8f0">28 מרץ, 2026</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">גיקטיים — מגזר ציבורי</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">28 מרץ, 2026</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">גיקטיים — מגזר ציבורי</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו</h2>
-          <p class="hero-summary mt-3">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#34d399">
+          <h2 class="hero-title">חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו</h2>
+          <p class="hero-summary" style="margin-top:12px">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:#34d399">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>
     <div class="space-y-4">
       <article class="news-article group" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" style="--cat-color:#34d399;--cat-rgb:52,211,153">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg" alt="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1143,9 +1161,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" style="--cat-color:#34d399;--cat-rgb:52,211,153">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg" alt="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1174,9 +1192,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.geektime.co.il/ai-dev-job-offers-326/" style="--cat-color:#34d399;--cat-rgb:52,211,153">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/compagnons-Zi0GmYPm88M-unsplash-1024x683.jpg" alt="לא עוצרות: החברות האלה מגייסות עכשיו לתפקידי AI" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1209,23 +1227,23 @@ body::after {
       <a href="https://campus.gov.il/course/labor-gov-leadai-he/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="background:linear-gradient(135deg,rgba(251,146,60,.15) 0%,rgba(19,22,29,0) 100%)">
-        <div class="hero-overlay absolute inset-0"></div>
-        <div class="hero-icon-bg absolute inset-0 flex items-center justify-center pointer-events-none"><span class="material-symbols-outlined" style="font-size:160px;color:#fb923c;opacity:.04">school</span></div>
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-overlay"></div>
+        <div class="hero-icon-bg"><span class="material-symbols-outlined" style="font-size:160px;color:#fb923c;opacity:.04">school</span></div>
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba(251,146,60,.2);color:#fb923c;border-color:rgba(251,146,60,.35)">
               <span class="material-symbols-outlined" style="font-size:13px">school</span>
               קמפוס GOV
             </span>
             <span class="hot-badge">חם</span>
-            <span class="text-xs opacity-60" style="color:#e2e8f0">28 מרץ, 2026</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">קמפוס GOV</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">28 מרץ, 2026</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">קמפוס GOV</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">מובילי יוזמות AI בארגונים</h2>
-          <p class="hero-summary mt-3">הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.</p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#fb923c">
+          <h2 class="hero-title">מובילי יוזמות AI בארגונים</h2>
+          <p class="hero-summary" style="margin-top:12px">הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.</p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:#fb923c">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -1776,32 +1794,32 @@ body::after {
       <a href="https://www.youtube.com/watch?v=4_vFxfFVvMU" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="background-image:url("https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg");background-size:cover;background-position:center">
-        <div class="hero-overlay absolute inset-0"></div>
+        <div class="hero-overlay"></div>
         
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba(248,113,113,.2);color:#f87171;border-color:rgba(248,113,113,.35)">
               <span class="material-symbols-outlined" style="font-size:13px">play_circle</span>
               סרטונים
             </span>
             <span class="hot-badge">חם</span>
-            <span class="text-xs opacity-60" style="color:#e2e8f0">28 מרץ, 2026</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">YouTube — סרטונים</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">28 מרץ, 2026</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">YouTube — סרטונים</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)</h2>
-          <p class="hero-summary mt-3"></p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#f87171">
+          <h2 class="hero-title">שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)</h2>
+          <p class="hero-summary" style="margin-top:12px"></p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:#f87171">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>
     <div class="space-y-4">
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=J0xphLEb5Fg" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg" alt="איך מתחילים? כניסה לממשק ה-GPTs" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1830,9 +1848,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=-zqYdD9_uxM" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg" alt="3 סוגי הסוכנים: מובנה, API ואוטונומי" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1861,9 +1879,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=G0FLdVbrfNQ" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg" alt="פתיח: מהם סוכני בינה מלאכותית?" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1892,9 +1910,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=IckwSMn70zg" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg" alt="כלי ליצירת כתוביות בקליק" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1923,9 +1941,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=zR37vyK6Ms4" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg" alt="WhisperTranscribe תוכנה לתמלול סרטונים" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1954,9 +1972,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=Pu-BStbsqH8" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg" alt="תמלול קבצי אודיו עם ElevenLabs Scribe" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -1985,9 +2003,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=5McGLcSGCT8" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg" alt="Turboscribe" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2016,9 +2034,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=qFFrDVqCAF0" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg" alt="עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2047,9 +2065,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=ultqhPpEaao" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg" alt="תמלול הקלטות עם בינה מלאכותית" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2078,9 +2096,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=Zsf5kTvmf8U" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg" alt="תמלול קבצי אודיו עם ElevenLabs Scribe" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2109,9 +2127,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=0c1L1Q2eIdg" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg" alt="Turboscribe" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2140,9 +2158,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=KXK61D4dNI4" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg" alt="כלי ליצירת כתוביות בקליק" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2171,9 +2189,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=ea4pyEItDjY" style="--cat-color:#f87171;--cat-rgb:248,113,113">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg" alt="Turboscribe" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2206,32 +2224,32 @@ body::after {
       <a href="https://www.youtube.com/watch?v=-wEZWXpK2-g" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="background-image:url("https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg");background-size:cover;background-position:center">
-        <div class="hero-overlay absolute inset-0"></div>
+        <div class="hero-overlay"></div>
         
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba(34,211,238,.2);color:#22d3ee;border-color:rgba(34,211,238,.35)">
               <span class="material-symbols-outlined" style="font-size:13px">school</span>
               הדרכות
             </span>
             <span class="hot-badge">חם</span>
-            <span class="text-xs opacity-60" style="color:#e2e8f0">28 מרץ, 2026</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">YouTube — הדרכות</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">28 מרץ, 2026</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">YouTube — הדרכות</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">סדנת Midjourney: יצירת עטיפת אלבום (Cover Art) מקצועית בתוך דקות + אנימציה</h2>
-          <p class="hero-summary mt-3"></p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#22d3ee">
+          <h2 class="hero-title">סדנת Midjourney: יצירת עטיפת אלבום (Cover Art) מקצועית בתוך דקות + אנימציה</h2>
+          <p class="hero-summary" style="margin-top:12px"></p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:#22d3ee">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>
     <div class="space-y-4">
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=BeFPVrZg5MU" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg" alt="פיצוח קונספט ויזואלי לריליס בעזרת CHAT GPT תוך בניית הפרומפט המושלם" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2260,9 +2278,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=p1ezpfgpS3Q" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg" alt="פתיחה: המהפכה כבר כאן – למה AI הוא כלי חובה לכל מוזיקאי" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2291,9 +2309,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=SfLi1pwksY8" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/SfLi1pwksY8/mqdefault.jpg" alt="הוספת ידע (Knowledge) וקבצים לסוכן שלכם" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2322,9 +2340,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=_97KhWzksag" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/_97KhWzksag/mqdefault.jpg" alt="הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2353,9 +2371,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=DpRDlP386VY" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg" alt="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2384,9 +2402,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=Twz13lSDot0" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg" alt="פיצ'ר למנוים PRO – פרויקטים" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2415,9 +2433,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=fwANhfjQt9E" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg" alt="ניתוח נתונים עם בינה מלאכותית של קלוד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2446,9 +2464,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=YsJz00qVyRc" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg" alt="מה אפשר לעשות עם קלוד ומה מיוחד בו" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2477,9 +2495,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=Vqhy3VD-34U" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg" alt="סקירת ממשק של claude ai" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2508,9 +2526,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=U2g6rIkJZpI" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/U2g6rIkJZpI/mqdefault.jpg" alt="Research: למה זה הבדל ענק מול החינמי" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2539,9 +2557,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=rqOTw0DRp3M" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/rqOTw0DRp3M/mqdefault.jpg" alt="מודלים: מה זמין בחינמי ומה נפתח ב-Pro" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2570,9 +2588,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=hcXSjZpqMds" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg" alt="חיבור לכלים וקונקטורים + ניואנסים לפי מדינה/מערכת" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2601,9 +2619,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=Pu-BStbsqH8" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg" alt="פיצ'ר למנוים PRO – פרויקטים" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2632,9 +2650,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=pd2tEdoDD14" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/pd2tEdoDD14/mqdefault.jpg" alt="כלי 3: LM ארנה – זירת הקרב על השלמות. תארו לעצמכם שתי במות שעליהן מוקרנים שני סרטונים שונים המבוססים על אותו רעיון בדיוק. אתם יושבים בכיסא הבמאי, בוחנים כל תנועה וכל פרט ויזואלי, ובוחרים רק את התוצאה שניצחה בקרב על האיכות. המנוע ההשוואתי הזה מבטיח שתמיד תצאו עם היצירה המדויקת והנקייה ביותר." loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2663,9 +2681,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=nPp24GUj-D0" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/nPp24GUj-D0/mqdefault.jpg" alt="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2694,9 +2712,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=qFFrDVqCAF0" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg" alt="הרשמה לקלוד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2725,9 +2743,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=ultqhPpEaao" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg" alt="רוצים להכיר את קלוד AI כמו שצריך?" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2756,9 +2774,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=4y8X1hBWPKk" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg" alt="פיצ'ר למנוים PRO – פרויקטים" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2787,9 +2805,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=QYjwSajjf8o" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg" alt="ניתוח נתונים עם בינה מלאכותית של קלוד" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2818,9 +2836,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=u5QusRHA3Po" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg" alt="מה אפשר לעשות עם קלוד ומה מיוחד בו" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2849,9 +2867,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=qw7e4kUzFKE" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg" alt="סקירת ממשק של claude ai" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">
@@ -2880,9 +2898,9 @@ body::after {
       </article>
       <article class="news-article group" data-link="https://www.youtube.com/watch?v=JDzQSywMMbA" style="--cat-color:#22d3ee;--cat-rgb:34,211,238">
         <div class="article-inner flex flex-col md:flex-row">
-          <div class="article-img-wrap shrink-0">
+          <div class="article-img-wrap">
             <img src="https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg" alt="3 סוגי הסוכנים: מובנה, API ואוטונומי" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>
           <div class="flex-1" style="padding:22px 24px 20px">

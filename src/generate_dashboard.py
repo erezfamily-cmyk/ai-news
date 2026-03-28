@@ -161,23 +161,23 @@ def generate():
       <a href="{hlink}" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="{bg_style}">
-        <div class="hero-overlay absolute inset-0"></div>
-        {'<div class="hero-icon-bg absolute inset-0 flex items-center justify-center pointer-events-none"><span class="material-symbols-outlined" style="font-size:160px;color:' + hs['color'] + ';opacity:.04">' + hs['icon'] + '</span></div>' if not himg else ''}
-        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
-          <div class="flex items-center gap-3 mb-5 flex-wrap">
+        <div class="hero-overlay"></div>
+        {'<div class="hero-icon-bg"><span class="material-symbols-outlined" style="font-size:160px;color:' + hs['color'] + ';opacity:.04">' + hs['icon'] + '</span></div>' if not himg else ''}
+        <div class="hero-content">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
             <span class="cat-badge" style="background:rgba({hs['rgb']},.2);color:{hs['color']};border-color:rgba({hs['rgb']},.35)">
               <span class="material-symbols-outlined" style="font-size:13px">{hs['icon']}</span>
               {esc(hcat)}
             </span>
             {hot_badge}
-            <span class="text-xs opacity-60" style="color:#e2e8f0">{hdate}</span>
-            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">{hsrc}</span>
+            <span style="font-size:12px;opacity:.6;color:#e2e8f0">{hdate}</span>
+            <span style="font-size:12px;opacity:.4;color:#e2e8f0;margin-right:auto">{hsrc}</span>
           </div>
-          <h2 class="hero-title group-hover:opacity-90 transition-opacity">{htitle}</h2>
-          <p class="hero-summary mt-3">{hsum}</p>
-          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:{hs['color']}">
+          <h2 class="hero-title">{htitle}</h2>
+          <p class="hero-summary" style="margin-top:12px">{hsum}</p>
+          <div style="margin-top:24px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:{hs['color']}">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
+            <span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
           </div>
         </div>
       </a>"""
@@ -199,9 +199,9 @@ def generate():
             hot_badge = '<span class="hot-badge">חם</span>' if hot else ""
 
             if image:
-                media_html = f"""<div class="article-img-wrap shrink-0">
+                media_html = f"""<div class="article-img-wrap">
             <img src="{image}" alt="{title}" loading="lazy"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 style="width:100%;height:100%;object-fit:cover;display:block;"
                  onerror="this.parentElement.style.display='none'"/>
           </div>"""
             else:
@@ -665,7 +665,19 @@ body::after {{
 }}
 
 .hero-overlay {{
+  position:absolute; inset:0;
   background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.3) 55%, rgba(0,0,0,.05) 100%);
+}}
+.hero-content {{
+  position:relative; z-index:10;
+  padding: 2rem 2.5rem;
+  min-height:340px;
+  display:flex; flex-direction:column; justify-content:flex-end;
+}}
+.hero-icon-bg {{
+  position:absolute; inset:0;
+  display:flex; align-items:center; justify-content:center;
+  pointer-events:none;
 }}
 
 .hero-title {{
@@ -705,6 +717,12 @@ body::after {{
   animation: fadeUp .35s ease both;
   position:relative;
 }}
+.article-inner {{
+  display:flex; flex-direction:row;
+}}
+@media(max-width:767px) {{
+  .article-inner {{ flex-direction:column; }}
+}}
 .news-article::before {{
   content:'';
   position:absolute; top:0; right:0; left:0; height:2px;
@@ -722,7 +740,7 @@ body::after {{
 
 .article-img-wrap {{
   width:180px; flex-shrink:0;
-  height:auto; min-height:160px;
+  height:160px;
   overflow:hidden;
 }}
 @media(max-width:767px) {{
