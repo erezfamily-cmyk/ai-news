@@ -320,7 +320,7 @@ body::after {
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
              class="search-input pr-9 pl-4 py-2 text-sm w-48 text-right"/>
     </div>
-    <span class="hidden md:block text-xs font-mono" style="color:var(--muted)">עודכן 28/03/2026 11:29</span>
+    <span class="hidden md:block text-xs font-mono" style="color:var(--muted)">עודכן 28/03/2026 12:56</span>
   </div>
 </nav>
 
@@ -352,7 +352,7 @@ body::after {
   </nav>
   <div class="mt-auto border-t pt-4 space-y-1" style="border-color:var(--border)">
     <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">31 פריטים</p>
-    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">28/03/2026 11:29</p>
+    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">28/03/2026 12:56</p>
   </div>
 </aside>
 
@@ -1318,7 +1318,7 @@ body::after {
   <div class="max-w-5xl mx-auto flex justify-between items-center text-xs font-mono"
        style="color:var(--muted)">
     <span style="font-family:'Assistant',sans-serif;font-weight:800;color:var(--accent)">AI Pulse</span>
-    <span>© 2026 · 31 פריטים · 28/03/2026 11:29 UTC</span>
+    <span>© 2026 · 31 פריטים · 28/03/2026 12:56 UTC</span>
   </div>
 </footer>
 
@@ -1412,7 +1412,14 @@ function shareWA(btn) {
   const title   = btn.dataset.title   || '';
   const summary = btn.dataset.summary || '';
   const link    = btn.dataset.link    || '';
-  const text = '🤖 *' + title + '*\n\n' + summary + '\n\n🔗 ' + link;
+  const text =
+    '📋 *עדכון AI למנהלים ועובדי משרד הבריאות*' + '\n' +
+    '──────────────────' + '\n\n' +
+    '🔹 *' + title + '*' + '\n\n' +
+    summary + '\n\n' +
+    '💡 *רלוונטי לנו:* [כתוב כאן מה המשמעות עבור הצוות / המחלקה]' + '\n\n' +
+    '🔗 לקריאה נוספת:\n' + link + '\n\n' +
+    '_שתף/י עם הצוות אם נראה רלוונטי_ 🙏';
   document.getElementById('wa-text').value = text;
   document.getElementById('wa-modal').classList.add('open');
   document.body.style.overflow = 'hidden';

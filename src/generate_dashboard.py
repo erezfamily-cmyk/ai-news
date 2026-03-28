@@ -691,7 +691,14 @@ function shareWA(btn) {{
   const title   = btn.dataset.title   || '';
   const summary = btn.dataset.summary || '';
   const link    = btn.dataset.link    || '';
-  const text = '🤖 *' + title + '*\\n\\n' + summary + '\\n\\n🔗 ' + link;
+  const text =
+    '📋 *עדכון AI למנהלים ועובדי משרד הבריאות*' + '\\n' +
+    '──────────────────' + '\\n\\n' +
+    '🔹 *' + title + '*' + '\\n\\n' +
+    summary + '\\n\\n' +
+    '💡 *רלוונטי לנו:* [כתוב כאן מה המשמעות עבור הצוות / המחלקה]' + '\\n\\n' +
+    '🔗 לקריאה נוספת:\\n' + link + '\\n\\n' +
+    '_שתף/י עם הצוות אם נראה רלוונטי_ 🙏';
   document.getElementById('wa-text').value = text;
   document.getElementById('wa-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
