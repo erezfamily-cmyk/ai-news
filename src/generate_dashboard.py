@@ -8,25 +8,25 @@ OUT_FILE = ROOT / "index.html"
 
 # ── טאבים ראשיים: כל טאב = רשימת קטגוריות שהוא מציג ──────────────────────
 TABS = [
-    {"id": "חדשות",    "label": "חדשות",         "icon": "newspaper",        "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
-    {"id": "ממשל",     "label": "מחשוב וממשל",   "icon": "account_balance",  "cats": ["מחשוב וממשל"]},
-    {"id": "קמפוס",    "label": "קמפוס GOV",      "icon": "school",           "cats": ["קמפוס GOV"]},
-    {"id": "סרטונים",  "label": "סרטונים",        "icon": "play_circle",      "cats": ["סרטונים"]},
+    {"id": "חדשות",    "label": "חדשות",         "icon": "newspaper",         "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
+    {"id": "ממשל",     "label": "מחשוב וממשל",   "icon": "account_balance",   "cats": ["מחשוב וממשל"]},
+    {"id": "קמפוס",    "label": "קמפוס GOV",      "icon": "school",            "cats": ["קמפוס GOV"]},
+    {"id": "סרטונים",  "label": "סרטונים",        "icon": "play_circle",       "cats": ["סרטונים"]},
     {"id": "הדרכות",   "label": "הדרכות",         "icon": "cast_for_education","cats": ["הדרכות"]},
 ]
 
 CATEGORY_STYLE = {
-    "חדשות טכנולוגיה": {"color": "#f59e0b", "bg": "rgba(245,158,11,.08)", "icon": "newspaper"},
-    "AI ישראל":        {"color": "#a78bfa", "bg": "rgba(167,139,250,.08)", "icon": "public"},
-    "מחשוב וממשל":     {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "account_balance"},
-    "קמפוס GOV":       {"color": "#fb923c", "bg": "rgba(251,146,60,.08)",  "icon": "school"},
-    "כלים ומודלים":    {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "build"},
-    "מחקר":            {"color": "#60a5fa", "bg": "rgba(96,165,250,.08)",  "icon": "science"},
-    "קהילה":           {"color": "#f472b6", "bg": "rgba(244,114,182,.08)", "icon": "forum"},
-    "סרטונים":         {"color": "#f87171", "bg": "rgba(248,113,113,.08)", "icon": "play_circle"},
-    "הדרכות":          {"color": "#22d3ee", "bg": "rgba(34,211,238,.08)",  "icon": "school"},
+    "חדשות טכנולוגיה": {"color": "#f59e0b", "rgb": "245,158,11",  "bg": "rgba(245,158,11,.1)",  "icon": "newspaper"},
+    "AI ישראל":        {"color": "#a78bfa", "rgb": "167,139,250", "bg": "rgba(167,139,250,.1)", "icon": "public"},
+    "מחשוב וממשל":     {"color": "#34d399", "rgb": "52,211,153",  "bg": "rgba(52,211,153,.1)",  "icon": "account_balance"},
+    "קמפוס GOV":       {"color": "#fb923c", "rgb": "251,146,60",  "bg": "rgba(251,146,60,.1)",  "icon": "school"},
+    "כלים ומודלים":    {"color": "#34d399", "rgb": "52,211,153",  "bg": "rgba(52,211,153,.1)",  "icon": "build"},
+    "מחקר":            {"color": "#60a5fa", "rgb": "96,165,250",  "bg": "rgba(96,165,250,.1)",  "icon": "science"},
+    "קהילה":           {"color": "#f472b6", "rgb": "244,114,182", "bg": "rgba(244,114,182,.1)", "icon": "forum"},
+    "סרטונים":         {"color": "#f87171", "rgb": "248,113,113", "bg": "rgba(248,113,113,.1)", "icon": "play_circle"},
+    "הדרכות":          {"color": "#22d3ee", "rgb": "34,211,238",  "bg": "rgba(34,211,238,.1)",  "icon": "school"},
 }
-DEFAULT_STYLE = {"color": "#94a3b8", "bg": "rgba(148,163,184,.08)", "icon": "article"}
+DEFAULT_STYLE = {"color": "#94a3b8", "rgb": "148,163,184", "bg": "rgba(148,163,184,.1)", "icon": "article"}
 
 
 def load_data():
@@ -84,72 +84,98 @@ def generate():
     all_items.sort(key=lambda x: x.get("date", ""), reverse=True)
     total = len(all_items)
 
-    # ── בניית HTML לכל טאב ────────────────────────────────────────────────
-    tabs_nav = ""
+    # ── סיידבר ניווט ──────────────────────────────────────────────────────
+    sidebar_nav = ""
+    for t_idx, tab in enumerate(TABS):
+        tab_items = [i for i in all_items if i.get("category") in tab["cats"]]
+        count = len(tab_items)
+        active_cls = "sb-active" if t_idx == 0 else ""
+        sidebar_nav += f"""
+    <button onclick="switchTabById('{esc(tab['id'])}')"
+            data-sidebar="{esc(tab['id'])}"
+            class="sidebar-btn {active_cls} flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
+      <span class="material-symbols-outlined" style="font-size:20px">{tab['icon']}</span>
+      <span class="flex-1">{tab['label']}</span>
+      <span class="tab-count-pill">{count}</span>
+    </button>"""
+
+    # ── Category pills لـ sidebar ──────────────────────────────────────────
+    all_cats = set()
+    for item in all_items:
+        if item.get("category"):
+            all_cats.add(item["category"])
+
+    cat_pills = ""
+    for cat in sorted(all_cats):
+        s = CATEGORY_STYLE.get(cat, DEFAULT_STYLE)
+        cat_count = len([i for i in all_items if i.get("category") == cat])
+        cat_pills += f"""
+      <button onclick="filterCat('{esc(cat)}')"
+              data-cat="{esc(cat)}"
+              class="cat-pill" style="--cat-c:{s['color']};--cat-rgb:{s['rgb']}">
+        <span class="material-symbols-outlined" style="font-size:13px">{s['icon']}</span>
+        {esc(cat)}
+        <span class="cat-pill-count">{cat_count}</span>
+      </button>"""
+
+    # ── בניית תוכן הטאבים ─────────────────────────────────────────────────
     tabs_content = ""
 
     for t_idx, tab in enumerate(TABS):
         tab_id   = tab["id"]
         tab_cats = tab["cats"]
         tab_items = [i for i in all_items if i.get("category") in tab_cats]
-        count    = len(tab_items)
         is_first = t_idx == 0
+        display  = "" if is_first else "display:none"
 
-        # ── כפתור טאב ──────────────────────────────────────────────────────
-        active_cls = "tab-active" if is_first else ""
-        tabs_nav += f"""
-      <button onclick="switchTab(this,'{esc(tab_id)}')"
-              data-tab="{esc(tab_id)}"
-              class="tab-btn {active_cls} flex items-center gap-2 px-5 py-3 text-sm font-semibold
-                     border-b-2 transition-all whitespace-nowrap">
-        <span class="material-symbols-outlined" style="font-size:18px">{tab['icon']}</span>
-        {tab['label']}
-        <span class="tab-count text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">{count}</span>
-      </button>"""
-
-        # ── תוכן הטאב ──────────────────────────────────────────────────────
-        display = "" if is_first else "display:none"
-        articles = ""
-        # ── Featured hero — פריט ראשון בטאב חדשות ──────────────────────────
+        # ── Hero (פריט ראשון בטאב) ──────────────────────────────────────
         hero_html = ""
         items_to_list = tab_items
-        if tab_id == "חדשות" and tab_items:
+
+        if tab_items:
             hero = tab_items[0]
             items_to_list = tab_items[1:]
-            hcat    = hero.get("category", "")
-            hs      = CATEGORY_STYLE.get(hcat, DEFAULT_STYLE)
-            hdate   = format_date(hero.get("date", ""))
-            hsum    = esc(hero.get("summary", ""))
-            htitle  = esc(hero.get("title", ""))
-            hlink   = esc(hero.get("link", "#"))
-            hsrc    = esc(hero.get("source", ""))
-            himg    = esc(hero.get("image") or "")
-            bg_style = f'background-image:url("{himg}");background-size:cover;background-position:center' if himg else f"background:{hs['bg']}"
+            hcat   = hero.get("category", "")
+            hs     = CATEGORY_STYLE.get(hcat, DEFAULT_STYLE)
+            hdate  = format_date(hero.get("date", ""))
+            hsum   = esc(hero.get("summary", ""))
+            htitle = esc(hero.get("title", ""))
+            hlink  = esc(hero.get("link", "#"))
+            hsrc   = esc(hero.get("source", ""))
+            himg   = esc(hero.get("image") or "")
+            hot    = is_hot(hero.get("date", ""))
+
+            bg_style = f'background-image:url("{himg}");background-size:cover;background-position:center' if himg else f"background:linear-gradient(135deg,rgba({hs['rgb']},.15) 0%,rgba(19,22,29,0) 100%)"
+
+            hot_badge = '<span class="hot-badge">חם</span>' if hot else ""
+
             hero_html = f"""
       <a href="{hlink}" target="_blank" rel="noopener"
-         class="featured-hero group relative overflow-hidden rounded-xl min-h-[320px] flex flex-col justify-end
-                cursor-pointer block mb-2"
+         class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
          style="{bg_style}">
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-        {"" if himg else f'<div class="absolute inset-0 flex items-center justify-center opacity-10"><span class="material-symbols-outlined text-[120px]" style="color:{hs["color"]}">{hs["icon"]}</span></div>'}
-        <div class="relative z-10 p-8 text-white">
-          <div class="flex items-center gap-3 mb-4">
-            <span class="px-3 py-1 rounded-sm text-xs font-bold uppercase tracking-wider"
-                  style="background:{hs['color']}">{esc(hcat)}</span>
-            <span class="text-xs opacity-70">{hdate}</span>
-            <span class="text-xs opacity-50 mr-auto">{hsrc}</span>
+        <div class="hero-overlay absolute inset-0"></div>
+        {'<div class="hero-icon-bg absolute inset-0 flex items-center justify-center pointer-events-none"><span class="material-symbols-outlined" style="font-size:160px;color:' + hs['color'] + ';opacity:.04">' + hs['icon'] + '</span></div>' if not himg else ''}
+        <div class="relative z-10 p-8 md:p-10 flex flex-col justify-end min-h-[340px]">
+          <div class="flex items-center gap-3 mb-5 flex-wrap">
+            <span class="cat-badge" style="background:rgba({hs['rgb']},.2);color:{hs['color']};border-color:rgba({hs['rgb']},.35)">
+              <span class="material-symbols-outlined" style="font-size:13px">{hs['icon']}</span>
+              {esc(hcat)}
+            </span>
+            {hot_badge}
+            <span class="text-xs opacity-60" style="color:#e2e8f0">{hdate}</span>
+            <span class="text-xs opacity-40 mr-auto" style="color:#e2e8f0">{hsrc}</span>
           </div>
-          <h2 class="text-2xl md:text-3xl font-extrabold leading-tight mb-3
-                     group-hover:underline font-headline">{htitle}</h2>
-          <p class="text-sm opacity-80 line-clamp-2 max-w-2xl">{hsum}</p>
-          <div class="mt-5 flex items-center gap-2 text-sm font-bold opacity-90">
+          <h2 class="hero-title group-hover:opacity-90 transition-opacity">{htitle}</h2>
+          <p class="hero-summary mt-3">{hsum}</p>
+          <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:{hs['color']}">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base
-                         transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
           </div>
         </div>
       </a>"""
 
+        # ── Article stream ──────────────────────────────────────────────
+        articles_html = ""
         for item in items_to_list:
             cat     = item.get("category", "")
             s       = CATEGORY_STYLE.get(cat, DEFAULT_STYLE)
@@ -165,16 +191,16 @@ def generate():
             hot_badge = '<span class="hot-badge">חם</span>' if hot else ""
 
             if image:
-                media = f"""<div class="{'md:w-2/5' if is_video else 'md:w-1/4'} h-40 md:h-auto overflow-hidden shrink-0">
-          <img src="{image}" alt="{title}" loading="lazy"
-               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-               onerror="this.parentElement.style.display='none'"/>
-        </div>"""
+                media_html = f"""<div class="article-img-wrap shrink-0">
+            <img src="{image}" alt="{title}" loading="lazy"
+                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                 onerror="this.parentElement.style.display='none'"/>
+          </div>"""
             else:
-                media = f"""<div class="md:w-1/4 h-28 md:h-auto flex items-center justify-center shrink-0"
-             style="background:{s['bg']};border-left:4px solid {s['color']}">
-          <span class="material-symbols-outlined" style="font-size:40px;color:{s['color']};opacity:.5">{s['icon']}</span>
-        </div>"""
+                media_html = f"""<div class="article-img-placeholder shrink-0"
+               style="background:rgba({s['rgb']},.07);border-inline-end:3px solid {s['color']}">
+            <span class="material-symbols-outlined" style="font-size:36px;color:{s['color']};opacity:.45">{s['icon']}</span>
+          </div>"""
 
             wa_title   = (item.get("title",   "") or "")
             wa_summary = (item.get("summary", "") or "")[:220]
@@ -184,55 +210,64 @@ def generate():
                       f'data-title="{esc(wa_title)}" '
                       f'data-summary="{esc(wa_summary)}" '
                       f'data-link="{esc(wa_link)}" '
-                      f'class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" '
-                      f'title="שתף בוואטסאפ">'
-                      f'<span class="material-symbols-outlined" style="font-size:15px">share</span>'
+                      f'class="wa-btn" title="שתף בוואטסאפ">'
+                      f'<span class="material-symbols-outlined" style="font-size:14px">share</span>'
                       f'שתף</button>')
 
             cta = (f'<a href="{link}" target="_blank" rel="noopener" '
-                   f'class="flex items-center gap-2 text-red-400 font-bold text-sm">'
-                   f'<span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>'
+                   f'class="read-btn video-btn flex items-center gap-1.5 font-bold text-sm">'
+                   f'<span class="material-symbols-outlined" style="font-size:18px">play_circle</span>צפה</a>'
                    if is_video else
                    f'<a href="{link}" target="_blank" rel="noopener" onclick="markRead(this)" '
-                   f'class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)">'
+                   f'class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:{s["color"]}">'
                    f'<span>קרא עוד</span>'
                    f'<span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>')
 
-            articles += f"""
-      <article class="news-article group" data-link="{link}" style="--cat-color:{s['color']}">
-        <div class="flex flex-col md:flex-row">
-          {media}
-          <div class="flex-1 p-5 md:p-7">
-            <div class="flex items-center gap-3 mb-2 flex-wrap">
-              <span class="text-xs font-bold tracking-wider uppercase" style="color:{s['color']}">{esc(cat)}</span>
+            articles_html += f"""
+      <article class="news-article group" data-link="{link}" style="--cat-color:{s['color']};--cat-rgb:{s['rgb']}">
+        <div class="article-inner flex flex-col md:flex-row">
+          {media_html}
+          <div class="flex-1 p-5 md:p-6">
+            <div class="flex items-center gap-2 mb-2.5 flex-wrap">
+              <span class="cat-badge" style="background:rgba({s['rgb']},.12);color:{s['color']};border-color:rgba({s['rgb']},.25)">
+                <span class="material-symbols-outlined" style="font-size:12px">{s['icon']}</span>
+                {esc(cat)}
+              </span>
               {hot_badge}
               <span class="text-xs" style="color:var(--muted)">{date_s}</span>
             </div>
-            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
-                style="color:var(--text)">
+            <h3 class="article-title mb-2">
               <a href="{link}" target="_blank" rel="noopener" onclick="markRead(this)">{title}</a>
-            </h2>
-            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">{summary}</p>
-            <div class="flex items-center justify-between gap-3 flex-wrap">
+            </h3>
+            <p class="article-summary">{summary}</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
                 {cta}
                 {wa_btn}
               </div>
               <a href="{src_url}" target="_blank" rel="noopener"
-                 class="text-xs transition-colors" style="color:var(--muted)">{source}</a>
+                 class="source-tag">{source}</a>
             </div>
           </div>
         </div>
       </article>"""
 
-        if not hero_html and not articles:
-            articles = '<div class="py-20 text-center text-slate-400"><span class="material-symbols-outlined text-5xl block mb-3">inbox</span><p class="text-sm">אין תוכן עדיין</p></div>'
+        empty = '<div class="py-24 text-center"><span class="material-symbols-outlined" style="font-size:48px;color:var(--muted)">inbox</span><p class="mt-3 text-sm" style="color:var(--muted)">אין תוכן עדיין</p></div>' if not hero_html and not articles_html else ""
 
         tabs_content += f"""
-    <div id="tab-{esc(tab_id)}" class="tab-panel" style="{display}">
-      {hero_html}
-      <div class="space-y-4 mt-4">{articles}</div>
-    </div>"""
+  <div id="tab-{esc(tab_id)}" class="tab-panel" style="{display}">
+    {hero_html}
+    <div class="space-y-4">{articles_html or empty}</div>
+  </div>"""
+
+    # ── Mobile bottom nav ──────────────────────────────────────────────────
+    mob_nav_btns = "".join(f"""
+  <button onclick="switchTabById('{esc(t['id'])}')"
+          data-mob="{esc(t['id'])}"
+          class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
+    <span class="material-symbols-outlined mat-icon" style="font-size:22px">{t['icon']}</span>
+    <span class="mob-label text-[10px] font-medium">{t['label']}</span>
+  </button>""" for t in TABS)
 
     html = f"""<!DOCTYPE html>
 <html dir="rtl" lang="he">
@@ -240,50 +275,64 @@ def generate():
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>AI Pulse — עדכוני בינה מלאכותית</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<meta name="description" content="דשבורד עדכוני AI יומי — חדשות, כלים, מחקרים וסרטונים בבינה מלאכותית"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <style>
-/* ── TOKENS ────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════
+   TOKENS
+══════════════════════════════════════════════════ */
 :root {{
-  --bg:        #0d0f14;
-  --surface:   #13161d;
-  --card:      rgba(255,255,255,0.04);
-  --card-h:    rgba(255,255,255,0.07);
-  --border:    rgba(255,255,255,0.08);
-  --border-h:  rgba(255,255,255,0.14);
+  --bg:        #0b0e15;
+  --surface:   #111520;
+  --surface2:  #171c27;
+  --card:      rgba(255,255,255,0.035);
+  --card-h:    rgba(255,255,255,0.06);
+  --border:    rgba(255,255,255,0.07);
+  --border-h:  rgba(255,255,255,0.13);
   --text:      #e2e8f0;
+  --text-2:    #cbd5e1;
   --muted:     #64748b;
   --accent:    #60a5fa;
   --accent2:   #818cf8;
+  --green:     #25d366;
+  --red:       #ef4444;
+  --font-head: 'Plus Jakarta Sans', 'Assistant', sans-serif;
+  --font-body: 'Assistant', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --sidebar-w: 260px;
+  --nav-h:     64px;
+  --radius:    14px;
+  --radius-sm: 8px;
 }}
 
 *, *::before, *::after {{ box-sizing:border-box; margin:0; padding:0; }}
 html {{ scroll-behavior:smooth; }}
 
 body {{
-  font-family:'Assistant',sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  min-height:100vh;
-  direction:rtl;
-  overflow-x:hidden;
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  direction: rtl;
+  overflow-x: hidden;
 }}
 
-/* subtle dot grid */
+/* dot grid background */
 body::before {{
   content:'';
   position:fixed; inset:0; z-index:0; pointer-events:none;
-  background-image:radial-gradient(rgba(96,165,250,.07) 1px, transparent 1px);
-  background-size:28px 28px;
+  background-image: radial-gradient(rgba(96,165,250,.055) 1px, transparent 1px);
+  background-size: 30px 30px;
 }}
 
-/* ambient glow top-right */
+/* ambient glow */
 body::after {{
   content:'';
-  position:fixed; top:-200px; right:-200px;
-  width:600px; height:600px; z-index:0; pointer-events:none;
-  background:radial-gradient(circle, rgba(129,140,248,.06) 0%, transparent 65%);
+  position:fixed; top:-250px; right:-250px;
+  width:700px; height:700px; z-index:0; pointer-events:none;
+  background: radial-gradient(circle, rgba(129,140,248,.05) 0%, transparent 65%);
 }}
 
 .material-symbols-outlined {{
@@ -291,205 +340,474 @@ body::after {{
   vertical-align:middle;
 }}
 
-/* ── SCROLLBAR ───────────────────────────────────────────────────── */
+/* ── SCROLLBAR ─────────────────────────────────── */
 ::-webkit-scrollbar {{ width:4px; height:4px; }}
 ::-webkit-scrollbar-track {{ background:transparent; }}
 ::-webkit-scrollbar-thumb {{ background:var(--border-h); border-radius:4px; }}
-
-/* ── NAV ─────────────────────────────────────────────────────────── */
-.top-nav {{
-  position:fixed; top:0; width:100%; z-index:100;
-  background:rgba(13,15,20,.85);
-  backdrop-filter:blur(24px) saturate(180%);
-  border-bottom:1px solid var(--border);
-}}
-
-/* ── SIDEBAR ─────────────────────────────────────────────────────── */
-.sidebar {{
-  background:var(--surface);
-  border-left:1px solid var(--border);
-}}
-
-.sidebar-btn {{
-  color:var(--muted);
-  border-radius:10px;
-  transition:all .2s;
-}}
-.sidebar-btn:hover {{ background:var(--card-h); color:var(--text); }}
-.sidebar-btn.sb-active {{
-  background:rgba(96,165,250,.12);
-  color:var(--accent);
-  box-shadow:inset 0 0 0 1px rgba(96,165,250,.2);
-}}
-
-/* ── TABS ────────────────────────────────────────────────────────── */
-.tab-btn {{
-  color:var(--muted);
-  border-bottom:2px solid transparent;
-  transition:all .2s;
-  white-space:nowrap;
-}}
-.tab-btn:hover {{ color:var(--text); }}
-.tab-active {{
-  color:var(--accent) !important;
-  border-color:var(--accent) !important;
-}}
-.tab-count {{
-  background:rgba(255,255,255,0.07);
-  color:var(--muted);
-  border-radius:999px;
-}}
-.tab-active .tab-count {{
-  background:rgba(96,165,250,.15);
-  color:var(--accent);
-}}
-
-/* ── SEARCH ──────────────────────────────────────────────────────── */
-.search-input {{
-  background:var(--card);
-  border:1px solid var(--border);
-  color:var(--text);
-  border-radius:999px;
-  transition:all .25s;
-}}
-.search-input:focus {{
-  outline:none;
-  border-color:var(--accent);
-  background:rgba(96,165,250,.06);
-  box-shadow:0 0 0 3px rgba(96,165,250,.12);
-  width:220px !important;
-}}
-.search-input::placeholder {{ color:var(--muted); }}
-
-/* ── CARDS ───────────────────────────────────────────────────────── */
-.news-article {{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:14px;
-  overflow:hidden;
-  transition:transform .25s, box-shadow .25s, border-color .25s, background .25s;
-  animation:fadeUp .35s ease both;
-  position:relative;
-}}
-.news-article:hover {{
-  background:var(--card-h);
-  border-color:var(--border-h);
-  transform:translateY(-2px);
-  box-shadow:0 20px 48px rgba(0,0,0,.4);
-}}
-
-/* top accent line per category */
-.news-article::before {{
-  content:'';
-  position:absolute; top:0; right:0; left:0;
-  height:2px;
-  background:var(--cat-color, var(--accent));
-  opacity:.7;
-}}
-
-/* ── HERO ────────────────────────────────────────────────────────── */
-.featured-hero {{
-  min-height:300px;
-  border-radius:16px;
-  overflow:hidden;
-  position:relative;
-  border:1px solid var(--border);
-  display:block;
-  transition:box-shadow .3s, transform .3s;
-}}
-.featured-hero:hover {{
-  transform:translateY(-2px);
-  box-shadow:0 24px 64px rgba(0,0,0,.5);
-}}
-
-/* ── LINE CLAMP ──────────────────────────────────────────────────── */
-.line-clamp-2 {{
-  display:-webkit-box;
-  -webkit-line-clamp:2;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}}
-
-/* ── ANIMATIONS ──────────────────────────────────────────────────── */
-@keyframes fadeUp {{
-  from {{ opacity:0; transform:translateY(14px); }}
-  to   {{ opacity:1; transform:translateY(0); }}
-}}
-@keyframes blink {{
-  0%,100% {{ opacity:1; transform:scale(1); }}
-  50%      {{ opacity:.4; transform:scale(.7); }}
-}}
-
-/* ── MOBILE ──────────────────────────────────────────────────────── */
-@media(max-width:1023px) {{
-  body {{ padding-bottom:68px; }}
-}}
-.mob-nav {{ background:rgba(13,15,20,.95); border-top:1px solid var(--border); backdrop-filter:blur(20px); }}
-.mob-nav-btn {{ color:var(--muted); transition:color .2s; }}
-.mob-nav-btn.mob-active .mat-icon {{ color:var(--accent); font-variation-settings:'FILL' 1,'wght' 600,'GRAD' 0,'opsz' 24; }}
-.mob-nav-btn.mob-active .mob-label {{ color:var(--accent); font-weight:700; }}
-
-/* ── NO SCROLLBAR ─────────────────────────────────────────────────── */
 .no-scrollbar::-webkit-scrollbar {{ display:none; }}
 .no-scrollbar {{ -ms-overflow-style:none; scrollbar-width:none; }}
 
-/* ── HOT BADGE ───────────────────────────────────────────────────── */
-.hot-badge {{
-  display:inline-flex; align-items:center;
-  background:rgba(239,68,68,.15);
-  border:1px solid rgba(239,68,68,.3);
-  color:#f87171;
-  font-size:10px; font-weight:800;
-  padding:1px 7px; border-radius:999px;
-  letter-spacing:.05em;
-  animation:blink 2.5s ease-in-out infinite;
+/* ══════════════════════════════════════════════════
+   TOP NAV
+══════════════════════════════════════════════════ */
+.top-nav {{
+  position:fixed; top:0; width:100%; z-index:100;
+  height: var(--nav-h);
+  background: rgba(11,14,21,.88);
+  backdrop-filter: blur(28px) saturate(180%);
+  border-bottom: 1px solid var(--border);
+  display:flex; align-items:center;
+  padding: 0 20px;
+  gap: 16px;
 }}
 
-/* ── WHATSAPP BUTTON ─────────────────────────────────────────────── */
+.logo-wrap {{
+  display:flex; align-items:center; gap:10px;
+  flex-shrink:0;
+}}
+
+.logo-icon {{
+  width:36px; height:36px; border-radius:10px;
+  background: linear-gradient(135deg,#60a5fa,#818cf8);
+  box-shadow: 0 0 20px rgba(96,165,250,.28);
+  display:flex; align-items:center; justify-content:center;
+  color:#fff;
+}}
+
+.logo-text {{
+  font-family: var(--font-head);
+  font-size:1rem; font-weight:800; letter-spacing:-.3px;
+  background: linear-gradient(90deg,#e2e8f0 30%,#60a5fa);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+}}
+
+.live-badge {{
+  display:flex; align-items:center; gap:6px;
+  background: rgba(239,68,68,.1);
+  border: 1px solid rgba(239,68,68,.25);
+  border-radius:999px;
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size:10px; color:#ef4444; letter-spacing:1px;
+  flex-shrink:0;
+}}
+
+.live-dot {{
+  width:6px; height:6px; border-radius:50%;
+  background:#ef4444;
+  animation: blink 1.8s ease-in-out infinite;
+  display:inline-block;
+}}
+
+.nav-end {{
+  margin-right:auto;
+  display:flex; align-items:center; gap:12px;
+}}
+
+.search-wrap {{ position:relative; }}
+
+.search-input {{
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 36px 8px 14px;
+  border-radius: 10px;
+  font-size:13px; font-family:var(--font-body);
+  width:200px; direction:rtl;
+  transition: all .25s;
+}}
+.search-input:focus {{
+  outline:none;
+  border-color: var(--accent);
+  background: rgba(96,165,250,.06);
+  box-shadow: 0 0 0 3px rgba(96,165,250,.12);
+  width:240px;
+}}
+.search-input::placeholder {{ color:var(--muted); }}
+
+.search-icon {{
+  position:absolute; right:11px; top:50%; transform:translateY(-50%);
+  color:var(--muted); font-size:15px; pointer-events:none;
+}}
+
+.updated-ts {{
+  font-family: var(--font-mono);
+  font-size:11px; color:var(--muted);
+  display:none;
+}}
+@media(min-width:900px) {{ .updated-ts {{ display:block; }} }}
+
+/* ══════════════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════════════ */
+.sidebar {{
+  position:fixed; right:0; top:0;
+  width: var(--sidebar-w);
+  height:100%;
+  background: var(--surface);
+  border-inline-start: 1px solid var(--border);
+  display:flex; flex-direction:column;
+  padding: calc(var(--nav-h) + 20px) 12px 20px;
+  z-index:40;
+  display:none;
+}}
+@media(min-width:1100px) {{ .sidebar {{ display:flex; }} }}
+
+.sidebar-section-label {{
+  font-family: var(--font-head);
+  font-size:10px; font-weight:700;
+  text-transform:uppercase; letter-spacing:.12em;
+  color:var(--muted);
+  padding: 0 8px 10px;
+}}
+
+.sidebar-btn {{
+  font-family: var(--font-body);
+  color: var(--muted);
+  border-radius: var(--radius-sm);
+  border:none; background:none;
+  cursor:pointer;
+  transition: all .2s;
+}}
+.sidebar-btn:hover {{
+  background: var(--card-h);
+  color: var(--text-2);
+}}
+.sidebar-btn.sb-active {{
+  background: rgba(96,165,250,.1);
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(96,165,250,.2);
+}}
+.sidebar-btn.sb-active .material-symbols-outlined {{
+  font-variation-settings:'FILL' 1,'wght' 500,'GRAD' 0,'opsz' 24;
+}}
+
+.tab-count-pill {{
+  font-size:10px; font-family:var(--font-mono);
+  background: rgba(255,255,255,.07);
+  color: var(--muted);
+  padding: 1px 7px; border-radius:999px;
+}}
+.sb-active .tab-count-pill {{
+  background: rgba(96,165,250,.15);
+  color: var(--accent);
+}}
+
+/* ── Sidebar category pills ──────────────────────── */
+.sidebar-cats {{
+  display:flex; flex-direction:column; gap:2px;
+  flex: 1; overflow-y:auto; padding-top:6px;
+}}
+
+.cat-pill {{
+  display:flex; align-items:center; gap:6px;
+  padding: 6px 10px; border-radius:var(--radius-sm);
+  border: 1px solid transparent;
+  background: none;
+  cursor:pointer;
+  color: var(--muted);
+  font-size:12px; font-family:var(--font-body); font-weight:500;
+  text-align:right; width:100%;
+  transition: all .2s;
+}}
+.cat-pill:hover {{
+  background: rgba(var(--cat-rgb),.08);
+  color: var(--cat-c);
+  border-color: rgba(var(--cat-rgb),.2);
+}}
+.cat-pill.active {{
+  background: rgba(var(--cat-rgb),.12);
+  color: var(--cat-c);
+  border-color: rgba(var(--cat-rgb),.3);
+  font-weight:600;
+}}
+
+.cat-pill-count {{
+  margin-right:auto;
+  font-size:10px; font-family:var(--font-mono);
+  background: rgba(255,255,255,.06);
+  color:var(--muted);
+  padding:0 5px; border-radius:999px;
+}}
+.cat-pill.active .cat-pill-count {{
+  background: rgba(var(--cat-rgb),.2);
+  color: var(--cat-c);
+}}
+
+/* ── Sidebar footer ──────────────────────────────── */
+.sidebar-footer {{
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top:12px;
+}}
+
+.sidebar-stat {{
+  font-family: var(--font-mono);
+  font-size:11px; color:var(--muted);
+  padding: 4px 8px;
+}}
+
+/* ══════════════════════════════════════════════════
+   TABS NAV (horizontal, under header on mobile/md)
+══════════════════════════════════════════════════ */
+.tabs-bar {{
+  position:sticky; top:var(--nav-h); z-index:90;
+  background: rgba(11,14,21,.88);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+  display:flex; gap:0;
+  overflow-x:auto;
+  padding: 0 16px;
+}}
+@media(min-width:1100px) {{ .tabs-bar {{ display:none; }} }}
+
+.tab-btn {{
+  font-family:var(--font-body);
+  color:var(--muted);
+  border:none; background:none;
+  border-bottom: 2px solid transparent;
+  padding: 14px 16px;
+  font-size:13px; font-weight:600;
+  cursor:pointer;
+  display:flex; align-items:center; gap:6px;
+  white-space:nowrap;
+  transition: all .2s;
+}}
+.tab-btn:hover {{ color:var(--text-2); }}
+.tab-btn.tab-active {{
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}}
+.tab-btn .badge-sm {{
+  font-size:10px; font-family:var(--font-mono);
+  background: rgba(255,255,255,.07);
+  color:var(--muted);
+  padding:1px 6px; border-radius:999px;
+}}
+.tab-btn.tab-active .badge-sm {{
+  background: rgba(96,165,250,.15);
+  color:var(--accent);
+}}
+
+/* ══════════════════════════════════════════════════
+   MAIN
+══════════════════════════════════════════════════ */
+.main-content {{
+  padding-top: var(--nav-h);
+  min-height: 100vh;
+  position:relative; z-index:10;
+}}
+@media(min-width:1100px) {{
+  .main-content {{ margin-right: var(--sidebar-w); }}
+}}
+
+.content-inner {{
+  max-width:840px;
+  margin:0 auto;
+  padding: 32px 20px 80px;
+}}
+
+/* ── Page header ────────────────────────────────── */
+.page-header {{
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}}
+
+.page-title {{
+  font-family: var(--font-head);
+  font-size:clamp(1.5rem, 4vw, 2.1rem);
+  font-weight:800; letter-spacing:-.4px;
+  background: linear-gradient(90deg,#e2e8f0 50%,#60a5fa);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  line-height:1.2;
+}}
+
+.page-sub {{
+  font-size:13px; color:var(--muted); margin-top:6px;
+}}
+
+/* ══════════════════════════════════════════════════
+   HERO CARD
+══════════════════════════════════════════════════ */
+.hero-card {{
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  overflow:hidden;
+  display:block;
+  text-decoration:none;
+  transition: transform .3s, box-shadow .3s;
+  position:relative;
+}}
+.hero-card:hover {{
+  transform: translateY(-3px);
+  box-shadow: 0 28px 72px rgba(0,0,0,.55);
+}}
+
+.hero-overlay {{
+  background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.3) 55%, rgba(0,0,0,.05) 100%);
+}}
+
+.hero-title {{
+  font-family: var(--font-head);
+  font-size:clamp(1.25rem, 3vw, 1.75rem);
+  font-weight:800; line-height:1.3;
+  color:#fff;
+}}
+
+.hero-summary {{
+  font-size:14px; color:rgba(255,255,255,.72);
+  line-height:1.65;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  max-width:600px;
+}}
+
+/* ══════════════════════════════════════════════════
+   CATEGORY BADGE
+══════════════════════════════════════════════════ */
+.cat-badge {{
+  display:inline-flex; align-items:center; gap:4px;
+  font-size:10px; font-weight:700; letter-spacing:.04em;
+  padding: 3px 9px; border-radius:999px;
+  border: 1px solid;
+  white-space:nowrap;
+}}
+
+/* ══════════════════════════════════════════════════
+   ARTICLE CARD
+══════════════════════════════════════════════════ */
+.news-article {{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow:hidden;
+  transition: transform .25s, box-shadow .25s, border-color .25s, background .25s;
+  animation: fadeUp .35s ease both;
+  position:relative;
+}}
+.news-article::before {{
+  content:'';
+  position:absolute; top:0; right:0; left:0; height:2px;
+  background: var(--cat-color, var(--accent));
+  opacity:.65;
+}}
+.news-article:hover {{
+  background: var(--card-h);
+  border-color: var(--border-h);
+  transform: translateY(-2px);
+  box-shadow: 0 18px 48px rgba(0,0,0,.4);
+}}
+.news-article.is-read {{ opacity:.42; }}
+.news-article.is-read:hover {{ opacity:.7; }}
+
+.article-img-wrap {{
+  width:200px; flex-shrink:0;
+  height:160px;
+  overflow:hidden;
+}}
+@media(max-width:767px) {{
+  .article-img-wrap {{ width:100%; height:180px; }}
+  .article-img-placeholder {{ width:100% !important; height:120px !important; }}
+}}
+
+.article-img-placeholder {{
+  width:160px; height:160px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+}}
+
+.article-title {{
+  font-family: var(--font-head);
+  font-size:15px; font-weight:700; line-height:1.5;
+  color:var(--text);
+}}
+.article-title a {{
+  color:inherit; text-decoration:none;
+  transition: color .2s;
+}}
+.article-title a:hover {{ color:var(--cat-color, var(--accent)); }}
+
+.article-summary {{
+  font-size:13px; color:var(--muted); line-height:1.65;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}}
+
+.source-tag {{
+  font-size:11px; color:var(--muted);
+  text-decoration:none; transition: color .2s;
+  font-family:var(--font-mono);
+}}
+.source-tag:hover {{ color:var(--text-2); }}
+
+/* ══════════════════════════════════════════════════
+   READ BTN / WA BTN
+══════════════════════════════════════════════════ */
+.read-btn {{
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:12px; font-weight:700;
+  text-decoration:none; transition: opacity .2s;
+}}
+.read-btn:hover {{ opacity:.8; }}
+
+.video-btn {{ color:#f87171 !important; }}
+
 .wa-btn {{
-  background: rgba(37,211,102,.1);
+  display:inline-flex; align-items:center; gap:5px;
+  font-size:12px; font-weight:700;
+  padding: 5px 10px; border-radius:8px;
   border: 1px solid rgba(37,211,102,.25);
+  background: rgba(37,211,102,.08);
   color: #25d366;
+  cursor:pointer; transition: all .2s;
 }}
 .wa-btn:hover {{
-  background: rgba(37,211,102,.2);
-  border-color: rgba(37,211,102,.5);
+  background: rgba(37,211,102,.18);
+  border-color: rgba(37,211,102,.45);
   transform: scale(1.04);
 }}
 
-/* ── SHARE MODAL ─────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════
+   HOT BADGE
+══════════════════════════════════════════════════ */
+.hot-badge {{
+  display:inline-flex; align-items:center;
+  background: rgba(239,68,68,.14);
+  border: 1px solid rgba(239,68,68,.28);
+  color: #f87171;
+  font-size:10px; font-weight:800;
+  padding: 1px 7px; border-radius:999px;
+  letter-spacing:.05em;
+  animation: blink 2.5s ease-in-out infinite;
+}}
+
+/* ══════════════════════════════════════════════════
+   WHATSAPP MODAL
+══════════════════════════════════════════════════ */
 #wa-modal {{
   display:none;
   position:fixed; inset:0; z-index:200;
   align-items:center; justify-content:center;
-  background:rgba(0,0,0,.65);
-  backdrop-filter:blur(6px);
+  background: rgba(0,0,0,.7);
+  backdrop-filter: blur(8px);
   padding:16px;
 }}
 #wa-modal.open {{ display:flex; }}
 #wa-modal-box {{
-  background:#1a1f2e;
-  border:1px solid rgba(37,211,102,.25);
+  background:#151a27;
+  border: 1px solid rgba(37,211,102,.2);
   border-radius:20px;
   width:100%; max-width:480px;
   padding:28px;
-  box-shadow:0 32px 80px rgba(0,0,0,.6);
-  animation:fadeUp .2s ease;
+  box-shadow: 0 40px 80px rgba(0,0,0,.7);
+  animation: fadeUp .2s ease;
 }}
 #wa-text {{
-  width:100%;
-  min-height:180px;
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.1);
+  width:100%; min-height:180px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.1);
   border-radius:12px;
   color:#e2e8f0;
-  font-family:'Assistant',sans-serif;
-  font-size:14px;
-  line-height:1.7;
-  padding:14px;
-  resize:vertical;
-  direction:rtl;
-  outline:none;
+  font-family:var(--font-body); font-size:14px; line-height:1.7;
+  padding:14px; resize:vertical; direction:rtl; outline:none;
   transition:border-color .2s;
 }}
 #wa-text:focus {{ border-color:rgba(37,211,102,.4); }}
@@ -497,143 +815,147 @@ body::after {{
   background:#25d366; color:#fff;
   border:none; border-radius:12px;
   padding:11px 22px;
-  font-family:'Assistant',sans-serif;
-  font-size:15px; font-weight:700;
+  font-family:var(--font-body); font-size:15px; font-weight:700;
   cursor:pointer; display:flex; align-items:center; gap:8px;
   transition:background .2s, transform .15s;
 }}
 .wa-modal-send:hover {{ background:#1ebe5d; transform:scale(1.03); }}
 .wa-modal-copy {{
-  background:rgba(255,255,255,.06);
-  border:1px solid rgba(255,255,255,.12);
-  color:#e2e8f0;
-  border-radius:12px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+  color:#e2e8f0; border-radius:12px;
   padding:11px 18px;
-  font-family:'Assistant',sans-serif;
-  font-size:14px; font-weight:600;
+  font-family:var(--font-body); font-size:14px; font-weight:600;
   cursor:pointer; display:flex; align-items:center; gap:6px;
   transition:background .2s;
 }}
 .wa-modal-copy:hover {{ background:rgba(255,255,255,.1); }}
 .wa-modal-copy.copied {{ color:#25d366; border-color:rgba(37,211,102,.3); }}
 
-/* ── READ STATE ──────────────────────────────────────────────────── */
-.news-article.is-read {{
-  opacity:.45;
+/* ══════════════════════════════════════════════════
+   MOBILE BOTTOM NAV
+══════════════════════════════════════════════════ */
+.mob-nav {{
+  background: rgba(11,14,21,.96);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(20px);
 }}
-.news-article.is-read:hover {{
-  opacity:.75;
+.mob-nav-btn {{ color:var(--muted); transition:color .2s; border:none; background:none; cursor:pointer; }}
+.mob-nav-btn.mob-active .mat-icon {{
+  color:var(--accent);
+  font-variation-settings:'FILL' 1,'wght' 600,'GRAD' 0,'opsz' 24;
+}}
+.mob-nav-btn.mob-active .mob-label {{ color:var(--accent); font-weight:700; }}
+
+@media(max-width:1099px) {{ body {{ padding-bottom:64px; }} }}
+
+/* ══════════════════════════════════════════════════
+   ANIMATIONS
+══════════════════════════════════════════════════ */
+@keyframes fadeUp {{
+  from {{ opacity:0; transform:translateY(14px); }}
+  to   {{ opacity:1; transform:translateY(0); }}
+}}
+@keyframes blink {{
+  0%,100% {{ opacity:1; transform:scale(1); }}
+  50%      {{ opacity:.4; transform:scale(.75); }}
 }}
 </style>
 </head>
 <body>
 
 <!-- ══════ TOP NAV ══════ -->
-<nav class="top-nav flex justify-between items-center px-6 py-3 z-50">
-  <div class="flex items-center gap-5">
-    <!-- logo -->
-    <div class="flex items-center gap-2.5">
-      <div class="w-8 h-8 rounded-xl flex items-center justify-center text-white text-sm"
-           style="background:linear-gradient(135deg,#60a5fa,#818cf8);box-shadow:0 0 16px rgba(96,165,250,.3)">
-        <span class="material-symbols-outlined" style="font-size:17px">psychology</span>
-      </div>
-      <span class="text-base font-black tracking-tight hidden sm:block"
-            style="background:linear-gradient(90deg,#e2e8f0 30%,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
-        AI Pulse
-      </span>
+<nav class="top-nav">
+  <div class="logo-wrap">
+    <div class="logo-icon">
+      <span class="material-symbols-outlined" style="font-size:18px">psychology</span>
     </div>
-    <!-- live badge -->
-    <span class="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold"
-          style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25);color:#ef4444;font-family:'Assistant',sans-serif;letter-spacing:.04em">
-      <span style="width:6px;height:6px;border-radius:50%;background:#ef4444;animation:blink 1.8s ease-in-out infinite;display:inline-block"></span>
-      LIVE
-    </span>
+    <span class="logo-text">AI Pulse</span>
   </div>
-  <div class="flex items-center gap-4">
-    <div class="relative hidden sm:block">
-      <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2"
-            style="font-size:16px;color:var(--muted)">search</span>
+  <div class="live-badge">
+    <span class="live-dot"></span>
+    LIVE
+  </div>
+  <div class="nav-end">
+    <span class="updated-ts">עודכן {updated}</span>
+    <div class="search-wrap">
+      <span class="material-symbols-outlined search-icon">search</span>
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
-             class="search-input pr-9 pl-4 py-2 text-sm w-48 text-right"/>
+             class="search-input"/>
     </div>
-    <span class="hidden md:block text-xs font-mono" style="color:var(--muted)">עודכן {updated}</span>
   </div>
 </nav>
 
 <!-- ══════ SIDEBAR ══════ -->
-<aside class="sidebar fixed right-0 top-0 h-full w-56 flex flex-col p-4 pt-[68px] hidden lg:flex z-40">
-  <div class="mb-5 px-2">
-    <p class="text-xs font-bold uppercase tracking-widest mb-1" style="color:var(--muted)">ניווט</p>
-  </div>
-  <nav class="flex flex-col gap-1">
-    {"".join(f'''
-    <button onclick="switchTabById('{esc(t['id'])}')"
-            data-sidebar="{esc(t['id'])}"
-            class="sidebar-btn flex items-center gap-3 px-3 py-2.5 text-sm font-semibold text-right w-full">
-      <span class="material-symbols-outlined" style="font-size:18px">{t['icon']}</span>
-      {t['label']}
-    </button>''' for t in TABS)}
+<aside class="sidebar">
+  <p class="sidebar-section-label">ניווט</p>
+  <nav style="display:flex;flex-direction:column;gap:2px;margin-bottom:20px">
+{sidebar_nav}
   </nav>
-  <div class="mt-auto border-t pt-4 space-y-1" style="border-color:var(--border)">
-    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">{total} פריטים</p>
-    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">{updated}</p>
+
+  <p class="sidebar-section-label" style="margin-top:8px">קטגוריות</p>
+  <div class="sidebar-cats no-scrollbar">
+    <button onclick="filterCat('all')" data-cat="all"
+            class="cat-pill active" style="--cat-c:var(--accent);--cat-rgb:96,165,250">
+      <span class="material-symbols-outlined" style="font-size:13px">apps</span>
+      הכל
+      <span class="cat-pill-count">{total}</span>
+    </button>
+{cat_pills}
+  </div>
+
+  <div class="sidebar-footer">
+    <p class="sidebar-stat">{total} פריטים סה"כ</p>
+    <p class="sidebar-stat" style="font-size:10px">{updated} UTC</p>
   </div>
 </aside>
 
-<!-- ══════ MAIN ══════ -->
-<main class="lg:mr-56 pt-[60px] min-h-screen relative z-10">
-  <div class="max-w-5xl mx-auto px-5 py-8">
+<!-- ══════ TABS BAR (mobile/md only) ══════ -->
+<div class="tabs-bar no-scrollbar">
+{"".join(f'''
+  <button onclick="switchTab(this,'{esc(t['id'])}')"
+          data-tab="{esc(t['id'])}"
+          class="tab-btn {'tab-active' if i==0 else ''}">
+    <span class="material-symbols-outlined" style="font-size:16px">{t['icon']}</span>
+    {t['label']}
+    <span class="badge-sm">{len([x for x in all_items if x.get('category') in t['cats']])}</span>
+  </button>''' for i,t in enumerate(TABS))}
+</div>
 
-    <!-- header -->
-    <header class="mb-8">
-      <h1 class="text-3xl font-black tracking-tight mb-1"
-          style="font-family:'Assistant',sans-serif;
-                 background:linear-gradient(90deg,#e2e8f0 50%,#60a5fa);
-                 -webkit-background-clip:text;-webkit-text-fill-color:transparent">
-        עדכוני בינה מלאכותית
-      </h1>
-      <p class="text-sm" style="color:var(--muted)">{total} פריטים · מעודכן יומית</p>
+<!-- ══════ MAIN ══════ -->
+<main class="main-content">
+  <div class="content-inner">
+
+    <header class="page-header">
+      <h1 class="page-title">עדכוני בינה מלאכותית</h1>
+      <p class="page-sub">{total} פריטים · מתעדכן יומית בשעה 09:00</p>
     </header>
 
-    <!-- TABS NAV -->
-    <div class="flex gap-0 mb-7 overflow-x-auto no-scrollbar"
-         style="border-bottom:1px solid var(--border)" id="tabs-nav">
-      {tabs_nav}
-    </div>
-
     <!-- TABS CONTENT -->
-    <div id="tabs-content">{tabs_content}</div>
+    <div id="tabs-content">
+{tabs_content}
+    </div>
 
   </div>
 </main>
 
-<!-- ══════ FOOTER ══════ -->
-<footer class="lg:mr-56 py-5 px-8 hidden lg:block relative z-10"
-        style="border-top:1px solid var(--border)">
-  <div class="max-w-5xl mx-auto flex justify-between items-center text-xs font-mono"
-       style="color:var(--muted)">
-    <span style="font-family:'Assistant',sans-serif;font-weight:800;color:var(--accent)">AI Pulse</span>
-    <span>© {datetime.now().year} · {total} פריטים · {updated} UTC</span>
-  </div>
-</footer>
-
-<!-- ══════ WHATSAPP SHARE MODAL ══════ -->
+<!-- ══════ WHATSAPP MODAL ══════ -->
 <div id="wa-modal" onclick="if(event.target===this)closeWA()">
   <div id="wa-modal-box">
-    <div class="flex items-center justify-between mb-4">
-      <div class="flex items-center gap-2">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+      <div style="display:flex;align-items:center;gap:8px">
         <span class="material-symbols-outlined" style="color:#25d366;font-size:22px">share</span>
-        <span class="font-bold text-base" style="color:#e2e8f0">פוסט לוואטסאפ</span>
+        <span style="font-weight:700;font-size:15px;color:#e2e8f0">פוסט לוואטסאפ</span>
       </div>
       <button onclick="closeWA()" style="color:var(--muted);background:none;border:none;cursor:pointer;font-size:22px;line-height:1">
         <span class="material-symbols-outlined">close</span>
       </button>
     </div>
-    <p class="text-xs mb-3" style="color:var(--muted)">ערוך את הטקסט לפני השליחה:</p>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:10px">ערוך את הטקסט לפני השליחה:</p>
     <textarea id="wa-text" spellcheck="false"></textarea>
-    <div class="flex gap-3 mt-5 justify-end">
+    <div style="display:flex;gap:10px;margin-top:16px;justify-content:flex-end">
       <button class="wa-modal-copy" onclick="copyWA(this)">
-        <span class="material-symbols-outlined" style="font-size:17px">content_copy</span>
+        <span class="material-symbols-outlined" style="font-size:16px">content_copy</span>
         העתק
       </button>
       <button class="wa-modal-send" onclick="sendWA()">
@@ -646,16 +968,11 @@ body::after {{
 
 <!-- ══════ MOBILE BOTTOM NAV ══════ -->
 <nav class="mob-nav lg:hidden fixed bottom-0 inset-x-0 z-50 flex justify-around items-center h-[60px]">
-  {"".join(f'''
-  <button onclick="switchTabById('{esc(t['id'])}')"
-          data-mob="{esc(t['id'])}"
-          class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
-    <span class="material-symbols-outlined mat-icon" style="font-size:22px">{t['icon']}</span>
-    <span class="mob-label text-[10px] font-medium">{t['label']}</span>
-  </button>''' for t in TABS)}
+{mob_nav_btns}
 </nav>
 
 <script>
+// ── TAB SWITCHING ──────────────────────────────────────────────────────
 function switchTabById(tabId) {{
   const btn = document.querySelector('.tab-btn[data-tab="' + tabId + '"]');
   switchTab(btn, tabId);
@@ -677,20 +994,55 @@ function switchTab(btn, tabId) {{
   const panel = document.getElementById('tab-' + tabId);
   if (panel) {{ panel.style.display = ''; filterSearch(); }}
 
-  if (window.innerWidth < 1024) window.scrollTo({{top:0, behavior:'smooth'}});
+  // reset cat filter
+  document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+  const allPill = document.querySelector('.cat-pill[data-cat="all"]');
+  if (allPill) allPill.classList.add('active');
+
+  if (window.innerWidth < 1100) window.scrollTo({{top:0, behavior:'smooth'}});
 }}
 
+// ── SEARCH ────────────────────────────────────────────────────────────
 function filterSearch() {{
   const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
-  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach((a,i) => {{
-    const text = (a.querySelector('h2')?.textContent||'') + ' ' + (a.querySelector('p')?.textContent||'');
-    const show = !q || text.toLowerCase().includes(q);
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach((a, i) => {{
+    const h2 = a.querySelector('.article-title')?.textContent || '';
+    const p  = a.querySelector('.article-summary')?.textContent || '';
+    const show = !q || (h2 + ' ' + p).toLowerCase().includes(q);
     a.style.display = show ? '' : 'none';
-    if (show) a.style.animationDelay = Math.min(i*40,300)+'ms';
+    if (show) a.style.animationDelay = Math.min(i * 40, 300) + 'ms';
   }});
 }}
 
-// ── WHATSAPP SHARE MODAL ──────────────────────────────────────────
+// ── CATEGORY FILTER (sidebar) ─────────────────────────────────────────
+function filterCat(cat) {{
+  document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+  const btn = document.querySelector('.cat-pill[data-cat="' + cat + '"]');
+  if (btn) btn.classList.add('active');
+
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach(a => {{
+    if (cat === 'all') {{
+      a.style.display = '';
+    }} else {{
+      const badge = a.querySelector('.cat-badge');
+      const text  = badge ? badge.textContent.trim() : '';
+      a.style.display = text.includes(cat) ? '' : 'none';
+    }}
+  }});
+
+  // also show/hide hero
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .hero-card').forEach(h => {{
+    if (cat === 'all') {{
+      h.style.display = '';
+    }} else {{
+      const badge = h.querySelector('.cat-badge');
+      const text  = badge ? badge.textContent.trim() : '';
+      h.style.display = text.includes(cat) ? '' : 'none';
+    }}
+  }});
+}}
+
+// ── WHATSAPP MODAL ────────────────────────────────────────────────────
 function shareWA(btn) {{
   const title   = btn.dataset.title   || '';
   const summary = btn.dataset.summary || '';
@@ -702,7 +1054,7 @@ function shareWA(btn) {{
     summary + '\\n\\n' +
     '💡 *איך זה רלוונטי לנו?*' + '\\n' +
     'ניתן להשתמש בכך ל: [רישום תהליכים / אוטומציה / ניתוח נתונים / שיפור שירות]' + '\\n\\n' +
-    '🔗 לקריאה נוספת:' + '\\n' + link + '\\n\\n' +
+    '🔗 לקריאה נוספת:\\n' + link + '\\n\\n' +
     '_מוזמנים להעביר לצוות IT / מחשוב / מנהל_ 🙏';
   document.getElementById('wa-text').value = text;
   document.getElementById('wa-modal').classList.add('open');
@@ -729,9 +1081,7 @@ function copyWA(btn) {{
   }};
   if (navigator.clipboard) {{
     navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
-  }} else {{
-    fallbackCopy(text, done);
-  }}
+  }} else {{ fallbackCopy(text, done); }}
 }}
 function fallbackCopy(text, cb) {{
   const ta = document.getElementById('wa-text');
@@ -740,7 +1090,7 @@ function fallbackCopy(text, cb) {{
 }}
 document.addEventListener('keydown', e => {{ if(e.key==='Escape') closeWA(); }});
 
-// ── READ MARKING ──────────────────────────────────────────────────
+// ── READ STATE ────────────────────────────────────────────────────────
 const READ_KEY = 'ai_pulse_read';
 function getRead() {{ try {{ return JSON.parse(localStorage.getItem(READ_KEY)||'[]'); }} catch{{return[];}} }}
 function saveRead(arr) {{ localStorage.setItem(READ_KEY, JSON.stringify(arr)); }}
@@ -761,7 +1111,7 @@ function applyReadState() {{
   }});
 }}
 
-// init
+// ── INIT ──────────────────────────────────────────────────────────────
 document.querySelectorAll('.sidebar-btn')[0]?.classList.add('sb-active');
 document.querySelectorAll('.mob-nav-btn')[0]?.classList.add('mob-active');
 document.querySelectorAll('.tab-btn')[0]?.classList.add('tab-active');
@@ -772,7 +1122,7 @@ applyReadState();
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"index.html ({total} items)")
+    print(f"✅ index.html נוצר בהצלחה ({total} פריטים)")
 
 
 if __name__ == "__main__":
