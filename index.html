@@ -30,7 +30,7 @@
   --font-head: 'Plus Jakarta Sans', 'Assistant', sans-serif;
   --font-body: 'Assistant', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --sidebar-w: 260px;
+  --sidebar-w: 220px;
   --nav-h:     64px;
   --radius:    14px;
   --radius-sm: 8px;
@@ -192,11 +192,19 @@ body::after {
 
 .sidebar-btn {
   font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
   color: var(--muted);
   border-radius: var(--radius-sm);
   border:none; background:none;
   cursor:pointer;
   transition: all .2s;
+  padding: 12px 14px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .sidebar-btn:hover {
   background: var(--card-h);
@@ -426,8 +434,8 @@ body::after {
   transform: translateY(-2px);
   box-shadow: 0 18px 48px rgba(0,0,0,.4);
 }
-.news-article.is-read { opacity:.42; }
-.news-article.is-read:hover { opacity:.7; }
+.news-article.is-read { opacity:.55; }
+.news-article.is-read:hover { opacity:.8; }
 
 .article-img-wrap {
   width:200px; flex-shrink:0;
@@ -606,11 +614,11 @@ body::after {
     LIVE
   </div>
   <div class="nav-end">
-    <span class="updated-ts">עודכן 28/03/2026 18:09</span>
+    <span class="updated-ts">עודכן 28/03/2026 18:18</span>
     <div class="search-wrap">
       <span class="material-symbols-outlined search-icon">search</span>
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
-             class="search-input"/>
+             aria-label="חיפוש בכתבות" class="search-input"/>
     </div>
   </div>
 </nav>
@@ -622,37 +630,42 @@ body::after {
 
     <button onclick="switchTabById('חדשות')"
             data-sidebar="חדשות"
-            class="sidebar-btn sb-active flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">newspaper</span>
-      <span class="flex-1">חדשות</span>
+            aria-label="חדשות"
+            class="sidebar-btn sb-active">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">newspaper</span>
+      <span style="flex:1">חדשות</span>
       <span class="tab-count-pill">10</span>
     </button>
     <button onclick="switchTabById('ממשל')"
             data-sidebar="ממשל"
-            class="sidebar-btn  flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">account_balance</span>
-      <span class="flex-1">מחשוב וממשל</span>
+            aria-label="מחשוב וממשל"
+            class="sidebar-btn ">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">account_balance</span>
+      <span style="flex:1">מחשוב וממשל</span>
       <span class="tab-count-pill">4</span>
     </button>
     <button onclick="switchTabById('קמפוס')"
             data-sidebar="קמפוס"
-            class="sidebar-btn  flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">school</span>
-      <span class="flex-1">קמפוס GOV</span>
+            aria-label="קמפוס GOV"
+            class="sidebar-btn ">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">school</span>
+      <span style="flex:1">קמפוס GOV</span>
       <span class="tab-count-pill">19</span>
     </button>
     <button onclick="switchTabById('סרטונים')"
             data-sidebar="סרטונים"
-            class="sidebar-btn  flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">play_circle</span>
-      <span class="flex-1">סרטונים</span>
+            aria-label="סרטונים"
+            class="sidebar-btn ">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">play_circle</span>
+      <span style="flex:1">סרטונים</span>
       <span class="tab-count-pill">14</span>
     </button>
     <button onclick="switchTabById('הדרכות')"
             data-sidebar="הדרכות"
-            class="sidebar-btn  flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">cast_for_education</span>
-      <span class="flex-1">הדרכות</span>
+            aria-label="הדרכות"
+            class="sidebar-btn ">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">cast_for_education</span>
+      <span style="flex:1">הדרכות</span>
       <span class="tab-count-pill">23</span>
     </button>
   </nav>
@@ -705,7 +718,7 @@ body::after {
 
   <div class="sidebar-footer">
     <p class="sidebar-stat">70 פריטים סה"כ</p>
-    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:09 UTC</p>
+    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:18 UTC</p>
   </div>
 </aside>
 
@@ -782,7 +795,7 @@ body::after {
           <p class="hero-summary mt-3">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#f59e0b">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -809,7 +822,7 @@ body::after {
             <p class="article-summary">וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &amp;#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &amp;#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפיצ'ר העברת הצ'אטים הקיים של וואטסאפ, שיאפשר לכם לעשות זאת היישר בתוך הפלטפורמה עצמה ועל גבי Wi-Fi &amp;#8211; מבלי שתצטרכו [&amp;#8230;] The post וואטסאפ משיקה עדכונים ופיצ&amp;#039;רים חדשים </p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד" data-summary="וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &amp;#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &amp;#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפ" data-link="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -840,7 +853,7 @@ body::after {
             <p class="article-summary">שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב&quot;עמק הסיליקון&quot;, אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&amp;#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל </p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" data-summary="שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -871,7 +884,7 @@ body::after {
             <p class="article-summary">אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו בגרסה החדשה: Siri החדשה. אין כאן את Siri שמתודלקת ב-Gemini, אין כאן את Siri [&amp;#8230;] The post תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון appeared first on גיקטיים .</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/apple-releases-ios-26-4/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/apple-releases-ios-26-4/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון" data-summary="אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו ב" data-link="https://www.geektime.co.il/apple-releases-ios-26-4/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -902,7 +915,7 @@ body::after {
             <p class="article-summary">עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל לתביעת ענק או להסתבכות רגולטורית? במקום לפתח עוד ממשק שיחה גנרי, החברה פיתחה כלי שמחבר בין ה-LLMs לבין מערכות הליבה [&amp;#8230;] The post גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומ</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/notch-ai-agents-funding/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/notch-ai-agents-funding/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר" data-summary="עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל " data-link="https://www.geektime.co.il/notch-ai-agents-funding/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -933,7 +946,7 @@ body::after {
             <p class="article-summary">בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, בצעד מפתיע, OpenAI מחסלת את האפליקציה הוויראלית. נפרדים מהאפליקציה, וממיליארד דולר OpenAI הודיעה כי היא מוציאה [&amp;#8230;] The post חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו </p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/openai-kills-sora-app/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/openai-kills-sora-app/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora" data-summary="בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, " data-link="https://www.geektime.co.il/openai-kills-sora-app/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -964,7 +977,7 @@ body::after {
             <p class="article-summary">במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור ירושלים, שהתחזו לכאורה לחייל ב-8200, והעבירו מידע שיצרו בין היתר ב-AI לגורמי מודיעין איראניים. [&amp;#8230;] The post התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&amp;</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&quot;ח" data-summary="במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור " data-link="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -995,7 +1008,7 @@ body::after {
             <p class="article-summary">בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &amp;#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ביותר באבטחת מודלי שפה. להבין מה באמת רוצה התוקף מחקר חדש של Upwind Security מגלה שלא ניתן לזהות באופן אמין [&amp;#8230;] The post אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI" data-summary="בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &amp;#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ב" data-link="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1026,7 +1039,7 @@ body::after {
             <p class="article-summary">לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &amp;#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את חובבי ה-Vibe Coding. החיבור זמין כבר עכשיו מותג הוייב-קודינג הישראלי של וויקס, Base44, השיק אפליקציה ייעודית שרצה ישירות בתוך ChatGPT. [&amp;#8230;] The post פיתוח אפליקציות בתוך הצ&amp;#0</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT" data-summary="לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &amp;#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את " data-link="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1057,7 +1070,7 @@ body::after {
             <p class="article-summary">שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&amp;#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#f59e0b"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" data-summary="שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1088,7 +1101,7 @@ body::after {
           <p class="hero-summary mt-3">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#34d399">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -1115,7 +1128,7 @@ body::after {
             <p class="article-summary">שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב&quot;עמק הסיליקון&quot;, אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&amp;#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל </p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" data-summary="שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1146,7 +1159,7 @@ body::after {
             <p class="article-summary">שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&amp;#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" data-summary="שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1177,7 +1190,7 @@ body::after {
             <p class="article-summary">מאת שירי וקס, מנכ&quot;לית Gotfriends אם יש משהו שלמדנו בשנים האחרונות, זה ששוק ההייטק הישראלי לא עוצר גם (ואולי בעיקר) בעיתות משבר. גם עכשיו, בזמן מלחמה ממושכת, חברות טכנולוגיה וסטארטאפים ממשיכים להציע הזדמנויות מקצועיות חדשות בתחומים מתקדמים כגון סייבר, פינטק ורכבים חשמליים. הביקוש הגובר לטאלנטים בתחום הבינה המלאכותית יצר מגמה ברורה של &quot;פרמיית ה-AI&quot;: עובדים [&amp;#8230;] The post לא עוצרות: החברות האלה מ</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://www.geektime.co.il/ai-dev-job-offers-326/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://www.geektime.co.il/ai-dev-job-offers-326/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#34d399"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="לא עוצרות: החברות האלה מגייסות עכשיו לתפקידי AI" data-summary="מאת שירי וקס, מנכ&quot;לית Gotfriends אם יש משהו שלמדנו בשנים האחרונות, זה ששוק ההייטק הישראלי לא עוצר גם (ואולי בעיקר) בעיתות משבר. גם עכשיו, בזמן מלחמה ממושכת, חברות טכנולוגיה וסטארטאפים ממשיכים להציע הזדמנויות מקצועיות חדש" data-link="https://www.geektime.co.il/ai-dev-job-offers-326/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
@@ -1208,7 +1221,7 @@ body::after {
           <p class="hero-summary mt-3">הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.</p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#fb923c">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -1234,7 +1247,7 @@ body::after {
             <p class="article-summary">מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/digitalil-gov-ai2-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/digitalil-gov-ai2-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="לעבוד חכם עם AI" data-summary="מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו." data-link="https://campus.gov.il/course/digitalil-gov-ai2-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1264,7 +1277,7 @@ body::after {
             <p class="article-summary">בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/moe-edu-shelf-aiedu-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/moe-edu-shelf-aiedu-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="בינה מלאכותית כעוזר הוראה" data-summary="בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!" data-link="https://campus.gov.il/course/moe-edu-shelf-aiedu-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1294,7 +1307,7 @@ body::after {
             <p class="article-summary">קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/digitalil-gov-beai-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/digitalil-gov-beai-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="AI למתחילים: לומדים לדבר עם בינה מלאכותית" data-summary="קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו " data-link="https://campus.gov.il/course/digitalil-gov-beai-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1324,7 +1337,7 @@ body::after {
             <p class="article-summary">קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/en/course/digitalil-gov-beai-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/en/course/digitalil-gov-beai-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="AI למתחילים: לומדים לדבר עם בינה מלאכותית" data-summary="קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו " data-link="https://campus.gov.il/en/course/digitalil-gov-beai-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1354,7 +1367,7 @@ body::after {
             <p class="article-summary">הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ru/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ru/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מבוא לבינה מלאכותית: מתאוריה לפרקטיקה" data-summary="הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום." data-link="https://campus.gov.il/ru/course/bgu-acd-bgu-ai101/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1384,7 +1397,7 @@ body::after {
             <p class="article-summary">הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/en/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/en/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מבוא לבינה מלאכותית: מתאוריה לפרקטיקה" data-summary="הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום." data-link="https://campus.gov.il/en/course/bgu-acd-bgu-ai101/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1414,7 +1427,7 @@ body::after {
             <p class="article-summary">הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ar/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ar/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מבוא לבינה מלאכותית: מתאוריה לפרקטיקה" data-summary="הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום." data-link="https://campus.gov.il/ar/course/bgu-acd-bgu-ai101/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1444,7 +1457,7 @@ body::after {
             <p class="article-summary">הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/bgu-acd-bgu-ai101/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מבוא לבינה מלאכותית: מתאוריה לפרקטיקה" data-summary="הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום." data-link="https://campus.gov.il/course/bgu-acd-bgu-ai101/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1474,7 +1487,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ar/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ar/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מיומנויות שירות פנים ארגוני במשרדי הממשלה" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/ar/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1504,7 +1517,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="מיומנויות שירות פנים ארגוני במשרדי הממשלה" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1534,7 +1547,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ru/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ru/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="&amp;#8221;שואפים נושפים&amp;#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/ru/course/moe-edu-micro-brainstormingtools-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1564,7 +1577,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/en/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/en/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="&amp;#8221;שואפים נושפים&amp;#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/en/course/moe-edu-micro-brainstormingtools-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1594,7 +1607,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ar/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ar/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="&amp;#8221;שואפים נושפים&amp;#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/ar/course/moe-edu-micro-brainstormingtools-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1624,7 +1637,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/moe-edu-micro-brainstormingtools-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="&amp;quot;שואפים נושפים&amp;quot; כלים לסיעור מוחות בתהליך התיכון ההנדסי" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/course/moe-edu-micro-brainstormingtools-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1654,7 +1667,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ru/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ru/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="הדרכה לאפוטרופוסים" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/ru/course/moj-gov-guardiantraining-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1684,7 +1697,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/en/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/en/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="הדרכה לאפוטרופוסים" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/en/course/moj-gov-guardiantraining-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1714,7 +1727,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/ar/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/ar/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="הדרכה לאפוטרופוסים" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/ar/course/moj-gov-guardiantraining-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1744,7 +1757,7 @@ body::after {
             <p class="article-summary">הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.</p>
             <div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4" style="border-top:1px solid var(--border)">
               <div class="flex items-center gap-3">
-                <a href="https://campus.gov.il/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <a href="https://campus.gov.il/course/moj-gov-guardiantraining-he/" target="_blank" rel="noopener" onclick="markRead(this)" class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:#fb923c"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>
                 <button onclick="shareWA(this)" data-title="הדרכה לאפוטרופוסים" data-summary="הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל " data-link="https://campus.gov.il/course/moj-gov-guardiantraining-he/" class="wa-btn" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:14px">share</span>שתף</button>
               </div>
               <a href="https://campus.gov.il" target="_blank" rel="noopener"
@@ -1775,7 +1788,7 @@ body::after {
           <p class="hero-summary mt-3"></p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#f87171">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -2205,7 +2218,7 @@ body::after {
           <p class="hero-summary mt-3"></p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:#22d3ee">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>
@@ -2932,31 +2945,31 @@ body::after {
           data-mob="חדשות"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">newspaper</span>
-    <span class="mob-label text-[10px] font-medium">חדשות</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">חדשות</span>
   </button>
   <button onclick="switchTabById('ממשל')"
           data-mob="ממשל"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">account_balance</span>
-    <span class="mob-label text-[10px] font-medium">מחשוב וממשל</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">מחשוב וממשל</span>
   </button>
   <button onclick="switchTabById('קמפוס')"
           data-mob="קמפוס"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">school</span>
-    <span class="mob-label text-[10px] font-medium">קמפוס GOV</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">קמפוס GOV</span>
   </button>
   <button onclick="switchTabById('סרטונים')"
           data-mob="סרטונים"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">play_circle</span>
-    <span class="mob-label text-[10px] font-medium">סרטונים</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">סרטונים</span>
   </button>
   <button onclick="switchTabById('הדרכות')"
           data-mob="הדרכות"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">cast_for_education</span>
-    <span class="mob-label text-[10px] font-medium">הדרכות</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">הדרכות</span>
   </button>
 </nav>
 
@@ -2994,13 +3007,35 @@ function switchTab(btn, tabId) {
 // ── SEARCH ────────────────────────────────────────────────────────────
 function filterSearch() {
   const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
-  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach((a, i) => {
+  const panel = document.querySelector('.tab-panel:not([style*="none"])');
+  if (!panel) return;
+  let visible = 0;
+  panel.querySelectorAll('.news-article').forEach((a, i) => {
     const h2 = a.querySelector('.article-title')?.textContent || '';
     const p  = a.querySelector('.article-summary')?.textContent || '';
     const show = !q || (h2 + ' ' + p).toLowerCase().includes(q);
     a.style.display = show ? '' : 'none';
-    if (show) a.style.animationDelay = Math.min(i * 40, 300) + 'ms';
+    if (show) { a.style.animationDelay = Math.min(i * 40, 300) + 'ms'; visible++; }
   });
+  // hero card
+  const hero = panel.querySelector('.hero-card');
+  if (hero) {
+    const show = !q || (hero.textContent||'').toLowerCase().includes(q);
+    hero.style.display = show ? '' : 'none';
+    if (show) visible++;
+  }
+  // empty state
+  let emptyEl = panel.querySelector('.search-empty');
+  if (!emptyEl) {
+    emptyEl = document.createElement('div');
+    emptyEl.className = 'search-empty';
+    emptyEl.style.cssText = 'text-align:center;padding:60px 20px;color:var(--muted);display:none';
+    emptyEl.innerHTML = '<span class="material-symbols-outlined" style="font-size:48px;display:block;margin-bottom:12px">search_off</span><p style="font-size:15px">לא נמצאו תוצאות עבור "<strong>' + q + '</strong>"</p>';
+    panel.appendChild(emptyEl);
+  } else {
+    emptyEl.querySelector('strong') && (emptyEl.querySelector('strong').textContent = q);
+  }
+  emptyEl.style.display = (visible === 0 && q) ? '' : 'none';
 }
 
 // ── CATEGORY FILTER (sidebar) ─────────────────────────────────────────

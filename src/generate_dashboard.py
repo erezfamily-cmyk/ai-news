@@ -93,9 +93,10 @@ def generate():
         sidebar_nav += f"""
     <button onclick="switchTabById('{esc(tab['id'])}')"
             data-sidebar="{esc(tab['id'])}"
-            class="sidebar-btn {active_cls} flex items-center gap-3 px-4 py-3 text-sm font-semibold text-right w-full rounded-xl transition-all">
-      <span class="material-symbols-outlined" style="font-size:20px">{tab['icon']}</span>
-      <span class="flex-1">{tab['label']}</span>
+            aria-label="{esc(tab['label'])}"
+            class="sidebar-btn {active_cls}">
+      <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">{tab['icon']}</span>
+      <span style="flex:1">{tab['label']}</span>
       <span class="tab-count-pill">{count}</span>
     </button>"""
 
@@ -169,7 +170,7 @@ def generate():
           <p class="hero-summary mt-3">{hsum}</p>
           <div class="mt-6 flex items-center gap-2 font-bold text-sm" style="color:{hs['color']}">
             <span>קרא עוד</span>
-            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_back</span>
+            <span class="material-symbols-outlined text-base transition-transform group-hover:-translate-x-1">arrow_forward</span>
           </div>
         </div>
       </a>"""
@@ -221,7 +222,7 @@ def generate():
                    f'<a href="{link}" target="_blank" rel="noopener" onclick="markRead(this)" '
                    f'class="read-btn flex items-center gap-1.5 font-bold text-sm" style="color:{s["color"]}">'
                    f'<span>קרא עוד</span>'
-                   f'<span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>')
+                   f'<span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_forward</span></a>')
 
             articles_html += f"""
       <article class="news-article group" data-link="{link}" style="--cat-color:{s['color']};--cat-rgb:{s['rgb']}">
@@ -266,7 +267,7 @@ def generate():
           data-mob="{esc(t['id'])}"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">{t['icon']}</span>
-    <span class="mob-label text-[10px] font-medium">{t['label']}</span>
+    <span class="mob-label" style="font-size:12px;font-weight:600">{t['label']}</span>
   </button>""" for t in TABS)
 
     html = f"""<!DOCTYPE html>
@@ -301,7 +302,7 @@ def generate():
   --font-head: 'Plus Jakarta Sans', 'Assistant', sans-serif;
   --font-body: 'Assistant', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --sidebar-w: 260px;
+  --sidebar-w: 220px;
   --nav-h:     64px;
   --radius:    14px;
   --radius-sm: 8px;
@@ -463,11 +464,19 @@ body::after {{
 
 .sidebar-btn {{
   font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
   color: var(--muted);
   border-radius: var(--radius-sm);
   border:none; background:none;
   cursor:pointer;
   transition: all .2s;
+  padding: 12px 14px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }}
 .sidebar-btn:hover {{
   background: var(--card-h);
@@ -697,8 +706,8 @@ body::after {{
   transform: translateY(-2px);
   box-shadow: 0 18px 48px rgba(0,0,0,.4);
 }}
-.news-article.is-read {{ opacity:.42; }}
-.news-article.is-read:hover {{ opacity:.7; }}
+.news-article.is-read {{ opacity:.55; }}
+.news-article.is-read:hover {{ opacity:.8; }}
 
 .article-img-wrap {{
   width:200px; flex-shrink:0;
@@ -881,7 +890,7 @@ body::after {{
     <div class="search-wrap">
       <span class="material-symbols-outlined search-icon">search</span>
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
-             class="search-input"/>
+             aria-label="חיפוש בכתבות" class="search-input"/>
     </div>
   </div>
 </nav>
@@ -1005,13 +1014,35 @@ function switchTab(btn, tabId) {{
 // ── SEARCH ────────────────────────────────────────────────────────────
 function filterSearch() {{
   const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
-  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach((a, i) => {{
+  const panel = document.querySelector('.tab-panel:not([style*="none"])');
+  if (!panel) return;
+  let visible = 0;
+  panel.querySelectorAll('.news-article').forEach((a, i) => {{
     const h2 = a.querySelector('.article-title')?.textContent || '';
     const p  = a.querySelector('.article-summary')?.textContent || '';
     const show = !q || (h2 + ' ' + p).toLowerCase().includes(q);
     a.style.display = show ? '' : 'none';
-    if (show) a.style.animationDelay = Math.min(i * 40, 300) + 'ms';
+    if (show) {{ a.style.animationDelay = Math.min(i * 40, 300) + 'ms'; visible++; }}
   }});
+  // hero card
+  const hero = panel.querySelector('.hero-card');
+  if (hero) {{
+    const show = !q || (hero.textContent||'').toLowerCase().includes(q);
+    hero.style.display = show ? '' : 'none';
+    if (show) visible++;
+  }}
+  // empty state
+  let emptyEl = panel.querySelector('.search-empty');
+  if (!emptyEl) {{
+    emptyEl = document.createElement('div');
+    emptyEl.className = 'search-empty';
+    emptyEl.style.cssText = 'text-align:center;padding:60px 20px;color:var(--muted);display:none';
+    emptyEl.innerHTML = '<span class="material-symbols-outlined" style="font-size:48px;display:block;margin-bottom:12px">search_off</span><p style="font-size:15px">לא נמצאו תוצאות עבור "<strong>' + q + '</strong>"</p>';
+    panel.appendChild(emptyEl);
+  }} else {{
+    emptyEl.querySelector('strong') && (emptyEl.querySelector('strong').textContent = q);
+  }}
+  emptyEl.style.display = (visible === 0 && q) ? '' : 'none';
 }}
 
 // ── CATEGORY FILTER (sidebar) ─────────────────────────────────────────
@@ -1122,7 +1153,7 @@ applyReadState();
 
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✅ index.html נוצר בהצלחה ({total} פריטים)")
+    print(f"index.html ({total} items)")
 
 
 if __name__ == "__main__":
