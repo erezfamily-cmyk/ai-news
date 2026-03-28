@@ -1,55 +1,101 @@
 import feedparser
 import json
 import os
-from datetime import datetime, timezone
+import re
+import urllib.parse
+import urllib.request
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 
+# מילות מפתח לסינון AI — רק פריטים שמכילים לפחות אחת מהן יעברו
+AI_KEYWORDS = [
+    "ai", "artificial intelligence", "machine learning", "deep learning",
+    "llm", "gpt", "chatgpt", "claude", "gemini", "copilot", "openai",
+    "anthropic", "deepmind", "huggingface", "midjourney", "stable diffusion",
+    "neural network", "generative", "בינה מלאכותית", "למידת מכונה",
+    "בינה", "מודל שפה", "צ'אט", "רובוט", "אוטומציה", "אלגוריתם",
+    "nlp", "computer vision", "transformer", "diffusion",
+]
+
 FEEDS = {
-    "OpenAI": {
-        "url": "https://openai.com/blog/rss.xml",
-        "category": "חברות AI"
+    # ── חדשות טכנולוגיה (ישראל) — מסוננות לפי מילות מפתח ──────────────
+    "גיקטיים": {
+        "url": "https://www.geektime.co.il/feed/",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "Anthropic": {
-        "url": "https://www.anthropic.com/rss.xml",
-        "category": "חברות AI"
+    "כלכליסט טק": {
+        "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "Google DeepMind": {
-        "url": "https://deepmind.google/blog/rss.xml",
-        "category": "חברות AI"
+    "TheMarker טכנולוגיה": {
+        "url": "https://www.themarker.com/cmlink/1.4658981",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "HuggingFace": {
-        "url": "https://huggingface.co/blog/feed.xml",
-        "category": "כלים ומודלים"
+    "וואלה טק": {
+        "url": "https://rss.walla.co.il/feed/22",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "TechCrunch AI": {
-        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "category": "חדשות"
+    "ynet טכנולוגיה": {
+        "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "The Verge AI": {
-        "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
-        "category": "חדשות"
+    "הארץ טכנולוגיה": {
+        "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
+        "category": "חדשות טכנולוגיה",
+        "filter_ai": True,
     },
-    "MIT Technology Review": {
-        "url": "https://www.technologyreview.com/feed/",
-        "category": "מחקר"
+
+    # ── AI ישראל — ייעודי AI, ללא סינון ─────────────────────────────────
+    "ספארקס — בינה מלאכותית": {
+        "url": "https://sparks.news/feed/",
+        "category": "AI ישראל",
+        "filter_ai": False,
     },
-    "arXiv cs.AI": {
-        "url": "https://rss.arxiv.org/rss/cs.AI",
-        "category": "מחקר"
+    "ICT Israel": {
+        "url": "https://ictisrael.com/feed/",
+        "category": "AI ישראל",
+        "filter_ai": True,
     },
-    "Wired AI": {
-        "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "category": "חדשות"
-    },
-    "AWS Machine Learning": {
-        "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "category": "כלים ומודלים"
-    },
+
+    # סרטונים והדרכות נסרקים דרך האייג'נט — ראה scrape_youtube_hebrew()
 }
 
 MAX_ITEMS_PER_SOURCE = 10
+MAX_YOUTUBE_PER_QUERY = 6
+
+# שאילתות YouTube לפי טאב
+YOUTUBE_QUERIES = {
+    "סרטונים": [
+        "בינה מלאכותית כלים עברית",
+        "ChatGPT עברית הדרכה",
+        "Gemini AI עברית",
+        "AI ישראל סרטון",
+    ],
+    "הדרכות": [
+        "קורס בינה מלאכותית עברית",
+        "הדרכת ChatGPT עברית",
+        "וובינר AI ישראל",
+        "למידת מכונה עברית",
+    ],
+}
+
+_YT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0 Safari/537.36"
+    )
+}
+
+# Regex to pull first <img src="..."> from HTML
+_IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
 
 
 def parse_date(entry):
@@ -63,6 +109,200 @@ def parse_date(entry):
     return datetime.now(timezone.utc).isoformat()
 
 
+def extract_image(entry):
+    """Try several RSS fields to find a thumbnail URL."""
+    # 1. media:thumbnail
+    media_thumb = getattr(entry, "media_thumbnail", None)
+    if media_thumb and isinstance(media_thumb, list) and media_thumb:
+        url = media_thumb[0].get("url", "")
+        if url:
+            return url
+
+    # 2. media:content
+    media_content = getattr(entry, "media_content", None)
+    if media_content and isinstance(media_content, list):
+        for mc in media_content:
+            if mc.get("medium") in ("image", None) and mc.get("url", ""):
+                url = mc["url"]
+                if any(ext in url.lower() for ext in (".jpg", ".jpeg", ".png", ".webp", ".gif")):
+                    return url
+
+    # 3. enclosures
+    enclosures = getattr(entry, "enclosures", [])
+    for enc in enclosures:
+        if enc.get("type", "").startswith("image/") and enc.get("href"):
+            return enc["href"]
+
+    # 4. YouTube video thumbnail via yt:videoid
+    yt_id = getattr(entry, "yt_videoid", None)
+    if yt_id:
+        return f"https://img.youtube.com/vi/{yt_id}/mqdefault.jpg"
+
+    # 5. first <img> in content or summary
+    for field in ("content", "summary", "description"):
+        val = getattr(entry, field, None)
+        if isinstance(val, list):
+            val = " ".join(v.get("value", "") for v in val)
+        if val:
+            m = _IMG_RE.search(val)
+            if m:
+                url = m.group(1)
+                if url.startswith("http"):
+                    return url
+
+    return None
+
+
+def is_ai_related(title, summary):
+    """Return True if the item mentions AI in title or summary."""
+    text = (title + " " + summary).lower()
+    return any(kw in text for kw in AI_KEYWORDS)
+
+
+def clean_summary(entry):
+    """Return plain-text summary, strip HTML tags."""
+    for field in ("summary", "description"):
+        val = getattr(entry, field, None)
+        if val:
+            text = re.sub(r"<[^>]+>", " ", val)
+            text = re.sub(r"\s+", " ", text).strip()
+            if text:
+                return text[:400]
+    return ""
+
+
+def _yt_api(query, max_results):
+    """YouTube Data API v3 — דורש YOUTUBE_API_KEY."""
+    api_key = os.getenv("YOUTUBE_API_KEY")
+    if not api_key:
+        raise RuntimeError("no YOUTUBE_API_KEY")
+    q = urllib.parse.quote_plus(query)
+    url = (
+        "https://www.googleapis.com/youtube/v3/search"
+        f"?part=snippet&type=video&maxResults={max_results}"
+        f"&q={q}&relevanceLanguage=he&key={api_key}"
+    )
+    req = urllib.request.Request(url, headers=_YT_HEADERS)
+    with urllib.request.urlopen(req, timeout=15) as r:
+        data = json.loads(r.read().decode("utf-8", errors="ignore"))
+    items = []
+    for item in data.get("items", []):
+        vid = item.get("id", {}).get("videoId")
+        s = item.get("snippet", {})
+        if not vid:
+            continue
+        thumb = (s.get("thumbnails", {}).get("medium") or
+                 s.get("thumbnails", {}).get("default") or {}).get("url")
+        items.append({
+            "title":   s.get("title", ""),
+            "link":    f"https://www.youtube.com/watch?v={vid}",
+            "summary": s.get("description", "")[:300],
+            "date":    s.get("publishedAt", datetime.now(timezone.utc).isoformat()),
+            "image":   thumb,
+        })
+    return items
+
+
+def _yt_scrape(query, max_results):
+    """Fallback — scrape YouTube search HTML (ללא API key)."""
+    u = "https://www.youtube.com/results?search_query=" + urllib.parse.quote_plus(query)
+    req = urllib.request.Request(u, headers=_YT_HEADERS)
+    with urllib.request.urlopen(req, timeout=15) as r:
+        body = r.read().decode("utf-8", errors="ignore")
+
+    ids, titles = [], []
+    for m in re.finditer(r"/watch\?v=([A-Za-z0-9_-]{11})", body):
+        vid = m.group(1)
+        if vid not in ids:
+            ids.append(vid)
+        if len(ids) >= max_results:
+            break
+
+    for m in re.finditer(r'"title":\{"runs":\[\{"text":"([^"]+)"\}\]\}', body):
+        titles.append(m.group(1))
+
+    items = []
+    for i, vid in enumerate(ids):
+        title = titles[i] if i < len(titles) else query
+        items.append({
+            "title":   title,
+            "link":    f"https://www.youtube.com/watch?v={vid}",
+            "summary": "",
+            "date":    datetime.now(timezone.utc).isoformat(),
+            "image":   f"https://img.youtube.com/vi/{vid}/mqdefault.jpg",
+        })
+    return items
+
+
+def scrape_youtube_hebrew(results):
+    """מריץ את האייג'נט: שולף סרטונים והדרכות בעברית מ-YouTube."""
+    seen = set()
+    for category, queries in YOUTUBE_QUERIES.items():
+        items = []
+        for query in queries:
+            if len(items) >= MAX_ITEMS_PER_SOURCE:
+                break
+            print(f"  YouTube ({category}): {query}")
+            try:
+                fetched = _yt_api(query, MAX_YOUTUBE_PER_QUERY)
+                print(f"    API: {len(fetched)} תוצאות")
+            except Exception as e:
+                print(f"    API failed ({e}), scraping...")
+                try:
+                    fetched = _yt_scrape(query, MAX_YOUTUBE_PER_QUERY)
+                    print(f"    Scrape: {len(fetched)} תוצאות")
+                except Exception as e2:
+                    print(f"    Scrape failed: {e2}")
+                    fetched = []
+
+            for item in fetched:
+                if item["link"] not in seen:
+                    seen.add(item["link"])
+                    items.append(item)
+
+        results[f"YouTube — {category}"] = {
+            "url":        "https://www.youtube.com",
+            "category":   category,
+            "items":      items[:MAX_ITEMS_PER_SOURCE],
+            "scraped_at": datetime.now(timezone.utc).isoformat(),
+            "error":      None,
+        }
+        print(f"  YouTube {category}: {len(items[:MAX_ITEMS_PER_SOURCE])} פריטים")
+
+
+HISTORY_DAYS = 14  # שומר פריטים עד 14 יום אחורה
+
+
+def merge_with_history(existing, new_results):
+    """מאחד תוצאות חדשות עם היסטוריה, מסנן פריטים ישנים מ-14+ יום."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=HISTORY_DAYS)
+    merged = {}
+
+    all_sources = set(existing) | set(new_results)
+    for source in all_sources:
+        base = new_results.get(source) or existing.get(source, {})
+        old_items = {i["link"]: i for i in existing.get(source, {}).get("items", []) if i.get("link")}
+        new_items = {i["link"]: i for i in new_results.get(source, {}).get("items", []) if i.get("link")}
+
+        # new_items גוברים על old_items לאותו link
+        combined = {**old_items, **new_items}
+
+        # סינון לפי גיל
+        kept = []
+        for item in combined.values():
+            try:
+                dt = datetime.fromisoformat(item["date"].replace("Z", "+00:00"))
+                if dt >= cutoff:
+                    kept.append(item)
+            except Exception:
+                kept.append(item)
+
+        kept.sort(key=lambda x: x.get("date", ""), reverse=True)
+        merged[source] = {**base, "items": kept}
+
+    return merged
+
+
 def scrape():
     results = {}
     for name, meta in FEEDS.items():
@@ -70,35 +310,57 @@ def scrape():
         try:
             feed = feedparser.parse(meta["url"])
             items = []
-            for entry in feed.entries[:MAX_ITEMS_PER_SOURCE]:
+            do_filter = meta.get("filter_ai", False)
+            for entry in feed.entries:
+                if len(items) >= MAX_ITEMS_PER_SOURCE:
+                    break
+                title   = entry.get("title", "ללא כותרת")
+                summary = clean_summary(entry)
+                if do_filter and not is_ai_related(title, summary):
+                    continue
                 items.append({
-                    "title": entry.get("title", "ללא כותרת"),
-                    "link": entry.get("link", ""),
-                    "summary": entry.get("summary", "")[:300],
-                    "date": parse_date(entry),
+                    "title":   title,
+                    "link":    entry.get("link", ""),
+                    "summary": summary,
+                    "date":    parse_date(entry),
+                    "image":   extract_image(entry),
                 })
             results[name] = {
-                "url": meta["url"],
-                "category": meta["category"],
-                "items": items,
+                "url":        meta["url"],
+                "category":   meta["category"],
+                "items":      items,
                 "scraped_at": datetime.now(timezone.utc).isoformat(),
-                "error": None,
+                "error":      None,
             }
-            print(f"  ✓ {len(items)} פריטים")
+            print(f"  OK {len(items)} פריטים")
         except Exception as e:
             results[name] = {
-                "url": meta["url"],
-                "category": meta["category"],
-                "items": [],
+                "url":        meta["url"],
+                "category":   meta["category"],
+                "items":      [],
                 "scraped_at": datetime.now(timezone.utc).isoformat(),
-                "error": str(e),
+                "error":      str(e),
             }
-            print(f"  ✗ שגיאה: {e}")
+            print(f"  ERR {e}")
 
+    # ── אייג'נט YouTube בעברית ───────────────────────────────────────────
+    print("\nמריץ אייג'נט YouTube עברית...")
+    scrape_youtube_hebrew(results)
+
+    # ── מיזוג עם היסטוריה ────────────────────────────────────────────────
     out = ROOT / "data.json"
+    existing = {}
+    if out.exists():
+        try:
+            existing = json.loads(out.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    results = merge_with_history(existing, results)
+
+    total = sum(len(s.get("items", [])) for s in results.values())
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-    print(f"\nנשמר ל-{out}")
+    print(f"\nנשמר ל-{out} ({total} פריטים כולל היסטוריה)")
 
 
 if __name__ == "__main__":

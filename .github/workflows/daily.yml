@@ -1,4 +1,4 @@
-name: Daily AI News Scraper
+name: Daily AI News
 
 on:
   schedule:
@@ -7,10 +7,13 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  scrape:
+  scrape-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,7 +26,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper
+      - name: Scrape RSS + YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python src/scraper.py
 
       - name: Generate dashboard
@@ -32,7 +37,7 @@ jobs:
       - name: Commit & push
         run: |
           git config user.name "AI News Bot"
-          git config user.email "bot@ai-news"
+          git config user.email "bot@ai-news.github.io"
           git add data.json index.html
           git diff --staged --quiet || git commit -m "עדכון יומי $(date -u '+%d/%m/%Y %H:%M') UTC"
           git push

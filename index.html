@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Pulse — עדכוני בינה מלאכותית</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<style>
+/* ── TOKENS ────────────────────────────────────────────────────── */
+:root {
+  --bg:        #0d0f14;
+  --surface:   #13161d;
+  --card:      rgba(255,255,255,0.04);
+  --card-h:    rgba(255,255,255,0.07);
+  --border:    rgba(255,255,255,0.08);
+  --border-h:  rgba(255,255,255,0.14);
+  --text:      #e2e8f0;
+  --muted:     #64748b;
+  --accent:    #60a5fa;
+  --accent2:   #818cf8;
+}
+
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+
+body {
+  font-family:'Assistant',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  direction:rtl;
+  overflow-x:hidden;
+}
+
+/* subtle dot grid */
+body::before {
+  content:'';
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  background-image:radial-gradient(rgba(96,165,250,.07) 1px, transparent 1px);
+  background-size:28px 28px;
+}
+
+/* ambient glow top-right */
+body::after {
+  content:'';
+  position:fixed; top:-200px; right:-200px;
+  width:600px; height:600px; z-index:0; pointer-events:none;
+  background:radial-gradient(circle, rgba(129,140,248,.06) 0%, transparent 65%);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;
+  vertical-align:middle;
+}
+
+/* ── SCROLLBAR ───────────────────────────────────────────────────── */
+::-webkit-scrollbar { width:4px; height:4px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--border-h); border-radius:4px; }
+
+/* ── NAV ─────────────────────────────────────────────────────────── */
+.top-nav {
+  position:fixed; top:0; width:100%; z-index:100;
+  background:rgba(13,15,20,.85);
+  backdrop-filter:blur(24px) saturate(180%);
+  border-bottom:1px solid var(--border);
+}
+
+/* ── SIDEBAR ─────────────────────────────────────────────────────── */
+.sidebar {
+  background:var(--surface);
+  border-left:1px solid var(--border);
+}
+
+.sidebar-btn {
+  color:var(--muted);
+  border-radius:10px;
+  transition:all .2s;
+}
+.sidebar-btn:hover { background:var(--card-h); color:var(--text); }
+.sidebar-btn.sb-active {
+  background:rgba(96,165,250,.12);
+  color:var(--accent);
+  box-shadow:inset 0 0 0 1px rgba(96,165,250,.2);
+}
+
+/* ── TABS ────────────────────────────────────────────────────────── */
+.tab-btn {
+  color:var(--muted);
+  border-bottom:2px solid transparent;
+  transition:all .2s;
+  white-space:nowrap;
+}
+.tab-btn:hover { color:var(--text); }
+.tab-active {
+  color:var(--accent) !important;
+  border-color:var(--accent) !important;
+}
+.tab-count {
+  background:rgba(255,255,255,0.07);
+  color:var(--muted);
+  border-radius:999px;
+}
+.tab-active .tab-count {
+  background:rgba(96,165,250,.15);
+  color:var(--accent);
+}
+
+/* ── SEARCH ──────────────────────────────────────────────────────── */
+.search-input {
+  background:var(--card);
+  border:1px solid var(--border);
+  color:var(--text);
+  border-radius:999px;
+  transition:all .25s;
+}
+.search-input:focus {
+  outline:none;
+  border-color:var(--accent);
+  background:rgba(96,165,250,.06);
+  box-shadow:0 0 0 3px rgba(96,165,250,.12);
+  width:220px !important;
+}
+.search-input::placeholder { color:var(--muted); }
+
+/* ── CARDS ───────────────────────────────────────────────────────── */
+.news-article {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  overflow:hidden;
+  transition:transform .25s, box-shadow .25s, border-color .25s, background .25s;
+  animation:fadeUp .35s ease both;
+  position:relative;
+}
+.news-article:hover {
+  background:var(--card-h);
+  border-color:var(--border-h);
+  transform:translateY(-2px);
+  box-shadow:0 20px 48px rgba(0,0,0,.4);
+}
+
+/* top accent line per category */
+.news-article::before {
+  content:'';
+  position:absolute; top:0; right:0; left:0;
+  height:2px;
+  background:var(--cat-color, var(--accent));
+  opacity:.7;
+}
+
+/* ── HERO ────────────────────────────────────────────────────────── */
+.featured-hero {
+  min-height:300px;
+  border-radius:16px;
+  overflow:hidden;
+  position:relative;
+  border:1px solid var(--border);
+  display:block;
+  transition:box-shadow .3s, transform .3s;
+}
+.featured-hero:hover {
+  transform:translateY(-2px);
+  box-shadow:0 24px 64px rgba(0,0,0,.5);
+}
+
+/* ── LINE CLAMP ──────────────────────────────────────────────────── */
+.line-clamp-2 {
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+/* ── ANIMATIONS ──────────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(14px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes blink {
+  0%,100% { opacity:1; transform:scale(1); }
+  50%      { opacity:.4; transform:scale(.7); }
+}
+
+/* ── MOBILE ──────────────────────────────────────────────────────── */
+@media(max-width:1023px) {
+  body { padding-bottom:68px; }
+}
+.mob-nav { background:rgba(13,15,20,.95); border-top:1px solid var(--border); backdrop-filter:blur(20px); }
+.mob-nav-btn { color:var(--muted); transition:color .2s; }
+.mob-nav-btn.mob-active .mat-icon { color:var(--accent); font-variation-settings:'FILL' 1,'wght' 600,'GRAD' 0,'opsz' 24; }
+.mob-nav-btn.mob-active .mob-label { color:var(--accent); font-weight:700; }
+
+/* ── NO SCROLLBAR ─────────────────────────────────────────────────── */
+.no-scrollbar::-webkit-scrollbar { display:none; }
+.no-scrollbar { -ms-overflow-style:none; scrollbar-width:none; }
+
+/* ── HOT BADGE ───────────────────────────────────────────────────── */
+.hot-badge {
+  display:inline-flex; align-items:center;
+  background:rgba(239,68,68,.15);
+  border:1px solid rgba(239,68,68,.3);
+  color:#f87171;
+  font-size:10px; font-weight:800;
+  padding:1px 7px; border-radius:999px;
+  letter-spacing:.05em;
+  animation:blink 2.5s ease-in-out infinite;
+}
+
+/* ── WHATSAPP BUTTON ─────────────────────────────────────────────── */
+.wa-btn {
+  background: rgba(37,211,102,.1);
+  border: 1px solid rgba(37,211,102,.25);
+  color: #25d366;
+}
+.wa-btn:hover {
+  background: rgba(37,211,102,.2);
+  border-color: rgba(37,211,102,.5);
+  transform: scale(1.04);
+}
+
+/* ── SHARE MODAL ─────────────────────────────────────────────────── */
+#wa-modal {
+  display:none;
+  position:fixed; inset:0; z-index:200;
+  align-items:center; justify-content:center;
+  background:rgba(0,0,0,.65);
+  backdrop-filter:blur(6px);
+  padding:16px;
+}
+#wa-modal.open { display:flex; }
+#wa-modal-box {
+  background:#1a1f2e;
+  border:1px solid rgba(37,211,102,.25);
+  border-radius:20px;
+  width:100%; max-width:480px;
+  padding:28px;
+  box-shadow:0 32px 80px rgba(0,0,0,.6);
+  animation:fadeUp .2s ease;
+}
+#wa-text {
+  width:100%;
+  min-height:180px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:12px;
+  color:#e2e8f0;
+  font-family:'Assistant',sans-serif;
+  font-size:14px;
+  line-height:1.7;
+  padding:14px;
+  resize:vertical;
+  direction:rtl;
+  outline:none;
+  transition:border-color .2s;
+}
+#wa-text:focus { border-color:rgba(37,211,102,.4); }
+.wa-modal-send {
+  background:#25d366; color:#fff;
+  border:none; border-radius:12px;
+  padding:11px 22px;
+  font-family:'Assistant',sans-serif;
+  font-size:15px; font-weight:700;
+  cursor:pointer; display:flex; align-items:center; gap:8px;
+  transition:background .2s, transform .15s;
+}
+.wa-modal-send:hover { background:#1ebe5d; transform:scale(1.03); }
+.wa-modal-copy {
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color:#e2e8f0;
+  border-radius:12px;
+  padding:11px 18px;
+  font-family:'Assistant',sans-serif;
+  font-size:14px; font-weight:600;
+  cursor:pointer; display:flex; align-items:center; gap:6px;
+  transition:background .2s;
+}
+.wa-modal-copy:hover { background:rgba(255,255,255,.1); }
+.wa-modal-copy.copied { color:#25d366; border-color:rgba(37,211,102,.3); }
+
+/* ── READ STATE ──────────────────────────────────────────────────── */
+.news-article.is-read {
+  opacity:.45;
+}
+.news-article.is-read:hover {
+  opacity:.75;
+}
+</style>
+</head>
+<body>
+
+<!-- ══════ TOP NAV ══════ -->
+<nav class="top-nav flex justify-between items-center px-6 py-3 z-50">
+  <div class="flex items-center gap-5">
+    <!-- logo -->
+    <div class="flex items-center gap-2.5">
+      <div class="w-8 h-8 rounded-xl flex items-center justify-center text-white text-sm"
+           style="background:linear-gradient(135deg,#60a5fa,#818cf8);box-shadow:0 0 16px rgba(96,165,250,.3)">
+        <span class="material-symbols-outlined" style="font-size:17px">psychology</span>
+      </div>
+      <span class="text-base font-black tracking-tight hidden sm:block"
+            style="background:linear-gradient(90deg,#e2e8f0 30%,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+        AI Pulse
+      </span>
+    </div>
+    <!-- live badge -->
+    <span class="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold"
+          style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25);color:#ef4444;font-family:'Assistant',sans-serif;letter-spacing:.04em">
+      <span style="width:6px;height:6px;border-radius:50%;background:#ef4444;animation:blink 1.8s ease-in-out infinite;display:inline-block"></span>
+      LIVE
+    </span>
+  </div>
+  <div class="flex items-center gap-4">
+    <div class="relative hidden sm:block">
+      <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2"
+            style="font-size:16px;color:var(--muted)">search</span>
+      <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
+             class="search-input pr-9 pl-4 py-2 text-sm w-48 text-right"/>
+    </div>
+    <span class="hidden md:block text-xs font-mono" style="color:var(--muted)">עודכן 28/03/2026 11:29</span>
+  </div>
+</nav>
+
+<!-- ══════ SIDEBAR ══════ -->
+<aside class="sidebar fixed right-0 top-0 h-full w-56 flex flex-col p-4 pt-[68px] hidden lg:flex z-40">
+  <div class="mb-5 px-2">
+    <p class="text-xs font-bold uppercase tracking-widest mb-1" style="color:var(--muted)">ניווט</p>
+  </div>
+  <nav class="flex flex-col gap-1">
+    
+    <button onclick="switchTabById('חדשות')"
+            data-sidebar="חדשות"
+            class="sidebar-btn flex items-center gap-3 px-3 py-2.5 text-sm font-semibold text-right w-full">
+      <span class="material-symbols-outlined" style="font-size:18px">newspaper</span>
+      חדשות
+    </button>
+    <button onclick="switchTabById('סרטונים')"
+            data-sidebar="סרטונים"
+            class="sidebar-btn flex items-center gap-3 px-3 py-2.5 text-sm font-semibold text-right w-full">
+      <span class="material-symbols-outlined" style="font-size:18px">play_circle</span>
+      סרטונים
+    </button>
+    <button onclick="switchTabById('הדרכות')"
+            data-sidebar="הדרכות"
+            class="sidebar-btn flex items-center gap-3 px-3 py-2.5 text-sm font-semibold text-right w-full">
+      <span class="material-symbols-outlined" style="font-size:18px">school</span>
+      הדרכות
+    </button>
+  </nav>
+  <div class="mt-auto border-t pt-4 space-y-1" style="border-color:var(--border)">
+    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">31 פריטים</p>
+    <p class="px-2 py-1 text-xs font-mono" style="color:var(--muted)">28/03/2026 11:29</p>
+  </div>
+</aside>
+
+<!-- ══════ MAIN ══════ -->
+<main class="lg:mr-56 pt-[60px] min-h-screen relative z-10">
+  <div class="max-w-5xl mx-auto px-5 py-8">
+
+    <!-- header -->
+    <header class="mb-8">
+      <h1 class="text-3xl font-black tracking-tight mb-1"
+          style="font-family:'Assistant',sans-serif;
+                 background:linear-gradient(90deg,#e2e8f0 50%,#60a5fa);
+                 -webkit-background-clip:text;-webkit-text-fill-color:transparent">
+        עדכוני בינה מלאכותית
+      </h1>
+      <p class="text-sm" style="color:var(--muted)">31 פריטים · מעודכן יומית</p>
+    </header>
+
+    <!-- TABS NAV -->
+    <div class="flex gap-0 mb-7 overflow-x-auto no-scrollbar"
+         style="border-bottom:1px solid var(--border)" id="tabs-nav">
+      
+      <button onclick="switchTab(this,'חדשות')"
+              data-tab="חדשות"
+              class="tab-btn tab-active flex items-center gap-2 px-5 py-3 text-sm font-semibold
+                     border-b-2 transition-all whitespace-nowrap">
+        <span class="material-symbols-outlined" style="font-size:18px">newspaper</span>
+        חדשות
+        <span class="tab-count text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">10</span>
+      </button>
+      <button onclick="switchTab(this,'סרטונים')"
+              data-tab="סרטונים"
+              class="tab-btn  flex items-center gap-2 px-5 py-3 text-sm font-semibold
+                     border-b-2 transition-all whitespace-nowrap">
+        <span class="material-symbols-outlined" style="font-size:18px">play_circle</span>
+        סרטונים
+        <span class="tab-count text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">10</span>
+      </button>
+      <button onclick="switchTab(this,'הדרכות')"
+              data-tab="הדרכות"
+              class="tab-btn  flex items-center gap-2 px-5 py-3 text-sm font-semibold
+                     border-b-2 transition-all whitespace-nowrap">
+        <span class="material-symbols-outlined" style="font-size:18px">school</span>
+        הדרכות
+        <span class="tab-count text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">11</span>
+      </button>
+    </div>
+
+    <!-- TABS CONTENT -->
+    <div id="tabs-content">
+    <div id="tab-חדשות" class="tab-panel" style="">
+      
+      <a href="https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/" target="_blank" rel="noopener"
+         class="featured-hero group relative overflow-hidden rounded-xl min-h-[320px] flex flex-col justify-end
+                cursor-pointer block mb-2"
+         style="background-image:url("https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg");background-size:cover;background-position:center">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+        
+        <div class="relative z-10 p-8 text-white">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="px-3 py-1 rounded-sm text-xs font-bold uppercase tracking-wider"
+                  style="background:#f59e0b">חדשות טכנולוגיה</span>
+            <span class="text-xs opacity-70">28 מרץ, 2026</span>
+            <span class="text-xs opacity-50 mr-auto">גיקטיים</span>
+          </div>
+          <h2 class="text-2xl md:text-3xl font-extrabold leading-tight mb-3
+                     group-hover:underline font-headline">חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו</h2>
+          <p class="text-sm opacity-80 line-clamp-2 max-w-2xl">סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&amp;#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&amp;#039;רו</p>
+          <div class="mt-5 flex items-center gap-2 text-sm font-bold opacity-90">
+            <span>קרא עוד</span>
+            <span class="material-symbols-outlined text-base
+                         transition-transform group-hover:-translate-x-1">arrow_back</span>
+          </div>
+        </div>
+      </a>
+      <div class="space-y-4 mt-4">
+      <article class="news-article group" data-link="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/image001-1024x576.jpg" alt="וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">26 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" target="_blank" rel="noopener" onclick="markRead(this)">וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &amp;#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &amp;#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפיצ'ר העברת הצ'אטים הקיים של וואטסאפ, שיאפשר לכם לעשות זאת היישר בתוך הפלטפורמה עצמה ועל גבי Wi-Fi &amp;#8211; מבלי שתצטרכו [&amp;#8230;] The post וואטסאפ משיקה עדכונים ופיצ&amp;#039;רים חדשים </p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד" data-summary="וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &amp;#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &amp;#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפ" data-link="https://www.geektime.co.il/whatsapp-feature-drop-march-2026/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg" alt="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">26 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)">גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב&quot;עמק הסיליקון&quot;, אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&amp;#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל </p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד" data-summary="שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב" data-link="https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/apple-releases-ios-26-4/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2025/10/IMG_8124-1024x768.jpg" alt="תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">25 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/apple-releases-ios-26-4/" target="_blank" rel="noopener" onclick="markRead(this)">תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו בגרסה החדשה: Siri החדשה. אין כאן את Siri שמתודלקת ב-Gemini, אין כאן את Siri [&amp;#8230;] The post תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון appeared first on גיקטיים .</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/apple-releases-ios-26-4/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון" data-summary="אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו ב" data-link="https://www.geektime.co.il/apple-releases-ios-26-4/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/notch-ai-agents-funding/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-22-at-21.39.49.jpeg" alt="גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">25 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/notch-ai-agents-funding/" target="_blank" rel="noopener" onclick="markRead(this)">גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל לתביעת ענק או להסתבכות רגולטורית? במקום לפתח עוד ממשק שיחה גנרי, החברה פיתחה כלי שמחבר בין ה-LLMs לבין מערכות הליבה [&amp;#8230;] The post גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומ</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/notch-ai-agents-funding/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר" data-summary="עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל " data-link="https://www.geektime.co.il/notch-ai-agents-funding/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/openai-kills-sora-app/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2025/11/IMG_9116-1024x768.jpg" alt="חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">25 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/openai-kills-sora-app/" target="_blank" rel="noopener" onclick="markRead(this)">חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, בצעד מפתיע, OpenAI מחסלת את האפליקציה הוויראלית. נפרדים מהאפליקציה, וממיליארד דולר OpenAI הודיעה כי היא מוציאה [&amp;#8230;] The post חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו </p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/openai-kills-sora-app/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora" data-summary="בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, " data-link="https://www.geektime.co.il/openai-kills-sora-app/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/01/dreamstime_m_314701402-1024x683.jpg" alt="התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&quot;ח" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">24 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" target="_blank" rel="noopener" onclick="markRead(this)">התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&quot;ח</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור ירושלים, שהתחזו לכאורה לחייל ב-8200, והעבירו מידע שיצרו בין היתר ב-AI לגורמי מודיעין איראניים. [&amp;#8230;] The post התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&amp;</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&quot;ח" data-summary="במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור " data-link="https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2024/12/UPWIND-1024x683.jpg" alt="אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">24 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" target="_blank" rel="noopener" onclick="markRead(this)">אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &amp;#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ביותר באבטחת מודלי שפה. להבין מה באמת רוצה התוקף מחקר חדש של Upwind Security מגלה שלא ניתן לזהות באופן אמין [&amp;#8230;] The post אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI" data-summary="בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &amp;#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ב" data-link="https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/ChatGPT-_-Base44-1024x680.jpg" alt="פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">24 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" target="_blank" rel="noopener" onclick="markRead(this)">פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &amp;#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את חובבי ה-Vibe Coding. החיבור זמין כבר עכשיו מותג הוייב-קודינג הישראלי של וויקס, Base44, השיק אפליקציה ייעודית שרצה ישירות בתוך ChatGPT. [&amp;#8230;] The post פיתוח אפליקציות בתוך הצ&amp;#0</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT" data-summary="לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &amp;#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את " data-link="https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" style="--cat-color:#f59e0b">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/4 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg" alt="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f59e0b">חדשות טכנולוגיה</span>
+              
+              <span class="text-xs" style="color:var(--muted)">24 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)">ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)">שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&amp;#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ</p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" target="_blank" rel="noopener" onclick="markRead(this)" class="flex items-center gap-2 font-bold text-sm group/btn" style="color:var(--accent)"><span>קרא עוד</span><span class="material-symbols-outlined text-base transition-transform group-hover/btn:-translate-x-1">arrow_back</span></a>
+                <button onclick="shareWA(this)" data-title="ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק" data-summary="שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב" data-link="https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.geektime.co.il" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">גיקטיים</a>
+            </div>
+          </div>
+        </div>
+      </article></div>
+    </div>
+    <div id="tab-סרטונים" class="tab-panel" style="display:none">
+      
+      <div class="space-y-4 mt-4">
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=4_vFxfFVvMU" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg" alt="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=4_vFxfFVvMU" target="_blank" rel="noopener" onclick="markRead(this)">שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=4_vFxfFVvMU" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" data-summary="" data-link="https://www.youtube.com/watch?v=4_vFxfFVvMU" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=J0xphLEb5Fg" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg" alt="איך מתחילים? כניסה לממשק ה-GPTs" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=J0xphLEb5Fg" target="_blank" rel="noopener" onclick="markRead(this)">איך מתחילים? כניסה לממשק ה-GPTs</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=J0xphLEb5Fg" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="איך מתחילים? כניסה לממשק ה-GPTs" data-summary="" data-link="https://www.youtube.com/watch?v=J0xphLEb5Fg" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=-zqYdD9_uxM" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg" alt="3 סוגי הסוכנים: מובנה, API ואוטונומי" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=-zqYdD9_uxM" target="_blank" rel="noopener" onclick="markRead(this)">3 סוגי הסוכנים: מובנה, API ואוטונומי</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=-zqYdD9_uxM" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="3 סוגי הסוכנים: מובנה, API ואוטונומי" data-summary="" data-link="https://www.youtube.com/watch?v=-zqYdD9_uxM" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=G0FLdVbrfNQ" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg" alt="פתיח: מהם סוכני בינה מלאכותית?" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=G0FLdVbrfNQ" target="_blank" rel="noopener" onclick="markRead(this)">פתיח: מהם סוכני בינה מלאכותית?</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=G0FLdVbrfNQ" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="פתיח: מהם סוכני בינה מלאכותית?" data-summary="" data-link="https://www.youtube.com/watch?v=G0FLdVbrfNQ" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=0c1L1Q2eIdg" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg" alt="כלי ליצירת כתוביות בקליק" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=0c1L1Q2eIdg" target="_blank" rel="noopener" onclick="markRead(this)">כלי ליצירת כתוביות בקליק</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=0c1L1Q2eIdg" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="כלי ליצירת כתוביות בקליק" data-summary="" data-link="https://www.youtube.com/watch?v=0c1L1Q2eIdg" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=Pu-BStbsqH8" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg" alt="WhisperTranscribe תוכנה לתמלול סרטונים" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=Pu-BStbsqH8" target="_blank" rel="noopener" onclick="markRead(this)">WhisperTranscribe תוכנה לתמלול סרטונים</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=Pu-BStbsqH8" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="WhisperTranscribe תוכנה לתמלול סרטונים" data-summary="" data-link="https://www.youtube.com/watch?v=Pu-BStbsqH8" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=IckwSMn70zg" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg" alt="תמלול קבצי אודיו עם ElevenLabs Scribe" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=IckwSMn70zg" target="_blank" rel="noopener" onclick="markRead(this)">תמלול קבצי אודיו עם ElevenLabs Scribe</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=IckwSMn70zg" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="תמלול קבצי אודיו עם ElevenLabs Scribe" data-summary="" data-link="https://www.youtube.com/watch?v=IckwSMn70zg" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=zR37vyK6Ms4" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg" alt="Turboscribe" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=zR37vyK6Ms4" target="_blank" rel="noopener" onclick="markRead(this)">Turboscribe</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=zR37vyK6Ms4" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="Turboscribe" data-summary="" data-link="https://www.youtube.com/watch?v=zR37vyK6Ms4" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=Zsf5kTvmf8U" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg" alt="עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=Zsf5kTvmf8U" target="_blank" rel="noopener" onclick="markRead(this)">עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=Zsf5kTvmf8U" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית" data-summary="" data-link="https://www.youtube.com/watch?v=Zsf5kTvmf8U" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=5McGLcSGCT8" style="--cat-color:#f87171">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg" alt="תמלול הקלטות עם בינה מלאכותית" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#f87171">סרטונים</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=5McGLcSGCT8" target="_blank" rel="noopener" onclick="markRead(this)">תמלול הקלטות עם בינה מלאכותית</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=5McGLcSGCT8" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="תמלול הקלטות עם בינה מלאכותית" data-summary="" data-link="https://www.youtube.com/watch?v=5McGLcSGCT8" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — סרטונים</a>
+            </div>
+          </div>
+        </div>
+      </article></div>
+    </div>
+    <div id="tab-הדרכות" class="tab-panel" style="display:none">
+      
+      <div class="space-y-4 mt-4">
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=BeFPVrZg5MU" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg" alt="למי שלא מכיר אותי" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=BeFPVrZg5MU" target="_blank" rel="noopener" onclick="markRead(this)">למי שלא מכיר אותי</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=BeFPVrZg5MU" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="למי שלא מכיר אותי" data-summary="" data-link="https://www.youtube.com/watch?v=BeFPVrZg5MU" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=p1ezpfgpS3Q" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg" alt="הוק + מה חדש השבוע" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=p1ezpfgpS3Q" target="_blank" rel="noopener" onclick="markRead(this)">הוק + מה חדש השבוע</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=p1ezpfgpS3Q" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="הוק + מה חדש השבוע" data-summary="" data-link="https://www.youtube.com/watch?v=p1ezpfgpS3Q" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=_97KhWzksag" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/_97KhWzksag/mqdefault.jpg" alt="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=_97KhWzksag" target="_blank" rel="noopener" onclick="markRead(this)">שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=_97KhWzksag" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)" data-summary="" data-link="https://www.youtube.com/watch?v=_97KhWzksag" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=JDzQSywMMbA" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg" alt="3 סוגי הסוכנים: מובנה, API ואוטונומי" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=JDzQSywMMbA" target="_blank" rel="noopener" onclick="markRead(this)">3 סוגי הסוכנים: מובנה, API ואוטונומי</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=JDzQSywMMbA" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="3 סוגי הסוכנים: מובנה, API ואוטונומי" data-summary="" data-link="https://www.youtube.com/watch?v=JDzQSywMMbA" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=Twz13lSDot0" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg" alt="פיצ'ר למנוים PRO – פרויקטים" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=Twz13lSDot0" target="_blank" rel="noopener" onclick="markRead(this)">פיצ'ר למנוים PRO – פרויקטים</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=Twz13lSDot0" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="פיצ'ר למנוים PRO – פרויקטים" data-summary="" data-link="https://www.youtube.com/watch?v=Twz13lSDot0" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=fwANhfjQt9E" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg" alt="ניתוח נתונים עם בינה מלאכותית של קלוד" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=fwANhfjQt9E" target="_blank" rel="noopener" onclick="markRead(this)">ניתוח נתונים עם בינה מלאכותית של קלוד</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=fwANhfjQt9E" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="ניתוח נתונים עם בינה מלאכותית של קלוד" data-summary="" data-link="https://www.youtube.com/watch?v=fwANhfjQt9E" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=YsJz00qVyRc" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg" alt="מה אפשר לעשות עם קלוד ומה מיוחד בו" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=YsJz00qVyRc" target="_blank" rel="noopener" onclick="markRead(this)">מה אפשר לעשות עם קלוד ומה מיוחד בו</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=YsJz00qVyRc" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="מה אפשר לעשות עם קלוד ומה מיוחד בו" data-summary="" data-link="https://www.youtube.com/watch?v=YsJz00qVyRc" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=Vqhy3VD-34U" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg" alt="סקירת ממשק של claude ai" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=Vqhy3VD-34U" target="_blank" rel="noopener" onclick="markRead(this)">סקירת ממשק של claude ai</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=Vqhy3VD-34U" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="סקירת ממשק של claude ai" data-summary="" data-link="https://www.youtube.com/watch?v=Vqhy3VD-34U" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=qFFrDVqCAF0" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg" alt="הרשמה לקלוד" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=qFFrDVqCAF0" target="_blank" rel="noopener" onclick="markRead(this)">הרשמה לקלוד</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=qFFrDVqCAF0" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="הרשמה לקלוד" data-summary="" data-link="https://www.youtube.com/watch?v=qFFrDVqCAF0" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=ultqhPpEaao" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg" alt="רוצים להכיר את קלוד AI כמו שצריך?" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=ultqhPpEaao" target="_blank" rel="noopener" onclick="markRead(this)">רוצים להכיר את קלוד AI כמו שצריך?</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=ultqhPpEaao" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="רוצים להכיר את קלוד AI כמו שצריך?" data-summary="" data-link="https://www.youtube.com/watch?v=ultqhPpEaao" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-article group" data-link="https://www.youtube.com/watch?v=-wEZWXpK2-g" style="--cat-color:#22d3ee">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-2/5 h-40 md:h-auto overflow-hidden shrink-0">
+          <img src="https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg" alt="קלוד באקסל מדבר עם קלוד בפאורפוינט" loading="lazy"
+               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
+          <div class="flex-1 p-5 md:p-7">
+            <div class="flex items-center gap-3 mb-2 flex-wrap">
+              <span class="text-xs font-bold tracking-wider uppercase" style="color:#22d3ee">הדרכות</span>
+              <span class="hot-badge">חם</span>
+              <span class="text-xs" style="color:var(--muted)">28 מרץ, 2026</span>
+            </div>
+            <h2 class="text-lg font-bold mb-2 leading-snug group-hover:underline transition-colors"
+                style="color:var(--text)">
+              <a href="https://www.youtube.com/watch?v=-wEZWXpK2-g" target="_blank" rel="noopener" onclick="markRead(this)">קלוד באקסל מדבר עם קלוד בפאורפוינט</a>
+            </h2>
+            <p class="text-sm line-clamp-2 mb-4" style="color:var(--muted)"></p>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+              <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/watch?v=-wEZWXpK2-g" target="_blank" rel="noopener" class="flex items-center gap-2 text-red-400 font-bold text-sm"><span class="material-symbols-outlined text-lg">play_circle</span>צפה</a>
+                <button onclick="shareWA(this)" data-title="קלוד באקסל מדבר עם קלוד בפאורפוינט" data-summary="" data-link="https://www.youtube.com/watch?v=-wEZWXpK2-g" class="wa-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-bold transition-all" title="שתף בוואטסאפ"><span class="material-symbols-outlined" style="font-size:15px">share</span>שתף</button>
+              </div>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                 class="text-xs transition-colors" style="color:var(--muted)">YouTube — הדרכות</a>
+            </div>
+          </div>
+        </div>
+      </article></div>
+    </div></div>
+
+  </div>
+</main>
+
+<!-- ══════ FOOTER ══════ -->
+<footer class="lg:mr-56 py-5 px-8 hidden lg:block relative z-10"
+        style="border-top:1px solid var(--border)">
+  <div class="max-w-5xl mx-auto flex justify-between items-center text-xs font-mono"
+       style="color:var(--muted)">
+    <span style="font-family:'Assistant',sans-serif;font-weight:800;color:var(--accent)">AI Pulse</span>
+    <span>© 2026 · 31 פריטים · 28/03/2026 11:29 UTC</span>
+  </div>
+</footer>
+
+<!-- ══════ WHATSAPP SHARE MODAL ══════ -->
+<div id="wa-modal" onclick="if(event.target===this)closeWA()">
+  <div id="wa-modal-box">
+    <div class="flex items-center justify-between mb-4">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined" style="color:#25d366;font-size:22px">share</span>
+        <span class="font-bold text-base" style="color:#e2e8f0">פוסט לוואטסאפ</span>
+      </div>
+      <button onclick="closeWA()" style="color:var(--muted);background:none;border:none;cursor:pointer;font-size:22px;line-height:1">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <p class="text-xs mb-3" style="color:var(--muted)">ערוך את הטקסט לפני השליחה:</p>
+    <textarea id="wa-text" spellcheck="false"></textarea>
+    <div class="flex gap-3 mt-5 justify-end">
+      <button class="wa-modal-copy" onclick="copyWA(this)">
+        <span class="material-symbols-outlined" style="font-size:17px">content_copy</span>
+        העתק
+      </button>
+      <button class="wa-modal-send" onclick="sendWA()">
+        <span class="material-symbols-outlined" style="font-size:18px">send</span>
+        פתח בוואטסאפ
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ MOBILE BOTTOM NAV ══════ -->
+<nav class="mob-nav lg:hidden fixed bottom-0 inset-x-0 z-50 flex justify-around items-center h-[60px]">
+  
+  <button onclick="switchTabById('חדשות')"
+          data-mob="חדשות"
+          class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
+    <span class="material-symbols-outlined mat-icon" style="font-size:22px">newspaper</span>
+    <span class="mob-label text-[10px] font-medium">חדשות</span>
+  </button>
+  <button onclick="switchTabById('סרטונים')"
+          data-mob="סרטונים"
+          class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
+    <span class="material-symbols-outlined mat-icon" style="font-size:22px">play_circle</span>
+    <span class="mob-label text-[10px] font-medium">סרטונים</span>
+  </button>
+  <button onclick="switchTabById('הדרכות')"
+          data-mob="הדרכות"
+          class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
+    <span class="material-symbols-outlined mat-icon" style="font-size:22px">school</span>
+    <span class="mob-label text-[10px] font-medium">הדרכות</span>
+  </button>
+</nav>
+
+<script>
+function switchTabById(tabId) {
+  const btn = document.querySelector('.tab-btn[data-tab="' + tabId + '"]');
+  switchTab(btn, tabId);
+}
+
+function switchTab(btn, tabId) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('tab-active'));
+  if (btn?.classList?.contains('tab-btn')) btn.classList.add('tab-active');
+
+  document.querySelectorAll('.sidebar-btn').forEach(b => {
+    b.classList.toggle('sb-active', b.dataset.sidebar === tabId);
+  });
+
+  document.querySelectorAll('.mob-nav-btn').forEach(b => {
+    b.classList.toggle('mob-active', b.dataset.mob === tabId);
+  });
+
+  document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+  const panel = document.getElementById('tab-' + tabId);
+  if (panel) { panel.style.display = ''; filterSearch(); }
+
+  if (window.innerWidth < 1024) window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function filterSearch() {
+  const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach((a,i) => {
+    const text = (a.querySelector('h2')?.textContent||'') + ' ' + (a.querySelector('p')?.textContent||'');
+    const show = !q || text.toLowerCase().includes(q);
+    a.style.display = show ? '' : 'none';
+    if (show) a.style.animationDelay = Math.min(i*40,300)+'ms';
+  });
+}
+
+// ── WHATSAPP SHARE MODAL ──────────────────────────────────────────
+function shareWA(btn) {
+  const title   = btn.dataset.title   || '';
+  const summary = btn.dataset.summary || '';
+  const link    = btn.dataset.link    || '';
+  const text = '🤖 *' + title + '*\n\n' + summary + '\n\n🔗 ' + link;
+  document.getElementById('wa-text').value = text;
+  document.getElementById('wa-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeWA() {
+  document.getElementById('wa-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function sendWA() {
+  const text = document.getElementById('wa-text').value;
+  window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  closeWA();
+}
+function copyWA(btn) {
+  const text = document.getElementById('wa-text').value;
+  const done = () => {
+    btn.classList.add('copied');
+    btn.querySelector('span.material-symbols-outlined').textContent = 'check';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.querySelector('span.material-symbols-outlined').textContent = 'content_copy';
+    }, 2000);
+  };
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+  } else {
+    fallbackCopy(text, done);
+  }
+}
+function fallbackCopy(text, cb) {
+  const ta = document.getElementById('wa-text');
+  ta.select();
+  try { document.execCommand('copy'); cb(); } catch(e) {}
+}
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeWA(); });
+
+// ── READ MARKING ──────────────────────────────────────────────────
+const READ_KEY = 'ai_pulse_read';
+function getRead() { try { return JSON.parse(localStorage.getItem(READ_KEY)||'[]'); } catch{return[];} }
+function saveRead(arr) { localStorage.setItem(READ_KEY, JSON.stringify(arr)); }
+
+function markRead(anchor) {
+  const article = anchor.closest('.news-article');
+  const link = article?.dataset?.link;
+  if (!link) return;
+  const read = getRead();
+  if (!read.includes(link)) { read.push(link); saveRead(read); }
+  article.classList.add('is-read');
+}
+
+function applyReadState() {
+  const read = getRead();
+  document.querySelectorAll('.news-article[data-link]').forEach(el => {
+    if (read.includes(el.dataset.link)) el.classList.add('is-read');
+  });
+}
+
+// init
+document.querySelectorAll('.sidebar-btn')[0]?.classList.add('sb-active');
+document.querySelectorAll('.mob-nav-btn')[0]?.classList.add('mob-active');
+document.querySelectorAll('.tab-btn')[0]?.classList.add('tab-active');
+applyReadState();
+</script>
+</body>
+</html>
