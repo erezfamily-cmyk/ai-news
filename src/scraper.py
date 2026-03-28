@@ -260,8 +260,8 @@ _CAMPUS_SITEMAPS = [
 ]
 
 _CAMPUS_AI_SLUGS = [
-    "ai", "beai", "leadai", "aiedu", "data", "digital", "cyber",
-    "machine", "learning", "automation", "chatgpt", "gpt", "llm",
+    "ai", "beai", "leadai", "aiedu", "chatgpt", "gpt", "llm",
+    "machinelearning", "deeplearning", "generative",
 ]
 
 _META_DESC = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{10,})["\']', re.IGNORECASE)
@@ -300,6 +300,7 @@ def scrape_campus_gov(results):
     course_urls = []
 
     # שלב 1: איסוף URLs מה-sitemaps
+    seen_slugs = set()
     for sitemap_url in _CAMPUS_SITEMAPS:
         try:
             req = urllib.request.Request(sitemap_url, headers=_YT_HEADERS)
@@ -307,20 +308,29 @@ def scrape_campus_gov(results):
                 xml = r.read().decode("utf-8", errors="ignore")
             for m in re.finditer(r"<loc>([^<]+)</loc>", xml):
                 url = m.group(1).strip()
+                # Hebrew only (suffix -he)
+                if not url.rstrip("/").endswith("-he"):
+                    continue
                 slug = url.rstrip("/").split("/")[-1].lower()
-                if url not in seen_urls and any(kw in slug for kw in _CAMPUS_AI_SLUGS):
+                base_slug = re.sub(r"-he$", "", slug)
+                if url not in seen_urls and base_slug not in seen_slugs and any(kw in slug for kw in _CAMPUS_AI_SLUGS):
                     seen_urls.add(url)
+                    seen_slugs.add(base_slug)
                     course_urls.append(url)
         except Exception as e:
             print(f"  ERR sitemap {sitemap_url}: {e}")
 
     print(f"  נמצאו {len(course_urls)} קורסים רלוונטיים")
 
-    # שלב 2: שליפת פרטים לכל קורס
+    # שלב 2: שליפת פרטים לכל קורס — רק אם כותרת/תיאור קשורים ל-AI
     items = []
-    for url in course_urls[:MAX_ITEMS_PER_SOURCE]:
+    for url in course_urls:
+        if len(items) >= MAX_ITEMS_PER_SOURCE:
+            break
         title, desc = _campus_fetch_page(url)
         if not title:
+            continue
+        if not is_ai_related(title, desc):
             continue
         items.append({
             "title":   title,
