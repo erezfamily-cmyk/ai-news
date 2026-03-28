@@ -8,14 +8,16 @@ OUT_FILE = ROOT / "index.html"
 
 # ── טאבים ראשיים: כל טאב = רשימת קטגוריות שהוא מציג ──────────────────────
 TABS = [
-    {"id": "חדשות",   "label": "חדשות",    "icon": "newspaper",   "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
-    {"id": "סרטונים", "label": "סרטונים",  "icon": "play_circle", "cats": ["סרטונים"]},
-    {"id": "הדרכות",  "label": "הדרכות",   "icon": "school",      "cats": ["הדרכות"]},
+    {"id": "חדשות",    "label": "חדשות",         "icon": "newspaper",        "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
+    {"id": "ממשל",     "label": "מחשוב וממשל",   "icon": "account_balance",  "cats": ["מחשוב וממשל"]},
+    {"id": "סרטונים",  "label": "סרטונים",        "icon": "play_circle",      "cats": ["סרטונים"]},
+    {"id": "הדרכות",   "label": "הדרכות",         "icon": "school",           "cats": ["הדרכות"]},
 ]
 
 CATEGORY_STYLE = {
     "חדשות טכנולוגיה": {"color": "#f59e0b", "bg": "rgba(245,158,11,.08)", "icon": "newspaper"},
     "AI ישראל":        {"color": "#a78bfa", "bg": "rgba(167,139,250,.08)", "icon": "public"},
+    "מחשוב וממשל":     {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "account_balance"},
     "כלים ומודלים":    {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "build"},
     "מחקר":            {"color": "#60a5fa", "bg": "rgba(96,165,250,.08)",  "icon": "science"},
     "קהילה":           {"color": "#f472b6", "bg": "rgba(244,114,182,.08)", "icon": "forum"},
@@ -692,13 +694,14 @@ function shareWA(btn) {{
   const summary = btn.dataset.summary || '';
   const link    = btn.dataset.link    || '';
   const text =
-    '📋 *עדכון AI למנהלים ועובדי משרד הבריאות*' + '\\n' +
+    '📋 *עדכון טכנולוגיה למגזר הציבורי — משרד הבריאות*' + '\\n' +
     '──────────────────' + '\\n\\n' +
     '🔹 *' + title + '*' + '\\n\\n' +
     summary + '\\n\\n' +
-    '💡 *רלוונטי לנו:* [כתוב כאן מה המשמעות עבור הצוות / המחלקה]' + '\\n\\n' +
-    '🔗 לקריאה נוספת:\\n' + link + '\\n\\n' +
-    '_שתף/י עם הצוות אם נראה רלוונטי_ 🙏';
+    '💡 *איך זה רלוונטי לנו?*' + '\\n' +
+    'ניתן להשתמש בכך ל: [רישום תהליכים / אוטומציה / ניתוח נתונים / שיפור שירות]' + '\\n\\n' +
+    '🔗 לקריאה נוספת:' + '\\n' + link + '\\n\\n' +
+    '_מוזמנים להעביר לצוות IT / מחשוב / מנהל_ 🙏';
   document.getElementById('wa-text').value = text;
   document.getElementById('wa-modal').classList.add('open');
   document.body.style.overflow = 'hidden';

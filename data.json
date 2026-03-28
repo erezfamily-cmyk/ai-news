@@ -1,16 +1,108 @@
 {
-  "ynet טכנולוגיה": {
-    "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:19.453389+00:00",
+    "scraped_at": "2026-03-28T13:01:29.480902+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.060751+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.060749+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.060746+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.060735+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "כלי ליצירת כתוביות בקליק",
+        "link": "https://www.youtube.com/watch?v=KXK61D4dNI4",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253618+00:00",
+        "image": "https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg"
+      },
+      {
+        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253616+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
+        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253613+00:00",
+        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253611+00:00",
+        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
+      },
+      {
+        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253608+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול הקלטות עם בינה מלאכותית",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253594+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
+        "summary": "",
+        "date": "2026-03-28T11:06:20.752288+00:00",
+        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
+      },
+      {
+        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-03-28T11:06:20.752285+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-03-28T13:01:38.060962+00:00",
     "error": null
   },
   "הארץ טכנולוגיה": {
     "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:19.868485+00:00",
+    "scraped_at": "2026-03-28T13:01:30.164693+00:00",
     "error": null
   },
   "גיקטיים": {
@@ -88,28 +180,21 @@
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
       }
     ],
-    "scraped_at": "2026-03-28T11:06:16.571098+00:00",
+    "scraped_at": "2026-03-28T13:01:27.484074+00:00",
     "error": null
   },
   "TheMarker טכנולוגיה": {
     "url": "https://www.themarker.com/cmlink/1.4658981",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:18.990239+00:00",
+    "scraped_at": "2026-03-28T13:01:29.334536+00:00",
     "error": null
   },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:19.920273+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-03-28T11:06:19.140701+00:00",
+    "scraped_at": "2026-03-28T13:01:36.326840+00:00",
     "error": null
   },
   "YouTube — הדרכות": {
@@ -117,25 +202,74 @@
     "category": "הדרכות",
     "items": [
       {
+        "title": "Skills חדשים בתוספי קלוד",
+        "link": "https://www.youtube.com/watch?v=rqOTw0DRp3M",
+        "summary": "",
+        "date": "2026-03-28T13:01:40.309960+00:00",
+        "image": "https://img.youtube.com/vi/rqOTw0DRp3M/mqdefault.jpg"
+      },
+      {
+        "title": "המצגת שקלוד בנה לי מהאנליטיקות",
+        "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
+        "summary": "",
+        "date": "2026-03-28T13:01:40.309959+00:00",
+        "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
+      },
+      {
+        "title": "קלוד באקסל מדבר עם קלוד בפאורפוינט",
+        "link": "https://www.youtube.com/watch?v=-wEZWXpK2-g",
+        "summary": "",
+        "date": "2026-03-28T13:01:40.309956+00:00",
+        "image": "https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg"
+      },
+      {
         "title": "למי שלא מכיר אותי",
         "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
         "summary": "",
-        "date": "2026-03-28T11:06:23.929517+00:00",
+        "date": "2026-03-28T13:01:40.309952+00:00",
         "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
       },
       {
         "title": "הוק + מה חדש השבוע",
         "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
         "summary": "",
-        "date": "2026-03-28T11:06:23.929506+00:00",
+        "date": "2026-03-28T13:01:40.309939+00:00",
         "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
       },
       {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
         "link": "https://www.youtube.com/watch?v=_97KhWzksag",
         "summary": "",
-        "date": "2026-03-28T11:06:23.091540+00:00",
+        "date": "2026-03-28T13:01:39.550193+00:00",
         "image": "https://img.youtube.com/vi/_97KhWzksag/mqdefault.jpg"
+      },
+      {
+        "title": "פיצ'ר למנוים PRO – פרויקטים",
+        "link": "https://www.youtube.com/watch?v=4y8X1hBWPKk",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.771435+00:00",
+        "image": "https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg"
+      },
+      {
+        "title": "ניתוח נתונים עם בינה מלאכותית של קלוד",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.771433+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "מה אפשר לעשות עם קלוד ומה מיוחד בו",
+        "link": "https://www.youtube.com/watch?v=u5QusRHA3Po",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.771430+00:00",
+        "image": "https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק של claude ai",
+        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
+        "summary": "",
+        "date": "2026-03-28T13:01:38.771428+00:00",
+        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
       },
       {
         "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
@@ -185,108 +319,73 @@
         "summary": "",
         "date": "2026-03-28T11:06:22.411199+00:00",
         "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "קלוד באקסל מדבר עם קלוד בפאורפוינט",
-        "link": "https://www.youtube.com/watch?v=-wEZWXpK2-g",
-        "summary": "",
-        "date": "2026-03-28T11:00:30.755192+00:00",
-        "image": "https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-03-28T11:06:23.929725+00:00",
+    "scraped_at": "2026-03-28T13:01:40.310189+00:00",
     "error": null
   },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
+  "ynet טכנולוגיה": {
+    "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
+    "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:19.951742+00:00",
-    "error": null
-  },
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
-    "items": [
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-03-28T11:06:21.592001+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-03-28T11:06:21.591999+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-03-28T11:06:21.591997+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-03-28T11:06:21.591985+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "כלי ליצירת כתוביות בקליק",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752295+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
-      },
-      {
-        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752293+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752291+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752288+00:00",
-        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
-      },
-      {
-        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752285+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול הקלטות עם בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-03-28T11:06:20.752272+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-03-28T11:06:21.592201+00:00",
+    "scraped_at": "2026-03-28T13:01:29.758226+00:00",
     "error": null
   },
   "כלכליסט טק": {
     "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T11:06:17.805753+00:00",
+    "scraped_at": "2026-03-28T13:01:28.438931+00:00",
+    "error": null
+  },
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו",
+        "link": "https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/",
+        "summary": "סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&#039;רו",
+        "date": "2026-03-28T08:24:58+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg"
+      },
+      {
+        "title": "גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד",
+        "link": "https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/",
+        "summary": "שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב\"עמק הסיליקון\", אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל ",
+        "date": "2026-03-26T10:03:07+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
+      },
+      {
+        "title": "ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק",
+        "link": "https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/",
+        "summary": "שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ",
+        "date": "2026-03-24T07:54:14+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
+      },
+      {
+        "title": "לא עוצרות: החברות האלה מגייסות עכשיו לתפקידי AI",
+        "link": "https://www.geektime.co.il/ai-dev-job-offers-326/",
+        "summary": "מאת שירי וקס, מנכ\"לית Gotfriends אם יש משהו שלמדנו בשנים האחרונות, זה ששוק ההייטק הישראלי לא עוצר גם (ואולי בעיקר) בעיתות משבר. גם עכשיו, בזמן מלחמה ממושכת, חברות טכנולוגיה וסטארטאפים ממשיכים להציע הזדמנויות מקצועיות חדשות בתחומים מתקדמים כגון סייבר, פינטק ורכבים חשמליים. הביקוש הגובר לטאלנטים בתחום הבינה המלאכותית יצר מגמה ברורה של \"פרמיית ה-AI\": עובדים [&#8230;] The post לא עוצרות: החברות האלה מ",
+        "date": "2026-03-23T13:28:11+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/compagnons-Zi0GmYPm88M-unsplash-1024x683.jpg"
+      }
+    ],
+    "scraped_at": "2026-03-28T13:01:36.243444+00:00",
+    "error": null
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-03-28T13:01:30.315213+00:00",
+    "error": null
+  },
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-03-28T13:01:30.439894+00:00",
     "error": null
   }
 }

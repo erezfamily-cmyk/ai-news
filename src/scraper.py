@@ -64,6 +64,24 @@ FEEDS = {
         "filter_ai": True,
     },
 
+    # ── מחשוב וממשל — מגזר ציבורי, IT, דיגיטל ישראל ────────────────────
+    "גיקטיים — מגזר ציבורי": {
+        "url": "https://www.geektime.co.il/feed/",
+        "category": "מחשוב וממשל",
+        "filter_ai": True,
+        "filter_extra": ["ממשלה", "ממשלתי", "מגזר ציבורי", "דיגיטל ישראל", "משרד", "רגולציה",
+                         "סייבר", "cyber", "govtech", "government", "public sector",
+                         "מחשוב", "it ", "cloud", "ענן", "נתונים", "data", "אוטומציה",
+                         "automation", "productivity", "copilot", "microsoft", "google workspace"],
+    },
+    "כלכליסט — מגזר ציבורי": {
+        "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+        "category": "מחשוב וממשל",
+        "filter_ai": True,
+        "filter_extra": ["ממשלה", "ממשלתי", "מגזר ציבורי", "דיגיטל", "משרד", "רגולציה",
+                         "סייבר", "cyber", "מחשוב", "ענן", "נתונים", "אוטומציה"],
+    },
+
     # סרטונים והדרכות נסרקים דרך האייג'נט — ראה scrape_youtube_hebrew()
 }
 
@@ -310,7 +328,8 @@ def scrape():
         try:
             feed = feedparser.parse(meta["url"])
             items = []
-            do_filter = meta.get("filter_ai", False)
+            do_filter    = meta.get("filter_ai", False)
+            extra_kws    = [k.lower() for k in meta.get("filter_extra", [])]
             for entry in feed.entries:
                 if len(items) >= MAX_ITEMS_PER_SOURCE:
                     break
@@ -318,6 +337,10 @@ def scrape():
                 summary = clean_summary(entry)
                 if do_filter and not is_ai_related(title, summary):
                     continue
+                if extra_kws:
+                    text = (title + " " + summary).lower()
+                    if not any(kw in text for kw in extra_kws):
+                        continue
                 items.append({
                     "title":   title,
                     "link":    entry.get("link", ""),
