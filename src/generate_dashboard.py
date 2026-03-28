@@ -8,11 +8,11 @@ OUT_FILE = ROOT / "index.html"
 
 # ── טאבים ראשיים: כל טאב = רשימת קטגוריות שהוא מציג ──────────────────────
 TABS = [
-    {"id": "חדשות",    "label": "חדשות",         "icon": "newspaper",         "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
-    {"id": "ממשל",     "label": "מחשוב וממשל",   "icon": "account_balance",   "cats": ["מחשוב וממשל"]},
-    {"id": "קמפוס",    "label": "קמפוס GOV",      "icon": "school",            "cats": ["קמפוס GOV"]},
-    {"id": "סרטונים",  "label": "סרטונים",        "icon": "play_circle",       "cats": ["סרטונים"]},
-    {"id": "הדרכות",   "label": "הדרכות",         "icon": "cast_for_education","cats": ["הדרכות"]},
+    {"id": "news",     "label": "חדשות",         "icon": "newspaper",         "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
+    {"id": "gov",      "label": "מחשוב וממשל",   "icon": "account_balance",   "cats": ["מחשוב וממשל"]},
+    {"id": "campus",   "label": "קמפוס GOV",      "icon": "school",            "cats": ["קמפוס GOV"]},
+    {"id": "videos",   "label": "סרטונים",        "icon": "play_circle",       "cats": ["סרטונים"]},
+    {"id": "guides",   "label": "הדרכות",         "icon": "cast_for_education","cats": ["הדרכות"]},
 ]
 
 CATEGORY_STYLE = {
@@ -105,6 +105,13 @@ def generate():
     for item in all_items:
         if item.get("category"):
             all_cats.add(item["category"])
+
+    # build category→tab mapping for JS
+    cat_tab_map = {}
+    for tab in TABS:
+        for cat in tab["cats"]:
+            cat_tab_map[cat] = tab["id"]
+    cat_tab_map_js = json.dumps(cat_tab_map, ensure_ascii=False)
 
     cat_pills = ""
     for cat in sorted(all_cats):
@@ -515,7 +522,7 @@ body::after {{
   background: none;
   cursor:pointer;
   color: var(--muted);
-  font-size:12px; font-family:var(--font-body); font-weight:500;
+  font-size:14px; font-family:var(--font-body); font-weight:500;
   text-align:right; width:100%;
   transition: all .2s;
 }}
@@ -613,7 +620,11 @@ body::after {{
 .content-inner {{
   max-width:840px;
   margin:0 auto;
-  padding: 32px 20px 80px;
+  padding: 40px 28px 100px;
+}}
+
+.tab-panel {{
+  padding-top: 12px;
 }}
 
 /* ── Page header ────────────────────────────────── */
@@ -1046,31 +1057,35 @@ function filterSearch() {{
 }}
 
 // ── CATEGORY FILTER (sidebar) ─────────────────────────────────────────
+const CAT_TAB = {cat_tab_map_js};
+
 function filterCat(cat) {{
   document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
   const btn = document.querySelector('.cat-pill[data-cat="' + cat + '"]');
   if (btn) btn.classList.add('active');
 
-  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach(a => {{
-    if (cat === 'all') {{
-      a.style.display = '';
-    }} else {{
+  // switch to the tab that owns this category
+  if (cat !== 'all' && CAT_TAB[cat]) {{
+    switchTabById(CAT_TAB[cat]);
+  }}
+
+  // reset all items in the now-visible tab
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach(a => a.style.display = '');
+  document.querySelectorAll('.tab-panel:not([style*="none"]) .hero-card').forEach(h => h.style.display = '');
+
+  // if a specific category was chosen, hide items from other cats in the same tab
+  if (cat !== 'all') {{
+    document.querySelectorAll('.tab-panel:not([style*="none"]) .news-article').forEach(a => {{
       const badge = a.querySelector('.cat-badge');
       const text  = badge ? badge.textContent.trim() : '';
       a.style.display = text.includes(cat) ? '' : 'none';
-    }}
-  }});
-
-  // also show/hide hero
-  document.querySelectorAll('.tab-panel:not([style*="none"]) .hero-card').forEach(h => {{
-    if (cat === 'all') {{
-      h.style.display = '';
-    }} else {{
+    }});
+    document.querySelectorAll('.tab-panel:not([style*="none"]) .hero-card').forEach(h => {{
       const badge = h.querySelector('.cat-badge');
       const text  = badge ? badge.textContent.trim() : '';
       h.style.display = text.includes(cat) ? '' : 'none';
-    }}
-  }});
+    }});
+  }}
 }}
 
 // ── WHATSAPP MODAL ────────────────────────────────────────────────────

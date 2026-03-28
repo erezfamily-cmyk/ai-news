@@ -341,7 +341,11 @@ body::after {
 .content-inner {
   max-width:840px;
   margin:0 auto;
-  padding: 32px 20px 80px;
+  padding: 40px 28px 100px;
+}
+
+.tab-panel {
+  padding-top: 12px;
 }
 
 /* ── Page header ────────────────────────────────── */
@@ -614,7 +618,7 @@ body::after {
     LIVE
   </div>
   <div class="nav-end">
-    <span class="updated-ts">עודכן 28/03/2026 18:18</span>
+    <span class="updated-ts">עודכן 28/03/2026 18:24</span>
     <div class="search-wrap">
       <span class="material-symbols-outlined search-icon">search</span>
       <input id="search" type="text" placeholder="חיפוש..." oninput="filterSearch()"
@@ -628,40 +632,40 @@ body::after {
   <p class="sidebar-section-label">ניווט</p>
   <nav style="display:flex;flex-direction:column;gap:2px;margin-bottom:20px">
 
-    <button onclick="switchTabById('חדשות')"
-            data-sidebar="חדשות"
+    <button onclick="switchTabById('news')"
+            data-sidebar="news"
             aria-label="חדשות"
             class="sidebar-btn sb-active">
       <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">newspaper</span>
       <span style="flex:1">חדשות</span>
       <span class="tab-count-pill">10</span>
     </button>
-    <button onclick="switchTabById('ממשל')"
-            data-sidebar="ממשל"
+    <button onclick="switchTabById('gov')"
+            data-sidebar="gov"
             aria-label="מחשוב וממשל"
             class="sidebar-btn ">
       <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">account_balance</span>
       <span style="flex:1">מחשוב וממשל</span>
       <span class="tab-count-pill">4</span>
     </button>
-    <button onclick="switchTabById('קמפוס')"
-            data-sidebar="קמפוס"
+    <button onclick="switchTabById('campus')"
+            data-sidebar="campus"
             aria-label="קמפוס GOV"
             class="sidebar-btn ">
       <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">school</span>
       <span style="flex:1">קמפוס GOV</span>
       <span class="tab-count-pill">19</span>
     </button>
-    <button onclick="switchTabById('סרטונים')"
-            data-sidebar="סרטונים"
+    <button onclick="switchTabById('videos')"
+            data-sidebar="videos"
             aria-label="סרטונים"
             class="sidebar-btn ">
       <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">play_circle</span>
       <span style="flex:1">סרטונים</span>
       <span class="tab-count-pill">14</span>
     </button>
-    <button onclick="switchTabById('הדרכות')"
-            data-sidebar="הדרכות"
+    <button onclick="switchTabById('guides')"
+            data-sidebar="guides"
             aria-label="הדרכות"
             class="sidebar-btn ">
       <span class="material-symbols-outlined" style="font-size:22px" aria-hidden="true">cast_for_education</span>
@@ -718,43 +722,43 @@ body::after {
 
   <div class="sidebar-footer">
     <p class="sidebar-stat">70 פריטים סה"כ</p>
-    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:18 UTC</p>
+    <p class="sidebar-stat" style="font-size:10px">28/03/2026 18:24 UTC</p>
   </div>
 </aside>
 
 <!-- ══════ TABS BAR (mobile/md only) ══════ -->
 <div class="tabs-bar no-scrollbar">
 
-  <button onclick="switchTab(this,'חדשות')"
-          data-tab="חדשות"
+  <button onclick="switchTab(this,'news')"
+          data-tab="news"
           class="tab-btn tab-active">
     <span class="material-symbols-outlined" style="font-size:16px">newspaper</span>
     חדשות
     <span class="badge-sm">10</span>
   </button>
-  <button onclick="switchTab(this,'ממשל')"
-          data-tab="ממשל"
+  <button onclick="switchTab(this,'gov')"
+          data-tab="gov"
           class="tab-btn ">
     <span class="material-symbols-outlined" style="font-size:16px">account_balance</span>
     מחשוב וממשל
     <span class="badge-sm">4</span>
   </button>
-  <button onclick="switchTab(this,'קמפוס')"
-          data-tab="קמפוס"
+  <button onclick="switchTab(this,'campus')"
+          data-tab="campus"
           class="tab-btn ">
     <span class="material-symbols-outlined" style="font-size:16px">school</span>
     קמפוס GOV
     <span class="badge-sm">19</span>
   </button>
-  <button onclick="switchTab(this,'סרטונים')"
-          data-tab="סרטונים"
+  <button onclick="switchTab(this,'videos')"
+          data-tab="videos"
           class="tab-btn ">
     <span class="material-symbols-outlined" style="font-size:16px">play_circle</span>
     סרטונים
     <span class="badge-sm">14</span>
   </button>
-  <button onclick="switchTab(this,'הדרכות')"
-          data-tab="הדרכות"
+  <button onclick="switchTab(this,'guides')"
+          data-tab="guides"
           class="tab-btn ">
     <span class="material-symbols-outlined" style="font-size:16px">cast_for_education</span>
     הדרכות
@@ -774,7 +778,7 @@ body::after {
     <!-- TABS CONTENT -->
     <div id="tabs-content">
 
-  <div id="tab-חדשות" class="tab-panel" style="">
+  <div id="tab-news" class="tab-panel" style="">
     
       <a href="https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
@@ -1080,7 +1084,7 @@ body::after {
         </div>
       </article></div>
   </div>
-  <div id="tab-ממשל" class="tab-panel" style="display:none">
+  <div id="tab-gov" class="tab-panel" style="display:none">
     
       <a href="https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
@@ -1200,7 +1204,7 @@ body::after {
         </div>
       </article></div>
   </div>
-  <div id="tab-קמפוס" class="tab-panel" style="display:none">
+  <div id="tab-campus" class="tab-panel" style="display:none">
     
       <a href="https://campus.gov.il/course/labor-gov-leadai-he/" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
@@ -1767,7 +1771,7 @@ body::after {
         </div>
       </article></div>
   </div>
-  <div id="tab-סרטונים" class="tab-panel" style="display:none">
+  <div id="tab-videos" class="tab-panel" style="display:none">
     
       <a href="https://www.youtube.com/watch?v=4_vFxfFVvMU" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
@@ -2197,7 +2201,7 @@ body::after {
         </div>
       </article></div>
   </div>
-  <div id="tab-הדרכות" class="tab-panel" style="display:none">
+  <div id="tab-guides" class="tab-panel" style="display:none">
     
       <a href="https://www.youtube.com/watch?v=-wEZWXpK2-g" target="_blank" rel="noopener"
          class="hero-card group block relative overflow-hidden rounded-2xl mb-8"
@@ -2941,32 +2945,32 @@ body::after {
 <!-- ══════ MOBILE BOTTOM NAV ══════ -->
 <nav class="mob-nav lg:hidden fixed bottom-0 inset-x-0 z-50 flex justify-around items-center h-[60px]">
 
-  <button onclick="switchTabById('חדשות')"
-          data-mob="חדשות"
+  <button onclick="switchTabById('news')"
+          data-mob="news"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">newspaper</span>
     <span class="mob-label" style="font-size:12px;font-weight:600">חדשות</span>
   </button>
-  <button onclick="switchTabById('ממשל')"
-          data-mob="ממשל"
+  <button onclick="switchTabById('gov')"
+          data-mob="gov"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">account_balance</span>
     <span class="mob-label" style="font-size:12px;font-weight:600">מחשוב וממשל</span>
   </button>
-  <button onclick="switchTabById('קמפוס')"
-          data-mob="קמפוס"
+  <button onclick="switchTabById('campus')"
+          data-mob="campus"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">school</span>
     <span class="mob-label" style="font-size:12px;font-weight:600">קמפוס GOV</span>
   </button>
-  <button onclick="switchTabById('סרטונים')"
-          data-mob="סרטונים"
+  <button onclick="switchTabById('videos')"
+          data-mob="videos"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">play_circle</span>
     <span class="mob-label" style="font-size:12px;font-weight:600">סרטונים</span>
   </button>
-  <button onclick="switchTabById('הדרכות')"
-          data-mob="הדרכות"
+  <button onclick="switchTabById('guides')"
+          data-mob="guides"
           class="mob-nav-btn flex flex-col items-center gap-0.5 flex-1 py-2">
     <span class="material-symbols-outlined mat-icon" style="font-size:22px">cast_for_education</span>
     <span class="mob-label" style="font-size:12px;font-weight:600">הדרכות</span>
