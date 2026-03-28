@@ -10,14 +10,16 @@ OUT_FILE = ROOT / "index.html"
 TABS = [
     {"id": "חדשות",    "label": "חדשות",         "icon": "newspaper",        "cats": ["חדשות טכנולוגיה", "AI ישראל"]},
     {"id": "ממשל",     "label": "מחשוב וממשל",   "icon": "account_balance",  "cats": ["מחשוב וממשל"]},
+    {"id": "קמפוס",    "label": "קמפוס GOV",      "icon": "school",           "cats": ["קמפוס GOV"]},
     {"id": "סרטונים",  "label": "סרטונים",        "icon": "play_circle",      "cats": ["סרטונים"]},
-    {"id": "הדרכות",   "label": "הדרכות",         "icon": "school",           "cats": ["הדרכות"]},
+    {"id": "הדרכות",   "label": "הדרכות",         "icon": "cast_for_education","cats": ["הדרכות"]},
 ]
 
 CATEGORY_STYLE = {
     "חדשות טכנולוגיה": {"color": "#f59e0b", "bg": "rgba(245,158,11,.08)", "icon": "newspaper"},
     "AI ישראל":        {"color": "#a78bfa", "bg": "rgba(167,139,250,.08)", "icon": "public"},
     "מחשוב וממשל":     {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "account_balance"},
+    "קמפוס GOV":       {"color": "#fb923c", "bg": "rgba(251,146,60,.08)",  "icon": "school"},
     "כלים ומודלים":    {"color": "#34d399", "bg": "rgba(52,211,153,.08)",  "icon": "build"},
     "מחקר":            {"color": "#60a5fa", "bg": "rgba(96,165,250,.08)",  "icon": "science"},
     "קהילה":           {"color": "#f472b6", "bg": "rgba(244,114,182,.08)", "icon": "forum"},

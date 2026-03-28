@@ -82,6 +82,7 @@ FEEDS = {
                          "סייבר", "cyber", "מחשוב", "ענן", "נתונים", "אוטומציה"],
     },
 
+    # קמפוס GOV נסרק דרך scrape_campus_gov() — ראה להלן
     # סרטונים והדרכות נסרקים דרך האייג'נט — ראה scrape_youtube_hebrew()
 }
 
@@ -252,6 +253,94 @@ def _yt_scrape(query, max_results):
     return items
 
 
+_CAMPUS_SITEMAPS = [
+    "https://campus.gov.il/course-sitemap.xml",
+    "https://campus.gov.il/course-sitemap2.xml",
+    "https://campus.gov.il/course-sitemap3.xml",
+]
+
+_CAMPUS_AI_SLUGS = [
+    "ai", "beai", "leadai", "aiedu", "data", "digital", "cyber",
+    "machine", "learning", "automation", "chatgpt", "gpt", "llm",
+]
+
+_META_DESC = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{10,})["\']', re.IGNORECASE)
+_META_DESC2 = re.compile(r'<meta[^>]+content=["\']([^"\']{10,})["\'][^>]+name=["\']description["\']', re.IGNORECASE)
+_TITLE_RE   = re.compile(r'<title[^>]*>([^<]+)</title>', re.IGNORECASE)
+_H1_RE      = re.compile(r'<h1[^>]*>([^<]+)</h1>', re.IGNORECASE)
+
+
+def _campus_fetch_page(url):
+    """Fetch a campus.gov.il course page and return (title, description)."""
+    try:
+        req = urllib.request.Request(url, headers=_YT_HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            body = r.read().decode("utf-8", errors="ignore")
+        # title: prefer h1, fallback to <title>
+        h1 = _H1_RE.search(body)
+        title_tag = _TITLE_RE.search(body)
+        title = (h1.group(1) if h1 else (title_tag.group(1) if title_tag else "")).strip()
+        title = re.sub(r"\s*[-|].*$", "", title).strip()  # cut " | campus.gov.il"
+        # description
+        desc = ""
+        for pat in (_META_DESC, _META_DESC2):
+            m = pat.search(body)
+            if m:
+                desc = m.group(1).strip()[:400]
+                break
+        return title, desc
+    except Exception as e:
+        return "", ""
+
+
+def scrape_campus_gov(results):
+    """סורק קמפוס GOV ומחזיר קורסי AI רלוונטיים."""
+    print("\nסורק קמפוס GOV...")
+    seen_urls = set()
+    course_urls = []
+
+    # שלב 1: איסוף URLs מה-sitemaps
+    for sitemap_url in _CAMPUS_SITEMAPS:
+        try:
+            req = urllib.request.Request(sitemap_url, headers=_YT_HEADERS)
+            with urllib.request.urlopen(req, timeout=15) as r:
+                xml = r.read().decode("utf-8", errors="ignore")
+            for m in re.finditer(r"<loc>([^<]+)</loc>", xml):
+                url = m.group(1).strip()
+                slug = url.rstrip("/").split("/")[-1].lower()
+                if url not in seen_urls and any(kw in slug for kw in _CAMPUS_AI_SLUGS):
+                    seen_urls.add(url)
+                    course_urls.append(url)
+        except Exception as e:
+            print(f"  ERR sitemap {sitemap_url}: {e}")
+
+    print(f"  נמצאו {len(course_urls)} קורסים רלוונטיים")
+
+    # שלב 2: שליפת פרטים לכל קורס
+    items = []
+    for url in course_urls[:MAX_ITEMS_PER_SOURCE]:
+        title, desc = _campus_fetch_page(url)
+        if not title:
+            continue
+        items.append({
+            "title":   title,
+            "link":    url,
+            "summary": desc,
+            "date":    datetime.now(timezone.utc).isoformat(),
+            "image":   None,
+        })
+        print(f"  + {title[:60]}")
+
+    results["קמפוס GOV"] = {
+        "url":        "https://campus.gov.il",
+        "category":   "קמפוס GOV",
+        "items":      items,
+        "scraped_at": datetime.now(timezone.utc).isoformat(),
+        "error":      None,
+    }
+    print(f"  קמפוס GOV: {len(items)} קורסים")
+
+
 def scrape_youtube_hebrew(results):
     """מריץ את האייג'נט: שולף סרטונים והדרכות בעברית מ-YouTube."""
     seen = set()
@@ -365,6 +454,9 @@ def scrape():
                 "error":      str(e),
             }
             print(f"  ERR {e}")
+
+    # ── קמפוס GOV ────────────────────────────────────────────────────────
+    scrape_campus_gov(results)
 
     # ── אייג'נט YouTube בעברית ───────────────────────────────────────────
     print("\nמריץ אייג'נט YouTube עברית...")
