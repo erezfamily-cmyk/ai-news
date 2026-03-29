@@ -1,198 +1,77 @@
 {
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
-    "items": [
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.176062+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.176060+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.176056+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.176044+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "כלי ליצירת כתוביות בקליק",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443614+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
-        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443612+00:00",
-        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443609+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443607+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      },
-      {
-        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443604+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול הקלטות עם בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-03-28T13:15:37.443591+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-03-28T13:14:47.097997+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-03-28T13:14:05.403724+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
-      },
-      {
-        "title": "כלי ליצירת כתוביות בקליק",
-        "link": "https://www.youtube.com/watch?v=KXK61D4dNI4",
-        "summary": "",
-        "date": "2026-03-28T13:01:37.253618+00:00",
-        "image": "https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
-        "summary": "",
-        "date": "2026-03-28T13:01:37.253611+00:00",
-        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-03-28T13:15:38.176251+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-03-28T13:15:28.895675+00:00",
-    "error": null
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-03-28T13:15:29.381307+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה": {
-    "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-03-28T13:15:28.984388+00:00",
-    "error": null
-  },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו",
-        "link": "https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/",
-        "summary": "סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&#039;רו",
-        "date": "2026-03-28T08:24:58+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg"
-      },
-      {
-        "title": "גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד",
-        "link": "https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/",
-        "summary": "שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב\"עמק הסיליקון\", אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל ",
-        "date": "2026-03-26T10:03:07+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
-      },
-      {
-        "title": "ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק",
-        "link": "https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/",
-        "summary": "שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ",
-        "date": "2026-03-24T07:54:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
-      },
-      {
-        "title": "לא עוצרות: החברות האלה מגייסות עכשיו לתפקידי AI",
-        "link": "https://www.geektime.co.il/ai-dev-job-offers-326/",
-        "summary": "מאת שירי וקס, מנכ\"לית Gotfriends אם יש משהו שלמדנו בשנים האחרונות, זה ששוק ההייטק הישראלי לא עוצר גם (ואולי בעיקר) בעיתות משבר. גם עכשיו, בזמן מלחמה ממושכת, חברות טכנולוגיה וסטארטאפים ממשיכים להציע הזדמנויות מקצועיות חדשות בתחומים מתקדמים כגון סייבר, פינטק ורכבים חשמליים. הביקוש הגובר לטאלנטים בתחום הבינה המלאכותית יצר מגמה ברורה של \"פרמיית ה-AI\": עובדים [&#8230;] The post לא עוצרות: החברות האלה מ",
-        "date": "2026-03-23T13:28:11+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/compagnons-Zi0GmYPm88M-unsplash-1024x683.jpg"
-      }
-    ],
-    "scraped_at": "2026-03-28T13:15:35.274479+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-03-28T13:15:35.412125+00:00",
-    "error": null
-  },
   "YouTube — הדרכות": {
     "url": "https://www.youtube.com",
     "category": "הדרכות",
     "items": [
       {
-        "title": "סדנת Midjourney: יצירת עטיפת אלבום (Cover Art) מקצועית בתוך דקות + אנימציה",
-        "link": "https://www.youtube.com/watch?v=-wEZWXpK2-g",
-        "summary": "",
-        "date": "2026-03-28T13:15:40.328964+00:00",
-        "image": "https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg"
-      },
-      {
-        "title": "פיצוח קונספט ויזואלי לריליס בעזרת CHAT GPT תוך בניית הפרומפט המושלם",
+        "title": "פריצת הדרך של גוגל — TurboQuant",
         "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
         "summary": "",
-        "date": "2026-03-28T13:15:40.328961+00:00",
+        "date": "2026-03-29T07:44:19.952079+00:00",
         "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
       },
       {
-        "title": "פתיחה: המהפכה כבר כאן – למה AI הוא כלי חובה לכל מוזיקאי",
+        "title": "פלאגינס בקודקס",
+        "link": "https://www.youtube.com/watch?v=U2g6rIkJZpI",
+        "summary": "",
+        "date": "2026-03-29T07:44:19.952077+00:00",
+        "image": "https://img.youtube.com/vi/U2g6rIkJZpI/mqdefault.jpg"
+      },
+      {
+        "title": "ליברי — הפיצ׳ר החדש של צ׳אט GPT",
+        "link": "https://www.youtube.com/watch?v=-wEZWXpK2-g",
+        "summary": "",
+        "date": "2026-03-29T07:44:19.952074+00:00",
+        "image": "https://img.youtube.com/vi/-wEZWXpK2-g/mqdefault.jpg"
+      },
+      {
+        "title": "סורה של אופן אי אי נסגרת",
+        "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
+        "summary": "",
+        "date": "2026-03-29T07:44:19.952071+00:00",
+        "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
         "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
         "summary": "",
-        "date": "2026-03-28T13:15:40.328942+00:00",
+        "date": "2026-03-29T07:44:19.952054+00:00",
         "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-03-29T07:44:19.281855+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "מה אפשר לעשות עם קלוד ומה מיוחד בו",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.644876+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק של claude ai",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.644873+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "הרשמה לקלוד",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.644870+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "רוצים להכיר את קלוד AI כמו שצריך?",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.644854+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
       },
       {
         "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
@@ -230,39 +109,11 @@
         "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
       },
       {
-        "title": "מה אפשר לעשות עם קלוד ומה מיוחד בו",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.915279+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק של claude ai",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-03-28T13:15:38.915276+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "Research: למה זה הבדל ענק מול החינמי",
-        "link": "https://www.youtube.com/watch?v=U2g6rIkJZpI",
-        "summary": "",
-        "date": "2026-03-28T13:14:50.238936+00:00",
-        "image": "https://img.youtube.com/vi/U2g6rIkJZpI/mqdefault.jpg"
-      },
-      {
         "title": "מודלים: מה זמין בחינמי ומה נפתח ב-Pro",
         "link": "https://www.youtube.com/watch?v=rqOTw0DRp3M",
         "summary": "",
         "date": "2026-03-28T13:14:50.238934+00:00",
         "image": "https://img.youtube.com/vi/rqOTw0DRp3M/mqdefault.jpg"
-      },
-      {
-        "title": "חיבור לכלים וקונקטורים + ניואנסים לפי מדינה/מערכת",
-        "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
-        "summary": "",
-        "date": "2026-03-28T13:14:50.238932+00:00",
-        "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
       },
       {
         "title": "פיצ'ר למנוים PRO – פרויקטים",
@@ -284,20 +135,6 @@
         "summary": "",
         "date": "2026-03-28T13:14:07.960430+00:00",
         "image": "https://img.youtube.com/vi/nPp24GUj-D0/mqdefault.jpg"
-      },
-      {
-        "title": "הרשמה לקלוד",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-03-28T13:14:07.213197+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "רוצים להכיר את קלוד AI כמו שצריך?",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-03-28T13:14:07.213181+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
       },
       {
         "title": "פיצ'ר למנוים PRO – פרויקטים",
@@ -326,16 +163,285 @@
         "summary": "",
         "date": "2026-03-28T13:01:38.771428+00:00",
         "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-03-29T07:44:19.952109+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-03-29T07:43:17.044485+00:00",
+    "error": null
+  },
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו",
+        "link": "https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/",
+        "summary": "סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&#039;רו",
+        "date": "2026-03-28T08:24:58+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg"
+      },
+      {
+        "title": "גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד",
+        "link": "https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/",
+        "summary": "שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב\"עמק הסיליקון\", אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל ",
+        "date": "2026-03-26T10:03:07+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
+      },
+      {
+        "title": "ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק",
+        "link": "https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/",
+        "summary": "שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ",
+        "date": "2026-03-24T07:54:14+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
+      },
+      {
+        "title": "לא עוצרות: החברות האלה מגייסות עכשיו לתפקידי AI",
+        "link": "https://www.geektime.co.il/ai-dev-job-offers-326/",
+        "summary": "מאת שירי וקס, מנכ\"לית Gotfriends אם יש משהו שלמדנו בשנים האחרונות, זה ששוק ההייטק הישראלי לא עוצר גם (ואולי בעיקר) בעיתות משבר. גם עכשיו, בזמן מלחמה ממושכת, חברות טכנולוגיה וסטארטאפים ממשיכים להציע הזדמנויות מקצועיות חדשות בתחומים מתקדמים כגון סייבר, פינטק ורכבים חשמליים. הביקוש הגובר לטאלנטים בתחום הבינה המלאכותית יצר מגמה ברורה של \"פרמיית ה-AI\": עובדים [&#8230;] The post לא עוצרות: החברות האלה מ",
+        "date": "2026-03-23T13:28:11+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/compagnons-Zi0GmYPm88M-unsplash-1024x683.jpg"
+      }
+    ],
+    "scraped_at": "2026-03-29T07:43:25.727004+00:00",
+    "error": null
+  },
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-03-29T07:43:17.821545+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "ChatGPT עובד בעברית?",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.080414+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק צ'אט גיפיטי",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.080412+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה צ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.080408+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "בינה מלאכותית (AI) בעולם המודרני",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.080377+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "Hostinger",
+        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443213+00:00",
+        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
+      },
+      {
+        "title": "n8n",
+        "link": "https://www.youtube.com/watch?v=rc_bEdxb4Mo",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443211+00:00",
+        "image": "https://img.youtube.com/vi/rc_bEdxb4Mo/mqdefault.jpg"
+      },
+      {
+        "title": "Comet",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443209+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "Granola",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443206+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "Wispr Flow",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443203+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "Intro",
+        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
+        "summary": "",
+        "date": "2026-03-29T07:44:17.443187+00:00",
+        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-03-28T13:15:38.176062+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-03-28T13:15:38.176060+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
       },
       {
         "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
         "summary": "",
-        "date": "2026-03-28T11:06:23.091535+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+        "date": "2026-03-28T13:15:38.176056+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-03-28T13:15:37.443604+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול הקלטות עם בינה מלאכותית",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-03-28T13:15:37.443591+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-03-28T13:14:47.097997+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "כלי ליצירת כתוביות בקליק",
+        "link": "https://www.youtube.com/watch?v=KXK61D4dNI4",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253618+00:00",
+        "image": "https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253611+00:00",
+        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-03-28T13:15:40.329196+00:00",
+    "scraped_at": "2026-03-29T07:44:18.080785+00:00",
+    "error": null
+  },
+  "גיקטיים": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "חדשות טכנולוגיה",
+    "items": [
+      {
+        "title": "האם Tokenmaxxing, סמל הסטטוס החדש של העובדים בסיליקון וואלי, בדרך לישראל?",
+        "link": "https://www.geektime.co.il/israeli-ecosystem-starts-getting-into-token-mania-laid-out-by-jensen-huang-nvidia-ceo/",
+        "summary": "כשעובדים נוחתים במקום עבודה חדש בחברת טק, הם רגילים כבר לטקס האונבורדינג שכולל לפטופ שביקשו, ערימה של חשבונות ארגוניים, ועל הדרך, גרביים ובקבוק ממותג, כדי שכולם ברכבת ידעו איפה אתם עובדים. אבל בעמק הסיליקון נראה שהסטנדרט החדש כולל צ'ק פתוח להתפרע עם סוכני AI &#8211; בלי לדפוק חשבון לתקציב. אחד הבולטים להצביע על התופעה הזו [&#8230;] The post האם Tokenmaxxing, סמל הסטטוס החדש של העובדים בסיליקון ווא",
+        "date": "2026-03-28T13:47:34+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/photo_2026-03-26-12.02.41-1024x595.jpeg"
+      },
+      {
+        "title": "חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו",
+        "link": "https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/",
+        "summary": "סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&#039;רו",
+        "date": "2026-03-28T08:24:58+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg"
+      },
+      {
+        "title": "וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד",
+        "link": "https://www.geektime.co.il/whatsapp-feature-drop-march-2026/",
+        "summary": "וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפיצ'ר העברת הצ'אטים הקיים של וואטסאפ, שיאפשר לכם לעשות זאת היישר בתוך הפלטפורמה עצמה ועל גבי Wi-Fi &#8211; מבלי שתצטרכו [&#8230;] The post וואטסאפ משיקה עדכונים ופיצ&#039;רים חדשים ",
+        "date": "2026-03-26T16:01:58+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/image001-1024x576.jpg"
+      },
+      {
+        "title": "גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד",
+        "link": "https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/",
+        "summary": "שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב\"עמק הסיליקון\", אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל ",
+        "date": "2026-03-26T10:03:07+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
+      },
+      {
+        "title": "תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון",
+        "link": "https://www.geektime.co.il/apple-releases-ios-26-4/",
+        "summary": "אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו בגרסה החדשה: Siri החדשה. אין כאן את Siri שמתודלקת ב-Gemini, אין כאן את Siri [&#8230;] The post תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון appeared first on גיקטיים .",
+        "date": "2026-03-25T14:58:33+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/10/IMG_8124-1024x768.jpg"
+      },
+      {
+        "title": "גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר",
+        "link": "https://www.geektime.co.il/notch-ai-agents-funding/",
+        "summary": "עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל לתביעת ענק או להסתבכות רגולטורית? במקום לפתח עוד ממשק שיחה גנרי, החברה פיתחה כלי שמחבר בין ה-LLMs לבין מערכות הליבה [&#8230;] The post גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומ",
+        "date": "2026-03-25T13:29:07+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-22-at-21.39.49.jpeg"
+      },
+      {
+        "title": "חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora",
+        "link": "https://www.geektime.co.il/openai-kills-sora-app/",
+        "summary": "בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, בצעד מפתיע, OpenAI מחסלת את האפליקציה הוויראלית. נפרדים מהאפליקציה, וממיליארד דולר OpenAI הודיעה כי היא מוציאה [&#8230;] The post חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו ",
+        "date": "2026-03-25T08:03:31+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/11/IMG_9116-1024x768.jpg"
+      },
+      {
+        "title": "התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש\"ח",
+        "link": "https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/",
+        "summary": "במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור ירושלים, שהתחזו לכאורה לחייל ב-8200, והעבירו מידע שיצרו בין היתר ב-AI לגורמי מודיעין איראניים. [&#8230;] The post התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&",
+        "date": "2026-03-24T15:44:14+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/dreamstime_m_314701402-1024x683.jpg"
+      },
+      {
+        "title": "אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI",
+        "link": "https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/",
+        "summary": "בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ביותר באבטחת מודלי שפה. להבין מה באמת רוצה התוקף מחקר חדש של Upwind Security מגלה שלא ניתן לזהות באופן אמין [&#8230;] The post אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי",
+        "date": "2026-03-24T14:48:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/12/UPWIND-1024x683.jpg"
+      },
+      {
+        "title": "פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT",
+        "link": "https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/",
+        "summary": "לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את חובבי ה-Vibe Coding. החיבור זמין כבר עכשיו מותג הוייב-קודינג הישראלי של וויקס, Base44, השיק אפליקציה ייעודית שרצה ישירות בתוך ChatGPT. [&#8230;] The post פיתוח אפליקציות בתוך הצ&#0",
+        "date": "2026-03-24T10:19:08+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/ChatGPT-_-Base44-1024x680.jpg"
+      },
+      {
+        "title": "ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק",
+        "link": "https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/",
+        "summary": "שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ",
+        "date": "2026-03-24T07:54:14+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
+      }
+    ],
+    "scraped_at": "2026-03-29T07:43:15.776268+00:00",
+    "error": null
+  },
+  "ynet טכנולוגיה": {
+    "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-03-29T07:43:19.241031+00:00",
     "error": null
   },
   "קמפוס GOV": {
@@ -346,28 +452,28 @@
         "title": "מובילי יוזמות AI בארגונים",
         "link": "https://campus.gov.il/course/labor-gov-leadai-he/",
         "summary": "הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.",
-        "date": "2026-03-28T13:15:36.797854+00:00",
+        "date": "2026-03-29T07:44:16.846791+00:00",
         "image": null
       },
       {
         "title": "לעבוד חכם עם AI",
         "link": "https://campus.gov.il/course/digitalil-gov-ai2-he/",
         "summary": "מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.",
-        "date": "2026-03-28T13:15:36.743953+00:00",
+        "date": "2026-03-29T07:44:13.538711+00:00",
         "image": null
       },
       {
         "title": "בינה מלאכותית כעוזר הוראה",
         "link": "https://campus.gov.il/course/moe-edu-shelf-aiedu-he/",
         "summary": "בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!",
-        "date": "2026-03-28T13:15:36.698883+00:00",
+        "date": "2026-03-29T07:44:10.884152+00:00",
         "image": null
       },
       {
         "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
         "link": "https://campus.gov.il/course/digitalil-gov-beai-he/",
         "summary": "קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.",
-        "date": "2026-03-28T13:15:36.653508+00:00",
+        "date": "2026-03-29T07:44:08.158160+00:00",
         "image": null
       },
       {
@@ -476,113 +582,42 @@
         "image": null
       }
     ],
-    "scraped_at": "2026-03-28T13:15:36.797875+00:00",
+    "scraped_at": "2026-03-29T07:44:16.846817+00:00",
+    "error": null
+  },
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-03-29T07:43:18.624842+00:00",
     "error": null
   },
   "ICT Israel": {
     "url": "https://ictisrael.com/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-03-28T13:15:29.456672+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-03-28T13:15:28.708872+00:00",
+    "scraped_at": "2026-03-29T07:43:19.830719+00:00",
     "error": null
   },
   "ספארקס — בינה מלאכותית": {
     "url": "https://sparks.news/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-03-28T13:15:29.427649+00:00",
+    "scraped_at": "2026-03-29T07:43:19.780520+00:00",
     "error": null
   },
-  "גיקטיים": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "חדשות טכנולוגיה",
-    "items": [
-      {
-        "title": "חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת'רופיק, ומניות הסייבר צנחו",
-        "link": "https://www.geektime.co.il/anthropic-claude-mythos-capybara-leak-cyber-security-stocks/",
-        "summary": "סוף השבוע האחרון נפתח בסערה בוול סטריט. זה קרה כשמניותיהן של ענקיות אבטחה דוגמת CrowdStrike, Palo Alto Networks ו-Zscaler רשמו אתמול ירידות חדות של מעל ל-5%. הטלטלה הזו הגיעה בעקבות דליפת מידע רגיש על מודל חדש ועוצמתי של חברת Anthropic, עם השפעות אפשריות על עולם האבטחה, ודלף לרשת, כמה אירוני, בעקבות הגדרות אבטחה לקויות. יותר [&#8230;] The post חוקר ישראלי חשף פרטים על מודל חדש וסודי של אנת&#039;רו",
-        "date": "2026-03-28T08:24:58+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/02/photo_2026-02-16-14.32.32-1024x576.jpeg"
-      },
-      {
-        "title": "וואטסאפ משיקה עדכונים ופיצ'רים חדשים לאייפון ואנדרואיד",
-        "link": "https://www.geektime.co.il/whatsapp-feature-drop-march-2026/",
-        "summary": "וואטסאפ הכריזה היום (ה') על שורת פיצ'רים ועדכונים חדשים &#8211; בהם כמה נחוצים ומבוקשים מאוד. מה שהוא כנראה העדכון החשוב יותר של Whatsapp הוא היכולת לעבור בקלות בין מכשירים &#8211; מ-iOS לאנדרואיד ולהיפך. מדובר בעדכון לפיצ'ר העברת הצ'אטים הקיים של וואטסאפ, שיאפשר לכם לעשות זאת היישר בתוך הפלטפורמה עצמה ועל גבי Wi-Fi &#8211; מבלי שתצטרכו [&#8230;] The post וואטסאפ משיקה עדכונים ופיצ&#039;רים חדשים ",
-        "date": "2026-03-26T16:01:58+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/image001-1024x576.jpg"
-      },
-      {
-        "title": "גוגל חשפה אלגוריתם דחיסה מרשים, אבל לכולם הוא מזכיר רק דבר אחד",
-        "link": "https://www.geektime.co.il/google-announces-pied-piper-for-ai-turboquant/",
-        "summary": "שגוגל הכריזה על אלגוריתם דחיסה חדש שלה, שנקרא TurboQuant. ולמרות הנתונים התיאורטיים המרשימים, התגובות ברשת התמקדו בדבר אחד: הדמיון שלו לאלגוריתם אחר דמיוני מסדרת טלוויזיה מלפני עשור. במקום צירים, נעבור לזוויות אם צפיתם ב\"עמק הסיליקון\", אתם ודאי זוכרים את הפיתוח המרכזי של חברת Pied Piper: אלגוריתם כיווץ מיוחד שמסוגל לצמצם את הנפח של קבצים מבלי [&#8230;] The post גוגל חשפה אלגוריתם דחיסה מרשים, אבל ",
-        "date": "2026-03-26T10:03:07+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
-      },
-      {
-        "title": "תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון",
-        "link": "https://www.geektime.co.il/apple-releases-ios-26-4/",
-        "summary": "אמש (ג') אפל שחררה את iOS 26.4, העדכון האחרון למערכת ההפעלה שלה. אם נשים בצד את הבדיחות על 8 האימוג'ים החדשים שהגיעו איתו, יש כאן כמה דברים שאפל תיקנה, ואולי ישמחו אתכם מאוד. האם בעיית המקלדת נפתרה? נתחיל במה שלא תמצאו בגרסה החדשה: Siri החדשה. אין כאן את Siri שמתודלקת ב-Gemini, אין כאן את Siri [&#8230;] The post תתחדשו: iOS 26.4 שוחררה ופותרת כמה בעיות מעצבנות באייפון appeared first on גיקטיים .",
-        "date": "2026-03-25T14:58:33+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/10/IMG_8124-1024x768.jpg"
-      },
-      {
-        "title": "גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומות המורכבים ביותר",
-        "link": "https://www.geektime.co.il/notch-ai-agents-funding/",
-        "summary": "עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל לתביעת ענק או להסתבכות רגולטורית? במקום לפתח עוד ממשק שיחה גנרי, החברה פיתחה כלי שמחבר בין ה-LLMs לבין מערכות הליבה [&#8230;] The post גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומ",
-        "date": "2026-03-25T13:29:07+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-22-at-21.39.49.jpeg"
-      },
-      {
-        "title": "חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora",
-        "link": "https://www.geektime.co.il/openai-kills-sora-app/",
-        "summary": "בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, בצעד מפתיע, OpenAI מחסלת את האפליקציה הוויראלית. נפרדים מהאפליקציה, וממיליארד דולר OpenAI הודיעה כי היא מוציאה [&#8230;] The post חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו ",
-        "date": "2026-03-25T08:03:31+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/11/IMG_9116-1024x768.jpg"
-      },
-      {
-        "title": "התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש\"ח",
-        "link": "https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/",
-        "summary": "במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור ירושלים, שהתחזו לכאורה לחייל ב-8200, והעבירו מידע שיצרו בין היתר ב-AI לגורמי מודיעין איראניים. [&#8230;] The post התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&",
-        "date": "2026-03-24T15:44:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/dreamstime_m_314701402-1024x683.jpg"
-      },
-      {
-        "title": "אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI",
-        "link": "https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/",
-        "summary": "בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ביותר באבטחת מודלי שפה. להבין מה באמת רוצה התוקף מחקר חדש של Upwind Security מגלה שלא ניתן לזהות באופן אמין [&#8230;] The post אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי",
-        "date": "2026-03-24T14:48:20+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/12/UPWIND-1024x683.jpg"
-      },
-      {
-        "title": "פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT",
-        "link": "https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/",
-        "summary": "לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את חובבי ה-Vibe Coding. החיבור זמין כבר עכשיו מותג הוייב-קודינג הישראלי של וויקס, Base44, השיק אפליקציה ייעודית שרצה ישירות בתוך ChatGPT. [&#8230;] The post פיתוח אפליקציות בתוך הצ&#0",
-        "date": "2026-03-24T10:19:08+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/ChatGPT-_-Base44-1024x680.jpg"
-      },
-      {
-        "title": "ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במחשב מרחוק",
-        "link": "https://www.geektime.co.il/claude-code-cowork-can-control-your-computer/",
-        "summary": "שכחתם לשלוח קובץ מהמחשב האישי שלא סונכרן לענן, ואתם חייבים אותו לאישור סופי של ראש הצוות לפני פגישה קריטית? ערכתם את התמונה של הילדה בפוטושופ לטובת המתנה ליום ההולדת ה-90 של סבתא, אבל שכחתם להעלות אותה ל-Google Photos? ב-Anthropic מצאו לכם פתרון: תשתמשו ב-Claude. להפעיל את הקלוד מרחוק כבר בספטמבר 2024 הכריזה Anthropic על פיצ'ר [&#8230;] The post ראש בראש מול OpenClaw: קלוד יכול מעכשיו לשלוט לכם במ",
-        "date": "2026-03-24T07:54:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/69c0acc3f9e37117f1f547a8_Cowork-Dispatch-Blog-Code-Session-1024x576.jpg"
-      }
-    ],
-    "scraped_at": "2026-03-28T13:15:26.782217+00:00",
-    "error": null
-  },
-  "כלכליסט טק": {
+  "כלכליסט — מגזר ציבורי": {
     "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-03-29T07:43:25.878937+00:00",
+    "error": null
+  },
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-03-28T13:15:27.677767+00:00",
+    "scraped_at": "2026-03-29T07:43:19.587297+00:00",
     "error": null
   }
 }
