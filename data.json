@@ -1,9 +1,354 @@
 {
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
     "items": [],
-    "scraped_at": "2026-04-07T08:11:48.294297+00:00",
+    "scraped_at": "2026-04-08T08:12:17.333063+00:00",
+    "error": null
+  },
+  "קמפוס GOV": {
+    "url": "https://campus.gov.il",
+    "category": "קמפוס GOV",
+    "items": [
+      {
+        "title": "מובילי יוזמות AI בארגונים",
+        "link": "https://campus.gov.il/course/labor-gov-leadai-he/",
+        "summary": "הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.",
+        "date": "2026-04-07T08:12:38.960263+00:00",
+        "image": null
+      },
+      {
+        "title": "לעבוד חכם עם AI",
+        "link": "https://campus.gov.il/course/digitalil-gov-ai2-he/",
+        "summary": "מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.",
+        "date": "2026-04-07T08:12:37.194425+00:00",
+        "image": null
+      },
+      {
+        "title": "בינה מלאכותית כעוזר הוראה",
+        "link": "https://campus.gov.il/course/moe-edu-shelf-aiedu-he/",
+        "summary": "בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!",
+        "date": "2026-04-07T08:12:35.388103+00:00",
+        "image": null
+      },
+      {
+        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
+        "link": "https://campus.gov.il/course/digitalil-gov-beai-he/",
+        "summary": "קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.",
+        "date": "2026-04-07T08:12:32.556924+00:00",
+        "image": null
+      },
+      {
+        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
+        "link": "https://campus.gov.il/en/course/digitalil-gov-beai-he/",
+        "summary": "קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.",
+        "date": "2026-03-28T13:14:46.107550+00:00",
+        "image": null
+      },
+      {
+        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
+        "link": "https://campus.gov.il/ru/course/bgu-acd-bgu-ai101/",
+        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
+        "date": "2026-03-28T13:14:42.188186+00:00",
+        "image": null
+      },
+      {
+        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
+        "link": "https://campus.gov.il/en/course/bgu-acd-bgu-ai101/",
+        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
+        "date": "2026-03-28T13:14:42.044244+00:00",
+        "image": null
+      },
+      {
+        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
+        "link": "https://campus.gov.il/ar/course/bgu-acd-bgu-ai101/",
+        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
+        "date": "2026-03-28T13:14:41.701633+00:00",
+        "image": null
+      },
+      {
+        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
+        "link": "https://campus.gov.il/course/bgu-acd-bgu-ai101/",
+        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
+        "date": "2026-03-28T13:14:41.560387+00:00",
+        "image": null
+      },
+      {
+        "title": "מיומנויות שירות פנים ארגוני במשרדי הממשלה",
+        "link": "https://campus.gov.il/ar/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:16.630611+00:00",
+        "image": null
+      },
+      {
+        "title": "מיומנויות שירות פנים ארגוני במשרדי הממשלה",
+        "link": "https://campus.gov.il/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:16.493591+00:00",
+        "image": null
+      },
+      {
+        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
+        "link": "https://campus.gov.il/ru/course/moe-edu-micro-brainstormingtools-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:16.352278+00:00",
+        "image": null
+      },
+      {
+        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
+        "link": "https://campus.gov.il/en/course/moe-edu-micro-brainstormingtools-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:16.017869+00:00",
+        "image": null
+      },
+      {
+        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
+        "link": "https://campus.gov.il/ar/course/moe-edu-micro-brainstormingtools-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.880339+00:00",
+        "image": null
+      },
+      {
+        "title": "&quot;שואפים נושפים&quot; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
+        "link": "https://campus.gov.il/course/moe-edu-micro-brainstormingtools-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.741857+00:00",
+        "image": null
+      },
+      {
+        "title": "הדרכה לאפוטרופוסים",
+        "link": "https://campus.gov.il/ru/course/moj-gov-guardiantraining-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.608909+00:00",
+        "image": null
+      },
+      {
+        "title": "הדרכה לאפוטרופוסים",
+        "link": "https://campus.gov.il/en/course/moj-gov-guardiantraining-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.472594+00:00",
+        "image": null
+      },
+      {
+        "title": "הדרכה לאפוטרופוסים",
+        "link": "https://campus.gov.il/ar/course/moj-gov-guardiantraining-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.340104+00:00",
+        "image": null
+      },
+      {
+        "title": "הדרכה לאפוטרופוסים",
+        "link": "https://campus.gov.il/course/moj-gov-guardiantraining-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-03-28T13:09:15.223171+00:00",
+        "image": null
+      }
+    ],
+    "scraped_at": "2026-04-08T08:12:50.957889+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.348137+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.348135+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.348132+00:00",
+        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.348116+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "Hostinger",
+        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686503+00:00",
+        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
+      },
+      {
+        "title": "n8n",
+        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686500+00:00",
+        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
+      },
+      {
+        "title": "Comet",
+        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686497+00:00",
+        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
+      },
+      {
+        "title": "Granola",
+        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686494+00:00",
+        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
+      },
+      {
+        "title": "Wispr Flow",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686491+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "Intro",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-04-08T08:12:51.686474+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "כלי ליצירת כתוביות בקליק",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-04-07T08:12:39.684364+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
+        "summary": "",
+        "date": "2026-04-06T08:22:47.904988+00:00",
+        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
+      },
+      {
+        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-04-06T08:22:47.328222+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול הקלטות עם בינה מלאכותית",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-04-06T08:22:47.328204+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-04-05T07:54:50.101001+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה צ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
+        "summary": "",
+        "date": "2026-04-04T07:48:40.737767+00:00",
+        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-04-03T08:04:52.389561+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
+        "summary": "",
+        "date": "2026-04-03T08:04:52.389556+00:00",
+        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
+      },
+      {
+        "title": "consensus",
+        "link": "https://www.youtube.com/watch?v=KvkBe-2D8FA",
+        "summary": "",
+        "date": "2026-04-03T08:04:51.669973+00:00",
+        "image": "https://img.youtube.com/vi/KvkBe-2D8FA/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
+        "link": "https://www.youtube.com/watch?v=VYh-oMz0XK0",
+        "summary": "",
+        "date": "2026-04-02T08:06:42.383557+00:00",
+        "image": "https://img.youtube.com/vi/VYh-oMz0XK0/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
+        "summary": "",
+        "date": "2026-04-02T08:06:42.383555+00:00",
+        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-03-30T08:22:27.321873+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-03-30T08:22:27.321871+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
+        "link": "https://www.youtube.com/watch?v=rc_bEdxb4Mo",
+        "summary": "",
+        "date": "2026-03-29T07:52:20.417754+00:00",
+        "image": "https://img.youtube.com/vi/rc_bEdxb4Mo/mqdefault.jpg"
+      },
+      {
+        "title": "ChatGPT עובד בעברית?",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-03-29T07:44:18.080414+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-03-28T13:14:47.097997+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "כלי ליצירת כתוביות בקליק",
+        "link": "https://www.youtube.com/watch?v=KXK61D4dNI4",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253618+00:00",
+        "image": "https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
+        "summary": "",
+        "date": "2026-03-28T13:01:37.253611+00:00",
+        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-04-08T08:12:52.348253+00:00",
     "error": null
   },
   "גיקטיים": {
@@ -177,192 +522,9 @@
         "summary": "עם כל הכבוד לטעויות ולהזיות שכולנו מכירים ממודלי ה-AI הגנרטיביים, בסטארטאפ הישראלי Notch (נוץ') מנסים לפתור דילמה קצת מורכבת יותר עבור ארגונים גדולים: איך מכניסים בינה מלאכותית לעולמות שבהם טעות של מילה אחת עלולה להוביל לתביעת ענק או להסתבכות רגולטורית? במקום לפתח עוד ממשק שיחה גנרי, החברה פיתחה כלי שמחבר בין ה-LLMs לבין מערכות הליבה [&#8230;] The post גייסו 30 מיליון דולר כדי להטמיע AI באחד המקומ",
         "date": "2026-03-25T13:29:07+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-22-at-21.39.49.jpeg"
-      },
-      {
-        "title": "חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו הוויראלי שלה, Sora",
-        "link": "https://www.geektime.co.il/openai-kills-sora-app/",
-        "summary": "בפברואר 2024 חברת OpenAI העיפה לכולנו את המוח עם מודל יצירת וידאו בשם Sora, שהוביל לסחרור שלם בעולם ה-AI והקולנוע במקביל. המודל המרשים אפילו זכה לדור המשך שהוצג רק לפני חצי שנה, יחד עם אפליקציה דמויית רשת חברתית. עכשיו, בצעד מפתיע, OpenAI מחסלת את האפליקציה הוויראלית. נפרדים מהאפליקציה, וממיליארד דולר OpenAI הודיעה כי היא מוציאה [&#8230;] The post חצי שנה הספיקה: OpenAI מחסלת את כלי יצירת הווידאו ",
-        "date": "2026-03-25T08:03:31+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/11/IMG_9116-1024x768.jpg"
-      },
-      {
-        "title": "התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש\"ח",
-        "link": "https://www.geektime.co.il/two-brothers-from-jerusalem-contacted-foreign-agent/",
-        "summary": "במהלך 3 השנים האחרונות שמענו לא מעט על ישראליים שחשודים או מואשמים בניהול קשרים עם גורמים איראניים, אבל כזה דבר עוד לא שמענו: הבוקר (ג') הותר לפרסום כתב אישום חדש ובו מתואר מקרה משונה של שני אחים בשנות ה-20 לחייהם מאזור ירושלים, שהתחזו לכאורה לחייל ב-8200, והעבירו מידע שיצרו בין היתר ב-AI לגורמי מודיעין איראניים. [&#8230;] The post התחזו לחייל מ-8200, זייפו מסמכים ב-AI, וקיבלו מהאיראנים 100 אלף ש&",
-        "date": "2026-03-24T15:44:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/dreamstime_m_314701402-1024x683.jpg"
-      },
-      {
-        "title": "אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי AI",
-        "link": "https://www.geektime.co.il/upwind-collabs-with-nvidia-on-new-way-to-secure-llms/",
-        "summary": "בתחילת השנה גייס הסטארטאפ הישראלי Upwind Security רבע מיליארד דולר והפך רשמית לחד-קרן. היום (ג') החברה חושפת מחקר חדש ושיתוף פעולה מעניין עם החברה בעלת השווי הגבוה בעולם &#8211; NVIDIA. המטרה: פיצוח אחת הבעיות המורכבות ביותר באבטחת מודלי שפה. להבין מה באמת רוצה התוקף מחקר חדש של Upwind Security מגלה שלא ניתן לזהות באופן אמין [&#8230;] The post אנבידיה משתפת פעולה עם חד קרן ישראלי כדי להגן על מודלי",
-        "date": "2026-03-24T14:48:20+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/12/UPWIND-1024x683.jpg"
-      },
-      {
-        "title": "פיתוח אפליקציות בתוך הצ'אט: Base44 מגיע ל-ChatGPT",
-        "link": "https://www.geektime.co.il/base44-gets-an-app-inside-chatgpt/",
-        "summary": "לקראת סוף השנה שעברה הציגה OpenAI חידוש למשתמשי ChatGPT: אינטגרציות עם שורת אפליקציות פופולריות &#8211; מהלך שנועד להשאיר אתכם בתוך הממשק של הצ'אטבוט כמה שיותר. עכשיו היא מכריזה על חיבור לאפליקציה נוספת שצפויה לעניין את חובבי ה-Vibe Coding. החיבור זמין כבר עכשיו מותג הוייב-קודינג הישראלי של וויקס, Base44, השיק אפליקציה ייעודית שרצה ישירות בתוך ChatGPT. [&#8230;] The post פיתוח אפליקציות בתוך הצ&#0",
-        "date": "2026-03-24T10:19:08+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/ChatGPT-_-Base44-1024x680.jpg"
       }
     ],
-    "scraped_at": "2026-04-07T08:11:44.825682+00:00",
-    "error": null
-  },
-  "קמפוס GOV": {
-    "url": "https://campus.gov.il",
-    "category": "קמפוס GOV",
-    "items": [
-      {
-        "title": "מובילי יוזמות AI בארגונים",
-        "link": "https://campus.gov.il/course/labor-gov-leadai-he/",
-        "summary": "הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.",
-        "date": "2026-04-07T08:12:38.960263+00:00",
-        "image": null
-      },
-      {
-        "title": "לעבוד חכם עם AI",
-        "link": "https://campus.gov.il/course/digitalil-gov-ai2-he/",
-        "summary": "מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.",
-        "date": "2026-04-07T08:12:37.194425+00:00",
-        "image": null
-      },
-      {
-        "title": "בינה מלאכותית כעוזר הוראה",
-        "link": "https://campus.gov.il/course/moe-edu-shelf-aiedu-he/",
-        "summary": "בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!",
-        "date": "2026-04-07T08:12:35.388103+00:00",
-        "image": null
-      },
-      {
-        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
-        "link": "https://campus.gov.il/course/digitalil-gov-beai-he/",
-        "summary": "קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.",
-        "date": "2026-04-07T08:12:32.556924+00:00",
-        "image": null
-      },
-      {
-        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
-        "link": "https://campus.gov.il/en/course/digitalil-gov-beai-he/",
-        "summary": "קורס AI למתחילים בחינם מבית קמפוס IL! למדו מהי בינה מלאכותית, כיצד היא משנה את העולם, והכירו כלים מובילים כמו ChatGPT, Gemini, ו-DALL-E. הקורס מעשי, פשוט וללא צורך בידע מוקדם – הדרך הטובה ביותר להיכנס לעולם ה-AI. התחילו ללמוד עוד היום, ללא תשלום.",
-        "date": "2026-03-28T13:14:46.107550+00:00",
-        "image": null
-      },
-      {
-        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
-        "link": "https://campus.gov.il/ru/course/bgu-acd-bgu-ai101/",
-        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
-        "date": "2026-03-28T13:14:42.188186+00:00",
-        "image": null
-      },
-      {
-        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
-        "link": "https://campus.gov.il/en/course/bgu-acd-bgu-ai101/",
-        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
-        "date": "2026-03-28T13:14:42.044244+00:00",
-        "image": null
-      },
-      {
-        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
-        "link": "https://campus.gov.il/ar/course/bgu-acd-bgu-ai101/",
-        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
-        "date": "2026-03-28T13:14:41.701633+00:00",
-        "image": null
-      },
-      {
-        "title": "מבוא לבינה מלאכותית: מתאוריה לפרקטיקה",
-        "link": "https://campus.gov.il/course/bgu-acd-bgu-ai101/",
-        "summary": "הצטרפו לקורס בו נסקור את תחום הבינה המלאכותית מהתיאוריה, דרך האתיקה ועד לפרקטיקה. נלמד שיטות מתקדמות וכלים מעשיים.  בנוסף נדון בסוגיות הפילוסופיות והאתיות שבמרכז השיח הציבורי היום.",
-        "date": "2026-03-28T13:14:41.560387+00:00",
-        "image": null
-      },
-      {
-        "title": "מיומנויות שירות פנים ארגוני במשרדי הממשלה",
-        "link": "https://campus.gov.il/ar/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:16.630611+00:00",
-        "image": null
-      },
-      {
-        "title": "מיומנויות שירות פנים ארגוני במשרדי הממשלה",
-        "link": "https://campus.gov.il/course/digitalil-gov-spoc-tikshuvservice-govermentserviceskills-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:16.493591+00:00",
-        "image": null
-      },
-      {
-        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
-        "link": "https://campus.gov.il/ru/course/moe-edu-micro-brainstormingtools-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:16.352278+00:00",
-        "image": null
-      },
-      {
-        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
-        "link": "https://campus.gov.il/en/course/moe-edu-micro-brainstormingtools-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:16.017869+00:00",
-        "image": null
-      },
-      {
-        "title": "&#8221;שואפים נושפים&#8221; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
-        "link": "https://campus.gov.il/ar/course/moe-edu-micro-brainstormingtools-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.880339+00:00",
-        "image": null
-      },
-      {
-        "title": "&quot;שואפים נושפים&quot; כלים לסיעור מוחות בתהליך התיכון ההנדסי",
-        "link": "https://campus.gov.il/course/moe-edu-micro-brainstormingtools-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.741857+00:00",
-        "image": null
-      },
-      {
-        "title": "הדרכה לאפוטרופוסים",
-        "link": "https://campus.gov.il/ru/course/moj-gov-guardiantraining-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.608909+00:00",
-        "image": null
-      },
-      {
-        "title": "הדרכה לאפוטרופוסים",
-        "link": "https://campus.gov.il/en/course/moj-gov-guardiantraining-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.472594+00:00",
-        "image": null
-      },
-      {
-        "title": "הדרכה לאפוטרופוסים",
-        "link": "https://campus.gov.il/ar/course/moj-gov-guardiantraining-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.340104+00:00",
-        "image": null
-      },
-      {
-        "title": "הדרכה לאפוטרופוסים",
-        "link": "https://campus.gov.il/course/moj-gov-guardiantraining-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-03-28T13:09:15.223171+00:00",
-        "image": null
-      }
-    ],
-    "scraped_at": "2026-04-07T08:12:38.960283+00:00",
-    "error": null
-  },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-04-07T08:11:46.031598+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-04-07T08:11:46.839144+00:00",
+    "scraped_at": "2026-04-08T08:12:05.935431+00:00",
     "error": null
   },
   "גיקטיים — מגזר ציבורי": {
@@ -405,232 +567,7 @@
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Pied-Piper-1024x576.jpg"
       }
     ],
-    "scraped_at": "2026-04-07T08:11:57.513744+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-04-07T08:11:57.614673+00:00",
-    "error": null
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-04-07T08:11:48.153693+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-04-07T08:11:47.496181+00:00",
-    "error": null
-  },
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
-    "items": [
-      {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.371674+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.371671+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה צ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.371667+00:00",
-        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.371649+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "כלי ליצירת כתוביות בקליק",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684364+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
-        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684361+00:00",
-        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684359+00:00",
-        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684357+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      },
-      {
-        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684353+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול הקלטות עם בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-04-07T08:12:39.684337+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
-        "summary": "",
-        "date": "2026-04-06T08:22:47.904988+00:00",
-        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
-      },
-      {
-        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-04-06T08:22:47.328222+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול הקלטות עם בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-04-06T08:22:47.328204+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
-        "summary": "",
-        "date": "2026-04-05T07:54:50.101001+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
-      },
-      {
-        "title": "מה אפשר לעשות עם קלוד ומה מיוחד בו",
-        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
-        "summary": "",
-        "date": "2026-04-05T07:54:49.481778+00:00",
-        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה צ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
-        "summary": "",
-        "date": "2026-04-04T07:48:40.737767+00:00",
-        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-04-03T08:04:52.389561+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
-        "summary": "",
-        "date": "2026-04-03T08:04:52.389556+00:00",
-        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
-      },
-      {
-        "title": "consensus",
-        "link": "https://www.youtube.com/watch?v=KvkBe-2D8FA",
-        "summary": "",
-        "date": "2026-04-03T08:04:51.669973+00:00",
-        "image": "https://img.youtube.com/vi/KvkBe-2D8FA/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=VYh-oMz0XK0",
-        "summary": "",
-        "date": "2026-04-02T08:06:42.383557+00:00",
-        "image": "https://img.youtube.com/vi/VYh-oMz0XK0/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
-        "summary": "",
-        "date": "2026-04-02T08:06:42.383555+00:00",
-        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-03-30T08:22:27.321873+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-03-30T08:22:27.321871+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
-        "link": "https://www.youtube.com/watch?v=rc_bEdxb4Mo",
-        "summary": "",
-        "date": "2026-03-29T07:52:20.417754+00:00",
-        "image": "https://img.youtube.com/vi/rc_bEdxb4Mo/mqdefault.jpg"
-      },
-      {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
-        "summary": "",
-        "date": "2026-03-29T07:44:18.080414+00:00",
-        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול קבצי אודיו עם ElevenLabs Scribe",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-03-28T13:14:47.097997+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
-      },
-      {
-        "title": "כלי ליצירת כתוביות בקליק",
-        "link": "https://www.youtube.com/watch?v=KXK61D4dNI4",
-        "summary": "",
-        "date": "2026-03-28T13:01:37.253618+00:00",
-        "image": "https://img.youtube.com/vi/KXK61D4dNI4/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
-        "summary": "",
-        "date": "2026-03-28T13:01:37.253611+00:00",
-        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-04-07T08:12:40.371832+00:00",
+    "scraped_at": "2026-04-08T08:12:16.897748+00:00",
     "error": null
   },
   "YouTube — הדרכות": {
@@ -639,24 +576,80 @@
     "items": [
       {
         "title": "איך מוצאים את זה ב-Settings",
-        "link": "https://www.youtube.com/watch?v=U2g6rIkJZpI",
+        "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
         "summary": "",
-        "date": "2026-04-07T08:12:42.189939+00:00",
-        "image": "https://img.youtube.com/vi/U2g6rIkJZpI/mqdefault.jpg"
+        "date": "2026-04-08T08:12:54.327447+00:00",
+        "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
       },
       {
         "title": "מי זכאי ומה מקבלים",
         "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
         "summary": "",
-        "date": "2026-04-07T08:12:42.189935+00:00",
+        "date": "2026-04-08T08:12:54.327444+00:00",
         "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
       },
       {
         "title": "אנתרופיק מחלקים כסף",
         "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
         "summary": "",
-        "date": "2026-04-07T08:12:42.189919+00:00",
+        "date": "2026-04-08T08:12:54.327427+00:00",
         "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-04-08T08:12:53.648446+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "שלושה כלים: Chat, Cowork, Code",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933576+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "למה דווקא Claude?",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933573+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "מי זה Anthropic?",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933571+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה LLM?",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933568+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933565+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "ברוכים הבאים",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-04-08T08:12:52.933548+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "איך מוצאים את זה ב-Settings",
+        "link": "https://www.youtube.com/watch?v=U2g6rIkJZpI",
+        "summary": "",
+        "date": "2026-04-07T08:12:42.189939+00:00",
+        "image": "https://img.youtube.com/vi/U2g6rIkJZpI/mqdefault.jpg"
       },
       {
         "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
@@ -680,46 +673,11 @@
         "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
       },
       {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.973895+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.973893+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה צ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.973889+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-04-07T08:12:40.973874+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
         "title": "ג'מיני משתדרג במחקר מדעי (Deep Think)",
         "link": "https://www.youtube.com/watch?v=cGp0Rgntivw",
         "summary": "",
         "date": "2026-04-06T08:22:49.906658+00:00",
         "image": "https://img.youtube.com/vi/cGp0Rgntivw/mqdefault.jpg"
-      },
-      {
-        "title": "שדרוגים למסלול החינמי בקלוד ומודל מהיר חדש",
-        "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
-        "summary": "",
-        "date": "2026-04-06T08:22:49.906655+00:00",
-        "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
       },
       {
         "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
@@ -785,25 +743,11 @@
         "image": "https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg"
       },
       {
-        "title": "סקירת ממשק של claude ai",
-        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
-        "summary": "",
-        "date": "2026-04-03T08:04:52.998731+00:00",
-        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
         "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
         "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
         "summary": "",
         "date": "2026-04-02T08:06:45.056728+00:00",
         "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-04-02T08:06:43.990803+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
       },
       {
         "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
@@ -818,13 +762,6 @@
         "summary": "",
         "date": "2026-03-31T08:08:00.864056+00:00",
         "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
-        "summary": "",
-        "date": "2026-03-31T08:08:00.864050+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
       },
       {
         "title": "ליברי — הפיצ׳ר החדש של צ׳אט GPT",
@@ -876,21 +813,56 @@
         "image": "https://img.youtube.com/vi/nPp24GUj-D0/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-04-07T08:12:42.190410+00:00",
+    "scraped_at": "2026-04-08T08:12:54.327482+00:00",
     "error": null
   },
   "ICT Israel": {
     "url": "https://ictisrael.com/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-04-07T08:11:48.373138+00:00",
+    "scraped_at": "2026-04-08T08:12:10.405993+00:00",
+    "error": null
+  },
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-04-08T08:12:10.157513+00:00",
+    "error": null
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-04-08T08:12:10.265113+00:00",
     "error": null
   },
   "ynet טכנולוגיה": {
     "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-04-07T08:11:47.767390+00:00",
+    "scraped_at": "2026-04-08T08:12:09.525852+00:00",
+    "error": null
+  },
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-04-08T08:12:07.977237+00:00",
+    "error": null
+  },
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-04-08T08:12:09.035193+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-04-08T08:12:07.199242+00:00",
     "error": null
   }
 }
