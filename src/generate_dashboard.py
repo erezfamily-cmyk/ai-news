@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
+import urllib.parse
 
 ROOT = Path(__file__).parent.parent
 DATA_FILE = ROOT / "data.json"
@@ -220,7 +221,10 @@ def generate():
                       f'data-link="{esc(wa_link)}" '
                       f'class="wa-btn" title="שתף בוואטסאפ">'
                       f'<span class="material-symbols-outlined" style="font-size:14px">share</span>'
-                      f'שתף</button>')
+                      f'שתף</button>\n'
+                      f'                <a href="studio.html?v=5&url={urllib.parse.quote(wa_link)}" target="_blank" class="wa-btn" style="background:rgba(96,165,250,0.08);border-color:rgba(96,165,250,0.25);color:#60a5fa;text-decoration:none;" title="פתח בסטודיו פוסטים">'
+                      f'<span class="material-symbols-outlined" style="font-size:14px">auto_awesome</span>'
+                      f'לסטודיו</a>')
 
             cta = (f'<a href="{link}" target="_blank" rel="noopener" '
                    f'class="read-btn video-btn flex items-center gap-1.5 font-bold text-sm">'

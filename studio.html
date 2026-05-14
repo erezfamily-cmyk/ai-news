@@ -126,6 +126,10 @@
       animation: spin 1s linear infinite;
     }
     @keyframes spin { 100% { transform: rotate(360deg); } }
+    select option {
+      background: #111520;
+      color: #e2e8f0;
+    }
     .settings-panel {
       display: none;
       margin-top: 10px;
@@ -222,6 +226,13 @@
       document.getElementById('apiKey').value = savedKey;
     } else {
       document.getElementById('settingsPanel').style.display = 'block';
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const urlParam = params.get('url');
+    if (urlParam) {
+      document.getElementById('rawContent').value = urlParam;
+      setTimeout(scrapeUrl, 500);
     }
   }
 
