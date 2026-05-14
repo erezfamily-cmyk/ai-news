@@ -288,7 +288,25 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
     }
 
     try {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key=${apiKey}`;
+      // דינאמית מוצאים את המודל הנכון שנתמך במפתח של המשתמש כדי למנוע שגיאות
+      const modelsRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+      const modelsData = await modelsRes.json();
+      
+      let selectedModel = 'models/gemini-1.5-flash'; // ברירת מחדל
+      if (modelsData && modelsData.models) {
+        // מחפשים קודם את 1.5 פלאש, ואם לא, כל מודל שתומך בתוכן
+        const availableModels = modelsData.models.filter(m => m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent'));
+        const flashModel = availableModels.find(m => m.name.includes('gemini-1.5-flash'));
+        const proModel = availableModels.find(m => m.name.includes('gemini-1.5-pro'));
+        const fallbackModel = availableModels.find(m => m.name.includes('gemini'));
+        
+        selectedModel = flashModel ? flashModel.name : (proModel ? proModel.name : (fallbackModel ? fallbackModel.name : selectedModel));
+      }
+
+      // נוודא ששם המודל לא מכיל את הקידומת models/ פעמיים
+      const modelId = selectedModel.replace('models/', '');
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${apiKey}`;
+      
       const response = await fetch(url, {
         method: 'POST',
         headers: {
