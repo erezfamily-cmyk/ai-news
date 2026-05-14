@@ -160,6 +160,10 @@
     
     <label>לינק לתמונה / וידאו (אופציונלי):</label>
     <input type="text" id="mediaUrl" placeholder="https://..." />
+    
+    <label>או העלה תמונה מהמחשב (ה-AI ינתח אותה):</label>
+    <input type="file" id="imageInput" accept="image/*" style="margin-bottom:16px; background:var(--surface);" />
+    <img id="imagePreview" style="max-width:100%; max-height:200px; display:none; border-radius:8px; margin-bottom:16px;" />
 
     <button onclick="generatePost()" id="generateBtn">
       <span class="material-symbols-outlined">auto_awesome</span>
@@ -201,18 +205,36 @@
     panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
   }
 
+  const imageInput = document.getElementById('imageInput');
+  const imagePreview = document.getElementById('imagePreview');
+
+  imageInput.addEventListener('change', function() {
+    if (this.files && this.files[0]) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        imagePreview.src = e.target.result;
+        imagePreview.style.display = 'block';
+      }
+      reader.readAsDataURL(this.files[0]);
+    } else {
+      imagePreview.style.display = 'none';
+      imagePreview.src = '';
+    }
+  });
+
   async function generatePost() {
     const apiKey = document.getElementById('apiKey').value.trim();
     const rawContent = document.getElementById('rawContent').value.trim();
     const mediaUrl = document.getElementById('mediaUrl').value.trim();
+    const file = imageInput.files[0];
 
     if (!apiKey) {
       alert("אנא הזן מפתח Gemini API בהגדרות (סמל גלגל השיניים).");
       document.getElementById('settingsPanel').style.display = 'block';
       return;
     }
-    if (!rawContent) {
-      alert("אנא הזן תוכן או קישור כדי שנוכל לייצר את הפוסט.");
+    if (!rawContent && !file) {
+      alert("אנא הזן תוכן, קישור או העלה תמונה כדי שנוכל לייצר את הפוסט.");
       return;
     }
 
@@ -242,8 +264,28 @@
 ${rawContent}
 """
 
-${mediaUrl ? `* שים לב: המשתמש גם צירף את המדיה הבאה: ${mediaUrl} (שלב את הקישור במקום טבעי בפוסט או בסופו)` : ""}
+${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: ${mediaUrl} (שלב את הקישור בפוסט)` : ""}
 `;
+
+    // הכנת התמונה אם הועלתה
+    let parts = [{ text: prompt }];
+    if (file) {
+      const base64Data = await new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          const result = reader.result;
+          resolve(result.substring(result.indexOf(',') + 1));
+        };
+        reader.readAsDataURL(file);
+      });
+      
+      parts.push({
+        inline_data: {
+          mime_type: file.type,
+          data: base64Data
+        }
+      });
+    }
 
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
@@ -253,7 +295,7 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף את המדיה הבאה
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
+          contents: [{ parts: parts }],
           generationConfig: { temperature: 0.7 }
         })
       });
