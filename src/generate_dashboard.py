@@ -910,11 +910,8 @@ body::after {{
 
 <!-- ══════ TOP NAV ══════ -->
 <nav class="top-nav">
-  <div class="logo-wrap">
-    <div class="logo-icon">
-      <span class="material-symbols-outlined" style="font-size:18px">psychology</span>
-    </div>
-    <span class="logo-text">AI Pulse</span>
+  <div class="logo-wrap" style="gap:12px;">
+    <img src="https://moh-content-engine-2026.pages.dev/logo.jpeg" alt="MOH AI קהילת מוח" style="height:38px; border-radius:4px; mix-blend-mode: screen; filter: drop-shadow(0 0 8px rgba(255,255,255,0.1));" />
   </div>
   <div class="live-badge">
     <span class="live-dot"></span>
