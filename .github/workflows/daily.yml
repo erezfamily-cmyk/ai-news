@@ -2,7 +2,7 @@ name: Daily AI News
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # 07:00 UTC = 09:00 ישראל (שעון קיץ)
+    - cron: '0 3,9 * * *'   # 03:00 and 09:00 UTC = 06:00 and 12:00 ישראל (שעון קיץ)
   workflow_dispatch:        # הרצה ידנית מ-GitHub
 
 permissions:
@@ -34,10 +34,13 @@ jobs:
       - name: Generate dashboard
         run: python src/generate_dashboard.py
 
+      - name: Generate newsletter
+        run: python src/generate_newsletter.py
+
       - name: Commit & push
         run: |
           git config user.name "AI News Bot"
           git config user.email "bot@ai-news.github.io"
-          git add data.json index.html
+          git add data.json index.html newsletter.txt newsletter.md
           git diff --staged --quiet || git commit -m "עדכון יומי $(date -u '+%d/%m/%Y %H:%M') UTC"
           git push
