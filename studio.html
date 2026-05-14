@@ -56,7 +56,7 @@
       font-weight: 600;
       color: var(--text);
     }
-    textarea, input[type="text"], input[type="password"] {
+    textarea, input[type="text"], input[type="password"], select {
       width: 100%;
       background: var(--card);
       border: 1px solid var(--border);
@@ -69,7 +69,7 @@
       transition: all 0.2s;
       box-sizing: border-box;
     }
-    textarea:focus, input:focus {
+    textarea:focus, input:focus, select:focus {
       outline: none;
       border-color: var(--accent);
       box-shadow: 0 0 0 2px rgba(96,165,250,0.2);
@@ -159,8 +159,25 @@
       </p>
     </div>
 
-    <label>תוכן / לינק לכתבה / רעיונות:</label>
-    <textarea id="rawContent" rows="5" placeholder="הדבק כאן מידע, קישור, או כתוב לי בנקודות על מה הפוסט..."></textarea>
+    <div style="display:flex; gap:12px; margin-bottom:16px;">
+      <div style="flex:1;">
+        <label>סגנון הפוסט (טון דיבור):</label>
+        <select id="postTone">
+          <option value="טכנולוגי, מלהיב אבל מקצועי ואמין">🚀 טכנולוגי ומלהיב (ברירת מחדל)</option>
+          <option value="רשמי, ייצוגי ומכובד. מתאים לדיוור רשמי או להנהלה">👔 רשמי וייצוגי</option>
+          <option value="קצר מאוד, קולע, רק השורה התחתונה בנקודות">⚡ קצר וקולע (בולטס)</option>
+          <option value="פשוט מאוד, מסביר מושגים טכנולוגיים מורכבים במילים פשוטות לקהל הרחב">👶 הסבר ברור לפשוטים</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:8px;">
+      <label style="margin:0;">תוכן גולמי (טקסט או קישור):</label>
+      <button onclick="scrapeUrl()" style="padding:4px 10px; font-size:12px; border-radius:6px; background:rgba(96,165,250,0.15); color:var(--accent); border:1px solid rgba(96,165,250,0.3);">
+        <span class="material-symbols-outlined" style="font-size:14px;">download</span> קרא מקישור
+      </button>
+    </div>
+    <textarea id="rawContent" rows="5" placeholder="הדבק כאן טקסט ארוך, או שים קישור ולחץ 'קרא מקישור'..."></textarea>
     
     <label>לינק לתמונה / וידאו (אופציונלי):</label>
     <input type="text" id="mediaUrl" placeholder="https://..." />
@@ -183,10 +200,14 @@
       <div class="msg-bubble" id="postOutput"></div>
     </div>
 
-    <div style="margin-top:20px; display:flex; gap:12px;">
-      <button class="btn-wa" onclick="copyToClipboard()">
+    <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
+      <button style="background:var(--card); color:var(--text); border:1px solid var(--border);" onclick="copyToClipboard()">
         <span class="material-symbols-outlined">content_copy</span>
-        העתק פוסט לוואטסאפ
+        העתק טקסט
+      </button>
+      <button class="btn-wa" onclick="shareToWhatsApp()">
+        <span class="material-symbols-outlined">send</span>
+        שגר לוואטסאפ
       </button>
     </div>
   </div>
@@ -251,14 +272,15 @@
     btn.disabled = true;
     loader.style.display = 'inline-block';
 
+    const tone = document.getElementById('postTone').value;
     const prompt = `
 אתה כותב תוכן מקצועי לקבוצת וואטסאפ איכותית בשם "AI Pulse - עדכוני בינה מלאכותית".
-המטרה שלך היא לקחת את המידע הגולמי הבא ולשכתב אותו לפוסט וואטסאפ קצר, קליט, מלהיב וקריא מאוד.
+המטרה שלך היא לקחת את המידע הגולמי הבא ולשכתב אותו לפוסט וואטסאפ איכותי.
 
 הנחיות:
 1. פתח בכותרת קליטה עם אימוג'י רלוונטי.
-2. כתוב בנקודות (בולטים) או פסקאות קצרות כדי שיהיה קל לקרוא בנייד.
-3. סגנון: טכנולוגי, מלהיב אבל מקצועי ואמין. 
+2. קריאות: השתמש בפסקאות קצרות או בולטים כדי שיהיה נוח לקרוא בנייד.
+3. סגנון וטון דיבור: ${tone}.
 4. אל תמציא מידע שלא קיים בטקסט או בידע הכללי שלך על הנושא.
 5. שים לב להדגשות (כוכביות *כמו בוואטסאפ*) איפה שצריך להדגיש מילים חשובות.
 6. בסוף הפוסט, הוסף שורה להנעה לפעולה או קישור אם יש.
@@ -344,10 +366,47 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
   function copyToClipboard() {
     const text = document.getElementById('postOutput').textContent;
     navigator.clipboard.writeText(text).then(() => {
-      alert("הפוסט הועתק בהצלחה! אפשר להדביק בוואטסאפ.");
+      alert("הפוסט הועתק בהצלחה! אפשר להדביק איפה שרוצים.");
     }).catch(err => {
       alert("שגיאה בהעתקה.");
     });
+  }
+
+  function shareToWhatsApp() {
+    const text = document.getElementById('postOutput').textContent;
+    const waUrl = 'https://wa.me/?text=' + encodeURIComponent(text);
+    window.open(waUrl, '_blank');
+  }
+
+  async function scrapeUrl() {
+    const ta = document.getElementById('rawContent');
+    const urlMatch = ta.value.match(/https?:\/\/[^\s]+/);
+    if (!urlMatch) {
+      alert("לא זוהה קישור תקין בתיבת התוכן. אנא הדבק קישור מלא (כולל http/https).");
+      return;
+    }
+    const url = urlMatch[0];
+    ta.value = "קורא את התוכן מתוך הקישור, אנא המתן...";
+    
+    try {
+      const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
+      const data = await res.json();
+      if (data.contents) {
+        // מחיקת תגיות HTML בצורה גסה כדי לחלץ טקסט גולמי
+        let text = data.contents;
+        text = text.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+                   .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+                   .replace(/<[^>]+>/g, ' ')
+                   .replace(/\s+/g, ' ')
+                   .trim();
+        // לקחת את ה-4000 תווים הראשונים בלבד
+        ta.value = `[תוכן מחולץ מ-${url}]:\n\n` + text.substring(0, 4000);
+      } else {
+        ta.value = url + "\n\n(שגיאה בחילוץ התוכן מהאתר, ה-AI ינסה להבין מהקישור עצמו)";
+      }
+    } catch(e) {
+      ta.value = url + "\n\n(לא ניתן לגשת לקישור באופן אוטומטי. ה-AI יסתמך על הקישור בלבד)";
+    }
   }
 </script>
 </body>
