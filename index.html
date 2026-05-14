@@ -640,7 +640,7 @@ body::after {
   <div class="nav-end">
     <button id="scan-btn" onclick="triggerScan()" style="display:flex;align-items:center;gap:6px;background:rgba(37,211,102,0.15);color:#25d366;border:1px solid rgba(37,211,102,0.3);padding:6px 12px;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;" onmouseover="this.style.background='rgba(37,211,102,0.25)'" onmouseout="this.style.background='rgba(37,211,102,0.15)'">
       <span class="material-symbols-outlined" style="font-size:16px;">sync</span>
-      סרוק עכשיו
+      <span id="scan-text">סרוק עכשיו</span>
     </button>
     <a href="studio.html?v=2" target="_blank" style="display:flex;align-items:center;gap:6px;background:rgba(96,165,250,0.15);color:#60a5fa;text-decoration:none;padding:6px 12px;border-radius:8px;font-size:13px;font-weight:700;border:1px solid rgba(96,165,250,0.3);transition:all .2s;">
       <span class="material-symbols-outlined" style="font-size:16px;">auto_awesome</span>
@@ -4347,9 +4347,16 @@ async function triggerScan() {
     if (!token) return;
     localStorage.setItem('gh_token', token.trim());
   }
+  
   const btn = document.getElementById('scan-btn');
   const icon = btn.querySelector('.material-symbols-outlined');
+  const textEl = document.getElementById('scan-text');
+  
   icon.classList.add('spinning');
+  btn.style.pointerEvents = 'none';
+  btn.style.opacity = '0.7';
+  textEl.textContent = 'מתניע...';
+  
   try {
     const res = await fetch('https://api.github.com/repos/erezfamily-cmyk/ai-news/actions/workflows/daily.yml/dispatches', {
       method: 'POST',
@@ -4359,9 +4366,12 @@ async function triggerScan() {
       },
       body: JSON.stringify({ ref: 'main' })
     });
+    
     if (res.ok) {
-      alert('הסריקה הופעלה בהצלחה בשרתי GitHub! האתר יתעדכן אוטומטית בעוד כ-2 דקות. רענן אז את הדף.');
+      textEl.textContent = 'סורק ומעדכן (כ-2 דק\')...';
+      setTimeout(() => pollWorkflow(token.trim()), 15000); // מתחיל לבדוק סטטוס אחרי 15 שניות
     } else {
+      resetScanBtn();
       if(res.status === 401 || res.status === 403 || res.status === 404) {
         localStorage.removeItem('gh_token');
         alert('המפתח שגוי או שאין לו הרשאת workflow. הוסף הרשאות ונסה שוב.');
@@ -4370,10 +4380,48 @@ async function triggerScan() {
       }
     }
   } catch(e) {
+    resetScanBtn();
     alert('שגיאה: ' + e.message);
-  } finally {
-    icon.classList.remove('spinning');
   }
+}
+
+async function pollWorkflow(token) {
+  try {
+    const res = await fetch('https://api.github.com/repos/erezfamily-cmyk/ai-news/actions/workflows/daily.yml/runs?per_page=1', {
+      headers: {
+        'Accept': 'application/vnd.github.v3+json',
+        'Authorization': 'token ' + token
+      }
+    });
+    const data = await res.json();
+    if (data && data.workflow_runs && data.workflow_runs.length > 0) {
+      const latestRun = data.workflow_runs[0];
+      // נוודא שהריצה היא מהזמן האחרון (פחות מ-10 דקות)
+      const runDate = new Date(latestRun.created_at);
+      const now = new Date();
+      if ((now - runDate) < 10 * 60 * 1000) {
+        if (latestRun.status === 'completed') {
+          const textEl = document.getElementById('scan-text');
+          textEl.textContent = 'מוכן! מרענן...';
+          setTimeout(() => window.location.reload(), 2000);
+          return;
+        }
+      }
+    }
+    setTimeout(() => pollWorkflow(token), 10000);
+  } catch(e) {
+    setTimeout(() => pollWorkflow(token), 10000);
+  }
+}
+
+function resetScanBtn() {
+  const btn = document.getElementById('scan-btn');
+  const icon = btn.querySelector('.material-symbols-outlined');
+  const textEl = document.getElementById('scan-text');
+  icon.classList.remove('spinning');
+  btn.style.pointerEvents = 'auto';
+  btn.style.opacity = '1';
+  textEl.textContent = 'סרוק עכשיו';
 }
 
 // ── INIT ──────────────────────────────────────────────────────────────
