@@ -915,6 +915,10 @@ body::after {{
     LIVE
   </div>
   <div class="nav-end">
+    <a href="studio.html?v=2" target="_blank" style="display:flex;align-items:center;gap:6px;background:rgba(96,165,250,0.15);color:#60a5fa;text-decoration:none;padding:6px 12px;border-radius:8px;font-size:13px;font-weight:700;border:1px solid rgba(96,165,250,0.3);transition:all .2s;">
+      <span class="material-symbols-outlined" style="font-size:16px;">auto_awesome</span>
+      סטודיו פוסטים
+    </a>
     <span class="updated-ts">עודכן {updated}</span>
     <div class="search-wrap">
       <span class="material-symbols-outlined search-icon">search</span>
