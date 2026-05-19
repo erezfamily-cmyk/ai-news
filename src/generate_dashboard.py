@@ -898,12 +898,12 @@ body::after {{
   from {{ opacity:0; transform:translateY(14px); }}
   to   {{ opacity:1; transform:translateY(0); }}
 }}
-@keyframes blink {
-  0%,100% { opacity:1; transform:scale(1); }
-  50%      { opacity:.4; transform:scale(.75); }
-}
-@keyframes spin { 100% { transform:rotate(360deg); } }
-.spinning { animation: spin 1s linear infinite; }
+@keyframes blink {{
+  0%,100% {{ opacity:1; transform:scale(1); }}
+  50%      {{ opacity:.4; transform:scale(.75); }}
+}}
+@keyframes spin {{ 100% {{ transform:rotate(360deg); }} }}
+.spinning {{ animation: spin 1s linear infinite; }}
 </style>
 </head>
 <body>
