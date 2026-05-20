@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 19/05/2026
+# 🤖 עדכוני AI Pulse — 20/05/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=sWSjoyjpiVU)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=cGp0Rgntivw)
+### 2. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מתחילים לעבוד!](https://www.youtube.com/watch?v=4_vFxfFVvMU)
+### 4. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 5. [פיצ'ר למנוים PRO – פרויקטים](https://www.youtube.com/watch?v=IckwSMn70zg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
