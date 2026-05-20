@@ -6,19 +6,19 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=NiGvC1G1P2c)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 3. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=LVhDTqK-4w4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פיצ'ר למנוים PRO – פרויקטים](https://www.youtube.com/watch?v=IckwSMn70zg)
+### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
