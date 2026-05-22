@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 21/05/2026
+# 🤖 עדכוני AI Pulse — 22/05/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
+### 1. [חיבורים למערכות: המוח של קלוד שמתפעל את העסק שלכם](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 2. [למה סקיל של קלוד עובד יותר טוב מאוטומציה רגילה?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=VmVRuRqALLk)
+### 3. [איך להפסיק לכתוב פרומפטים כל בוקר ולעבור לסקילים (Skills)](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=LVhDTqK-4w4)
+### 4. [ארכיטקטורת זיכרון: ההבדל בין קלוד לבין מצ'אט בינה מלאכותית רגיל](https://www.youtube.com/watch?v=4_vFxfFVvMU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 5. [איך להפוך את קלוד קוד או קלוד קו-וורק למכונת עבודה (ולהכפיל יעילות פי 10)](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
