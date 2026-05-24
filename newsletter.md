@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 1. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
+### 2. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=LVhDTqK-4w4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 3. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 4. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=4_vFxfFVvMU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 5. [פתיח: מהם סוכני בינה מלאכותית?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
