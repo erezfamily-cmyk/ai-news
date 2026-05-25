@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 24/05/2026
+# 🤖 עדכוני AI Pulse — 25/05/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=LVhDTqK-4w4)
+### 2. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=4_vFxfFVvMU)
+### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=fwANhfjQt9E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פתיח: מהם סוכני בינה מלאכותית?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=a2PjshpYwm4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
