@@ -214,6 +214,29 @@
   <div class="card" id="outputCard" style="display:none;">
     <h3 style="margin:0 0 16px 0;">תצוגה מקדימה (WhatsApp)</h3>
     
+    <!-- תמונה שנוצרה אוטומטית -->
+    <div id="aiImageSection" style="display:none; margin-bottom:16px; position:relative;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+        <span style="font-size:12px; color:var(--muted); display:flex; align-items:center; gap:4px;">
+          <span class="material-symbols-outlined" style="font-size:14px;">auto_awesome</span>
+          תמונה שנוצרה על ידי AI — לחץ X למחיקה
+        </span>
+        <div style="display:flex; gap:8px;">
+          <button onclick="downloadAiImage()" title="הורד תמונה" style="background:rgba(96,165,250,0.1); color:var(--accent); border:1px solid rgba(96,165,250,0.3); padding:4px 10px; font-size:12px; border-radius:6px;">
+            <span class="material-symbols-outlined" style="font-size:14px;">download</span>
+          </button>
+          <button onclick="removeAiImage()" title="הסר תמונה" style="background:rgba(239,68,68,0.1); color:#f87171; border:1px solid rgba(239,68,68,0.3); padding:4px 10px; font-size:12px; border-radius:6px;">
+            <span class="material-symbols-outlined" style="font-size:14px;">close</span>
+          </button>
+        </div>
+      </div>
+      <div id="aiImageLoader" style="height:200px; background:var(--card); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:14px; gap:8px;">
+        <div class="loader" style="display:inline-block;"></div>
+        מייצר תמונה מתאימה...
+      </div>
+      <img id="aiImage" style="width:100%; max-height:300px; object-fit:cover; border-radius:10px; display:none;" alt="תמונה שנוצרה על ידי AI" />
+    </div>
+
     <div class="preview-box">
       <div class="msg-bubble" id="postOutput"></div>
     </div>
@@ -426,6 +449,9 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       
       document.getElementById('postOutput').textContent = postText;
       document.getElementById('outputCard').style.display = 'block';
+
+      // יצירת תמונה אוטומטית
+      generateAiImage(postText, rawContent, apiKey);
       
     } catch (err) {
       alert("שגיאה ביצירת הפוסט: " + err.message);
@@ -433,6 +459,63 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       btn.disabled = false;
       loader.style.display = 'none';
     }
+  }
+
+  async function generateAiImage(postText, rawContent, apiKey) {
+    const section = document.getElementById('aiImageSection');
+    const loaderEl = document.getElementById('aiImageLoader');
+    const imgEl = document.getElementById('aiImage');
+
+    section.style.display = 'block';
+    loaderEl.style.display = 'flex';
+    imgEl.style.display = 'none';
+
+    try {
+      // שאל את Gemini לתיאור תמונה קצר באנגלית
+      const promptReq = `Based on this WhatsApp post, write a SHORT image generation prompt in English (max 15 words, no quotes). The image should be professional, modern, suitable for a tech news post. Post:\n${postText.substring(0, 500)}`;
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ contents: [{ parts: [{ text: promptReq }] }], generationConfig: { temperature: 0.6, maxOutputTokens: 60 } })
+      });
+      const d = await res.json();
+      let imagePrompt = d.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || 'modern technology artificial intelligence digital innovation professional';
+      // הסר מרכאות אם יש
+      imagePrompt = imagePrompt.replace(/["']/g, '').substring(0, 200);
+      console.log('Image prompt:', imagePrompt);
+
+      // צור תמונה דרך Pollinations.ai
+      const seed = Math.floor(Math.random() * 9999);
+      const imgUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(imagePrompt)}?width=800&height=450&seed=${seed}&nologo=true&enhance=true`;
+
+      imgEl.onload = () => {
+        loaderEl.style.display = 'none';
+        imgEl.style.display = 'block';
+        imgEl.dataset.src = imgUrl;
+      };
+      imgEl.onerror = () => {
+        section.style.display = 'none';
+      };
+      imgEl.src = imgUrl;
+
+    } catch(e) {
+      section.style.display = 'none';
+      console.warn('Image generation failed:', e);
+    }
+  }
+
+  function removeAiImage() {
+    document.getElementById('aiImageSection').style.display = 'none';
+  }
+
+  function downloadAiImage() {
+    const img = document.getElementById('aiImage');
+    if (!img.src) return;
+    const a = document.createElement('a');
+    a.href = img.src;
+    a.download = 'ai-post-image.jpg';
+    a.target = '_blank';
+    a.click();
   }
 
   function copyToClipboard() {
