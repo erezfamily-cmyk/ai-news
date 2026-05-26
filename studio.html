@@ -493,6 +493,11 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
     const encoded = encodeURIComponent(url);
 
     const proxies = [
+      { name: 'our-worker',  fetch: async () => {
+          const r = await tryProxy(`/scrape?url=${encoded}`);
+          const d = await r.json();
+          return d.text || null;
+      }},
       { name: 'allorigins',  fetch: async () => {
           const r = await tryProxy(`https://api.allorigins.win/get?url=${encoded}`);
           const d = await r.json();
@@ -506,7 +511,7 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
           const r = await tryProxy(`https://api.codetabs.com/v1/proxy?quest=${encoded}`);
           return await r.text();
       }},
-      { name: 'htmlpreview', fetch: async () => {
+      { name: 'thingproxy', fetch: async () => {
           const r = await tryProxy(`https://thingproxy.freeboard.io/fetch/${url}`);
           return await r.text();
       }},
