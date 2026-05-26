@@ -164,20 +164,27 @@
 
     <div class="settings-panel" id="settingsPanel">
       <label>Google Gemini API Key (נשמר רק בדפדפן שלך)</label>
-      <input type="password" id="apiKey" placeholder="AIzaSy..." />
+      <input type="password" id="apiKey" placeholder="AIzaSy..." oninput="localStorage.setItem('gemini_api_key', this.value.trim()); loadModels();" />
       <p style="font-size:12px; color:var(--muted); margin-top:-10px; margin-bottom:20px;">
         המפתח אינו נשלח לשום שרת, הוא נשמר ב-Local Storage של הדפדפן.
       </p>
     </div>
 
-    <div style="display:flex; gap:12px; margin-bottom:16px;">
-      <div style="flex:1;">
+    <div style="display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:200px;">
         <label>סגנון הפוסט (טון דיבור):</label>
         <select id="postTone">
           <option value="טכנולוגי, מלהיב אבל מקצועי ואמין">🚀 טכנולוגי ומלהיב (ברירת מחדל)</option>
           <option value="רשמי, ייצוגי ומכובד. מתאים לדיוור רשמי או להנהלה">👔 רשמי וייצוגי</option>
           <option value="קצר מאוד, קולע, רק השורה התחתונה בנקודות">⚡ קצר וקולע (בולטס)</option>
           <option value="פשוט מאוד, מסביר מושגים טכנולוגיים מורכבים במילים פשוטות לקהל הרחב">👶 הסבר ברור לפשוטים</option>
+        </select>
+      </div>
+      <div style="flex:1; min-width:200px;">
+        <label>מודל AI:</label>
+        <select id="modelSelect" onchange="localStorage.setItem('gemini_selected_model', this.value)">
+          <option value="models/gemini-1.5-flash">Gemini 1.5 Flash (מהיר)</option>
+          <option value="models/gemini-1.5-pro">Gemini 1.5 Pro (חכם)</option>
         </select>
       </div>
     </div>
@@ -227,10 +234,18 @@
 
 <script>
   // טעינת מפתח API מהשמירה בדפדפן
-  window.onload = () => {
+  window.onload = async () => {
     const savedKey = localStorage.getItem('gemini_api_key');
     if (savedKey) {
       document.getElementById('apiKey').value = savedKey;
+      await loadModels();
+      const savedModel = localStorage.getItem('gemini_selected_model');
+      if (savedModel) {
+        const select = document.getElementById('modelSelect');
+        if (select && [...select.options].some(o => o.value === savedModel)) {
+          select.value = savedModel;
+        }
+      }
     } else {
       document.getElementById('settingsPanel').style.display = 'block';
     }
@@ -240,6 +255,49 @@
     if (urlParam) {
       document.getElementById('rawContent').value = urlParam;
       setTimeout(scrapeUrl, 500);
+    }
+  }
+
+  async function loadModels() {
+    const apiKey = document.getElementById('apiKey').value.trim();
+    if (!apiKey) return;
+    const select = document.getElementById('modelSelect');
+    if (!select) return;
+    
+    try {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+      const data = await res.json();
+      if (data && data.models) {
+        const availableModels = data.models.filter(m => m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent'));
+        
+        const currentVal = select.value;
+        select.innerHTML = '';
+        
+        availableModels.forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m.name;
+          let displayName = m.displayName || m.name.replace('models/', '');
+          opt.textContent = displayName;
+          select.appendChild(opt);
+        });
+        
+        if (currentVal && availableModels.some(m => m.name === currentVal)) {
+          select.value = currentVal;
+        } else {
+          // Select flash model by default, preferably a newer one (2.5 -> 2.0 -> 1.5)
+          const defaultOpt = availableModels.find(m => m.name.includes('gemini-2.5-flash')) ||
+                             availableModels.find(m => m.name.includes('gemini-2.0-flash')) ||
+                             availableModels.find(m => m.name.includes('gemini-1.5-flash')) ||
+                             availableModels.find(m => m.name.includes('flash')) ||
+                             availableModels[0];
+          if (defaultOpt) {
+            select.value = defaultOpt.name;
+            localStorage.setItem('gemini_selected_model', defaultOpt.name);
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Error loading models:', e);
     }
   }
 
@@ -332,20 +390,8 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
     }
 
     try {
-      // דינאמית מוצאים את המודל הנכון שנתמך במפתח של המשתמש כדי למנוע שגיאות
-      const modelsRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
-      const modelsData = await modelsRes.json();
-      
-      let selectedModel = 'models/gemini-1.5-flash'; // ברירת מחדל
-      if (modelsData && modelsData.models) {
-        // מחפשים קודם את 1.5 פלאש, ואם לא, כל מודל שתומך בתוכן
-        const availableModels = modelsData.models.filter(m => m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent'));
-        const flashModel = availableModels.find(m => m.name.includes('gemini-1.5-flash'));
-        const proModel = availableModels.find(m => m.name.includes('gemini-1.5-pro'));
-        const fallbackModel = availableModels.find(m => m.name.includes('gemini'));
-        
-        selectedModel = flashModel ? flashModel.name : (proModel ? proModel.name : (fallbackModel ? fallbackModel.name : selectedModel));
-      }
+      const modelSelect = document.getElementById('modelSelect');
+      const selectedModel = modelSelect ? modelSelect.value : 'models/gemini-1.5-flash';
 
       // נוודא ששם המודל לא מכיל את הקידומת models/ פעמיים
       const modelId = selectedModel.replace('models/', '');
