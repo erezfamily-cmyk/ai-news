@@ -136,15 +136,200 @@
       padding-top: 16px;
       border-top: 1px dashed var(--border);
     }
+    
+    /* מגירת ארכיון צידית */
+    .archive-drawer {
+      position: fixed;
+      top: 0;
+      left: -400px;
+      width: 400px;
+      max-width: 100%;
+      height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      box-shadow: 5px 0 25px rgba(0,0,0,0.5);
+      z-index: 1000;
+      transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .archive-drawer.open {
+      left: 0;
+    }
+    .archive-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255,255,255,0.01);
+    }
+    .archive-header h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .archive-close-btn {
+      background: transparent;
+      color: var(--muted);
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: background 0.2s, color 0.2s;
+    }
+    .archive-close-btn:hover {
+      background: rgba(255,255,255,0.05);
+      color: #fff;
+    }
+    .archive-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 16px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .archive-item:hover {
+      border-color: rgba(96,165,250,0.4);
+      transform: translateY(-2px);
+    }
+    .archive-item-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .archive-item-text {
+      font-size: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      max-height: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin-bottom: 12px;
+      color: #cbd5e1;
+    }
+    .archive-item-image {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+    }
+    .archive-item-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .archive-item-actions button {
+      padding: 6px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .archive-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(4px);
+      z-index: 998;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .archive-overlay.show {
+      display: block;
+      opacity: 1;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .status-badge.sent {
+      background: rgba(37,211,102,0.15);
+      color: #25d366;
+    }
+    .status-badge.draft {
+      background: rgba(255,255,255,0.05);
+      color: var(--muted);
+    }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      z-index: 1100;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      display: none;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      animation: fadeInUp 0.3s ease;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .msg-bubble[contenteditable="true"] {
+      outline: none;
+      border: 1px dashed rgba(255,255,255,0.15);
+      cursor: text;
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+    .msg-bubble[contenteditable="true"]:focus {
+      border: 1px solid var(--accent);
+      background: rgba(255,255,255,0.02);
+    }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <a href="index.html" style="display:inline-flex; align-items:center; gap:6px; color:var(--muted); text-decoration:none; margin-bottom:16px; font-weight:600; font-size:15px; transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">
-    <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span>
-    חזרה לחדשות ה-AI
-  </a>
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:12px;">
+    <a href="index.html" style="display:inline-flex; align-items:center; gap:6px; color:var(--muted); text-decoration:none; font-weight:600; font-size:15px; transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--muted)'">
+      <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span>
+      חזרה לחדשות ה-AI
+    </a>
+    <button onclick="openArchive()" style="background:var(--card); color:var(--text); border:1px solid var(--border); padding:6px 12px; font-size:14px; border-radius:6px; display:inline-flex; align-items:center; gap:6px; cursor:pointer;">
+      <span class="material-symbols-outlined" style="font-size:18px">archive</span>
+      ארכיון פוסטים
+    </button>
+  </div>
   <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-bottom: 30px;">
     <div style="display:flex; flex-direction:column; justify-content:center; line-height:1.1; text-align:right;">
       <span style="font-family:'Plus Jakarta Sans',sans-serif; font-weight:900; font-size:32px; letter-spacing:0.5px; color:#ffffff;">MOH AI</span>
@@ -238,13 +423,17 @@
     </div>
 
     <div class="preview-box">
-      <div class="msg-bubble" id="postOutput"></div>
+      <div class="msg-bubble" id="postOutput" contenteditable="true" title="ניתן לערוך את הטקסט ישירות כאן"></div>
     </div>
 
     <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
       <button style="background:var(--card); color:var(--text); border:1px solid var(--border);" onclick="copyToClipboard()">
         <span class="material-symbols-outlined">content_copy</span>
         העתק טקסט
+      </button>
+      <button class="btn-save-draft" onclick="savePostDraft()" style="background:rgba(96,165,250,0.1); color:var(--accent); border:1px solid rgba(96,165,250,0.3); cursor:pointer;">
+        <span class="material-symbols-outlined">save</span>
+        שמור נוסח
       </button>
       <button class="btn-wa" onclick="shareToWhatsApp()">
         <span class="material-symbols-outlined">send</span>
@@ -253,6 +442,25 @@
     </div>
   </div>
 
+</div>
+
+<!-- רכיבי ארכיון וטואוסט -->
+<div class="archive-overlay" id="archiveOverlay" onclick="closeArchive()"></div>
+<div class="archive-drawer" id="archiveDrawer">
+  <div class="archive-header">
+    <h3>ארכיון פוסטים 📂</h3>
+    <button class="archive-close-btn" onclick="closeArchive()" title="סגור">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+  </div>
+  <div class="archive-content" id="archiveItems">
+    <!-- הפוסטים ייטענו לכאן בצורה דינמית -->
+  </div>
+</div>
+
+<div class="toast" id="toast">
+  <span class="material-symbols-outlined toast-icon">check_circle</span>
+  <span class="toast-text">נשמר בהצלחה!</span>
 </div>
 
 <script>
@@ -450,6 +658,10 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       document.getElementById('postOutput').textContent = postText;
       document.getElementById('outputCard').style.display = 'block';
 
+      // איפוס מזהה פוסט קיים ליצירת פוסט חדש בארכיון
+      currentPostId = Date.now().toString();
+      savePostToArchive(false);
+
       // יצירת תמונה אוטומטית
       generateAiImage(postText, rawContent, apiKey);
       
@@ -492,6 +704,8 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
         loaderEl.style.display = 'none';
         imgEl.style.display = 'block';
         imgEl.dataset.src = imgUrl;
+        // עדכון אוטומטי של הפוסט בארכיון עם התמונה שנוצרה
+        savePostToArchive(false);
       };
       imgEl.onerror = () => {
         section.style.display = 'none';
@@ -506,6 +720,8 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
 
   function removeAiImage() {
     document.getElementById('aiImageSection').style.display = 'none';
+    savePostToArchive(false);
+    showToast("התמונה הוסרה מהפוסט");
   }
 
   function downloadAiImage() {
@@ -521,7 +737,7 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
   function copyToClipboard() {
     const text = document.getElementById('postOutput').textContent;
     navigator.clipboard.writeText(text).then(() => {
-      alert("הפוסט הועתק בהצלחה! אפשר להדביק איפה שרוצים.");
+      showToast("הטקסט הועתק ללוח!");
     }).catch(err => {
       alert("שגיאה בהעתקה.");
     });
@@ -529,8 +745,243 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
 
   function shareToWhatsApp() {
     const text = document.getElementById('postOutput').textContent;
+    savePostToArchive(true); // סמן כנשלח בארכיון
     const waUrl = 'https://wa.me/?text=' + encodeURIComponent(text);
     window.open(waUrl, '_blank');
+  }
+
+  // --- מערכת ארכיון וניהול פוסטים ---
+  let currentPostId = null;
+
+  function getToneLabel(toneValue) {
+    const options = {
+      "טכנולוגי, מלהיב אבל מקצועי ואמין": "🚀 טכנולוגי ומלהיב",
+      "רשמי, ייצוגי ומכובד. מתאים לדיוור רשמי או להנהלה": "👔 רשמי וייצוגי",
+      "קצר מאוד, קולע, רק השורה התחתונה בנקודות": "⚡ קצר וקולע",
+      "פשוט מאוד, מסביר מושגים טכנולוגיים מורכבים במילים פשוטות לקהל הרחב": "👶 הסבר פשוט"
+    };
+    return options[toneValue] || toneValue || "🚀 טכנולוגי ומלהיב";
+  }
+
+  function savePostToArchive(isSent = false) {
+    const postOutput = document.getElementById('postOutput');
+    if (!postOutput || !postOutput.textContent.trim()) return;
+
+    const text = postOutput.textContent.trim();
+    const tone = document.getElementById('postTone').value;
+    
+    // בדיקת תמונה קיימת
+    const imgSection = document.getElementById('aiImageSection');
+    const imgEl = document.getElementById('aiImage');
+    let imageSrc = null;
+    if (imgSection && imgSection.style.display !== 'none' && imgEl && imgEl.style.display !== 'none' && imgEl.src) {
+      imageSrc = imgEl.src;
+    }
+
+    let archive = JSON.parse(localStorage.getItem('ai_news_archive') || '[]');
+    
+    if (currentPostId) {
+      const index = archive.findIndex(p => p.id === currentPostId);
+      if (index !== -1) {
+        archive[index].text = text;
+        archive[index].tone = tone;
+        archive[index].imageSrc = imageSrc;
+        if (isSent) {
+          archive[index].sent = true;
+        }
+        localStorage.setItem('ai_news_archive', JSON.stringify(archive));
+        renderArchive();
+        return;
+      }
+    }
+
+    // יצירת פוסט חדש בארכיון
+    const now = new Date();
+    const formattedDate = now.toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit', year: 'numeric' }) + ' ' + 
+                          now.toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit' });
+    
+    const newPost = {
+      id: currentPostId || Date.now().toString(),
+      text: text,
+      tone: tone,
+      imageSrc: imageSrc,
+      date: formattedDate,
+      sent: isSent
+    };
+    
+    currentPostId = newPost.id;
+    archive.unshift(newPost);
+    localStorage.setItem('ai_news_archive', JSON.stringify(archive));
+    renderArchive();
+  }
+
+  function savePostDraft() {
+    savePostToArchive(false);
+    showToast("הנוסח נשמר בארכיון!");
+  }
+
+  function openArchive() {
+    document.getElementById('archiveOverlay').classList.add('show');
+    document.getElementById('archiveDrawer').classList.add('open');
+    renderArchive();
+  }
+
+  function closeArchive() {
+    document.getElementById('archiveOverlay').classList.remove('show');
+    document.getElementById('archiveDrawer').classList.remove('open');
+  }
+
+  function renderArchive() {
+    const container = document.getElementById('archiveItems');
+    if (!container) return;
+    
+    const archive = JSON.parse(localStorage.getItem('ai_news_archive') || '[]');
+    
+    if (archive.length === 0) {
+      container.innerHTML = `
+        <div style="text-align:center; padding:40px 20px; color:var(--muted); font-size:14px;">
+          <span class="material-symbols-outlined" style="font-size:48px; margin-bottom:12px; display:block; opacity:0.5;">archive</span>
+          אין פוסטים בארכיון עדיין.
+        </div>
+      `;
+      return;
+    }
+    
+    container.innerHTML = archive.map(post => {
+      const toneLabel = getToneLabel(post.tone);
+      const badgeClass = post.sent ? 'sent' : 'draft';
+      const badgeText = post.sent ? 'שוגר' : 'טיוטה';
+      const badgeIcon = post.sent ? 'send' : 'description';
+      
+      return `
+        <div class="archive-item" data-id="${post.id}">
+          <div class="archive-item-meta">
+            <span>${post.date}</span>
+            <span class="status-badge ${badgeClass}">
+              <span class="material-symbols-outlined" style="font-size:12px; vertical-align:middle;">${badgeIcon}</span>
+              ${badgeText}
+            </span>
+          </div>
+          <div style="font-size:12px; font-weight:700; color:var(--accent); margin-bottom:8px;">סגנון: ${toneLabel}</div>
+          
+          ${post.imageSrc ? `<img src="${post.imageSrc}" class="archive-item-image" alt="תמונת פוסט" />` : ''}
+          
+          <div class="archive-item-text">${escapeHtml(post.text)}</div>
+          
+          <div class="archive-item-actions">
+            <button style="background:var(--accent); color:#000;" onclick="loadPostFromArchive('${post.id}')" title="טען לסטודיו">
+              <span class="material-symbols-outlined" style="font-size:14px; vertical-align:middle;">open_in_new</span>
+              טען
+            </button>
+            <button style="background:var(--card); color:var(--text); border:1px solid var(--border);" onclick="copyArchiveText('${post.id}')" title="העתק טקסט">
+              <span class="material-symbols-outlined" style="font-size:14px; vertical-align:middle;">content_copy</span>
+            </button>
+            ${post.imageSrc ? `
+              <button style="background:var(--card); color:var(--text); border:1px solid var(--border);" onclick="downloadArchiveImage('${post.imageSrc}')" title="הורד תמונה">
+                <span class="material-symbols-outlined" style="font-size:14px; vertical-align:middle;">download</span>
+              </button>
+            ` : ''}
+            <button style="background:rgba(239,68,68,0.1); color:#f87171; border:1px solid rgba(239,68,68,0.3);" onclick="deleteFromArchive('${post.id}')" title="מחק">
+              <span class="material-symbols-outlined" style="font-size:14px; vertical-align:middle;">delete</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function loadPostFromArchive(id) {
+    const archive = JSON.parse(localStorage.getItem('ai_news_archive') || '[]');
+    const post = archive.find(p => p.id === id);
+    if (!post) return;
+
+    // טעינת טקסט
+    document.getElementById('postOutput').textContent = post.text;
+    document.getElementById('outputCard').style.display = 'block';
+    
+    // הגדרת סגנון
+    const toneSelect = document.getElementById('postTone');
+    if (toneSelect && [...toneSelect.options].some(o => o.value === post.tone)) {
+      toneSelect.value = post.tone;
+    }
+
+    // טעינת תמונה אם קיימת
+    const section = document.getElementById('aiImageSection');
+    const loaderEl = document.getElementById('aiImageLoader');
+    const imgEl = document.getElementById('aiImage');
+
+    if (post.imageSrc) {
+      section.style.display = 'block';
+      loaderEl.style.display = 'none';
+      imgEl.style.display = 'block';
+      imgEl.src = post.imageSrc;
+      imgEl.dataset.src = post.imageSrc;
+    } else {
+      section.style.display = 'none';
+      imgEl.src = '';
+      imgEl.style.display = 'none';
+    }
+
+    currentPostId = id;
+    closeArchive();
+    showToast("הפוסט נטען מחדש לסטודיו!");
+    
+    // גלילה חלקה לתצוגה המקדימה
+    document.getElementById('outputCard').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function copyArchiveText(id) {
+    const archive = JSON.parse(localStorage.getItem('ai_news_archive') || '[]');
+    const post = archive.find(p => p.id === id);
+    if (!post) return;
+
+    navigator.clipboard.writeText(post.text).then(() => {
+      showToast("הטקסט הועתק ללוח!");
+    }).catch(err => {
+      alert("שגיאה בהעתקה.");
+    });
+  }
+
+  function downloadArchiveImage(url) {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'ai-archive-image.jpg';
+    a.target = '_blank';
+    a.click();
+  }
+
+  function deleteFromArchive(id) {
+    if (!confirm("האם אתה בטוח שברצונך למחוק פוסט זה מהארכיון?")) return;
+
+    let archive = JSON.parse(localStorage.getItem('ai_news_archive') || '[]');
+    archive = archive.filter(p => p.id !== id);
+    localStorage.setItem('ai_news_archive', JSON.stringify(archive));
+    
+    if (currentPostId === id) {
+      currentPostId = null;
+    }
+    
+    renderArchive();
+    showToast("הפוסט נמחק מהארכיון", "delete");
+  }
+
+  function showToast(message, icon = 'check_circle') {
+    const toast = document.getElementById('toast');
+    toast.querySelector('.toast-text').textContent = message;
+    toast.querySelector('.toast-icon').textContent = icon;
+    toast.style.display = 'flex';
+    setTimeout(() => {
+      toast.style.display = 'none';
+    }, 3000);
+  }
+
+  function escapeHtml(text) {
+    return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
   }
 
   function extractTextFromHtml(html) {
