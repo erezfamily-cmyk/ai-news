@@ -450,6 +450,38 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
     window.open(waUrl, '_blank');
   }
 
+  function extractTextFromHtml(html) {
+    // הסרת סקריפטים, סגנונות ותגיות HTML
+    let text = html
+      .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+      .replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, '')
+      .replace(/<header[^>]*>[\s\S]*?<\/header>/gi, '')
+      .replace(/<footer[^>]*>[\s\S]*?<\/footer>/gi, '')
+      .replace(/<aside[^>]*>[\s\S]*?<\/aside>/gi, '')
+      .replace(/<!--[\s\S]*?-->/g, '')
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/p>/gi, '\n')
+      .replace(/<\/div>/gi, '\n')
+      .replace(/<\/h[1-6]>/gi, '\n')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    return text.substring(0, 5000);
+  }
+
+  async function tryProxy(proxyUrl) {
+    const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(8000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res;
+  }
+
   async function scrapeUrl() {
     const ta = document.getElementById('rawContent');
     const urlMatch = ta.value.match(/https?:\/\/[^\s]+/);
@@ -458,27 +490,47 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       return;
     }
     const url = urlMatch[0];
-    ta.value = "קורא את התוכן מתוך הקישור, אנא המתן...";
-    
-    try {
-      const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
-      const data = await res.json();
-      if (data.contents) {
-        // מחיקת תגיות HTML בצורה גסה כדי לחלץ טקסט גולמי
-        let text = data.contents;
-        text = text.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-                   .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-                   .replace(/<[^>]+>/g, ' ')
-                   .replace(/\s+/g, ' ')
-                   .trim();
-        // לקחת את ה-4000 תווים הראשונים בלבד
-        ta.value = `[תוכן מחולץ מ-${url}]:\n\n` + text.substring(0, 4000);
-      } else {
-        ta.value = url + "\n\n(שגיאה בחילוץ התוכן מהאתר, ה-AI ינסה להבין מהקישור עצמו)";
+    const encoded = encodeURIComponent(url);
+
+    const proxies = [
+      { name: 'allorigins',  fetch: async () => {
+          const r = await tryProxy(`https://api.allorigins.win/get?url=${encoded}`);
+          const d = await r.json();
+          return d.contents || null;
+      }},
+      { name: 'corsproxy',   fetch: async () => {
+          const r = await tryProxy(`https://corsproxy.io/?${encoded}`);
+          return await r.text();
+      }},
+      { name: 'codetabs',    fetch: async () => {
+          const r = await tryProxy(`https://api.codetabs.com/v1/proxy?quest=${encoded}`);
+          return await r.text();
+      }},
+      { name: 'htmlpreview', fetch: async () => {
+          const r = await tryProxy(`https://thingproxy.freeboard.io/fetch/${url}`);
+          return await r.text();
+      }},
+    ];
+
+    for (let i = 0; i < proxies.length; i++) {
+      const proxy = proxies[i];
+      ta.value = `מנסה לקרוא את הכתבה (ניסיון ${i+1}/${proxies.length})...`;
+      try {
+        const html = await proxy.fetch();
+        if (html && html.length > 200) {
+          const text = extractTextFromHtml(html);
+          if (text.length > 100) {
+            ta.value = `[תוכן מחולץ מ-${url}]:\n\n` + text;
+            return;
+          }
+        }
+      } catch(e) {
+        console.warn(`Proxy ${proxy.name} failed:`, e.message);
       }
-    } catch(e) {
-      ta.value = url + "\n\n(לא ניתן לגשת לקישור באופן אוטומטי. ה-AI יסתמך על הקישור בלבד)";
     }
+
+    // כל ה-proxies נכשלו — ה-AI ינסה על פי הקישור
+    ta.value = url + "\n\n(האתר חוסם גישה אוטומטית. ה-AI יסתמך על הקישור עצמו ועל ידע כללי על הנושא.)";
   }
 </script>
 </body>
