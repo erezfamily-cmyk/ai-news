@@ -254,6 +254,11 @@
     const urlParam = params.get('url');
     if (urlParam) {
       document.getElementById('rawContent').value = urlParam;
+      // Auto-populate YouTube thumbnail
+      const ytMatch = urlParam.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+      if (ytMatch) {
+        document.getElementById('mediaUrl').value = `https://img.youtube.com/vi/${ytMatch[1]}/maxresdefault.jpg`;
+      }
       setTimeout(scrapeUrl, 500);
     }
   }
@@ -360,6 +365,7 @@
 4. אל תמציא מידע שלא קיים בטקסט או בידע הכללי שלך על הנושא.
 5. שים לב להדגשות (כוכביות *כמו בוואטסאפ*) איפה שצריך להדגיש מילים חשובות.
 6. בסוף הפוסט, הוסף שורה להנעה לפעולה או קישור אם יש.
+7. חשוב מאוד: אל תוסיף שאלות כגון "מה דעתכם?", "ספרו לנו בתגובות", "נשמח לשמוע" או כל שאלה מעין זו.
 
 המידע הגולמי מהמשתמש:
 """
@@ -367,6 +373,8 @@ ${rawContent}
 """
 
 ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: ${mediaUrl} (שלב את הקישור בפוסט)` : ""}
+
+החזר רק את טקסט הפוסט עצמו בלבד. אל תוסיף כל הקדמה כגון "בוודאי!", "הנה הפוסט:", "כמובן!", או כל הסבר אחר לפני הפוסט. אל תוסיף שום טקסט אחרי הפוסט.
 `;
 
     // הכנת התמונה אם הועלתה
