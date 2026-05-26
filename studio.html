@@ -489,7 +489,8 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       alert("לא זוהה קישור תקין בתיבת התוכן. אנא הדבק קישור מלא (כולל http/https).");
       return;
     }
-    const url = urlMatch[0];
+    // נקה תווים מיוחדים בסוף ה-URL (סוגריים, מקפים וכד')
+    const url = urlMatch[0].replace(/[\]\[):;,.\-]+$/, '');
     const encoded = encodeURIComponent(url);
 
     const proxies = [
@@ -517,9 +518,16 @@ ${mediaUrl ? `* שים לב: המשתמש גם צירף קישור למדיה: $
       }},
     ];
 
+    const errorPageSignals = ['הודעת שגיאה', 'captcha', 'access denied', '403 forbidden', 'bot detected', 'please enable javascript', 'שגיאה 4'];
+
+    function isErrorPage(text) {
+      const lower = text.toLowerCase();
+      return errorPageSignals.some(sig => lower.includes(sig.toLowerCase())) || text.length < 150;
+    }
+
     for (let i = 0; i < proxies.length; i++) {
       const proxy = proxies[i];
-      ta.value = `מנסה לקרוא את הכתבה (ניסיון ${i+1}/${proxies.length})...`;
+      ta.value = `מנסה לקרוא את הכתבה (ניסיון ${i+1}/${proxies.length} — ${proxy.name})...`;
       try {
         const html = await proxy.fetch();
         if (html && html.length > 200) {
