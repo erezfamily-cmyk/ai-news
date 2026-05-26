@@ -42,7 +42,7 @@ FEEDS = {
         "filter_ai": True,
     },
     "ynet טכנולוגיה": {
-        "url": "https://www.ynet.co.il/Integration/StoryRss3785.xml",
+        "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
         "category": "חדשות טכנולוגיה",
         "filter_ai": True,
     },
@@ -80,6 +80,24 @@ FEEDS = {
         "filter_ai": True,
         "filter_extra": ["ממשלה", "ממשלתי", "מגזר ציבורי", "דיגיטל", "משרד", "רגולציה",
                          "סייבר", "cyber", "מחשוב", "ענן", "נתונים", "אוטומציה"],
+    },
+    "ynet טכנולוגיה — מגזר ציבורי": {
+        "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+        "category": "מחשוב וממשל",
+        "filter_ai": True,
+        "filter_extra": ["ממשלה", "ממשלתי", "מגזר ציבורי", "דיגיטל ישראל", "משרד", "רגולציה",
+                         "סייבר", "cyber", "govtech", "government", "public sector",
+                         "מחשוב", "it ", "cloud", "ענן", "נתונים", "data", "אוטומציה",
+                         "automation", "productivity", "copilot", "microsoft", "google workspace"],
+    },
+    "ynet כללי — מגזר ציבורי": {
+        "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+        "category": "מחשוב וממשל",
+        "filter_ai": True,
+        "filter_extra": ["ממשלה", "ממשלתי", "מגזר ציבורי", "דיגיטל ישראל", "משרד", "רגולציה",
+                         "סייבר", "cyber", "govtech", "government", "public sector",
+                         "מחשוב", "it ", "cloud", "ענן", "נתונים", "data", "אוטומציה",
+                         "automation", "productivity", "copilot", "microsoft", "google workspace"],
     },
 
     # קמפוס GOV נסרק דרך scrape_campus_gov() — ראה להלן
@@ -426,6 +444,9 @@ def scrape():
         print(f"סורק: {name}...")
         try:
             feed = feedparser.parse(meta["url"])
+            status = getattr(feed, "status", 200)
+            if status not in (200, 301, 302, 0): # feedparser sometimes sets 0 or doesn't have status for local files/direct loads
+                raise RuntimeError(f"HTTP Status {status}")
             items = []
             do_filter    = meta.get("filter_ai", False)
             extra_kws    = [k.lower() for k in meta.get("filter_extra", [])]
