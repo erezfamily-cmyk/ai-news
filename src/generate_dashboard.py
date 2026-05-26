@@ -1225,7 +1225,7 @@ async function triggerScan() {{
     }});
     
     if (res.ok) {{
-      textEl.textContent = 'סורק ומעדכן (כ-2 דק')...';
+      textEl.textContent = 'סורק ומעדכן (כ-2 דקות)...';
       setTimeout(() => pollWorkflow(token.trim()), 15000); // מתחיל לבדוק סטטוס אחרי 15 שניות
     }} else {{
       resetScanBtn();
