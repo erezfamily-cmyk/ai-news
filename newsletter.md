@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 29/05/2026
+# 🤖 עדכוני AI Pulse — 30/05/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מתחילים לעבוד!](https://www.youtube.com/watch?v=LVhDTqK-4w4)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=cGp0Rgntivw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=4_vFxfFVvMU)
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 5. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=LVhDTqK-4w4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
