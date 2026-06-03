@@ -32,50 +32,35 @@
         "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
       }
     ],
-    "scraped_at": "2026-06-02T12:37:33.596432+00:00",
+    "scraped_at": "2026-06-03T08:12:47.628105+00:00",
     "error": null
   },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-06-03T08:12:49.160751+00:00",
+    "error": null
+  },
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-06-03T08:14:56.932213+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-06-02T12:37:32.490639+00:00",
-    "error": null
+    "scraped_at": "2026-06-03T08:12:46.021640+00:00",
+    "error": "HTTP Status 404"
   },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "ה-AI הגיע גם לארגז החול של החתול - ובאופן מפתיע זה עובד",
-        "link": "https://www.ynet.co.il/digital/reviews/article/hkyxwzolmg",
-        "summary": "ה-Purobot Max Pro 2 של PETKIT נשמע בהתחלה כמו גימיק AI מוגזם לחובבי חתולים, אבל אחרי חודשיים של שימוש התמונה נראית אחרת לגמרי. עם מצלמה פנימית, זיהוי של כל חתול בנפרד, ניטור משקל ושליטה מפתיעה בריחות, מדובר באחד מארגזי החול האוטומטיים הכי מעניינים ומתקדמים שנחתו בארץ",
-        "date": "2026-06-01T13:59:26+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/01/HkVCCbixGg/HkVCCbixGg_1001_185_2000_1126_0_medium.jpg"
-      },
-      {
-        "title": "המחשב האישי מת: אנבידיה בונה דור חדש של מחשבי AI אוטונומיים",
-        "link": "https://www.ynet.co.il/digital/technews/article/skom1p9lgl",
-        "summary": "ענקית הטק הכריזה על שבבים חדשים המבטיחים להפוך את מחשבי הווינדוס למכונות שמריצות סוכני AI עצמאיים גם בלי חיבור לענן. המחשבים הראשונים יגיעו כבר השנה לשוק. מאחורי ההכרזה הדרמטית מסתתר קרב ענק חדש מול אינטל, אפל וקוואלקום על העתיד של שוק המחשבים האישי",
-        "date": "2026-06-01T08:28:27+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/01/Sk7GW69xGx/Sk7GW69xGx_21_13_1251_704_0_medium.jpg"
-      },
-      {
-        "title": "המודל של אנת'רופיק שמפחיד את עולם הסייבר: \"אנחנו לא ערוכים למה שמגיע\"",
-        "link": "https://www.ynet.co.il/digital/technology/article/s1hslrexzx",
-        "summary": "המודל החדש \"קלוד מיתוס\" הצליח לזהות ולתרגם חולשות אבטחה למתקפות מעשיות בקצב חסר תקדים, ומומחי סייבר מזהירים מפני עידן חדש שבו AI תוקף AI. בריאיון ל-ynet מסביר בכיר ב-KPMG מדוע גם מערכות ישנות כבר אינן בטוחות, ואיך בתוך שנה הכלים הללו עלולים להגיע גם לידי סין, רוסיה ואיראן",
-        "date": "2026-05-27T11:08:41+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/05/r19uuLwAZl/r19uuLwAZl_0_187_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "לא טנקים ולא מטוסים: זה הנשק החדש שעליו ארה\"ב מוציאה 9 מיליארד דולר",
-        "link": "https://www.ynet.co.il/digital/technews/article/skveyh11gfl",
-        "summary": "הבית הלבן אישר תקציב חסוי לרכישת שבבי AI ומחשבי על עבור ה-NSA וה-CIA, מתוך חשש שארה\"ב מאבדת יתרון במרוץ הטכנולוגי מול סין. בזמן שוואווי עוקפת מגבלות מערביות ומפתחת ארכיטקטורות שבבים משלה, סוכנויות הביון האמריקאיות מגלות שגם להן כבר חסר כוח מחשוב",
-        "date": "2026-05-25T12:32:46+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/07/24/BJ11DXDt1weg/BJ11DXDt1weg_0_97_2134_1202_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-06-02T12:39:40.723571+00:00",
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-06-03T08:12:49.070591+00:00",
     "error": null
   },
   "קמפוס GOV": {
@@ -111,27 +96,83 @@
         "image": null
       }
     ],
-    "scraped_at": "2026-06-02T12:40:36.298097+00:00",
-    "error": null
-  },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-06-02T12:39:39.810690+00:00",
-    "error": "HTTP Status 524"
-  },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-06-02T12:37:34.499620+00:00",
+    "scraped_at": "2026-06-03T08:15:06.013337+00:00",
     "error": null
   },
   "YouTube — הדרכות": {
     "url": "https://www.youtube.com",
     "category": "הדרכות",
     "items": [
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.606781+00:00",
+        "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
+      },
+      {
+        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
+        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.017559+00:00",
+        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.017557+00:00",
+        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.017555+00:00",
+        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.017552+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-06-03T08:15:09.017539+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "קלוד Cowork: איך להפעיל קבצים על המחשב",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-06-03T08:15:08.483517+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "איך ליצור Skill חדש בקלוד?",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-06-03T08:15:08.483515+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה קלוד Skills",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-06-03T08:15:08.483513+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "קלוד Connectors: חיבור לכלים חיצוניים",
+        "link": "https://www.youtube.com/watch?v=4y8X1hBWPKk",
+        "summary": "",
+        "date": "2026-06-03T08:15:08.483510+00:00",
+        "image": "https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg"
+      },
       {
         "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
         "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
@@ -140,32 +181,11 @@
         "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
       },
       {
-        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
-        "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
-        "summary": "",
-        "date": "2026-06-02T12:40:39.890308+00:00",
-        "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
-      },
-      {
         "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
         "link": "https://www.youtube.com/watch?v=hhAJPiHwotY",
         "summary": "",
         "date": "2026-06-02T12:40:39.242278+00:00",
         "image": "https://img.youtube.com/vi/hhAJPiHwotY/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-06-02T12:40:39.242276+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
-        "summary": "",
-        "date": "2026-06-02T12:40:39.242274+00:00",
-        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
       },
       {
         "title": "פיצ'ר למנוים PRO – פרויקטים",
@@ -203,39 +223,11 @@
         "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
       },
       {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
-        "summary": "",
-        "date": "2026-06-02T07:24:22.265434+00:00",
-        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
-        "summary": "",
-        "date": "2026-06-02T07:24:22.265431+00:00",
-        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
-      },
-      {
         "title": "מתחילים לעבוד!",
         "link": "https://www.youtube.com/watch?v=VmVRuRqALLk",
         "summary": "",
         "date": "2026-06-01T14:59:13.004619+00:00",
         "image": "https://img.youtube.com/vi/VmVRuRqALLk/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-06-01T14:59:13.004610+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "העלאת הפרויקט לgithub",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-06-01T14:59:12.252195+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
       },
       {
         "title": "בניית משחק לדוגמא",
@@ -281,13 +273,6 @@
       },
       {
         "title": "פיצ'ר למנוים PRO – פרויקטים",
-        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
-        "summary": "",
-        "date": "2026-05-31T06:57:41.801601+00:00",
-        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
-        "title": "פיצ'ר למנוים PRO – פרויקטים",
         "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
         "summary": "",
         "date": "2026-05-30T10:49:52.777242+00:00",
@@ -306,13 +291,6 @@
         "summary": "",
         "date": "2026-05-30T06:23:22.058988+00:00",
         "image": "https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg"
-      },
-      {
-        "title": "הרשמה לקלוד",
-        "link": "https://www.youtube.com/watch?v=4y8X1hBWPKk",
-        "summary": "",
-        "date": "2026-05-30T06:23:22.058979+00:00",
-        "image": "https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg"
       },
       {
         "title": "מה אפשר לעשות עם קלוד ומה מיוחד בו",
@@ -371,308 +349,41 @@
         "image": "https://img.youtube.com/vi/NiGvC1G1P2c/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-06-02T12:40:39.890360+00:00",
+    "scraped_at": "2026-06-03T08:15:09.606828+00:00",
     "error": null
   },
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
     "category": "מחשוב וממשל",
     "items": [],
-    "scraped_at": "2026-06-02T12:39:40.960218+00:00",
-    "error": null
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-06-02T12:37:34.461084+00:00",
+    "scraped_at": "2026-06-03T08:14:55.561588+00:00",
     "error": "HTTP Status 404"
   },
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
-    "items": [
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
-        "summary": "",
-        "date": "2026-06-02T12:40:37.827832+00:00",
-        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-06-02T12:40:37.827830+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-06-02T12:40:37.827827+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-06-02T12:40:37.827811+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "Recap: Everyday AI",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.972005+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "Claude",
-        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.972003+00:00",
-        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
-      },
-      {
-        "title": "Google Gemini",
-        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.972001+00:00",
-        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
-      },
-      {
-        "title": "ChatGPT",
-        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.971999+00:00",
-        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
-      },
-      {
-        "title": "Everyday AI",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.971995+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
-      },
-      {
-        "title": "The AI Tools that Drive 90% of My Results",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-06-02T12:40:36.971980+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
-        "summary": "",
-        "date": "2026-06-02T07:24:21.129550+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
-      },
-      {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-06-02T07:24:21.129532+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה AI MODEL? משפחת מודלים",
-        "link": "https://www.youtube.com/watch?v=KRmQic3LjhU",
-        "summary": "",
-        "date": "2026-06-02T07:24:20.212358+00:00",
-        "image": "https://img.youtube.com/vi/KRmQic3LjhU/mqdefault.jpg"
-      },
-      {
-        "title": "הקדמה",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-06-02T07:24:20.212355+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "למה צריך לדעת את זה?",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-06-02T07:24:20.212337+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-06-01T14:59:11.609682+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-06-01T14:59:11.609680+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה AI MODEL? משפחת מודלים",
-        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
-        "summary": "",
-        "date": "2026-06-01T14:59:10.470988+00:00",
-        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
-        "summary": "",
-        "date": "2026-05-31T10:57:56.023181+00:00",
-        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
-        "title": "מבוא והקדמה",
-        "link": "https://www.youtube.com/watch?v=ZeZTZHA1Tc8",
-        "summary": "",
-        "date": "2026-05-31T10:57:55.497110+00:00",
-        "image": "https://img.youtube.com/vi/ZeZTZHA1Tc8/mqdefault.jpg"
-      },
-      {
-        "title": "הערכה פנימית בסיוע AI",
-        "link": "https://www.youtube.com/watch?v=KPGZHyjin3I",
-        "summary": "",
-        "date": "2026-05-31T10:57:55.497107+00:00",
-        "image": "https://img.youtube.com/vi/KPGZHyjin3I/mqdefault.jpg"
-      },
-      {
-        "title": "כלי הערכה פנימיים בעברית המבוססים על בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-05-31T10:57:55.497104+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-05-31T06:57:41.256746+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
-        "summary": "",
-        "date": "2026-05-31T06:57:41.256743+00:00",
-        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-05-30T10:49:52.223777+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "Deep Research – כלי המחקר החכם",
-        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
-        "summary": "",
-        "date": "2026-05-30T10:49:51.612865+00:00",
-        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=a2PjshpYwm4",
-        "summary": "",
-        "date": "2026-05-29T12:14:17.706356+00:00",
-        "image": "https://img.youtube.com/vi/a2PjshpYwm4/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה צ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
-        "summary": "",
-        "date": "2026-05-29T12:14:17.706352+00:00",
-        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
-      },
-      {
-        "title": "consensus",
-        "link": "https://www.youtube.com/watch?v=0D3vwzTJvok",
-        "summary": "",
-        "date": "2026-05-28T12:25:52.930667+00:00",
-        "image": "https://img.youtube.com/vi/0D3vwzTJvok/mqdefault.jpg"
-      },
-      {
-        "title": "איתור מקורות",
-        "link": "https://www.youtube.com/watch?v=lHsAWP8PViw",
-        "summary": "",
-        "date": "2026-05-28T12:25:52.930665+00:00",
-        "image": "https://img.youtube.com/vi/lHsAWP8PViw/mqdefault.jpg"
-      },
-      {
-        "title": "הקדמה",
-        "link": "https://www.youtube.com/watch?v=EFwiSVHxv-Y",
-        "summary": "",
-        "date": "2026-05-28T12:25:52.930641+00:00",
-        "image": "https://img.youtube.com/vi/EFwiSVHxv-Y/mqdefault.jpg"
-      },
-      {
-        "title": "משפחת AI AGENT",
-        "link": "https://www.youtube.com/watch?v=rc_bEdxb4Mo",
-        "summary": "",
-        "date": "2026-05-27T12:31:10.163231+00:00",
-        "image": "https://img.youtube.com/vi/rc_bEdxb4Mo/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=_Gs0fRUuANs",
-        "summary": "",
-        "date": "2026-05-27T07:03:22.088174+00:00",
-        "image": "https://img.youtube.com/vi/_Gs0fRUuANs/mqdefault.jpg"
-      },
-      {
-        "title": "גישה לטבלת הכלים",
-        "link": "https://www.youtube.com/watch?v=gTmYI_KmN8k",
-        "summary": "",
-        "date": "2026-05-25T12:26:40.948501+00:00",
-        "image": "https://img.youtube.com/vi/gTmYI_KmN8k/mqdefault.jpg"
-      },
-      {
-        "title": "מבוא והקדמה",
-        "link": "https://www.youtube.com/watch?v=YHpupDVaRIs",
-        "summary": "",
-        "date": "2026-05-25T12:26:40.948499+00:00",
-        "image": "https://img.youtube.com/vi/YHpupDVaRIs/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=VmVRuRqALLk",
-        "summary": "",
-        "date": "2026-05-23T10:24:04.809249+00:00",
-        "image": "https://img.youtube.com/vi/VmVRuRqALLk/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=u54q4-M0GqM",
-        "summary": "",
-        "date": "2026-05-22T11:44:44.918749+00:00",
-        "image": "https://img.youtube.com/vi/u54q4-M0GqM/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
-        "summary": "",
-        "date": "2026-05-22T06:47:28.063457+00:00",
-        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
-      },
-      {
-        "title": "משפחת AI CODE ASSISNTANT",
-        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
-        "summary": "",
-        "date": "2026-05-21T06:51:51.927751+00:00",
-        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-06-02T12:40:37.828019+00:00",
-    "error": null
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-06-03T08:14:54.325750+00:00",
+    "error": "HTTP Status 524"
   },
   "ynet טכנולוגיה": {
     "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "גוגל צריכה עוד כוח: יוצאת לגיוס ענק של 80 מיליארד דולר",
+        "link": "https://www.ynet.co.il/digital/technews/article/sku011l3ege",
+        "summary": "חברת האם אלפבית הודיעה כי תגייס את סכום העתק במטרה להרחיב את תשתיות הבינה המלאכותית שלה, בזמן שהביקוש לשירותי AI מזנק בקצב חסר תקדים. מאחורי הצ'אטבוטים והסוכנים האוטונומיים מסתתר מרוץ יקר במיוחד על שרתים, שבבים וחשמל",
+        "date": "2026-06-02T13:01:02+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/23/r1jamGkeMg/r1jamGkeMg_0_0_1280_720_0_medium.jpg"
+      },
+      {
+        "title": "אינטל מנסה לחזור למרכז הבמה עם מתקפת שבבים שאפתנית במיוחד",
+        "link": "https://www.ynet.co.il/digital/technews/article/byd11ohhlzl",
+        "summary": "בתערוכת Computex 2026 הציגה ענקית הטק חזון חדש לעידן ה-AI, שבו המחשב האישי, הרובוט ואפילו המכונית מריצים סוכנים באופן מקומי וללא תלות בענן. החברה חשפה שורת שבבים, כלי פיתוח ופתרונות רובוטיקה חדשים, תוך עקיצות ישירות לאנבידיה והבטחה לביצועים גבוהים בעלות נמוכה",
+        "date": "2026-06-02T12:38:29+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/01/06/BkMqsmqNWx/BkMqsmqNWx_1_109_1600_901_0_medium.jpg"
+      },
       {
         "title": "גם הדפדפן שלכם הפך למפלצת AI? אלו האלטרנטיבות שיחזירו לכם שליטה",
         "link": "https://www.ynet.co.il/digital/technews/article/rjrb0112egx",
@@ -819,44 +530,354 @@
         "summary": "בזמן שכל העולם רודף אחרי צ'אטבוטים שיודעים לכתוב טקסטים ולייצר תמונות, ענקיות התעשייה חיפשו משהו אחר לגמרי: AI שמבין פיזיקה, חומרים והנדסה אמיתית. השותפות החדשה בין אנבידיה לדאסו מנסה להפוך מפעלים, מטוסים ותרופות לסימולציה מדויקת של העולם האמיתי",
         "date": "2026-05-20T12:53:13+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/20/rJ9n27skfx/rJ9n27skfx_0_0_650_366_0_medium.jpg"
-      },
-      {
-        "title": "גוגל חשפה את השלב הבא של האינטרנט - והוא יעשה הכל במקומכם",
-        "link": "https://www.ynet.co.il/digital/technews/article/hjqvtg9jfe",
-        "summary": "בכנס Google I/O 2026 החברה הציגה שדרוג משמעותי למנוע החיפוש מבוסס ה- AI שלה, מודל מולטימודלי עוצמתי בשם ג'מיני אומני, משקפיים חכמים שמבינים את העולם סביבכם וסוכנים שיחפשו, יקנו ויבצעו משימות עבור המשתמשים כמעט בלי לגעת בסמארטפון",
-        "date": "2026-05-19T18:06:11+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/19/SJedbr7qyfe/SJedbr7qyfe_0_0_2758_1536_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-06-02T12:37:33.948378+00:00",
+    "scraped_at": "2026-06-03T08:12:48.592511+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-06-03T08:15:07.834099+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
+        "summary": "",
+        "date": "2026-06-03T08:15:07.834097+00:00",
+        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-06-03T08:15:07.834094+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-06-03T08:15:07.834078+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "משפחת AI CODE ASSISNTANT",
+        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896771+00:00",
+        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
+      },
+      {
+        "title": "משפחת AI AGENT",
+        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896768+00:00",
+        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
+      },
+      {
+        "title": "משפחת AI CHAT",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896766+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה AI MODEL? משפחת מודלים",
+        "link": "https://www.youtube.com/watch?v=KPGZHyjin3I",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896764+00:00",
+        "image": "https://img.youtube.com/vi/KPGZHyjin3I/mqdefault.jpg"
+      },
+      {
+        "title": "הקדמה",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896760+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "למה צריך לדעת את זה?",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-06-03T08:15:06.896745+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
+        "summary": "",
+        "date": "2026-06-02T12:40:37.827832+00:00",
+        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-06-02T12:40:37.827830+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-06-02T12:40:37.827827+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-06-02T12:40:37.827811+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "Claude",
+        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
+        "summary": "",
+        "date": "2026-06-02T12:40:36.972003+00:00",
+        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
+      },
+      {
+        "title": "Google Gemini",
+        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
+        "summary": "",
+        "date": "2026-06-02T12:40:36.972001+00:00",
+        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
+      },
+      {
+        "title": "Everyday AI",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-06-02T12:40:36.971995+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה AI MODEL? משפחת מודלים",
+        "link": "https://www.youtube.com/watch?v=KRmQic3LjhU",
+        "summary": "",
+        "date": "2026-06-02T07:24:20.212358+00:00",
+        "image": "https://img.youtube.com/vi/KRmQic3LjhU/mqdefault.jpg"
+      },
+      {
+        "title": "הקדמה",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-06-02T07:24:20.212355+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "למה צריך לדעת את זה?",
+        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
+        "summary": "",
+        "date": "2026-06-02T07:24:20.212337+00:00",
+        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-06-01T14:59:11.609682+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה AI MODEL? משפחת מודלים",
+        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
+        "summary": "",
+        "date": "2026-06-01T14:59:10.470988+00:00",
+        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-05-31T10:57:56.023181+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "מבוא והקדמה",
+        "link": "https://www.youtube.com/watch?v=ZeZTZHA1Tc8",
+        "summary": "",
+        "date": "2026-05-31T10:57:55.497110+00:00",
+        "image": "https://img.youtube.com/vi/ZeZTZHA1Tc8/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-05-31T06:57:41.256746+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=LVhDTqK-4w4",
+        "summary": "",
+        "date": "2026-05-31T06:57:41.256743+00:00",
+        "image": "https://img.youtube.com/vi/LVhDTqK-4w4/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-05-30T10:49:52.223777+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק צ'אט גיפיטי",
+        "link": "https://www.youtube.com/watch?v=a2PjshpYwm4",
+        "summary": "",
+        "date": "2026-05-29T12:14:17.706356+00:00",
+        "image": "https://img.youtube.com/vi/a2PjshpYwm4/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה צ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
+        "summary": "",
+        "date": "2026-05-29T12:14:17.706352+00:00",
+        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
+      },
+      {
+        "title": "consensus",
+        "link": "https://www.youtube.com/watch?v=0D3vwzTJvok",
+        "summary": "",
+        "date": "2026-05-28T12:25:52.930667+00:00",
+        "image": "https://img.youtube.com/vi/0D3vwzTJvok/mqdefault.jpg"
+      },
+      {
+        "title": "איתור מקורות",
+        "link": "https://www.youtube.com/watch?v=lHsAWP8PViw",
+        "summary": "",
+        "date": "2026-05-28T12:25:52.930665+00:00",
+        "image": "https://img.youtube.com/vi/lHsAWP8PViw/mqdefault.jpg"
+      },
+      {
+        "title": "הקדמה",
+        "link": "https://www.youtube.com/watch?v=EFwiSVHxv-Y",
+        "summary": "",
+        "date": "2026-05-28T12:25:52.930641+00:00",
+        "image": "https://img.youtube.com/vi/EFwiSVHxv-Y/mqdefault.jpg"
+      },
+      {
+        "title": "משפחת AI AGENT",
+        "link": "https://www.youtube.com/watch?v=rc_bEdxb4Mo",
+        "summary": "",
+        "date": "2026-05-27T12:31:10.163231+00:00",
+        "image": "https://img.youtube.com/vi/rc_bEdxb4Mo/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=_Gs0fRUuANs",
+        "summary": "",
+        "date": "2026-05-27T07:03:22.088174+00:00",
+        "image": "https://img.youtube.com/vi/_Gs0fRUuANs/mqdefault.jpg"
+      },
+      {
+        "title": "גישה לטבלת הכלים",
+        "link": "https://www.youtube.com/watch?v=gTmYI_KmN8k",
+        "summary": "",
+        "date": "2026-05-25T12:26:40.948501+00:00",
+        "image": "https://img.youtube.com/vi/gTmYI_KmN8k/mqdefault.jpg"
+      },
+      {
+        "title": "מבוא והקדמה",
+        "link": "https://www.youtube.com/watch?v=YHpupDVaRIs",
+        "summary": "",
+        "date": "2026-05-25T12:26:40.948499+00:00",
+        "image": "https://img.youtube.com/vi/YHpupDVaRIs/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=VmVRuRqALLk",
+        "summary": "",
+        "date": "2026-05-23T10:24:04.809249+00:00",
+        "image": "https://img.youtube.com/vi/VmVRuRqALLk/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=u54q4-M0GqM",
+        "summary": "",
+        "date": "2026-05-22T11:44:44.918749+00:00",
+        "image": "https://img.youtube.com/vi/u54q4-M0GqM/mqdefault.jpg"
+      },
+      {
+        "title": "משפחת AI CODE ASSISNTANT",
+        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
+        "summary": "",
+        "date": "2026-05-21T06:51:51.927751+00:00",
+        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-06-03T08:15:07.834275+00:00",
     "error": null
   },
   "גיקטיים": {
     "url": "https://www.geektime.co.il/feed/",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-06-02T12:37:30.713635+00:00",
+    "scraped_at": "2026-06-03T08:12:44.858941+00:00",
     "error": "HTTP Status 524"
   },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-06-02T12:37:31.692747+00:00",
+    "scraped_at": "2026-06-03T08:12:48.981191+00:00",
     "error": "HTTP Status 404"
   },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-06-02T12:39:40.429607+00:00",
-    "error": "HTTP Status 404"
+    "items": [
+      {
+        "title": "אינטל מנסה לחזור למרכז הבמה עם מתקפת שבבים שאפתנית במיוחד",
+        "link": "https://www.ynet.co.il/digital/technews/article/byd11ohhlzl",
+        "summary": "בתערוכת Computex 2026 הציגה ענקית הטק חזון חדש לעידן ה-AI, שבו המחשב האישי, הרובוט ואפילו המכונית מריצים סוכנים באופן מקומי וללא תלות בענן. החברה חשפה שורת שבבים, כלי פיתוח ופתרונות רובוטיקה חדשים, תוך עקיצות ישירות לאנבידיה והבטחה לביצועים גבוהים בעלות נמוכה",
+        "date": "2026-06-02T12:38:29+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/01/06/BkMqsmqNWx/BkMqsmqNWx_1_109_1600_901_0_medium.jpg"
+      },
+      {
+        "title": "ה-AI הגיע גם לארגז החול של החתול - ובאופן מפתיע זה עובד",
+        "link": "https://www.ynet.co.il/digital/reviews/article/hkyxwzolmg",
+        "summary": "ה-Purobot Max Pro 2 של PETKIT נשמע בהתחלה כמו גימיק AI מוגזם לחובבי חתולים, אבל אחרי חודשיים של שימוש התמונה נראית אחרת לגמרי. עם מצלמה פנימית, זיהוי של כל חתול בנפרד, ניטור משקל ושליטה מפתיעה בריחות, מדובר באחד מארגזי החול האוטומטיים הכי מעניינים ומתקדמים שנחתו בארץ",
+        "date": "2026-06-01T13:59:26+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/01/HkVCCbixGg/HkVCCbixGg_1001_185_2000_1126_0_medium.jpg"
+      },
+      {
+        "title": "המחשב האישי מת: אנבידיה בונה דור חדש של מחשבי AI אוטונומיים",
+        "link": "https://www.ynet.co.il/digital/technews/article/skom1p9lgl",
+        "summary": "ענקית הטק הכריזה על שבבים חדשים המבטיחים להפוך את מחשבי הווינדוס למכונות שמריצות סוכני AI עצמאיים גם בלי חיבור לענן. המחשבים הראשונים יגיעו כבר השנה לשוק. מאחורי ההכרזה הדרמטית מסתתר קרב ענק חדש מול אינטל, אפל וקוואלקום על העתיד של שוק המחשבים האישי",
+        "date": "2026-06-01T08:28:27+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/01/Sk7GW69xGx/Sk7GW69xGx_21_13_1251_704_0_medium.jpg"
+      },
+      {
+        "title": "המודל של אנת'רופיק שמפחיד את עולם הסייבר: \"אנחנו לא ערוכים למה שמגיע\"",
+        "link": "https://www.ynet.co.il/digital/technology/article/s1hslrexzx",
+        "summary": "המודל החדש \"קלוד מיתוס\" הצליח לזהות ולתרגם חולשות אבטחה למתקפות מעשיות בקצב חסר תקדים, ומומחי סייבר מזהירים מפני עידן חדש שבו AI תוקף AI. בריאיון ל-ynet מסביר בכיר ב-KPMG מדוע גם מערכות ישנות כבר אינן בטוחות, ואיך בתוך שנה הכלים הללו עלולים להגיע גם לידי סין, רוסיה ואיראן",
+        "date": "2026-05-27T11:08:41+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/05/r19uuLwAZl/r19uuLwAZl_0_187_3000_1689_0_medium.jpg"
+      },
+      {
+        "title": "לא טנקים ולא מטוסים: זה הנשק החדש שעליו ארה\"ב מוציאה 9 מיליארד דולר",
+        "link": "https://www.ynet.co.il/digital/technews/article/skveyh11gfl",
+        "summary": "הבית הלבן אישר תקציב חסוי לרכישת שבבי AI ומחשבי על עבור ה-NSA וה-CIA, מתוך חשש שארה\"ב מאבדת יתרון במרוץ הטכנולוגי מול סין. בזמן שוואווי עוקפת מגבלות מערביות ומפתחת ארכיטקטורות שבבים משלה, סוכנויות הביון האמריקאיות מגלות שגם להן כבר חסר כוח מחשוב",
+        "date": "2026-05-25T12:32:46+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/07/24/BJ11DXDt1weg/BJ11DXDt1weg_0_97_2134_1202_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-06-03T08:14:56.320825+00:00",
+    "error": null
   },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-06-02T12:37:34.605542+00:00",
+    "scraped_at": "2026-06-03T08:12:46.740303+00:00",
     "error": null
   }
 }
