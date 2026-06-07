@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 06/06/2026
+# 🤖 עדכוני AI Pulse — 07/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=LVhDTqK-4w4)
+### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 4. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פיצ'ר למנוים PRO – פרויקטים](https://www.youtube.com/watch?v=u5QusRHA3Po)
+### 5. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
