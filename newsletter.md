@@ -14,7 +14,7 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 4. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
