@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 10/06/2026
+# 🤖 עדכוני AI Pulse — 11/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=4_vFxfFVvMU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
