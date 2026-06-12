@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 11/06/2026
+# 🤖 עדכוני AI Pulse — 12/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 4. [מתחילים לעבוד!](https://www.youtube.com/watch?v=LVhDTqK-4w4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
