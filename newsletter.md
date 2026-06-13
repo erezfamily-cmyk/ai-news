@@ -2,15 +2,15 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 1. [The Rise Of Artificial Intelligence](https://www.youtube.com/watch?v=xGqYbXL3kZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=G0FLdVbrfNQ)
+### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=EjGq7PowYIA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=LVhDTqK-4w4)
+### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=_XBEBclXaAE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -18,7 +18,7 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=fYxhQY78Ncw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
