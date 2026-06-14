@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 13/06/2026
+# 🤖 עדכוני AI Pulse — 14/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [The Rise Of Artificial Intelligence](https://www.youtube.com/watch?v=xGqYbXL3kZc)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=EjGq7PowYIA)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=_XBEBclXaAE)
+### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=fYxhQY78Ncw)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
