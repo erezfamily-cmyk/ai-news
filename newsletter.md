@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 14/06/2026
+# 🤖 עדכוני AI Pulse — 15/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -10,15 +10,15 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 3. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 4. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=LVhDTqK-4w4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=JDzQSywMMbA)
+### 5. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
