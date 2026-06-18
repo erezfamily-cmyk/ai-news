@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 17/06/2026
+# 🤖 עדכוני AI Pulse — 18/06/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -6,19 +6,19 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 2. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=fwANhfjQt9E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=JDzQSywMMbA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
