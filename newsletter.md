@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=uk3hPFMn9lY)
+### 1. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hcXSjZpqMds)
+### 2. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=zJL9K3xscRo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
