@@ -2,7 +2,7 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=cGp0Rgntivw)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=uk3hPFMn9lY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -18,7 +18,7 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 5. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
