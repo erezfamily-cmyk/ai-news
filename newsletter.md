@@ -2,25 +2,25 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [בינה מלאכותית לארגונים &#8211; הצעד הראשון בעולם ה](https://campus.gov.il/course/digitalil-gov-aior-he/)
-- **קטגוריה:** קמפוס GOV
-- **מקור:** קמפוס GOV
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=hcXSjZpqMds)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
 
-### 2. [מובילי יוזמות AI בארגונים](https://campus.gov.il/course/labor-gov-leadai-he/)
-- **קטגוריה:** קמפוס GOV
-- **מקור:** קמפוס GOV
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=cGp0Rgntivw)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
 
-### 3. [לעבוד חכם עם AI](https://campus.gov.il/course/digitalil-gov-ai2-he/)
-- **קטגוריה:** קמפוס GOV
-- **מקור:** קמפוס GOV
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
 
-### 4. [בינה מלאכותית כעוזר הוראה](https://campus.gov.il/course/moe-edu-shelf-aiedu-he/)
-- **קטגוריה:** קמפוס GOV
-- **מקור:** קמפוס GOV
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
 
-### 5. [AI למתחילים: לומדים לדבר עם בינה מלאכותית](https://campus.gov.il/course/digitalil-gov-beai-he/)
-- **קטגוריה:** קמפוס GOV
-- **מקור:** קמפוס GOV
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
 
 ---
 * [לדשבורד המלא](https://erezfamily-cmyk.github.io/ai-news/)*
