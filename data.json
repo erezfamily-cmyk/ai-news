@@ -1,108 +1,9 @@
 {
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-07-08T10:56:30.823124+00:00",
-    "error": null
-  },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "הפיצ'ר של קלוד שהפיל את הבורסה מגיע עכשיו גם למובייל ולווב",
-        "link": "https://www.geektime.co.il/anthropic-releases-claude-cowork-on-mobile-and-web/",
-        "summary": "בתחילת השנה נודענו לראשונה למשבר ה-SaaSpocalypse, כלומר החשש שכלי AI ואוטומציה יחליפו את מודל ה-SaaS המסורתי של חברות, ויגרמו למשתמשים לבטל את המינויים שלהם. אחד הגורמים המרכזיים לזה היה כלי ה-Cowork של אנת'רופיק, שהצליח להפיל את הבורסות ברחבי העולם &#8211; וגם בישראל. כעת, הפיצ'ר הזה מגיע גם לווב ולמובייל, אבל יש כמה דברים שכדאי לכם [&#8230;] The post הפיצ&#039;ר של קלוד שהפיל את הבורסה מגיע עכשי",
-        "date": "2026-07-08T06:46:54+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/6a4c2a3e7ccd1da1a8961f94_Cowork-Web-Mobile-Blog-Cowork-1920x1080-1-1024x576.jpg"
-      },
-      {
-        "title": "סוף להעתק-הדבק: הפיתוח הישראלי של אקסל מכניס דאטה ישירות למסמך שלכם",
-        "link": "https://www.geektime.co.il/microsoft-copilot-excel-financial-mcp/",
-        "summary": "כל מי שעובד עם אקסל מכיר את הבאסה של עבודת איסוף הנתונים. אתם יודעים, לקפוץ בין טאבים, בין LLMים שונים, בין אתרים ומאגרים, ואז כשאתם מוצאים את הדאטה, אתם צריכים להעתיק את המספרים לגיליונות האקסל כדי להתחיל לנתח אותם. עכשיו מיקרוסופט מנסה לחסוך את שלב ההעתקה ומכריזה על עדכון ליכולות קופיילוט באקסל. במקום שהמודל רק [&#8230;] The post סוף להעתק-הדבק: הפיתוח הישראלי של אקסל מכניס דאטה ישירות למסמך שלכ",
-        "date": "2026-07-07T11:45:08+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/Upd_Excel-Blog-Post-Data-connectors-1-1024x394.jpg"
-      },
-      {
-        "title": "לא רק ג'וניורים: שיא במספר דורשי העבודה בהייטק",
-        "link": "https://www.geektime.co.il/high-tech-job-seekers-record-high/",
-        "summary": "כל מי שקורא בחודשים האחרונים ידיעות על פיטורים וקיצוצים שונים בחברות דוגמת Wix, אמדוקס או AI21, יודע כבר ששוק ההייטק הישראלי חווה טלטלה משמעותית. אבל היום (ג') חושפים נתונים חדשים שלא מדובר כנראה ברעש חולף אלא בשינוי מגמה עמוק יותר. דוח של מחלקת המחקר והמדיניות בשירות התעסוקה חושף כי מספר דורשי העבודה בענף טיפס לאחרונה [&#8230;] The post לא רק ג&#039;וניורים: שיא במספר דורשי העבודה בהייטק appeared",
-        "date": "2026-07-07T05:45:18+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/04/STARTUP-1024x611.jpg.webp"
-      },
-      {
-        "title": "תביעה נגד הסטארטאפ הישראלי: ה-AI שלהם הרס לנו את העסק",
-        "link": "https://www.geektime.co.il/palo-altos-acquisition-koi-security-sued/",
-        "summary": "כלי בינה מלאכותית שמזהים איומי סייבר הם כבר מזמן לא מדע בדיוני, אבל מה קורה כשה-AI לכאורה \"ממציא\" קשר בין חברה לגיטימית לקבוצת תקיפה סינית? זה בדיוק מה שטוענת עכשיו חברת MeetingTV בתביעה חדשה שהגישה נגד Palo Alto Networks והרכש הישראלי החדש שלה. \"גם אחרי הפרסום לא פנו אלינו\" הסיפור החל עוד בסוף השנה שעברה. [&#8230;] The post תביעה נגד הסטארטאפ הישראלי: ה-AI שלהם הרס לנו את העסק appeared first on ג",
-        "date": "2026-07-05T11:41:24+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/09/Koi-Team-1024x683.jpg"
-      },
-      {
-        "title": "תורידו לחץ מהפיתוח: כך נתנו למוצר ולמכירות סביבות קוד חיות ומאובטחות (בלי לגעת בGit)",
-        "link": "https://www.geektime.co.il/anthropic-containment-code-independence-at-ubeya/",
-        "summary": "מאת ויסאם ארמלי, Senior Infrastructure Engineer ועידו שוויקי, Head of Engineering ב-Ubeya בשנתיים האחרונות, ארגונים טכנולוגיים אימצו בהתלהבות כלי AI ומודלי שפה. השלב הראשון נראה דומה אצל כולם: צוותי הפיתוח משתמשים ב-Claude ,Cursor או Copilot, והפרודוקטיביות מזנקת. אלא שאז הארגון נתקל בתקרת זכוכית: כשמנסים להרחיב את השימוש לצוותים שאינם טכנולוגיים, ה-AI נשאר לרוב ברמת הייעוץ [&#8230;] The post תורי",
-        "date": "2026-07-05T08:33:45+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/image-4-1024x510.png"
-      },
-      {
-        "title": "למה השחקן החדש בעולם ה-AI עדיין לא נכנס למגרש?",
-        "link": "https://www.geektime.co.il/telecom-ai-infrastructure-drivenets/",
-        "summary": "מאת דודי כהן, VP Product Marketing בחברת DriveNets לפני כמה חודשים הושלמה עסקה מעניינת בתחום תשתיות המחשוב ל-AI, כאשר חטיבת מחשבי-העל של קבוצת Atos הצרפתית נרכשה ביותר מ-400 מיליון יורו. החלק המפתיע בעסקה הוא זהות הרוכשת: לא אחת מענקיות הענן והמחשוב, כפי שאולי הייתם מצפים, אלא מדינה &#8211; צרפת. מדינה שרוכשת חברת טכנולוגיה זה אירוע [&#8230;] The post למה השחקן החדש בעולם ה-AI עדיין לא נכנס למגרש?",
-        "date": "2026-07-01T09:04:50+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/dreamstime_m_332842678-1024x574.jpg"
-      },
-      {
-        "title": "יוניקורן הסייבר Aikido רוכש סטארטאפ ישראלי ופותח כאן מרכז פיתוח",
-        "link": "https://www.geektime.co.il/aikido-acquires-israeli-root-security/",
-        "summary": "קוד פתוח הוא הבסיס כמעט לכל מוצר תוכנה היום, אבל הוא גם אחד מכאבי הראש הגדולים ביותר של מנהלי אבטחה. חולשות מתגלות כל הזמן, והדילמה תמיד זהה: לשדרג גרסה ולהסתכן בשבירת הקוד הקיים, או להשאיר את המערכת חשופה. חברת הסייבר הבלגית Aikido, שהפכה לאחרונה ליוניקורן, רוכשת כעת את הסטארטאפ הישראלי Root כדי לפתור בדיוק את [&#8230;] The post יוניקורן הסייבר Aikido רוכש סטארטאפ ישראלי ופותח כאן מרכז פיתוח appe",
-        "date": "2026-06-30T14:00:36+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/04/CODING-LAPTOP-SCREEN-1024x683.jpg"
-      },
-      {
-        "title": "סוף לחגיגה: למה GitHub Copilot משנה תמחור ומי הולך לשלם על זה יותר?",
-        "link": "https://www.geektime.co.il/github-copilot-plan-change/",
-        "summary": "מאת: אור שוחט עד לאחרונה, GitHub Copilot נמכר במחיר קבוע, ללא קשר לכמות השימוש או מורכבות המשימה. המודל היה נוח לתכנון תקציבי, אך לא בר קיימא: ארגונים גילו שניתן לנצל אותו להרצת משימות כבדות על מודלים יקרים כמו Claude Opus, בעלות זהה למשימות שגרתיות. GitHub הגיבה במעבר לתמחור מבוסס טוקנים &#8211; עלויות קלט ופלט לפי [&#8230;] The post סוף לחגיגה: למה GitHub Copilot משנה תמחור ומי הולך לשלם על זה י",
-        "date": "2026-06-29T15:15:05+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/COPILOT2.jpg"
-      },
-      {
-        "title": "ה-AI והדולר שורפים לכם את ה-Runway? הכנס הזה בשבילכם",
-        "link": "https://www.geektime.co.il/beyond-the-burn-2026-save-the-date/",
-        "summary": "המציאות הכלכלית של סטארטאפים ישראליים השתנתה באופן דרמטי בשנתיים האחרונות. זה קרה בעקבות שני כוחות שפועלים במקביל &#8211; שניהם בלתי נראים, ומתגלים רק כשכבר מאוחר מדי. הכוח הראשון הוא תנודת המטבע. כשסטארטאפ מגייס בדולרים אבל משלם בשקלים (שכר, משרדים וספקים), ירידה בשער הדולר פוגעת ישירות ב-Runway שלו. הערך השקלי של הכסף נשחק, וכל ירידה בשער [&#8230;] The post ה-AI והדולר שורפים לכם את ה-Runway? הכ",
-        "date": "2026-06-29T11:46:16+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/Untitled-design-1-1024x576.jpg"
-      },
-      {
-        "title": "תוכנית BITS תעזור לסטארטאפים להפסיק לשרוף כסף על AI",
-        "link": "https://www.geektime.co.il/bits-for-startups-webinar-772026/",
-        "summary": "חוקי המשחק בשוק הסטארטאפים השתנו לחלוטין: אם פעם משקיעים הסתפקו במצגות או ב-POC מרשים, הרי שהיום הדרישה המרכזית היא הוכחת היתכנות עסקית ומכירות אמיתיות מול לקוחות אנטרפרייז גדולים. אלא שמייסדים בשלבים מוקדמים נתקלים כיום בשני חסמים משמעותיים שמקשים על הפריצה לשוק: \"מס הענן\" ועלויות ה-AI: פיתוח פתרונות מתקדמים מבוססי סוכני AI וכלים גנרטיביים דורש משאבי [&#8230;] The post תוכנית BITS תעזור לסטארטאפי",
-        "date": "2026-06-29T08:35:51+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/dreamstime_m_269836221-1024x675.jpg"
-      },
-      {
-        "title": "האיום החדש של טראמפ חיסל את התוכניות של האוצר ל\"מס נטפליקס\"",
-        "link": "https://www.geektime.co.il/trump-threat-netflix-tax/",
-        "summary": "בשנים האחרונות, מנסה משרד האוצר לייצר אפיק הכנסות חדש למדינה בדמות מס על שירותים דיגיטליים שכולנו צורכים, שזכה לכינוי \"מס נטפליקס\". עם זאת, למרות השם, המס עשוי לכלול עשרות שירותים שונים בהם של גוגל, אפל ו-OpenAI. אבל עכשיו נראה שמי שעשוי לסייע במקצת ליוקר המחייה של הישראלים הוא דווקא נשיא ארצות הברית, דונלד טראמפ, שיוצא [&#8230;] The post האיום החדש של טראמפ חיסל את התוכניות של האוצר ל&quot;מס נטפ",
-        "date": "2026-06-28T15:45:37+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2021/01/Donald_Trump_43627683740-1610269082-1024x683.jpg"
-      },
-      {
-        "title": "גוגל מתקשה עם כוח מחשוב ל-AI, ומטא תשלם את המחיר",
-        "link": "https://www.geektime.co.il/metas-gemini-access-got-capped-and-it-felt-it/",
-        "summary": "העסקה הענקית שנחשפה מוקדם יותר החודש, במסגרתה תשלם גוגל עשרות מיליארדי דולרים ל-SpaceX עבור כוח מחשוב, לא נולדה במקרה. דיווח חדש של Financial Times חושף כי מאחורי המהלך עומד מחסור חמור בכח מחשוב, שהוביל את גוגל לצמצם משמעותית את הגישה של לקוחותיה למודלי ה-AI שלה. הנפגעת המרכזית מהמהלך היא לא אחרת מאשר מטא, אחת הלקוחות [&#8230;] The post גוגל מתקשה עם כוח מחשוב ל-AI, ומטא תשלם את המחיר appeared fir",
-        "date": "2026-06-28T10:33:19+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/Gemini-Google-Logo-1024x576.jpg"
-      },
-      {
-        "title": "ענן, AI ואייג'נטים: ההרצאות המרכזיות של Google Cloud Summit זמינות לצפייה",
-        "link": "https://www.geektime.co.il/google-cloud-summit-2026-vod/",
-        "summary": "בתחילת החודש התקיים פה אחד מאירועי הענן וה-AI הגדולים בישראל, ואנחנו כמובן מדברים על Google Cloud Summit, שהגיע לתל אביב עם כל ההכרזות האחרונות. הסשנים הציעו הזדמנות יוצאת דופן להכיר מקרוב את Gemini Enterprise, להבין לעומק מה זה לעבוד עם Agentic Data Cloud, לשמוע מה חדש בעולמות הדאטה בייסים, ללמוד על הדור ה-8 של מעבדי [&#8230;] The post ענן, AI ואייג&#039;נטים: ההרצאות המרכזיות של Google Cloud Sum",
-        "date": "2026-06-24T11:49:03+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/04-Foltyn-2026_06_04-Google-Cloud-Summit-0479-1024x683.jpg"
-      }
-    ],
-    "scraped_at": "2026-07-08T10:56:32.867089+00:00",
+    "scraped_at": "2026-07-09T06:37:08.833284+00:00",
     "error": null
   },
   "קמפוס GOV": {
@@ -145,367 +46,288 @@
         "image": null
       }
     ],
-    "scraped_at": "2026-07-08T10:56:33.537370+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-07-08T10:56:32.966852+00:00",
-    "error": "HTTP Status 404"
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-07-08T10:56:30.394378+00:00",
-    "error": "HTTP Status 404"
-  },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "המהלך הסודי של אילון מאסק: מכשיר שאמור להחליף את הסמארטפון",
-        "link": "https://www.ynet.co.il/digital/technews/article/r1a1lnqqme",
-        "summary": "דיווח חדש חושף כי SpaceX הציגה למשקיעים אב-טיפוס של מכשיר AI חדש, שנועד להשתחרר מהתלות באפל ובגוגל ולהישען על הטכנולוגיות של אימפריית מאסק. למרות שמאסק הכחיש את הפרסום, המרוץ לדור הבא של המחשוב האישי כבר בעיצומו",
-        "date": "2026-07-02T10:22:58+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/11/ryqQ6H0011Ml/ryqQ6H0011Ml_0_199_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "שכחו מ-ChatGPT וקלוד: הדבר הבא הוא מחשב שחושב ופועל לבד",
-        "link": "https://www.ynet.co.il/digital/technology/article/bk2dogyzfg",
-        "summary": "המרוץ להפוך את המחשב שלכם לסוכן AI עצמאי נמצא בעיצומו. ענקיות השבבים משקיעות מיליארדים כדי להעביר את הבינה המלאכותית מהענן אל המחשב האישי. הקרב הזה צפוי לשנות לא רק את המחשבים שנקנה - אלא גם את הדרך שבה נעבוד, נלמד ונשתמש בטכנולוגיה",
-        "date": "2026-07-01T08:19:49+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/01/HJxF8kEMQGg/HJxF8kEMQGg_0_0_1600_900_0_medium.jpg"
-      },
-      {
-        "title": "7 טריליון דולר על הכוונת: התוכנית הדרמטית נגד ענקיות ה-AI",
-        "link": "https://www.ynet.co.il/digital/technews/article/ryov00j1xfe",
-        "summary": "מס חד פעמי של 50% על מניות ענקיות ה-AI, קרן עושר ממשלתית ותשלום שנתי של כ-1,000 דולר לכל אזרח: הסנאטור הדמוקרטי הציג תוכנית תוקפנית במיוחד. התומכים טוענים שהציבור זכאי ליהנות מהעושר שנוצר ממידע של מיליוני בני אדם, אך המבקרים מזהירים מפגיעה חסרת תקדים בשוק ההון ובקניין הפרטי",
-        "date": "2026-06-29T08:31:58+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/03/11/ryGHfraike/ryGHfraike_0_108_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "ישראל רוצה להפוך למעצמת AI. תג המחיר עשוי להגיע לעשרות מיליארדי דולרים",
-        "link": "https://www.ynet.co.il/digital/technology/article/sjnpyhkmfl",
-        "summary": "הממשלה אישרה תוכנית לאומית שאפתנית שנועדה להפוך את ישראל למעצמת בינה מלאכותית, עם יעד של 100 אלף יחידות עיבוד ומחשב קוונטי ישראלי. מומחים מעריכים כי עלות המהלך עשויה להגיע לעשרות מיליארדי דולרים ומזהירים מפני ניסיון להשיג עצמאות מלאה במקום להתמקד ולהוביל",
-        "date": "2026-06-24T12:52:49+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/24/Sk11emItzMl/Sk11emItzMl_0_0_1080_606_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-07-08T10:56:33.052299+00:00",
-    "error": null
-  },
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "\"מחשש לחשיפת מידע רגיש\": משרד הבריאות חסם כלי AI בבתי חולים בארץ",
-        "link": "https://www.ynet.co.il/news/article/hkmpj3jmmg",
-        "summary": "משרד הבריאות חסם את הגישה לכלי בינה מלאכותית חיצוניים במחשבים של בתי החולים הממשלתיים. השימוש בהם הוגבל כבר במהלך מבצע שאגת הארי, אז זוהתה עלייה ברף איומי הסייבר. המשרד: \"מובילים מהלך לשילוב פתרונות הגנה\"",
-        "date": "2026-06-26T08:26:55+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2021/06/29/rkmV24d3d/rkmV24d3d_0_0_640_360_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-07-08T10:56:33.132404+00:00",
-    "error": null
-  },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-07-08T10:56:28.482938+00:00",
-    "error": "HTTP Status 404"
-  },
-  "YouTube — הדרכות": {
-    "url": "https://www.youtube.com",
-    "category": "הדרכות",
-    "items": [
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.719765+00:00",
-        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
-        "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.719746+00:00",
-        "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
-      },
-      {
-        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
-        "link": "https://www.youtube.com/watch?v=hhAJPiHwotY",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.059523+00:00",
-        "image": "https://img.youtube.com/vi/hhAJPiHwotY/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=lSM4rt9_qZc",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.059521+00:00",
-        "image": "https://img.youtube.com/vi/lSM4rt9_qZc/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.059518+00:00",
-        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
-        "summary": "",
-        "date": "2026-07-08T10:56:36.059514+00:00",
-        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
-      },
-      {
-        "title": "שלושה כלים: Chat, Cowork, Code",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-07-08T10:56:35.400135+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
-      },
-      {
-        "title": "למה דווקא Claude?",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-07-08T10:56:35.400132+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "מי זה Anthropic?",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-07-08T10:56:35.400130+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה LLM?",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-07-08T10:56:35.400127+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=cU2af59ZnPA",
-        "summary": "",
-        "date": "2026-07-08T05:44:17.047873+00:00",
-        "image": "https://img.youtube.com/vi/cU2af59ZnPA/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
-        "summary": "",
-        "date": "2026-07-08T05:44:17.047870+00:00",
-        "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
-        "summary": "",
-        "date": "2026-07-08T05:44:16.352264+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
-      },
-      {
-        "title": "שלושה כלים: Chat, Cowork, Code",
-        "link": "https://www.youtube.com/watch?v=m8KI3tHbdt0",
-        "summary": "",
-        "date": "2026-07-08T05:44:15.718898+00:00",
-        "image": "https://img.youtube.com/vi/m8KI3tHbdt0/mqdefault.jpg"
-      },
-      {
-        "title": "למה דווקא Claude?",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-07-08T05:44:15.718896+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "מי זה Anthropic?",
-        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
-        "summary": "",
-        "date": "2026-07-08T05:44:15.718893+00:00",
-        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה LLM?",
-        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
-        "summary": "",
-        "date": "2026-07-08T05:44:15.718891+00:00",
-        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
-        "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-07-07T11:41:16.206979+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "שלושה כלים: Chat, Cowork, Code",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-07-07T11:41:15.579012+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-07-07T06:39:31.019583+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-07-07T06:39:31.019574+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-07-07T06:39:30.252535+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "ברוכים הבאים",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-07-07T06:39:30.252515+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=cGp0Rgntivw",
-        "summary": "",
-        "date": "2026-07-06T12:40:25.338277+00:00",
-        "image": "https://img.youtube.com/vi/cGp0Rgntivw/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
-        "link": "https://www.youtube.com/watch?v=uk3hPFMn9lY",
-        "summary": "",
-        "date": "2026-07-05T10:59:42.226656+00:00",
-        "image": "https://img.youtube.com/vi/uk3hPFMn9lY/mqdefault.jpg"
-      },
-      {
-        "title": "איך ליצור Skill חדש בקלוד?",
-        "link": "https://www.youtube.com/watch?v=4y8X1hBWPKk",
-        "summary": "",
-        "date": "2026-07-05T10:59:40.962020+00:00",
-        "image": "https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה קלוד Skills",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-07-05T10:59:40.962016+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=Squ87Y1ZqWE",
-        "summary": "",
-        "date": "2026-07-04T06:13:51.324265+00:00",
-        "image": "https://img.youtube.com/vi/Squ87Y1ZqWE/mqdefault.jpg"
-      },
-      {
-        "title": "שלושה כלים: Chat, Cowork, Code",
-        "link": "https://www.youtube.com/watch?v=u5QusRHA3Po",
-        "summary": "",
-        "date": "2026-07-04T06:13:50.020890+00:00",
-        "image": "https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
-        "summary": "",
-        "date": "2026-07-03T06:25:30.962835+00:00",
-        "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
-      },
-      {
-        "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
-        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
-        "summary": "",
-        "date": "2026-07-02T11:28:22.587463+00:00",
-        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
-      },
-      {
-        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-07-02T11:28:22.587461+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "שלושה כלים: Chat, Cowork, Code",
-        "link": "https://www.youtube.com/watch?v=nVVDY6DByWI",
-        "summary": "",
-        "date": "2026-07-02T06:34:45.630619+00:00",
-        "image": "https://img.youtube.com/vi/nVVDY6DByWI/mqdefault.jpg"
-      },
-      {
-        "title": "למה דווקא Claude?",
-        "link": "https://www.youtube.com/watch?v=1ocSkexSNag",
-        "summary": "",
-        "date": "2026-07-02T06:34:45.630616+00:00",
-        "image": "https://img.youtube.com/vi/1ocSkexSNag/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=n0YQxX-qbVY",
-        "summary": "",
-        "date": "2026-06-30T11:40:19.740804+00:00",
-        "image": "https://img.youtube.com/vi/n0YQxX-qbVY/mqdefault.jpg"
-      },
-      {
-        "title": "מחירים: כמה עולה שימוש בצ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=lUgOEYLKp98",
-        "summary": "",
-        "date": "2026-06-30T06:52:35.202463+00:00",
-        "image": "https://img.youtube.com/vi/lUgOEYLKp98/mqdefault.jpg"
-      },
-      {
-        "title": "איך ליצור Skill חדש בקלוד?",
-        "link": "https://www.youtube.com/watch?v=1lrt3ITrwcc",
-        "summary": "",
-        "date": "2026-06-29T07:23:45.998319+00:00",
-        "image": "https://img.youtube.com/vi/1lrt3ITrwcc/mqdefault.jpg"
-      },
-      {
-        "title": "מחירים: כמה עולה שימוש בצ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=oNBskCafPDo",
-        "summary": "",
-        "date": "2026-06-27T10:54:43.258344+00:00",
-        "image": "https://img.youtube.com/vi/oNBskCafPDo/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=VmVRuRqALLk",
-        "summary": "",
-        "date": "2026-06-24T11:41:29.922840+00:00",
-        "image": "https://img.youtube.com/vi/VmVRuRqALLk/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-07-08T10:56:36.719810+00:00",
+    "scraped_at": "2026-07-09T06:37:21.713742+00:00",
     "error": null
   },
   "ספארקס — בינה מלאכותית": {
     "url": "https://sparks.news/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-07-08T10:56:30.678066+00:00",
+    "scraped_at": "2026-07-09T06:37:10.379216+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.091559+00:00",
+        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.091557+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.091554+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.091537+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "Pomelli (Google Labs)",
+        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347537+00:00",
+        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
+      },
+      {
+        "title": "Google Workspace Studio",
+        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347534+00:00",
+        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
+      },
+      {
+        "title": "Intro – 12 powerful, fully free AI tools for online businesses",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347532+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347530+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347526+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-07-09T06:37:22.347509+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-07-08T10:56:34.758730+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-07-08T10:56:34.758711+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "Google Workspace Studio",
+        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
+        "summary": "",
+        "date": "2026-07-08T10:56:34.148298+00:00",
+        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-07-08T05:44:15.104316+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=acTW1vED4Bg",
+        "summary": "",
+        "date": "2026-07-07T11:41:15.030751+00:00",
+        "image": "https://img.youtube.com/vi/acTW1vED4Bg/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-07-07T11:41:15.030749+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
+        "summary": "",
+        "date": "2026-07-07T06:39:29.746212+00:00",
+        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
+      },
+      {
+        "title": "שימוש מקצועי ב-Canvas",
+        "link": "https://www.youtube.com/watch?v=KPGZHyjin3I",
+        "summary": "",
+        "date": "2026-07-07T06:39:29.029334+00:00",
+        "image": "https://img.youtube.com/vi/KPGZHyjin3I/mqdefault.jpg"
+      },
+      {
+        "title": "Deep Research – כלי המחקר החכם",
+        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
+        "summary": "",
+        "date": "2026-07-07T06:39:29.029332+00:00",
+        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
+      },
+      {
+        "title": "מהו סוכן בינה מלאכותית",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-07-06T12:40:22.404627+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "ChatGPT עובד בעברית?",
+        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
+        "summary": "",
+        "date": "2026-07-05T10:59:40.308021+00:00",
+        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
+      },
+      {
+        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
+        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
+        "summary": "",
+        "date": "2026-07-04T10:50:46.966651+00:00",
+        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
+      },
+      {
+        "title": "תמלול הקלטות עם בינה מלאכותית",
+        "link": "https://www.youtube.com/watch?v=L1HWh82yxk8",
+        "summary": "",
+        "date": "2026-07-04T10:50:46.966649+00:00",
+        "image": "https://img.youtube.com/vi/L1HWh82yxk8/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=CBbyT-BBHSI",
+        "summary": "",
+        "date": "2026-07-04T10:50:46.966646+00:00",
+        "image": "https://img.youtube.com/vi/CBbyT-BBHSI/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=a2PjshpYwm4",
+        "summary": "",
+        "date": "2026-07-03T06:25:29.224638+00:00",
+        "image": "https://img.youtube.com/vi/a2PjshpYwm4/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-07-03T06:25:28.628705+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "ChatGPT עובד בעברית?",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-07-02T11:28:21.312872+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "כמה עולה ג'מיני?",
+        "link": "https://www.youtube.com/watch?v=S2AZbZ_K8vY",
+        "summary": "",
+        "date": "2026-06-30T11:40:16.560638+00:00",
+        "image": "https://img.youtube.com/vi/S2AZbZ_K8vY/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה Gemini ומה היכולות שלה?",
+        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
+        "summary": "",
+        "date": "2026-06-30T11:40:16.560635+00:00",
+        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-06-30T06:52:33.955923+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-06-29T13:00:02.680976+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
+        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
+        "summary": "",
+        "date": "2026-06-29T07:23:45.347539+00:00",
+        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=JON8g64fMGo",
+        "summary": "",
+        "date": "2026-06-28T11:02:35.869477+00:00",
+        "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=_Gs0fRUuANs",
+        "summary": "",
+        "date": "2026-06-28T06:57:25.369676+00:00",
+        "image": "https://img.youtube.com/vi/_Gs0fRUuANs/mqdefault.jpg"
+      },
+      {
+        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
+        "link": "https://www.youtube.com/watch?v=5Q2YiP7dm0g",
+        "summary": "",
+        "date": "2026-06-28T06:57:24.656032+00:00",
+        "image": "https://img.youtube.com/vi/5Q2YiP7dm0g/mqdefault.jpg"
+      },
+      {
+        "title": "Turboscribe",
+        "link": "https://www.youtube.com/watch?v=Mr1lxV40dEg",
+        "summary": "",
+        "date": "2026-06-28T06:57:24.656028+00:00",
+        "image": "https://img.youtube.com/vi/Mr1lxV40dEg/mqdefault.jpg"
+      },
+      {
+        "title": "Workflow Automation",
+        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
+        "summary": "",
+        "date": "2026-06-27T06:25:59.210934+00:00",
+        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
+      },
+      {
+        "title": "מבוא והקדמה",
+        "link": "https://www.youtube.com/watch?v=KRmQic3LjhU",
+        "summary": "",
+        "date": "2026-06-25T11:34:39.122536+00:00",
+        "image": "https://img.youtube.com/vi/KRmQic3LjhU/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-07-09T06:37:23.091748+00:00",
     "error": null
   },
   "וואלה טק": {
@@ -548,13 +370,41 @@
         "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
       }
     ],
-    "scraped_at": "2026-07-08T10:56:29.887709+00:00",
+    "scraped_at": "2026-07-09T06:37:09.662696+00:00",
     "error": null
+  },
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-07-09T06:37:10.465154+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-07-09T06:37:08.117016+00:00",
+    "error": "HTTP Status 404"
   },
   "ynet טכנולוגיה": {
     "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "בלעדי: הרשות להגנת הפרטיות יוצאת נגד ה-AI שלכם",
+        "link": "https://www.ynet.co.il/digital/technews/article/hkqvp113xfx",
+        "summary": "התכתבויות אישיות, הרגלי קניות ואפילו מצב רפואי: מסמך של הרשות להגנת הפרטיות, שנחשף כאן לראשונה, מזהיר מפני סוכני ה-AI שמשתלטים על המיילים שלכם – וממליץ לעבור למשטר צמצום הרשאות קשוח",
+        "date": "2026-07-09T04:00:00+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/04/24/SkhTvFPJll/SkhTvFPJll_0_0_2811_1583_0_medium.jpg"
+      },
+      {
+        "title": "לראשונה בעולם: סוכן AI ביצע מתקפת סייבר מלאה",
+        "link": "https://www.ynet.co.il/digital/technews/article/sy8najsmmx",
+        "summary": "חוקרי אבטחה זיהו לראשונה מתקפת כופרה שנוהלה ותוכננה במלואה על ידי סוכן בינה מלאכותית אוטונומי. המערכת הפגינה יכולת הסתגלות בזמן אמת, תיקנה שגיאות קוד במהירות והצפינה נתונים, אך גם חשפה פערים בהבנת ההקשר הפיננסי",
+        "date": "2026-07-08T11:13:21+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/08/B111H00so7zx/B111H00so7zx_53_0_2729_1537_0_medium.jpg"
+      },
       {
         "title": "מפלצת ה-AI בולעת את שוק הסמארטפונים: המחירים כבר מזנקים",
         "link": "https://www.ynet.co.il/digital/technews/article/s1jrbvqmme",
@@ -666,36 +516,325 @@
         "summary": "שני צווים נשיאותיים חדשים מציבים לראשונה לוחות זמנים ברורים למהפכה הקוונטית, עם מחשב קוונטי פעיל עד 2028 והשלמת המעבר להצפנה עמידה בפני מתקפות קוונטיות עד 2031. המטרה: להקדים את סין, וגם להתכונן ליום שבו מחשבים קוונטיים יוכלו לפצח את שיטות ההצפנה של האינטרנט",
         "date": "2026-06-25T10:35:46+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/25/Hk6xVt5zzx/Hk6xVt5zzx_0_0_1500_845_0_medium.jpg"
-      },
-      {
-        "title": "ישראל רוצה להפוך למעצמת AI. תג המחיר עשוי להגיע לעשרות מיליארדי דולרים",
-        "link": "https://www.ynet.co.il/digital/technology/article/sjnpyhkmfl",
-        "summary": "הממשלה אישרה תוכנית לאומית שאפתנית שנועדה להפוך את ישראל למעצמת בינה מלאכותית, עם יעד של 100 אלף יחידות עיבוד ומחשב קוונטי ישראלי. מומחים מעריכים כי עלות המהלך עשויה להגיע לעשרות מיליארדי דולרים ומזהירים מפני ניסיון להשיג עצמאות מלאה במקום להתמקד ולהוביל",
-        "date": "2026-06-24T12:52:49+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/24/Sk11emItzMl/Sk11emItzMl_0_0_1080_606_0_medium.jpg"
-      },
-      {
-        "title": "מנכ\"ל גוגל דיפמיינד: \"כשה-AI ישתווה לאדם, אלו הכישורים שכדאי שיהיו לכם\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1p00vvyfzg",
-        "summary": "מנכ\"ל חטיבת הבינה המלאכותית של גוגל מעריך כי מערכות AI ברמת אדם יופיעו עד סוף העשור. לדבריו, טעם, יצירתיות ויכולת לחבר בין תחומים שונים יהיו היתרון האנושי הגדול. במקביל, בכירים ב-OpenAI ובאנת'רופיק מציגים תחזיות דומות, בעוד שבמטא דוחים את הרעיון לחלוטין",
-        "date": "2026-06-24T11:04:43+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/01/24/HJxoYmG8Zg/HJxoYmG8Zg_0_176_3000_1689_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-07-08T10:56:30.013692+00:00",
+    "scraped_at": "2026-07-09T06:37:09.816189+00:00",
     "error": null
   },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "\"מחשש לחשיפת מידע רגיש\": משרד הבריאות חסם כלי AI בבתי חולים בארץ",
+        "link": "https://www.ynet.co.il/news/article/hkmpj3jmmg",
+        "summary": "משרד הבריאות חסם את הגישה לכלי בינה מלאכותית חיצוניים במחשבים של בתי החולים הממשלתיים. השימוש בהם הוגבל כבר במהלך מבצע שאגת הארי, אז זוהתה עלייה ברף איומי הסייבר. המשרד: \"מובילים מהלך לשילוב פתרונות הגנה\"",
+        "date": "2026-06-26T08:26:55+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2021/06/29/rkmV24d3d/rkmV24d3d_0_0_640_360_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-07-09T06:37:13.022229+00:00",
+    "error": null
+  },
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-07-08T10:56:29.055654+00:00",
+    "scraped_at": "2026-07-09T06:37:10.195976+00:00",
+    "error": "HTTP Status 404"
+  },
+  "YouTube — הדרכות": {
+    "url": "https://www.youtube.com",
+    "category": "הדרכות",
+    "items": [
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=hcXSjZpqMds",
+        "summary": "",
+        "date": "2026-07-09T06:37:25.061545+00:00",
+        "image": "https://img.youtube.com/vi/hcXSjZpqMds/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
+        "summary": "",
+        "date": "2026-07-09T06:37:25.061541+00:00",
+        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=p1ezpfgpS3Q",
+        "summary": "",
+        "date": "2026-07-09T06:37:25.061522+00:00",
+        "image": "https://img.youtube.com/vi/p1ezpfgpS3Q/mqdefault.jpg"
+      },
+      {
+        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
+        "link": "https://www.youtube.com/watch?v=lUgOEYLKp98",
+        "summary": "",
+        "date": "2026-07-09T06:37:24.414925+00:00",
+        "image": "https://img.youtube.com/vi/lUgOEYLKp98/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=qkMg-t5I9KQ",
+        "summary": "",
+        "date": "2026-07-09T06:37:24.414917+00:00",
+        "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
+      },
+      {
+        "title": "איך ליצור Skill חדש בקלוד?",
+        "link": "https://www.youtube.com/watch?v=u5QusRHA3Po",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.743358+00:00",
+        "image": "https://img.youtube.com/vi/u5QusRHA3Po/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה קלוד Skills",
+        "link": "https://www.youtube.com/watch?v=4y8X1hBWPKk",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.743356+00:00",
+        "image": "https://img.youtube.com/vi/4y8X1hBWPKk/mqdefault.jpg"
+      },
+      {
+        "title": "קלוד Connectors: חיבור לכלים חיצוניים",
+        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.743354+00:00",
+        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה קלוד Chat, Cowork, Code, ומה המודלים של קלוד?",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.743351+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: התקנת קלוד דסקטופ ופתיחת חשבון פרו",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-07-09T06:37:23.743332+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
+        "link": "https://www.youtube.com/watch?v=hhAJPiHwotY",
+        "summary": "",
+        "date": "2026-07-08T10:56:36.059523+00:00",
+        "image": "https://img.youtube.com/vi/hhAJPiHwotY/mqdefault.jpg"
+      },
+      {
+        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
+        "link": "https://www.youtube.com/watch?v=lSM4rt9_qZc",
+        "summary": "",
+        "date": "2026-07-08T10:56:36.059521+00:00",
+        "image": "https://img.youtube.com/vi/lSM4rt9_qZc/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
+        "summary": "",
+        "date": "2026-07-08T10:56:36.059514+00:00",
+        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
+      },
+      {
+        "title": "שלושה כלים: Chat, Cowork, Code",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-07-08T10:56:35.400135+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
+      {
+        "title": "למה דווקא Claude?",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-07-08T10:56:35.400132+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "מי זה Anthropic?",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-07-08T10:56:35.400130+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה LLM?",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-07-08T10:56:35.400127+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=cU2af59ZnPA",
+        "summary": "",
+        "date": "2026-07-08T05:44:17.047873+00:00",
+        "image": "https://img.youtube.com/vi/cU2af59ZnPA/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
+        "summary": "",
+        "date": "2026-07-08T05:44:16.352264+00:00",
+        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+      },
+      {
+        "title": "שלושה כלים: Chat, Cowork, Code",
+        "link": "https://www.youtube.com/watch?v=m8KI3tHbdt0",
+        "summary": "",
+        "date": "2026-07-08T05:44:15.718898+00:00",
+        "image": "https://img.youtube.com/vi/m8KI3tHbdt0/mqdefault.jpg"
+      },
+      {
+        "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-07-07T11:41:16.206979+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "שלושה כלים: Chat, Cowork, Code",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-07-07T11:41:15.579012+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-07-07T06:39:31.019583+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-07-07T06:39:31.019574+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-07-07T06:39:30.252535+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "ברוכים הבאים",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-07-07T06:39:30.252515+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=cGp0Rgntivw",
+        "summary": "",
+        "date": "2026-07-06T12:40:25.338277+00:00",
+        "image": "https://img.youtube.com/vi/cGp0Rgntivw/mqdefault.jpg"
+      },
+      {
+        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "link": "https://www.youtube.com/watch?v=uk3hPFMn9lY",
+        "summary": "",
+        "date": "2026-07-05T10:59:42.226656+00:00",
+        "image": "https://img.youtube.com/vi/uk3hPFMn9lY/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה קלוד Skills",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-07-05T10:59:40.962016+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=Squ87Y1ZqWE",
+        "summary": "",
+        "date": "2026-07-04T06:13:51.324265+00:00",
+        "image": "https://img.youtube.com/vi/Squ87Y1ZqWE/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=BeFPVrZg5MU",
+        "summary": "",
+        "date": "2026-07-03T06:25:30.962835+00:00",
+        "image": "https://img.youtube.com/vi/BeFPVrZg5MU/mqdefault.jpg"
+      },
+      {
+        "title": "הוספת ידע (Knowledge) וקבצים לסוכן שלכם",
+        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
+        "summary": "",
+        "date": "2026-07-02T11:28:22.587463+00:00",
+        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
+      },
+      {
+        "title": "הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)",
+        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
+        "summary": "",
+        "date": "2026-07-02T11:28:22.587461+00:00",
+        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
+      },
+      {
+        "title": "שלושה כלים: Chat, Cowork, Code",
+        "link": "https://www.youtube.com/watch?v=nVVDY6DByWI",
+        "summary": "",
+        "date": "2026-07-02T06:34:45.630619+00:00",
+        "image": "https://img.youtube.com/vi/nVVDY6DByWI/mqdefault.jpg"
+      },
+      {
+        "title": "למה דווקא Claude?",
+        "link": "https://www.youtube.com/watch?v=1ocSkexSNag",
+        "summary": "",
+        "date": "2026-07-02T06:34:45.630616+00:00",
+        "image": "https://img.youtube.com/vi/1ocSkexSNag/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=n0YQxX-qbVY",
+        "summary": "",
+        "date": "2026-06-30T11:40:19.740804+00:00",
+        "image": "https://img.youtube.com/vi/n0YQxX-qbVY/mqdefault.jpg"
+      },
+      {
+        "title": "איך ליצור Skill חדש בקלוד?",
+        "link": "https://www.youtube.com/watch?v=1lrt3ITrwcc",
+        "summary": "",
+        "date": "2026-06-29T07:23:45.998319+00:00",
+        "image": "https://img.youtube.com/vi/1lrt3ITrwcc/mqdefault.jpg"
+      },
+      {
+        "title": "מחירים: כמה עולה שימוש בצ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=oNBskCafPDo",
+        "summary": "",
+        "date": "2026-06-27T10:54:43.258344+00:00",
+        "image": "https://img.youtube.com/vi/oNBskCafPDo/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-07-09T06:37:25.061582+00:00",
     "error": null
   },
   "גיקטיים": {
     "url": "https://www.geektime.co.il/feed/",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "שאלתם את ChatGPT על טיסות? הסטארטאפ הישראלי הזה ידאג שתראו שם פרסומות למלון",
+        "link": "https://www.geektime.co.il/velocity-raises-27m-series-seed-to-put-ads-in-ai/",
+        "summary": "אמנם אתם כנראה קיבלתם מהעבודה שלכם מנוי ל-Gemini Pro או ל-Claude Max, אבל רוב המשתמשים בכלי ה-AI השונים עושים את זה בחינם. זה אמנם לא תמיד תענוג גדול, אבל היי &#8211; זה בחינם. כדי ש-AI לא יהפוך רק ללוקסוס שנעול מאחורי חומת תשלום, חברות מחפשות דרכים נוספות להכניס כסף מאותם משתמשים חינמיים. סטארטאפ ישראלי שנחשף [&#8230;] The post שאלתם את ChatGPT על טיסות? הסטארטאפ הישראלי הזה ידאג שתראו שם פרסומות",
+        "date": "2026-07-08T12:39:23+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/Group-photo-Velocity-Roei-Shor-1-1024x689.jpg"
+      },
+      {
+        "title": "אנחנו יודעים איפה כל אנשי הסייבר יהיו בסופ\"ש הבא",
+        "link": "https://www.geektime.co.il/mind-security-mind-what-matters-1772026/",
+        "summary": "בשנים האחרונות עולם הסייבר השתנה כמעט ללא היכר. אם בעבר צוותי אבטחת מידע התמקדו במתקפות חיצוניות, הרי שהיום הם נדרשים לפעול במציאות מורכבת בהרבה: מעבר מואץ לענן, אימוץ כלי AI, שימוש יומיומי בסוכני AI ומודלים חדשים, והצורך להגן על מידע ארגוני בסביבה שמשתנה בקצב חסר תקדים. לצד השינויים הטכנולוגיים, מתרחש גם שינוי אנושי. אנשי סייבר [&#8230;] The post אנחנו יודעים איפה כל אנשי הסייבר יהיו בסופ&quot;ש ",
+        "date": "2026-07-08T11:00:05+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/mind-geektime-3-1024x683.jpg"
+      },
       {
         "title": "הפיצ'ר של קלוד שהפיל את הבורסה מגיע עכשיו גם למובייל ולווב",
         "link": "https://www.geektime.co.il/anthropic-releases-claude-cowork-on-mobile-and-web/",
@@ -982,290 +1121,151 @@
         "summary": "זה לא סוד שהשחקנית המרכזית בשוק השבבים עבור AI היא NVIDIA, אבל לא מעט חברות היו שמחות לאתגר אותה, ובעיקר לצמצם את התלות בשבבים שלה, במחירים שלה ובאקוסיסטם. אחת מאותן חברות היא OpenAI. למרות שהיא מסתמכת על כמות משוגעת של שבבי אנבידיה, היא חושפת כעת שבב ראשון בפיתוח עצמי &#8211; עם שם חריף במיוחד. השבב [&#8230;] The post בדרך לפרידה מאנבידיה? OpenAI חושפת שבב AI ראשון בפיתוח עצמי appeared first on ג",
         "date": "2026-06-25T06:40:12+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/openai-broadcom-jalapeno-inference-chip-image-1024x576.jpg"
-      },
-      {
-        "title": "ענן, AI ואייג'נטים: ההרצאות המרכזיות של Google Cloud Summit זמינות לצפייה",
-        "link": "https://www.geektime.co.il/google-cloud-summit-2026-vod/",
-        "summary": "בתחילת החודש התקיים פה אחד מאירועי הענן וה-AI הגדולים בישראל, ואנחנו כמובן מדברים על Google Cloud Summit, שהגיע לתל אביב עם כל ההכרזות האחרונות. הסשנים הציעו הזדמנות יוצאת דופן להכיר מקרוב את Gemini Enterprise, להבין לעומק מה זה לעבוד עם Agentic Data Cloud, לשמוע מה חדש בעולמות הדאטה בייסים, ללמוד על הדור ה-8 של מעבדי [&#8230;] The post ענן, AI ואייג&#039;נטים: ההרצאות המרכזיות של Google Cloud Sum",
-        "date": "2026-06-24T11:49:03+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/04-Foltyn-2026_06_04-Google-Cloud-Summit-0479-1024x683.jpg"
       }
     ],
-    "scraped_at": "2026-07-08T10:56:27.759779+00:00",
+    "scraped_at": "2026-07-09T06:37:07.256320+00:00",
     "error": null
   },
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
     "items": [
       {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.758737+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+        "title": "אנחנו יודעים איפה כל אנשי הסייבר יהיו בסופ\"ש הבא",
+        "link": "https://www.geektime.co.il/mind-security-mind-what-matters-1772026/",
+        "summary": "בשנים האחרונות עולם הסייבר השתנה כמעט ללא היכר. אם בעבר צוותי אבטחת מידע התמקדו במתקפות חיצוניות, הרי שהיום הם נדרשים לפעול במציאות מורכבת בהרבה: מעבר מואץ לענן, אימוץ כלי AI, שימוש יומיומי בסוכני AI ומודלים חדשים, והצורך להגן על מידע ארגוני בסביבה שמשתנה בקצב חסר תקדים. לצד השינויים הטכנולוגיים, מתרחש גם שינוי אנושי. אנשי סייבר [&#8230;] The post אנחנו יודעים איפה כל אנשי הסייבר יהיו בסופ&quot;ש ",
+        "date": "2026-07-08T11:00:05+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/mind-geektime-3-1024x683.jpg"
       },
       {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.758734+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+        "title": "הפיצ'ר של קלוד שהפיל את הבורסה מגיע עכשיו גם למובייל ולווב",
+        "link": "https://www.geektime.co.il/anthropic-releases-claude-cowork-on-mobile-and-web/",
+        "summary": "בתחילת השנה נודענו לראשונה למשבר ה-SaaSpocalypse, כלומר החשש שכלי AI ואוטומציה יחליפו את מודל ה-SaaS המסורתי של חברות, ויגרמו למשתמשים לבטל את המינויים שלהם. אחד הגורמים המרכזיים לזה היה כלי ה-Cowork של אנת'רופיק, שהצליח להפיל את הבורסות ברחבי העולם &#8211; וגם בישראל. כעת, הפיצ'ר הזה מגיע גם לווב ולמובייל, אבל יש כמה דברים שכדאי לכם [&#8230;] The post הפיצ&#039;ר של קלוד שהפיל את הבורסה מגיע עכשי",
+        "date": "2026-07-08T06:46:54+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/6a4c2a3e7ccd1da1a8961f94_Cowork-Web-Mobile-Blog-Cowork-1920x1080-1-1024x576.jpg"
       },
       {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=JDzQSywMMbA",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.758730+00:00",
-        "image": "https://img.youtube.com/vi/JDzQSywMMbA/mqdefault.jpg"
+        "title": "סוף להעתק-הדבק: הפיתוח הישראלי של אקסל מכניס דאטה ישירות למסמך שלכם",
+        "link": "https://www.geektime.co.il/microsoft-copilot-excel-financial-mcp/",
+        "summary": "כל מי שעובד עם אקסל מכיר את הבאסה של עבודת איסוף הנתונים. אתם יודעים, לקפוץ בין טאבים, בין LLMים שונים, בין אתרים ומאגרים, ואז כשאתם מוצאים את הדאטה, אתם צריכים להעתיק את המספרים לגיליונות האקסל כדי להתחיל לנתח אותם. עכשיו מיקרוסופט מנסה לחסוך את שלב ההעתקה ומכריזה על עדכון ליכולות קופיילוט באקסל. במקום שהמודל רק [&#8230;] The post סוף להעתק-הדבק: הפיתוח הישראלי של אקסל מכניס דאטה ישירות למסמך שלכ",
+        "date": "2026-07-07T11:45:08+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/07/Upd_Excel-Blog-Post-Data-connectors-1-1024x394.jpg"
       },
       {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.758711+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+        "title": "לא רק ג'וניורים: שיא במספר דורשי העבודה בהייטק",
+        "link": "https://www.geektime.co.il/high-tech-job-seekers-record-high/",
+        "summary": "כל מי שקורא בחודשים האחרונים ידיעות על פיטורים וקיצוצים שונים בחברות דוגמת Wix, אמדוקס או AI21, יודע כבר ששוק ההייטק הישראלי חווה טלטלה משמעותית. אבל היום (ג') חושפים נתונים חדשים שלא מדובר כנראה ברעש חולף אלא בשינוי מגמה עמוק יותר. דוח של מחלקת המחקר והמדיניות בשירות התעסוקה חושף כי מספר דורשי העבודה בענף טיפס לאחרונה [&#8230;] The post לא רק ג&#039;וניורים: שיא במספר דורשי העבודה בהייטק appeared",
+        "date": "2026-07-07T05:45:18+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/04/STARTUP-1024x611.jpg.webp"
       },
       {
-        "title": "Pomelli (Google Labs)",
-        "link": "https://www.youtube.com/watch?v=b8b281ll-GE",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148300+00:00",
-        "image": "https://img.youtube.com/vi/b8b281ll-GE/mqdefault.jpg"
+        "title": "תביעה נגד הסטארטאפ הישראלי: ה-AI שלהם הרס לנו את העסק",
+        "link": "https://www.geektime.co.il/palo-altos-acquisition-koi-security-sued/",
+        "summary": "כלי בינה מלאכותית שמזהים איומי סייבר הם כבר מזמן לא מדע בדיוני, אבל מה קורה כשה-AI לכאורה \"ממציא\" קשר בין חברה לגיטימית לקבוצת תקיפה סינית? זה בדיוק מה שטוענת עכשיו חברת MeetingTV בתביעה חדשה שהגישה נגד Palo Alto Networks והרכש הישראלי החדש שלה. \"גם אחרי הפרסום לא פנו אלינו\" הסיפור החל עוד בסוף השנה שעברה. [&#8230;] The post תביעה נגד הסטארטאפ הישראלי: ה-AI שלהם הרס לנו את העסק appeared first on ג",
+        "date": "2026-07-05T11:41:24+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/09/Koi-Team-1024x683.jpg"
       },
       {
-        "title": "Google Workspace Studio",
-        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148298+00:00",
-        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
+        "title": "תורידו לחץ מהפיתוח: כך נתנו למוצר ולמכירות סביבות קוד חיות ומאובטחות (בלי לגעת בGit)",
+        "link": "https://www.geektime.co.il/anthropic-containment-code-independence-at-ubeya/",
+        "summary": "מאת ויסאם ארמלי, Senior Infrastructure Engineer ועידו שוויקי, Head of Engineering ב-Ubeya בשנתיים האחרונות, ארגונים טכנולוגיים אימצו בהתלהבות כלי AI ומודלי שפה. השלב הראשון נראה דומה אצל כולם: צוותי הפיתוח משתמשים ב-Claude ,Cursor או Copilot, והפרודוקטיביות מזנקת. אלא שאז הארגון נתקל בתקרת זכוכית: כשמנסים להרחיב את השימוש לצוותים שאינם טכנולוגיים, ה-AI נשאר לרוב ברמת הייעוץ [&#8230;] The post תורי",
+        "date": "2026-07-05T08:33:45+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/image-4-1024x510.png"
       },
       {
-        "title": "Intro – 12 powerful, fully free AI tools for online businesses",
-        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148296+00:00",
-        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
+        "title": "למה השחקן החדש בעולם ה-AI עדיין לא נכנס למגרש?",
+        "link": "https://www.geektime.co.il/telecom-ai-infrastructure-drivenets/",
+        "summary": "מאת דודי כהן, VP Product Marketing בחברת DriveNets לפני כמה חודשים הושלמה עסקה מעניינת בתחום תשתיות המחשוב ל-AI, כאשר חטיבת מחשבי-העל של קבוצת Atos הצרפתית נרכשה ביותר מ-400 מיליון יורו. החלק המפתיע בעסקה הוא זהות הרוכשת: לא אחת מענקיות הענן והמחשוב, כפי שאולי הייתם מצפים, אלא מדינה &#8211; צרפת. מדינה שרוכשת חברת טכנולוגיה זה אירוע [&#8230;] The post למה השחקן החדש בעולם ה-AI עדיין לא נכנס למגרש?",
+        "date": "2026-07-01T09:04:50+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/dreamstime_m_332842678-1024x574.jpg"
       },
       {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148294+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+        "title": "יוניקורן הסייבר Aikido רוכש סטארטאפ ישראלי ופותח כאן מרכז פיתוח",
+        "link": "https://www.geektime.co.il/aikido-acquires-israeli-root-security/",
+        "summary": "קוד פתוח הוא הבסיס כמעט לכל מוצר תוכנה היום, אבל הוא גם אחד מכאבי הראש הגדולים ביותר של מנהלי אבטחה. חולשות מתגלות כל הזמן, והדילמה תמיד זהה: לשדרג גרסה ולהסתכן בשבירת הקוד הקיים, או להשאיר את המערכת חשופה. חברת הסייבר הבלגית Aikido, שהפכה לאחרונה ליוניקורן, רוכשת כעת את הסטארטאפ הישראלי Root כדי לפתור בדיוק את [&#8230;] The post יוניקורן הסייבר Aikido רוכש סטארטאפ ישראלי ופותח כאן מרכז פיתוח appe",
+        "date": "2026-06-30T14:00:36+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/04/CODING-LAPTOP-SCREEN-1024x683.jpg"
       },
       {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148290+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+        "title": "סוף לחגיגה: למה GitHub Copilot משנה תמחור ומי הולך לשלם על זה יותר?",
+        "link": "https://www.geektime.co.il/github-copilot-plan-change/",
+        "summary": "מאת: אור שוחט עד לאחרונה, GitHub Copilot נמכר במחיר קבוע, ללא קשר לכמות השימוש או מורכבות המשימה. המודל היה נוח לתכנון תקציבי, אך לא בר קיימא: ארגונים גילו שניתן לנצל אותו להרצת משימות כבדות על מודלים יקרים כמו Claude Opus, בעלות זהה למשימות שגרתיות. GitHub הגיבה במעבר לתמחור מבוסס טוקנים &#8211; עלויות קלט ופלט לפי [&#8230;] The post סוף לחגיגה: למה GitHub Copilot משנה תמחור ומי הולך לשלם על זה י",
+        "date": "2026-06-29T15:15:05+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/COPILOT2.jpg"
       },
       {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-07-08T10:56:34.148271+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+        "title": "ה-AI והדולר שורפים לכם את ה-Runway? הכנס הזה בשבילכם",
+        "link": "https://www.geektime.co.il/beyond-the-burn-2026-save-the-date/",
+        "summary": "המציאות הכלכלית של סטארטאפים ישראליים השתנתה באופן דרמטי בשנתיים האחרונות. זה קרה בעקבות שני כוחות שפועלים במקביל &#8211; שניהם בלתי נראים, ומתגלים רק כשכבר מאוחר מדי. הכוח הראשון הוא תנודת המטבע. כשסטארטאפ מגייס בדולרים אבל משלם בשקלים (שכר, משרדים וספקים), ירידה בשער הדולר פוגעת ישירות ב-Runway שלו. הערך השקלי של הכסף נשחק, וכל ירידה בשער [&#8230;] The post ה-AI והדולר שורפים לכם את ה-Runway? הכ",
+        "date": "2026-06-29T11:46:16+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/Untitled-design-1-1024x576.jpg"
       },
       {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-07-08T05:44:15.104316+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+        "title": "תוכנית BITS תעזור לסטארטאפים להפסיק לשרוף כסף על AI",
+        "link": "https://www.geektime.co.il/bits-for-startups-webinar-772026/",
+        "summary": "חוקי המשחק בשוק הסטארטאפים השתנו לחלוטין: אם פעם משקיעים הסתפקו במצגות או ב-POC מרשים, הרי שהיום הדרישה המרכזית היא הוכחת היתכנות עסקית ומכירות אמיתיות מול לקוחות אנטרפרייז גדולים. אלא שמייסדים בשלבים מוקדמים נתקלים כיום בשני חסמים משמעותיים שמקשים על הפריצה לשוק: \"מס הענן\" ועלויות ה-AI: פיתוח פתרונות מתקדמים מבוססי סוכני AI וכלים גנרטיביים דורש משאבי [&#8230;] The post תוכנית BITS תעזור לסטארטאפי",
+        "date": "2026-06-29T08:35:51+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/06/dreamstime_m_269836221-1024x675.jpg"
       },
       {
-        "title": "Search filters",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-07-08T05:44:14.511174+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+        "title": "האיום החדש של טראמפ חיסל את התוכניות של האוצר ל\"מס נטפליקס\"",
+        "link": "https://www.geektime.co.il/trump-threat-netflix-tax/",
+        "summary": "בשנים האחרונות, מנסה משרד האוצר לייצר אפיק הכנסות חדש למדינה בדמות מס על שירותים דיגיטליים שכולנו צורכים, שזכה לכינוי \"מס נטפליקס\". עם זאת, למרות השם, המס עשוי לכלול עשרות שירותים שונים בהם של גוגל, אפל ו-OpenAI. אבל עכשיו נראה שמי שעשוי לסייע במקצת ליוקר המחייה של הישראלים הוא דווקא נשיא ארצות הברית, דונלד טראמפ, שיוצא [&#8230;] The post האיום החדש של טראמפ חיסל את התוכניות של האוצר ל&quot;מס נטפ",
+        "date": "2026-06-28T15:45:37+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2021/01/Donald_Trump_43627683740-1610269082-1024x683.jpg"
       },
       {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=acTW1vED4Bg",
-        "summary": "",
-        "date": "2026-07-07T11:41:15.030751+00:00",
-        "image": "https://img.youtube.com/vi/acTW1vED4Bg/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
-        "summary": "",
-        "date": "2026-07-07T11:41:15.030749+00:00",
-        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=iscg0dn47Bk",
-        "summary": "",
-        "date": "2026-07-07T06:39:29.746212+00:00",
-        "image": "https://img.youtube.com/vi/iscg0dn47Bk/mqdefault.jpg"
-      },
-      {
-        "title": "שימוש מקצועי ב-Canvas",
-        "link": "https://www.youtube.com/watch?v=KPGZHyjin3I",
-        "summary": "",
-        "date": "2026-07-07T06:39:29.029334+00:00",
-        "image": "https://img.youtube.com/vi/KPGZHyjin3I/mqdefault.jpg"
-      },
-      {
-        "title": "Deep Research – כלי המחקר החכם",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-07-07T06:39:29.029332+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      },
-      {
-        "title": "מהו סוכן בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-07-06T12:40:22.404627+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
-        "summary": "",
-        "date": "2026-07-05T10:59:40.308021+00:00",
-        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
-      },
-      {
-        "title": "עברית ai (ivrit ai) – כלי הכי שפוט שיש לתמלול הקלטות בעברית",
-        "link": "https://www.youtube.com/watch?v=bU_QsTGmcSY",
-        "summary": "",
-        "date": "2026-07-04T10:50:46.966651+00:00",
-        "image": "https://img.youtube.com/vi/bU_QsTGmcSY/mqdefault.jpg"
-      },
-      {
-        "title": "תמלול הקלטות עם בינה מלאכותית",
-        "link": "https://www.youtube.com/watch?v=L1HWh82yxk8",
-        "summary": "",
-        "date": "2026-07-04T10:50:46.966649+00:00",
-        "image": "https://img.youtube.com/vi/L1HWh82yxk8/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=CBbyT-BBHSI",
-        "summary": "",
-        "date": "2026-07-04T10:50:46.966646+00:00",
-        "image": "https://img.youtube.com/vi/CBbyT-BBHSI/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=a2PjshpYwm4",
-        "summary": "",
-        "date": "2026-07-03T06:25:29.224638+00:00",
-        "image": "https://img.youtube.com/vi/a2PjshpYwm4/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-07-03T06:25:28.628705+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-07-02T11:28:21.312872+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-07-01T11:54:32.522493+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=qw7e4kUzFKE",
-        "summary": "",
-        "date": "2026-07-01T07:05:59.864149+00:00",
-        "image": "https://img.youtube.com/vi/qw7e4kUzFKE/mqdefault.jpg"
-      },
-      {
-        "title": "כמה עולה ג'מיני?",
-        "link": "https://www.youtube.com/watch?v=S2AZbZ_K8vY",
-        "summary": "",
-        "date": "2026-06-30T11:40:16.560638+00:00",
-        "image": "https://img.youtube.com/vi/S2AZbZ_K8vY/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Gemini ומה היכולות שלה?",
-        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
-        "summary": "",
-        "date": "2026-06-30T11:40:16.560635+00:00",
-        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=4_vFxfFVvMU",
-        "summary": "",
-        "date": "2026-06-30T06:52:33.955923+00:00",
-        "image": "https://img.youtube.com/vi/4_vFxfFVvMU/mqdefault.jpg"
-      },
-      {
-        "title": "שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-06-29T13:00:02.680976+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "איך מתחילים? כניסה לממשק ה-GPTs",
-        "link": "https://www.youtube.com/watch?v=JSBrKCFhnzc",
-        "summary": "",
-        "date": "2026-06-29T07:23:45.347539+00:00",
-        "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=JON8g64fMGo",
-        "summary": "",
-        "date": "2026-06-28T11:02:35.869477+00:00",
-        "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=_Gs0fRUuANs",
-        "summary": "",
-        "date": "2026-06-28T06:57:25.369676+00:00",
-        "image": "https://img.youtube.com/vi/_Gs0fRUuANs/mqdefault.jpg"
-      },
-      {
-        "title": "WhisperTranscribe תוכנה לתמלול סרטונים",
-        "link": "https://www.youtube.com/watch?v=5Q2YiP7dm0g",
-        "summary": "",
-        "date": "2026-06-28T06:57:24.656032+00:00",
-        "image": "https://img.youtube.com/vi/5Q2YiP7dm0g/mqdefault.jpg"
-      },
-      {
-        "title": "Turboscribe",
-        "link": "https://www.youtube.com/watch?v=Mr1lxV40dEg",
-        "summary": "",
-        "date": "2026-06-28T06:57:24.656028+00:00",
-        "image": "https://img.youtube.com/vi/Mr1lxV40dEg/mqdefault.jpg"
-      },
-      {
-        "title": "Workflow Automation",
-        "link": "https://www.youtube.com/watch?v=ea4pyEItDjY",
-        "summary": "",
-        "date": "2026-06-27T06:25:59.210934+00:00",
-        "image": "https://img.youtube.com/vi/ea4pyEItDjY/mqdefault.jpg"
-      },
-      {
-        "title": "מבוא והקדמה",
-        "link": "https://www.youtube.com/watch?v=KRmQic3LjhU",
-        "summary": "",
-        "date": "2026-06-25T11:34:39.122536+00:00",
-        "image": "https://img.youtube.com/vi/KRmQic3LjhU/mqdefault.jpg"
+        "title": "גוגל מתקשה עם כוח מחשוב ל-AI, ומטא תשלם את המחיר",
+        "link": "https://www.geektime.co.il/metas-gemini-access-got-capped-and-it-felt-it/",
+        "summary": "העסקה הענקית שנחשפה מוקדם יותר החודש, במסגרתה תשלם גוגל עשרות מיליארדי דולרים ל-SpaceX עבור כוח מחשוב, לא נולדה במקרה. דיווח חדש של Financial Times חושף כי מאחורי המהלך עומד מחסור חמור בכח מחשוב, שהוביל את גוגל לצמצם משמעותית את הגישה של לקוחותיה למודלי ה-AI שלה. הנפגעת המרכזית מהמהלך היא לא אחרת מאשר מטא, אחת הלקוחות [&#8230;] The post גוגל מתקשה עם כוח מחשוב ל-AI, ומטא תשלם את המחיר appeared fir",
+        "date": "2026-06-28T10:33:19+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/Gemini-Google-Logo-1024x576.jpg"
       }
     ],
-    "scraped_at": "2026-07-08T10:56:34.759014+00:00",
+    "scraped_at": "2026-07-09T06:37:12.792957+00:00",
+    "error": null
+  },
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-07-09T06:37:12.882766+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "לראשונה בעולם: סוכן AI ביצע מתקפת סייבר מלאה",
+        "link": "https://www.ynet.co.il/digital/technews/article/sy8najsmmx",
+        "summary": "חוקרי אבטחה זיהו לראשונה מתקפת כופרה שנוהלה ותוכננה במלואה על ידי סוכן בינה מלאכותית אוטונומי. המערכת הפגינה יכולת הסתגלות בזמן אמת, תיקנה שגיאות קוד במהירות והצפינה נתונים, אך גם חשפה פערים בהבנת ההקשר הפיננסי",
+        "date": "2026-07-08T11:13:21+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/08/B111H00so7zx/B111H00so7zx_53_0_2729_1537_0_medium.jpg"
+      },
+      {
+        "title": "המהלך הסודי של אילון מאסק: מכשיר שאמור להחליף את הסמארטפון",
+        "link": "https://www.ynet.co.il/digital/technews/article/r1a1lnqqme",
+        "summary": "דיווח חדש חושף כי SpaceX הציגה למשקיעים אב-טיפוס של מכשיר AI חדש, שנועד להשתחרר מהתלות באפל ובגוגל ולהישען על הטכנולוגיות של אימפריית מאסק. למרות שמאסק הכחיש את הפרסום, המרוץ לדור הבא של המחשוב האישי כבר בעיצומו",
+        "date": "2026-07-02T10:22:58+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/11/ryqQ6H0011Ml/ryqQ6H0011Ml_0_199_3000_1689_0_medium.jpg"
+      },
+      {
+        "title": "שכחו מ-ChatGPT וקלוד: הדבר הבא הוא מחשב שחושב ופועל לבד",
+        "link": "https://www.ynet.co.il/digital/technology/article/bk2dogyzfg",
+        "summary": "המרוץ להפוך את המחשב שלכם לסוכן AI עצמאי נמצא בעיצומו. ענקיות השבבים משקיעות מיליארדים כדי להעביר את הבינה המלאכותית מהענן אל המחשב האישי. הקרב הזה צפוי לשנות לא רק את המחשבים שנקנה - אלא גם את הדרך שבה נעבוד, נלמד ונשתמש בטכנולוגיה",
+        "date": "2026-07-01T08:19:49+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/01/HJxF8kEMQGg/HJxF8kEMQGg_0_0_1600_900_0_medium.jpg"
+      },
+      {
+        "title": "7 טריליון דולר על הכוונת: התוכנית הדרמטית נגד ענקיות ה-AI",
+        "link": "https://www.ynet.co.il/digital/technews/article/ryov00j1xfe",
+        "summary": "מס חד פעמי של 50% על מניות ענקיות ה-AI, קרן עושר ממשלתית ותשלום שנתי של כ-1,000 דולר לכל אזרח: הסנאטור הדמוקרטי הציג תוכנית תוקפנית במיוחד. התומכים טוענים שהציבור זכאי ליהנות מהעושר שנוצר ממידע של מיליוני בני אדם, אך המבקרים מזהירים מפגיעה חסרת תקדים בשוק ההון ובקניין הפרטי",
+        "date": "2026-06-29T08:31:58+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/03/11/ryGHfraike/ryGHfraike_0_108_3000_1689_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-07-09T06:37:12.952575+00:00",
     "error": null
   }
 }
