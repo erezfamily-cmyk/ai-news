@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 1. [Qlik MCP - תקשורת ישירה עם מנוע Qlik](https://www.youtube.com/watch?v=cGp0Rgntivw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
+### 2. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=hcXSjZpqMds)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 3. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=3VkTEq0IuRA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 4. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 5. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
