@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 14/07/2026
+# 🤖 עדכוני AI Pulse — 15/07/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה רוב העסקים תקועים עם AI](https://www.youtube.com/watch?v=mWnhXnGEzh8)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מי אנחנו: בני פרבר ודניאל נחמיה](https://www.youtube.com/watch?v=JDuRdEEvHlk)
+### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hcXSjZpqMds)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
+### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=hcXSjZpqMds)
+### 4. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 5. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
