@@ -1,26 +1,26 @@
-# 🤖 עדכוני AI Pulse — 15/07/2026
+# 🤖 עדכוני AI Pulse — 16/07/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [Qlik MCP - תקשורת ישירה עם מנוע Qlik](https://www.youtube.com/watch?v=cGp0Rgntivw)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
+### 1. [לעבוד חכם עם AI](https://campus.gov.il/course/digitalil-gov-ai2-he/)
+- **קטגוריה:** קמפוס GOV
+- **מקור:** קמפוס GOV
 
-### 2. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=hcXSjZpqMds)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
+### 2. [בינה מלאכותית כעוזר הוראה](https://campus.gov.il/course/moe-edu-shelf-aiedu-he/)
+- **קטגוריה:** קמפוס GOV
+- **מקור:** קמפוס GOV
 
-### 3. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=3VkTEq0IuRA)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
+### 3. [AI למתחילים: לומדים לדבר עם בינה מלאכותית](https://campus.gov.il/course/digitalil-gov-beai-he/)
+- **קטגוריה:** קמפוס GOV
+- **מקור:** קמפוס GOV
 
-### 4. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
+### 4. [נחשף אחרי 6 שנים: הסטארט-אפ הישראלי שפיצח את שפת המוח](https://www.ynet.co.il/digital/technews/article/by0dcyhnzl)
+- **קטגוריה:** חדשות טכנולוגיה
+- **מקור:** ynet טכנולוגיה
 
-### 5. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
+### 5. [מהמיטה לכיתה: חברה שמוכרת רובוטי מין תספק "מורות" לבתי ספר](https://www.ynet.co.il/digital/technews/article/h1oqt0enmg)
+- **קטגוריה:** חדשות טכנולוגיה
+- **מקור:** ynet טכנולוגיה
 
 ---
 * [לדשבורד המלא](https://erezfamily-cmyk.github.io/ai-news/)*
