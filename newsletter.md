@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 16/07/2026
+# 🤖 עדכוני AI Pulse — 17/07/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=DK9x9kQwAwg)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=cGp0Rgntivw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=sWSjoyjpiVU)
+### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=p1ezpfgpS3Q)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 4. [הוספת ידע (Knowledge) וקבצים לסוכן שלכם](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
