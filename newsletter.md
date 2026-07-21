@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 20/07/2026
+# 🤖 עדכוני AI Pulse — 21/07/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=Dj_vFKd87o8)
+### 1. [Qlik MCP - תקשורת ישירה עם מנוע Qlik](https://www.youtube.com/watch?v=fIOh2s33P74)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=79S33NKY-gw)
+### 2. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=Dj_vFKd87o8)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 3. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=OjKSaPGXbKM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=VmVRuRqALLk)
+### 4. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 5. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
