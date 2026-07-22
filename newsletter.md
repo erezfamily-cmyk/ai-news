@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=gv6QGu2RkgA)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=R3ygiegzFIQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [Use big prompts](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=YZr03kwIFvE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
