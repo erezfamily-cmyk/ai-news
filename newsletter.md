@@ -10,15 +10,15 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 3. [Use big prompts](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [New Projects](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 4. [Not a tool](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [Use big prompts](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=MfyyUxBtOS0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
