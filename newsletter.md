@@ -2,7 +2,7 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=fIOh2s33P74)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=JDuRdEEvHlk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 4. [מתחילים לעבוד!](https://www.youtube.com/watch?v=VmVRuRqALLk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=Vqhy3VD-34U)
+### 5. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
