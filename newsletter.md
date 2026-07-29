@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 28/07/2026
+# 🤖 עדכוני AI Pulse — 29/07/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=z0_G87Tr9Ng)
+### 4. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=Vqhy3VD-34U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
