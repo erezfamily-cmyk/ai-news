@@ -1,4 +1,4 @@
-# 🤖 עדכוני AI Pulse — 03/08/2026
+# 🤖 עדכוני AI Pulse — 04/08/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
@@ -10,15 +10,15 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=VmVRuRqALLk)
+### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=VmVRuRqALLk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
