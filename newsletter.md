@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 08/08/2026
+# 🤖 עדכוני AI Pulse — 09/08/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=z0_G87Tr9Ng)
+### 2. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=VmVRuRqALLk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=VmVRuRqALLk)
+### 3. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [Выводы](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 4. [Выводы](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [Симуляция диалога](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 5. [New Projects](https://www.youtube.com/watch?v=fwANhfjQt9E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
