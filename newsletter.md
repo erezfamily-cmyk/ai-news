@@ -10,15 +10,15 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=VmVRuRqALLk)
+### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 4. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=hhAJPiHwotY)
+### 5. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
