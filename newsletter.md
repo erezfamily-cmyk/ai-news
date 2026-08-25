@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 24/08/2026
+# 🤖 עדכוני AI Pulse — 25/08/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [הטעות הכלכלית הגדולה של הישראלים](https://www.youtube.com/watch?v=DlPMssBYSDU)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מה זה באמת מיליונר ומהו חופש כלכלי?](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [איך בינה מלאכותית תשנה את שוק העבודה?](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=9izuJKO27FU)
+### 4. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 5. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=g5-L1Ca32a4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
