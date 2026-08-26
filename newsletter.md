@@ -2,11 +2,11 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=iVvHbPSRyAQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [Выводы](https://www.youtube.com/watch?v=g5-L1Ca32a4)
+### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=DGvjyQiNW9U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פיצ'ר למנוים PRO – פרויקטים](https://www.youtube.com/watch?v=fwANhfjQt9E)
+### 5. [5 דברים מטורפים שרק Gemini יודע לעשות](https://www.youtube.com/watch?v=fwANhfjQt9E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
