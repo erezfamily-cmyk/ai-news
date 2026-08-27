@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 26/08/2026
+# 🤖 עדכוני AI Pulse — 27/08/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=iVvHbPSRyAQ)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=iVvHbPSRyAQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=oZz6WybxJkg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=DGvjyQiNW9U)
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [5 דברים מטורפים שרק Gemini יודע לעשות](https://www.youtube.com/watch?v=fwANhfjQt9E)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=ga7wGjnEFvE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
