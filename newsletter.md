@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה רוב העסקים תקועים עם AI](https://www.youtube.com/watch?v=iVvHbPSRyAQ)
+### 1. [המהפכה הכי גדולה שהייתה?](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מי אנחנו: בני פרבר ודניאל נחמיה](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 2. [פתיחה](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=UckZLIr6h4E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=JDuRdEEvHlk)
+### 4. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מתחילים לעבוד!](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
