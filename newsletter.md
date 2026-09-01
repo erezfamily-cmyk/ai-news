@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 31/08/2026
+# 🤖 עדכוני AI Pulse — 01/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [ה-FDE והתפקידים החדשים שנולדים מהמהפכה](https://www.youtube.com/watch?v=7DIuICoW0Y0)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=7DIuICoW0Y0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [עתיד ה-AI: אבטלה? אי שוויון? מי המרוויחים?](https://www.youtube.com/watch?v=NKKs39Yk954)
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=NKKs39Yk954)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מה יש במעבדות ה-AI שאנחנו לא רואים?](https://www.youtube.com/watch?v=3Epqp4ePYro)
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=oE1OZg9ROaU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [המהפכה הכי גדולה שהייתה?](https://www.youtube.com/watch?v=fIOh2s33P74)
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פתיחה](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 5. [מתחילים לעבוד!](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
