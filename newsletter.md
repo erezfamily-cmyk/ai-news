@@ -1,8 +1,8 @@
-# 🤖 עדכוני AI Pulse — 02/09/2026
+# 🤖 עדכוני AI Pulse — 03/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=oE1OZg9ROaU)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=o5kkCrkz3q4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [Симуляция диалога](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 5. [Выводы](https://www.youtube.com/watch?v=CZ8U2IW-lgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
