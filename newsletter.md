@@ -1,20 +1,20 @@
-# 🤖 עדכוני AI Pulse — 04/09/2026
+# 🤖 עדכוני AI Pulse — 05/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [Выводы](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 2. [מתחילים לעבוד!](https://www.youtube.com/watch?v=z0_G87Tr9Ng)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [Симуляция диалога](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 3. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=CF6C-DwxAhI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [Вступление](https://www.youtube.com/watch?v=G0FLdVbrfNQ)
+### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=hhAJPiHwotY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
