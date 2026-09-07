@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מי אנחנו: בני פרבר ודניאל נחמיה](https://www.youtube.com/watch?v=oZz6WybxJkg)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=YZkpjLVO5dY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=JDuRdEEvHlk)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=Ac5C_V2pVM4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=QvedSKEs2z0)
+### 3. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=-cSrOAKgQUU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=9izuJKO27FU)
+### 4. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
