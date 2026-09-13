@@ -1,76 +1,610 @@
 {
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+  "קמפוס GOV": {
+    "url": "https://campus.gov.il",
+    "category": "קמפוס GOV",
+    "items": [
+      {
+        "title": "בינה מלאכותית לארגונים &#8211; הצעד הראשון בעולם ה",
+        "link": "https://campus.gov.il/course/digitalil-gov-aior-he/",
+        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
+        "date": "2026-09-13T13:34:37.080781+00:00",
+        "image": null
+      },
+      {
+        "title": "מובילי יוזמות AI בארגונים",
+        "link": "https://campus.gov.il/course/labor-gov-leadai-he/",
+        "summary": "הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.",
+        "date": "2026-09-13T13:34:34.319674+00:00",
+        "image": null
+      },
+      {
+        "title": "לעבוד חכם עם AI",
+        "link": "https://campus.gov.il/course/digitalil-gov-ai2-he/",
+        "summary": "מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.",
+        "date": "2026-09-13T13:34:31.859950+00:00",
+        "image": null
+      },
+      {
+        "title": "בינה מלאכותית כעוזר הוראה",
+        "link": "https://campus.gov.il/course/moe-edu-shelf-aiedu-he/",
+        "summary": "בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!",
+        "date": "2026-09-13T13:34:28.997200+00:00",
+        "image": null
+      },
+      {
+        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
+        "link": "https://campus.gov.il/course/digitalil-gov-beai-he/",
+        "summary": "רוצים ללמוד בינה מלאכותית מאפס? קורסי AI בחינם לכל הרמות בקמפוס IL – מהבסיס ועד יישום בעבודה. התחילו ללמוד היום, בקצב שלכם וללא עלות.",
+        "date": "2026-09-13T13:34:25.930402+00:00",
+        "image": null
+      }
+    ],
+    "scraped_at": "2026-09-13T13:34:37.080807+00:00",
+    "error": null
+  },
+  "YouTube — סרטונים": {
+    "url": "https://www.youtube.com",
+    "category": "סרטונים",
+    "items": [
+      {
+        "title": "Симуляция диалога",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-09-13T13:34:38.541839+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "Вступление",
+        "link": "https://www.youtube.com/watch?v=3hdAJHWrtgQ",
+        "summary": "",
+        "date": "2026-09-13T13:34:38.541837+00:00",
+        "image": "https://img.youtube.com/vi/3hdAJHWrtgQ/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-09-13T13:34:38.541835+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-09-13T13:34:38.541811+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893534+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893532+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893530+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893528+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893525+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=GcDNQF6olY4",
+        "summary": "",
+        "date": "2026-09-13T13:34:37.893506+00:00",
+        "image": "https://img.youtube.com/vi/GcDNQF6olY4/mqdefault.jpg"
+      },
+      {
+        "title": "השיטה המנצחת - יצירת תמונה באנגלית תחילה",
+        "link": "https://www.youtube.com/watch?v=hCLU9HmDgik",
+        "summary": "",
+        "date": "2026-09-13T07:52:14.967712+00:00",
+        "image": "https://img.youtube.com/vi/hCLU9HmDgik/mqdefault.jpg"
+      },
+      {
+        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
+        "link": "https://www.youtube.com/watch?v=Ri4jyImcixU",
+        "summary": "",
+        "date": "2026-09-13T07:52:14.967708+00:00",
+        "image": "https://img.youtube.com/vi/Ri4jyImcixU/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=OPjcyx_uVdo",
+        "summary": "",
+        "date": "2026-09-13T07:52:14.136361+00:00",
+        "image": "https://img.youtube.com/vi/OPjcyx_uVdo/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-09-13T07:52:14.136359+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=L1HWh82yxk8",
+        "summary": "",
+        "date": "2026-09-13T07:52:14.136355+00:00",
+        "image": "https://img.youtube.com/vi/L1HWh82yxk8/mqdefault.jpg"
+      },
+      {
+        "title": "ChatGPT עובד בעברית?",
+        "link": "https://www.youtube.com/watch?v=ymCMg9b4Whg",
+        "summary": "",
+        "date": "2026-09-12T12:33:14.312170+00:00",
+        "image": "https://img.youtube.com/vi/ymCMg9b4Whg/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק צ'אט גיפיטי",
+        "link": "https://www.youtube.com/watch?v=acTW1vED4Bg",
+        "summary": "",
+        "date": "2026-09-12T12:33:14.312168+00:00",
+        "image": "https://img.youtube.com/vi/acTW1vED4Bg/mqdefault.jpg"
+      },
+      {
+        "title": "בינה מלאכותית (AI) בעולם המודרני",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-09-12T12:33:14.312146+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=_SK3mU-dpX4",
+        "summary": "",
+        "date": "2026-09-12T07:31:19.626588+00:00",
+        "image": "https://img.youtube.com/vi/_SK3mU-dpX4/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
+        "summary": "",
+        "date": "2026-09-12T07:31:19.626583+00:00",
+        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
+        "summary": "",
+        "date": "2026-09-12T07:31:19.626581+00:00",
+        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=4C4J0rITMAs",
+        "summary": "",
+        "date": "2026-09-12T07:31:19.626579+00:00",
+        "image": "https://img.youtube.com/vi/4C4J0rITMAs/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=Uvz0cLH1KW0",
+        "summary": "",
+        "date": "2026-09-12T07:31:19.626575+00:00",
+        "image": "https://img.youtube.com/vi/Uvz0cLH1KW0/mqdefault.jpg"
+      },
+      {
+        "title": "טכניקת קנבה המתקדמת - המרת טקסט אוטומטית",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-09-11T13:08:51.062172+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "השיטה המנצחת - יצירת תמונה באנגלית תחילה",
+        "link": "https://www.youtube.com/watch?v=DZoMm_mc7OI",
+        "summary": "",
+        "date": "2026-09-11T13:08:51.062170+00:00",
+        "image": "https://img.youtube.com/vi/DZoMm_mc7OI/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=Z-rRTZomr0Q",
+        "summary": "",
+        "date": "2026-09-11T13:08:50.202975+00:00",
+        "image": "https://img.youtube.com/vi/Z-rRTZomr0Q/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=eYOauVaFZI4",
+        "summary": "",
+        "date": "2026-09-11T13:08:50.202973+00:00",
+        "image": "https://img.youtube.com/vi/eYOauVaFZI4/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=JON8g64fMGo",
+        "summary": "",
+        "date": "2026-09-11T13:08:50.202972+00:00",
+        "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
+        "summary": "",
+        "date": "2026-09-11T13:08:50.202961+00:00",
+        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
+      },
+      {
+        "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
+        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
+        "summary": "",
+        "date": "2026-09-11T07:39:03.591150+00:00",
+        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
+      },
+      {
+        "title": "שאלות בסיס",
+        "link": "https://www.youtube.com/watch?v=0lmCM9z8gfY",
+        "summary": "",
+        "date": "2026-09-10T13:16:07.112555+00:00",
+        "image": "https://img.youtube.com/vi/0lmCM9z8gfY/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
+        "link": "https://www.youtube.com/watch?v=_z7JhDAnNYE",
+        "summary": "",
+        "date": "2026-09-10T07:42:45.013040+00:00",
+        "image": "https://img.youtube.com/vi/_z7JhDAnNYE/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=AgKReXGrdl0",
+        "summary": "",
+        "date": "2026-09-09T13:17:00.326055+00:00",
+        "image": "https://img.youtube.com/vi/AgKReXGrdl0/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=-CNZOAo44J4",
+        "summary": "",
+        "date": "2026-09-08T13:12:10.906313+00:00",
+        "image": "https://img.youtube.com/vi/-CNZOAo44J4/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
+        "summary": "",
+        "date": "2026-09-08T13:12:10.906311+00:00",
+        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=TXwjWPm7aWo",
+        "summary": "",
+        "date": "2026-09-08T07:38:29.051416+00:00",
+        "image": "https://img.youtube.com/vi/TXwjWPm7aWo/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
+        "summary": "",
+        "date": "2026-09-08T07:38:29.051410+00:00",
+        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
+        "summary": "",
+        "date": "2026-09-07T07:45:15.074836+00:00",
+        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
+      },
+      {
+        "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
+        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
+        "summary": "",
+        "date": "2026-09-06T12:30:49.875866+00:00",
+        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=h2tV9Bw3aYw",
+        "summary": "",
+        "date": "2026-09-06T12:30:49.295424+00:00",
+        "image": "https://img.youtube.com/vi/h2tV9Bw3aYw/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-09-06T12:30:49.295419+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
+        "summary": "",
+        "date": "2026-09-06T12:30:49.295398+00:00",
+        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
+      },
+      {
+        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
+        "link": "https://www.youtube.com/watch?v=ga7wGjnEFvE",
+        "summary": "",
+        "date": "2026-09-06T07:28:17.149762+00:00",
+        "image": "https://img.youtube.com/vi/ga7wGjnEFvE/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
+        "summary": "",
+        "date": "2026-09-06T07:28:16.457729+00:00",
+        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=IAquaNse1pA",
+        "summary": "",
+        "date": "2026-09-06T07:28:16.457726+00:00",
+        "image": "https://img.youtube.com/vi/IAquaNse1pA/mqdefault.jpg"
+      },
+      {
+        "title": "שאלות בסיס",
+        "link": "https://www.youtube.com/watch?v=Tj6BJ4XHTks",
+        "summary": "",
+        "date": "2026-09-05T12:15:29.880412+00:00",
+        "image": "https://img.youtube.com/vi/Tj6BJ4XHTks/mqdefault.jpg"
+      },
+      {
+        "title": "בינה מלאכותית (AI) בעולם המודרני",
+        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
+        "summary": "",
+        "date": "2026-09-05T07:15:45.431991+00:00",
+        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
+      },
+      {
+        "title": "Выводы",
+        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
+        "summary": "",
+        "date": "2026-09-05T07:15:45.431988+00:00",
+        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
+      },
+      {
+        "title": "איך לתקשר עם ג'מיני בעברית בצורה טבעית",
+        "link": "https://www.youtube.com/watch?v=3tbITK3bPFw",
+        "summary": "",
+        "date": "2026-09-04T13:03:39.382694+00:00",
+        "image": "https://img.youtube.com/vi/3tbITK3bPFw/mqdefault.jpg"
+      },
+      {
+        "title": "איך לכתוב פרומפטים חכמים לבינה מלאכותית של גוגל",
+        "link": "https://www.youtube.com/watch?v=WLgEKli7CZM",
+        "summary": "",
+        "date": "2026-09-04T13:03:39.382692+00:00",
+        "image": "https://img.youtube.com/vi/WLgEKli7CZM/mqdefault.jpg"
+      },
+      {
+        "title": "כמה עולה ג'מיני?",
+        "link": "https://www.youtube.com/watch?v=MApDy8hEFEg",
+        "summary": "",
+        "date": "2026-09-04T13:03:39.382689+00:00",
+        "image": "https://img.youtube.com/vi/MApDy8hEFEg/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה Gemini ומה היכולות שלה?",
+        "link": "https://www.youtube.com/watch?v=W1XmT3WzCgU",
+        "summary": "",
+        "date": "2026-09-04T13:03:39.382666+00:00",
+        "image": "https://img.youtube.com/vi/W1XmT3WzCgU/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=5kyt2q1hu5E",
+        "summary": "",
+        "date": "2026-09-04T07:35:47.756665+00:00",
+        "image": "https://img.youtube.com/vi/5kyt2q1hu5E/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=LcWtYjrpZ0A",
+        "summary": "",
+        "date": "2026-09-04T07:35:47.756662+00:00",
+        "image": "https://img.youtube.com/vi/LcWtYjrpZ0A/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=s9ZTJGdns_M",
+        "summary": "",
+        "date": "2026-09-03T13:09:33.510270+00:00",
+        "image": "https://img.youtube.com/vi/s9ZTJGdns_M/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=sJPytLUIUOw",
+        "summary": "",
+        "date": "2026-09-03T13:09:33.510265+00:00",
+        "image": "https://img.youtube.com/vi/sJPytLUIUOw/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=yfPjacI9K5o",
+        "summary": "",
+        "date": "2026-09-03T13:09:33.510239+00:00",
+        "image": "https://img.youtube.com/vi/yfPjacI9K5o/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=tTC8iZkvnaA",
+        "summary": "",
+        "date": "2026-09-03T07:35:19.658874+00:00",
+        "image": "https://img.youtube.com/vi/tTC8iZkvnaA/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=kLCwzx-Rev4",
+        "summary": "",
+        "date": "2026-09-03T07:35:19.658870+00:00",
+        "image": "https://img.youtube.com/vi/kLCwzx-Rev4/mqdefault.jpg"
+      },
+      {
+        "title": "מורה פרטי AI - הסוד ללמידה מהירה",
+        "link": "https://www.youtube.com/watch?v=D7qGd74-4rY",
+        "summary": "",
+        "date": "2026-09-02T07:28:54.823197+00:00",
+        "image": "https://img.youtube.com/vi/D7qGd74-4rY/mqdefault.jpg"
+      },
+      {
+        "title": "העלאת קבצים - הפיצ׳ר שישנה לכם את החיים",
+        "link": "https://www.youtube.com/watch?v=5Q2YiP7dm0g",
+        "summary": "",
+        "date": "2026-09-02T07:28:54.823195+00:00",
+        "image": "https://img.youtube.com/vi/5Q2YiP7dm0g/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=aZmxKdA96gY",
+        "summary": "",
+        "date": "2026-09-01T13:50:51.167319+00:00",
+        "image": "https://img.youtube.com/vi/aZmxKdA96gY/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
+        "summary": "",
+        "date": "2026-09-01T13:50:51.167315+00:00",
+        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=-3Q9btMW1TQ",
+        "summary": "",
+        "date": "2026-08-31T09:09:34.756541+00:00",
+        "image": "https://img.youtube.com/vi/-3Q9btMW1TQ/mqdefault.jpg"
+      },
+      {
+        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
+        "link": "https://www.youtube.com/watch?v=9hSVgbjgH1k",
+        "summary": "",
+        "date": "2026-08-30T14:10:48.206609+00:00",
+        "image": "https://img.youtube.com/vi/9hSVgbjgH1k/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=oT3c6vKSHR4",
+        "summary": "",
+        "date": "2026-08-30T14:10:47.485169+00:00",
+        "image": "https://img.youtube.com/vi/oT3c6vKSHR4/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=fUGqxtTTeWE",
+        "summary": "",
+        "date": "2026-08-30T14:10:47.485164+00:00",
+        "image": "https://img.youtube.com/vi/fUGqxtTTeWE/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-09-13T13:34:38.542062+00:00",
+    "error": null
+  },
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
     "category": "מחשוב וממשל",
     "items": [
       {
-        "title": "27 שניות לפריצה מלאה: איום הסייבר החדש שמדאיג את ישראל",
-        "link": "https://www.ynet.co.il/digital/technews/article/synxofekfg",
-        "summary": "מערך הסייבר הלאומי מזהיר כי כלי AI אוטונומיים כבר מסוגלים לבצע כמעט לבדם שרשרת תקיפה שלמה, ולהתפשט ברשת ארגונית בתוך שניות. כעת מקימים בישראל יחידת התערבות לאומית ומעבדה חדשה שתתמקד באיומי הדור הבא",
-        "date": "2026-09-10T12:10:05+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/10/By00raGlKGe/By00raGlKGe_0_0_1536_865_0_medium.jpg"
+        "title": "אל תתנו ל-Latency להרוג לכם את המוצר",
+        "link": "https://www.geektime.co.il/inference-cloud-with-akamai-1592026/",
+        "summary": "המעבר ליישומי Agentic AI יצר שני אתגרים שמנהלים את לוחות הזמנים של כל צוות DevOps: זמני השהיה שפוגעים בחוויית המשתמש, ועלויות רוחב פס שמאיימות לרסק את המודל העסקי. הסיבה לכך אינה טמונה במודלים עצמם, אלא בארכיטקטורה: הענן הריכוזי, ששירת אותנו נאמנה בעידן ה-SaaS, פשוט אינו בנוי לעומסי העבודה החדשים. כדי להבין את הבעיה, צריך להסתכל [&#8230;] The post אל תתנו ל-Latency להרוג לכם את המוצר appeared firs",
+        "date": "2026-09-10T08:39:37+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_m_409934864-1024x712.jpg"
       },
       {
-        "title": "גוגל: איראן עברה לשימוש ב-AI במבצעי הסייבר שלה",
-        "link": "https://www.ynet.co.il/digital/technews/article/bylc8ktugl",
-        "summary": "לפי קבוצת מודיעין הסייבר של גוגל, האקרים מאיראן ומסין רותמים מודלי שפה לפיתוח תשתיות תקיפה, ייצור דמויות מזויפות ועקיפת מנגנוני אבטחה ארגוניים. במקביל, סוכני AI מבצעים מבצעי פריצה מורכבים ללא פיקוח אנושי שוטף",
-        "date": "2026-09-08T13:07:22+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2021/11/08/rkv48uUwt/rkv48uUwt_0_0_850_479_0_medium.jpg"
+        "title": "20 דולר פה, 50 דולר שם: איך תצאו מהחור השחור בהוצאות ה-AI שלכם?",
+        "link": "https://www.geektime.co.il/managing-ai-shadow-spend/",
+        "summary": "מאת איתמר ג'ובני עד לא מזמן, רכישת תוכנה ארגונית הייתה תהליך מסודר. מחלקת ה-IT בחנה פתרון, הרכש ניהל משא ומתן, הכספים אישרו תקציב, ההסכם נחתם &#8211; ורק אז התוכנה נכנסה לארגון. השינוי במודל הזה התחיל בעידן ה-SaaS, אבל מודלי ה-AI לוקחים את תהליך האימוץ למקום אחר לגמרי. היום, מנהלת פיתוח יכולה לרכוש כלי AI לצוות [&#8230;] The post 20 דולר פה, 50 דולר שם: איך תצאו מהחור השחור בהוצאות ה-AI שלכם? appe",
+        "date": "2026-09-09T08:19:15+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/Gemini_Generated_Image_y13y72y13y72y13y-1024x572.jpeg"
       },
       {
-        "title": "\"שטני\": האזהרה החריגה של סגן נשיא ארה\"ב מפני הבינה המלאכותית",
-        "link": "https://www.ynet.co.il/digital/technews/article/b1vrs3c00fl",
-        "summary": "ג'יי די ואנס סיפר בפודקאסט כיצד צ'אטבוט העניק לאדם קרוב אליו ייעוץ זוגי שרק חיזק את עמדותיו, והזהיר מהצד ה\"שטני\" של הטכנולוגיה. אלא שבמקביל, ממשל טראמפ ממשיך לדחוף בכל הכוח את מרוץ ה-AI מול סין ולהתנגד לרגולציה וגבולות קשיחים",
-        "date": "2026-09-06T10:26:39+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/06/BJC8JTcufg/BJC8JTcufg_0_0_1079_607_0_medium.jpg"
+        "title": "הכנס הגדול של קהילת העסקים וה-IT בישראל חוזר: הנה מה שיחכה לכם",
+        "link": "https://www.geektime.co.il/israel-information-technology-conference-2026-save-the-date/",
+        "summary": "שמונה מסלולים מקצועיים, תערוכת Expo, תחרות סטארטאפים וזירת AI &#38; Cyber חדשה: ועידת ישראל לטכנולוגיות המידע חוזרת לתל אביב וצפויה לארח כ-3,000 יזמות ויזמים, משקיעים, נציגי סטארטאפים ובכירים בארגונים. הכנס יעסוק בשינויים שיוצרת מהפכת ה-AI בשוק העבודה, שוק היזמות, חברות השירותים, חברות מסורתיות וממשלתיות וסטארטאפים. זהו אחד הכנסים הוותיקים והגדולים בישראל, והשנה הוא יתקיים בסימן [&#8230;] The post",
+        "date": "2026-09-06T08:42:33+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/1Y1A4449-1024x683.jpg"
       },
       {
-        "title": "ה-AI ניצח את הגיימרים: מיקרוסופט מתחילה להגביל את Xbox",
-        "link": "https://www.ynet.co.il/digital/gaming/article/r1ecwi5ozg",
-        "summary": "החל מנובמבר תגביל מיקרוסופט לראשונה את שירות הגיימינג בענן שלה לעד 15 שעות בחודש, גם למנויים שמשלמים 23 דולר מדי חודש. בחברה מסבירים כי רק 4% מהמשתמשים צפויים להיפגע, אבל ברקע נמצאת גם התחרות על משאבי המחשוב מול הבינה המלאכותית",
-        "date": "2026-09-06T09:01:53+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/06/HJsDjscuMg/HJsDjscuMg_52_0_889_500_0_medium.jpg"
+        "title": "עכשיו תדמיינו שמתקני ההתפלה היו קורסים כשהמדינה מלאה בדאטה-סנטרים ל-AI",
+        "link": "https://www.geektime.co.il/desalination-systems-shut-down-and-ai-data-centers/",
+        "summary": "אמנון דירקטור, זווית השבתת רוב מתקני ההתפלה בארץ השבוע המחישה עד כמה משק המים הישראלי פגיע, גם במדינה שנחשבת למעצמה טכנולוגית בתחום התפלת המים. אלא שבעוד המדינה נדרשת להתמודד עם האפשרות של מחסור במים &#8211; בעיקר בענף החקלאות &#8211; צורך חדש במים צפוי להוסיף לחץ על המשאב: חוות השרתים שמאחורי מהפכת הבינה המלאכותית. מרכזי המחשוב [&#8230;] The post עכשיו תדמיינו שמתקני ההתפלה היו קורסים כשהמדינה מל",
+        "date": "2026-09-04T14:48:49+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/distil_ashkelon.jpg"
       },
       {
-        "title": "OpenAI חשפה את GPT-6 וטוענת: \"יכול להיות שכבר הגענו ל-AGI\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/rkn5b0p00ze",
-        "summary": "GPT-6 Astra מסוגל לבצע משימות מורכבות במחשב כמעט בעצמו, לכתוב קוד, לערוך מחקר וליצור מסמכים ומצגות. ב-OpenAI כבר מדברים בגלוי על AGI, אך מודים גם כי המודל החדש הגיע לרמת יכולות סייבר \"קריטית\" וככל שהוא נעשה חכם יותר, קשה יותר לפקח עליו",
-        "date": "2026-09-04T05:47:36+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/04/HkHU5Rwufl/HkHU5Rwufl_0_0_1440_810_0_medium.jpg"
+        "title": "אנבידיה מודיעה רשמית: רכשנו את Hugging Face ב-12.9 מיליארד דולר",
+        "link": "https://www.geektime.co.il/nvidia-acquires-hugging-face/",
+        "summary": "אנבידיה עושה עוד צעד בדרך להפוך מחברת שבבים שמתמקדת ב-GPU לחברה שמעורבת כמעט בכל שלב של מחשוב ה-AI. היום (ה') החברה מודיעה רשמית על רכישת פלטפורמת פיתוח ה-AI הפופולרית Hugging Face תמורת 12.9 מיליארד דולר. העסקה, ששמועות עליה צצו כבר בשבוע שעבר, מסמנת עליית מדרגה משמעותית בניסיון של אנבידיה לשלוט לא רק בתשתיות הפיזיות של [&#8230;] The post אנבידיה מודיעה רשמית: רכשנו את Hugging Face ב-12.9 מיליארד",
+        "date": "2026-09-03T12:44:24+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-part-1024x576.jpg"
       },
       {
-        "title": "לונדון מחכה להן: הושקו מוניות רובוטיות של אובר בבירה הבריטית",
-        "link": "https://www.ynet.co.il/digital/technews/article/hj11jcsiufe",
-        "summary": "החברה החלה להפעיל בבירה הבריטית רובוטקסי מבוסס בינה מלאכותית של חברת Wayve, לצד מפעיל אנושי לביטחון. במקביל, טסלה השיקה באוסטין את ה\"סייברקאב\" ללא הגה, המפוקח מרחוק",
-        "date": "2026-09-03T08:26:53+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/03/Bk0YpsLufx/Bk0YpsLufx_0_200_1921_1081_0_medium.jpg"
+        "title": "ServiceNow Acquires Israeli Enterprise Startup Sweep for $400 Million",
+        "link": "https://www.geektime.co.il/servicenow-acquires-israeli-enterprise-startup-sweep-for-400-million/",
+        "summary": "Enterprise software giant ServiceNow is expanding its AI and metadata management capabilities with the acquisition of Israeli startup Sweep. A spokesperson for ServiceNow confirmed the acquisition, but declined to comment on the financial terms of the deal. However, sources indicate the acquisition is valued at approximately $400 million. Making the Enterprise AI-Ready Founded in 2021 [&#8230;] Th",
+        "date": "2026-09-03T10:41:37+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_l_464244314-1024x683.jpg"
       },
       {
-        "title": "מתקפת הסייבר הבאה כבר תיראה אחרת: כך נערכות התשתיות הקריטיות בישראל",
-        "link": "https://www.ynet.co.il/digital/technology/article/b1ipqazuge",
-        "summary": "ה-AI מאפשר לתוקפים לפעול מהר יותר, בזול ובהיקפים גדולים יותר, ומצמצם את הזמן שנותר לארגונים להגיב. מבנקים ובתי חולים ועד חברות תקשורת: איום הסייבר החדש משנה את תפיסת ההגנה בישראל - ודוחף יותר מערכות קריטיות לענן",
-        "date": "2026-08-31T10:59:13+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2020/05/14/SkdVl6c5I/SkdVl6c5I_0_0_640_360_0_medium.jpg"
-      },
-      {
-        "title": "ענקיות הטכנולוגיה באזהרה משותפת: \"גל מתקפות AI על תשתיות קריטיות בפתח\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/rjiaaq11ugx",
-        "summary": "מיקרוסופט, גוגל, OpenAI, אמזון ואנת'רופיק הצטרפו ליותר מ-100 חברות שמזהירות כי הבינה המלאכותית תהפוך מתקפות סייבר מתקדמות למהירות, זולות ונגישות יותר. החשש: בתי חולים, מתקני מים ותשתיות אינטרנט נמצאים בסיכון מיוחד. ומי נעדרות מרשימת החותמות?",
-        "date": "2026-08-30T12:28:47+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/30/HJKebo11Ofx/HJKebo11Ofx_0_96_1536_865_0_medium.jpg"
+        "title": "פייפאל מפטרת כ-20% מהעובדים בישראל",
+        "link": "https://www.geektime.co.il/payapal-israel-layoffs-bizzabo/",
+        "summary": "ענקית התשלומים הבינלאומית PayPal נפרדת מכ-70 עובדים מתוך כ-300 המועסקים במרכז הפיתוח שלה בישראל, שעוסק בין היתר במניעת הונאות, סייבר ופיתוחי AI שונים. הקיצוץ במרכז המקומי של פייפאל הוא חלק מתוכנית התייעלות עולמית נרחבת שהוביל המנכ\"ל אנריקה לורס, במסגרתה יקוצצו כ-20% מכוח האדם הגלובלי של החברה בשנים הקרובות, במטרה לחסוך כ-1.5 מיליארד דולר בשנה. התוכנית [&#8230;] The post פייפאל מפטרת כ-20% מהעובדים",
+        "date": "2026-09-03T05:08:41+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2022/03/PP-1648130305.jpg"
       }
     ],
-    "scraped_at": "2026-09-13T07:51:44.849937+00:00",
+    "scraped_at": "2026-09-13T13:33:43.401705+00:00",
     "error": null
+  },
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-09-13T13:33:43.597144+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-09-13T13:33:41.433598+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-09-13T13:33:38.966009+00:00",
+    "error": "HTTP Status 404"
   },
   "ynet טכנולוגיה": {
     "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "חדשות טכנולוגיה",
     "items": [
       {
-        "title": "מנכ\"ל אנתרופיק: \"אנחנו חייבים להאט\" - האזהרה שמטלטלת את עולם ה-AI",
+        "title": "מנכ\"ל אנת׳רופיק: \"אנחנו חייבים להאט\" - האזהרה שמטלטלת את עולם ה-AI",
         "link": "https://www.ynet.co.il/digital/technews/article/hyavzzmtfe",
-        "summary": "במאמר שפרסם דריו אמודיי, הוא קורא לתעשיית הבינה המלאכותית להאט את קצב שיפור היכולות כדי לתת למנגנוני הבקרה זמן להדביק את הפער. הוא מצביע על \"שיפור עצמי רקורסיבי\" של המודלים ועל ניסוי שבו נחיל סוכני AI של OpenAI פרץ לפלטפורמה מרכזית, ומודה כי גם אנתרופיק חוותה תקריות דומות - כולל שימוש בקלוד על ידי גורמים איראניים וחות'ים לפיתוח נשק",
+        "summary": "במאמר שפרסם דריו אמודיי, הוא קורא לתעשיית הבינה המלאכותית להאט את קצב שיפור היכולות כדי לתת למנגנוני הבקרה זמן להדביק את הפער. הוא מצביע על \"שיפור עצמי רקורסיבי\" של המודלים ועל ניסוי שבו נחיל סוכני AI של OpenAI פרץ לפלטפורמה מרכזית, ומודה כי גם אנת׳רופיק חוותה תקריות דומות - כולל שימוש בקלוד על ידי גורמים איראניים וחות'ים לפיתוח נשק",
         "date": "2026-09-12T18:03:34+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/05/r19uuLwAZl/r19uuLwAZl_0_214_3000_1689_0_medium.jpg"
       },
@@ -227,73 +761,9 @@
         "summary": "רשות ההגירה והמכס האמריקאית מתכננת להשקיע כשני מיליון דולר ברובוטים, שייכנסו ראשונים לאתרים מסוכנים במסגרת מבצעי אכיפה. הם מצוידים במצלמות ובחיישנים לזיהוי כימיקלים, גזים וסכנות נוספות. בחברה מדגישים: הרובוטים לא ישומשו בתור נשק",
         "date": "2026-08-30T13:42:07+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/13/SJDLqLoIMl/SJDLqLoIMl_0_57_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "ענקיות הטכנולוגיה באזהרה משותפת: \"גל מתקפות AI על תשתיות קריטיות בפתח\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/rjiaaq11ugx",
-        "summary": "מיקרוסופט, גוגל, OpenAI, אמזון ואנת'רופיק הצטרפו ליותר מ-100 חברות שמזהירות כי הבינה המלאכותית תהפוך מתקפות סייבר מתקדמות למהירות, זולות ונגישות יותר. החשש: בתי חולים, מתקני מים ותשתיות אינטרנט נמצאים בסיכון מיוחד. ומי נעדרות מרשימת החותמות?",
-        "date": "2026-08-30T12:28:47+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/30/HJKebo11Ofx/HJKebo11Ofx_0_96_1536_865_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-09-13T07:51:42.329090+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [
-      {
-        "title": "עיראק סגרה מעבר גבול בינה לבין איראן בעקבות מתקפות הרחפנים על ערב הסעודית",
-        "link": "https://news.walla.co.il/break/3867280",
-        "summary": "עיראק הורתה על סגירת מעבר הגבול \"שלאמצ'ה\" שבין עיראק לאיראן כאמצעי זהירות, בעקבות מתקפות הרחפנים האחרונות נגד ערב הסעודית - כך מסרו היום (שישי) שני גורמי ביטחון לסוכנות הידיעות רויטרס. הגורמים ציינו כי מתנהל מבצע רחב-היקף לאיתור האחראים למתקפה על ערב הסעודית.",
-        "date": "2026-09-12T03:00:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "דיווח: איראן השתמשה במודל AI של ארה\"ב כדי לאתר ולתקוף ספינות של הצי האמריקני",
-        "link": "https://news.walla.co.il/break/3867258",
-        "summary": "איראן השתמשה במודלים של בינה מלאכותית שפותחו בארצות הברית בניסיון לסייע באיתור ובתקיפת ספינות של הצי האמריקני במזרח התיכון - כך עולה מדוח שפורסם היום (שישי) על ידי חברת אנטרופיק, מפתחת \"Claude\". לכתבה המלאה לחצו",
-        "date": "2026-09-11T16:50:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "טלי גוטליב: נתניהו לא יקדם רפורמה משפטית בקדנציה הקרובה",
-        "link": "https://news.walla.co.il/break/3866426",
-        "summary": "בפוסט שפרסמה היום (שלישי) טלי גוטליב כתבה כי ראש הממשלה, בנימין נתניהו לא יקדם רפורמה משפטית בקדנציה הקרובה. \"רה\"מ הוא תעודת הביטוח של בגץ. נתניהו שיריין את דוד פטר ויסכה בינה המשפטנים המצויינים רק כדי 'להרגיע' את הבוחרים שרוצים בצדק רפורמה משפטית וריסון הכח הבריוני של בג\"ץ. רה\"מ מתמקד בבטחון וזו מומחיותו, באשר למערכת המשפט הוא לא יגע בה\", כתבה.",
-        "date": "2026-09-08T11:41:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "דוברונסקי מאשר כי לא יכהן כחבר כנסת מטעם הליכוד: \"העדפתי לכהן כשר מקצועי\"",
-        "link": "https://news.walla.co.il/break/3866344",
-        "summary": "איש העסקים אורן דוברונסקי אישר היום (שלישי) כי לא יכהן כחבר כנסת מטעם הליכוד בחשבונו ברשת החברתית פייסבוק. \"ראש הממשלה הציע לי לכהן כשר לענייני AI ולהיות משוריין ברשימה בעשירייה הראשונה. למרות זאת העדפתי לכהן רק כשר מקצועי\", כתב.",
-        "date": "2026-09-08T00:30:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "לפחות חמישה נהרגו בהתרסקות מטוס אמזון בארה\"ב",
-        "link": "https://news.walla.co.il/break/3866094",
-        "summary": "לפחות חמישה נהרגו היום (שני) בהתרסקות מטוס מטען של Amazon Prime Air שחרג ממסלול בנמל התעופה הבינלאומי של מיאמי ופגע בכמה כלי רכב - כך מדווחת סוכנות הידיעות רויטרס. צוותי החירום בוחנים את מצבם של נפגעים בזירה, ומספרם המדויק טרם ידוע. בעקבות האירוע נסגרו כל מסלולי ההמראה, הנחיתה וההסעה בנמל התעופה.",
-        "date": "2026-09-07T00:48:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "מטוס מטען של אמזון חרג מהמסלול במיאמי ופגע בכמה כלי רכב",
-        "link": "https://news.walla.co.il/break/3866083",
-        "summary": "מטוס מטען של Amazon Prime Air חרג הערב (ראשון) ממסלול בנמל התעופה הבינלאומי של מיאמי ופגע בכמה כלי רכב - כך מסרו שירותי הכבאות וההצלה של מחוז מיאמי-דייד. צוותי החירום בוחנים את מצבם של נפגעים בזירה, ומספרם המדויק טרם ידוע. בעקבות האירוע נסגרו כל מסלולי ההמראה, הנחיתה וההסעה בנמל התעופה.",
-        "date": "2026-09-06T22:46:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      },
-      {
-        "title": "אח\"י \"דרקון\" יצאה מגרמניה לישראל: \"צוללת העתיד של זרוע הים\"",
-        "link": "https://news.walla.co.il/break/3864883",
-        "summary": "הצוללת השישית של ישראל, אח\"י \"דרקון\", יצאה השבוע ממספנת TKMS בקיל שבגרמניה והחלה את הפלגתה לישראל, בתום שנים של תכנון ובנייה. הצוללת, האחרונה בסדרת דולפין AIP, מצוידת בטכנולוגיות מתקדמות וצפויה להרחיב את טווח הפעולה והיכולות המבצעיות של חיל הים. עם הגעתה ייערך טקס ממלכתי בבסיס חיפה.",
-        "date": "2026-09-01T19:10:00+00:00",
-        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
-      }
-    ],
-    "scraped_at": "2026-09-13T07:51:42.093621+00:00",
+    "scraped_at": "2026-09-13T13:33:40.758150+00:00",
     "error": null
   },
   "גיקטיים": {
@@ -572,586 +1042,9 @@
         "summary": "מאת: פרופ' נדב כהן נדמה שאי אפשר לפתוח את פיד הטכנולוגיה בלי להיתקל בעוד הכרזה על גיוס ענק בתחום ה-Physical AI. מעבדות וחברות מרכזות כיום מאמץ חסר תקדים סביב מודלים שיאפשרו למכונות לפעול בעולם הפיזי, החל מרובוטים ורכבים אוטונומיים, ועד רחפנים, מפעלים ותשתיות קריטיות. אבל מאחורי ההייפ מסתתרת שאלה שרוב האנשים לא שואלים: למה AI [&#8230;] The post טעות בצ&#039;אט? מוחקים. טעות בעולם האמיתי? אסון appea",
         "date": "2026-08-30T16:47:16+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/dreamstime_IronMan-1024x749.jpg"
-      },
-      {
-        "title": "פיקסל 11, Google TV ומצלמות Nest מגיעים לישראל בייבוא חדש",
-        "link": "https://www.geektime.co.il/pixel-11-google-tv-and-nest-are-coming-to-israel/",
-        "summary": "זה לא סוד שגוגל לא ממש סופרת את הקהל הישראלי בכל מה שנוגע למכשירים המעניינים שלה. למעשה, בביקורת שלנו ל-Fitbit Air החדש, גילינו שהיא אפילו לא מאפשרת לישראלים להשתמש בכל הפיצ'רים של הצמיד &#8211; גם אם הם מוכנים לשלם תוספת מחיר עבורם. אבל היום (א') יש לנו חדשות קצת יותר טובות לחובבי גוגל בארץ, עם [&#8230;] The post פיקסל 11, Google TV ומצלמות Nest מגיעים לישראל בייבוא חדש appeared first on גיקטיים ",
-        "date": "2026-08-30T10:32:37+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/Pixel-11-1024x634.jpeg"
-      },
-      {
-        "title": "בעקבות הרכישה של מאסק: OpenAI חוסמת את Cursor",
-        "link": "https://www.geektime.co.il/openai-will-end-deal-with-cursor-because-of-elon-musk/",
-        "summary": "iOS נגד אנדרואיד. פלייסטיישן נגד אקסבוקס, AWS נגד Azure. לא חסרות יריבויות בעולם הטכנולוגיה, אבל נדמה שאין יריבות לוהטת יותר מזו של OpenAI. מה אין שם? כסף גדול, טכנולוגיה, מאבק על טאלנטים, התחום הכי חם בעולם כרגע, ובעיקר בעיקר הרבה ביף אישי בין סם אלטמן לאילון מאסק. השותפים לשעבר לא מפסיקים להתקוטט בכל הזדמנות, ועכשיו [&#8230;] The post בעקבות הרכישה של מאסק: OpenAI חוסמת את Cursor appeared first ",
-        "date": "2026-08-30T08:44:04+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/Elon-Musk-VS-Sam-Altman-1024x481.jpeg"
       }
     ],
-    "scraped_at": "2026-09-13T07:51:39.750384+00:00",
-    "error": null
-  },
-  "YouTube — סרטונים": {
-    "url": "https://www.youtube.com",
-    "category": "סרטונים",
-    "items": [
-      {
-        "title": "טכניקת קנבה המתקדמת - המרת טקסט אוטומטית",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.967714+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "השיטה המנצחת - יצירת תמונה באנגלית תחילה",
-        "link": "https://www.youtube.com/watch?v=hCLU9HmDgik",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.967712+00:00",
-        "image": "https://img.youtube.com/vi/hCLU9HmDgik/mqdefault.jpg"
-      },
-      {
-        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
-        "link": "https://www.youtube.com/watch?v=Ri4jyImcixU",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.967708+00:00",
-        "image": "https://img.youtube.com/vi/Ri4jyImcixU/mqdefault.jpg"
-      },
-      {
-        "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.967692+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=OPjcyx_uVdo",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136361+00:00",
-        "image": "https://img.youtube.com/vi/OPjcyx_uVdo/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136359+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136357+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=L1HWh82yxk8",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136355+00:00",
-        "image": "https://img.youtube.com/vi/L1HWh82yxk8/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136351+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-09-13T07:52:14.136334+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "ChatGPT עובד בעברית?",
-        "link": "https://www.youtube.com/watch?v=ymCMg9b4Whg",
-        "summary": "",
-        "date": "2026-09-12T12:33:14.312170+00:00",
-        "image": "https://img.youtube.com/vi/ymCMg9b4Whg/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=acTW1vED4Bg",
-        "summary": "",
-        "date": "2026-09-12T12:33:14.312168+00:00",
-        "image": "https://img.youtube.com/vi/acTW1vED4Bg/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
-        "summary": "",
-        "date": "2026-09-12T12:33:14.312146+00:00",
-        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-09-12T12:33:13.574227+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-09-12T12:33:13.574215+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=GcDNQF6olY4",
-        "summary": "",
-        "date": "2026-09-12T12:33:13.574213+00:00",
-        "image": "https://img.youtube.com/vi/GcDNQF6olY4/mqdefault.jpg"
-      },
-      {
-        "title": "השיטה המנצחת - יצירת תמונה באנגלית תחילה",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-09-12T07:31:20.251304+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=_SK3mU-dpX4",
-        "summary": "",
-        "date": "2026-09-12T07:31:19.626588+00:00",
-        "image": "https://img.youtube.com/vi/_SK3mU-dpX4/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=zR37vyK6Ms4",
-        "summary": "",
-        "date": "2026-09-12T07:31:19.626583+00:00",
-        "image": "https://img.youtube.com/vi/zR37vyK6Ms4/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=IckwSMn70zg",
-        "summary": "",
-        "date": "2026-09-12T07:31:19.626581+00:00",
-        "image": "https://img.youtube.com/vi/IckwSMn70zg/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=4C4J0rITMAs",
-        "summary": "",
-        "date": "2026-09-12T07:31:19.626579+00:00",
-        "image": "https://img.youtube.com/vi/4C4J0rITMAs/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=Uvz0cLH1KW0",
-        "summary": "",
-        "date": "2026-09-12T07:31:19.626575+00:00",
-        "image": "https://img.youtube.com/vi/Uvz0cLH1KW0/mqdefault.jpg"
-      },
-      {
-        "title": "טכניקת קנבה המתקדמת - המרת טקסט אוטומטית",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-09-11T13:08:51.062172+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "השיטה המנצחת - יצירת תמונה באנגלית תחילה",
-        "link": "https://www.youtube.com/watch?v=DZoMm_mc7OI",
-        "summary": "",
-        "date": "2026-09-11T13:08:51.062170+00:00",
-        "image": "https://img.youtube.com/vi/DZoMm_mc7OI/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=Z-rRTZomr0Q",
-        "summary": "",
-        "date": "2026-09-11T13:08:50.202975+00:00",
-        "image": "https://img.youtube.com/vi/Z-rRTZomr0Q/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=eYOauVaFZI4",
-        "summary": "",
-        "date": "2026-09-11T13:08:50.202973+00:00",
-        "image": "https://img.youtube.com/vi/eYOauVaFZI4/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=JON8g64fMGo",
-        "summary": "",
-        "date": "2026-09-11T13:08:50.202972+00:00",
-        "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=0c1L1Q2eIdg",
-        "summary": "",
-        "date": "2026-09-11T13:08:50.202961+00:00",
-        "image": "https://img.youtube.com/vi/0c1L1Q2eIdg/mqdefault.jpg"
-      },
-      {
-        "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
-        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
-        "summary": "",
-        "date": "2026-09-11T07:39:03.591150+00:00",
-        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
-      },
-      {
-        "title": "שאלות בסיס",
-        "link": "https://www.youtube.com/watch?v=0lmCM9z8gfY",
-        "summary": "",
-        "date": "2026-09-10T13:16:07.112555+00:00",
-        "image": "https://img.youtube.com/vi/0lmCM9z8gfY/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=_z7JhDAnNYE",
-        "summary": "",
-        "date": "2026-09-10T07:42:45.013040+00:00",
-        "image": "https://img.youtube.com/vi/_z7JhDAnNYE/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=AgKReXGrdl0",
-        "summary": "",
-        "date": "2026-09-09T13:17:00.326055+00:00",
-        "image": "https://img.youtube.com/vi/AgKReXGrdl0/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=-CNZOAo44J4",
-        "summary": "",
-        "date": "2026-09-08T13:12:10.906313+00:00",
-        "image": "https://img.youtube.com/vi/-CNZOAo44J4/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
-        "summary": "",
-        "date": "2026-09-08T13:12:10.906311+00:00",
-        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
-      },
-      {
-        "title": "Вступление",
-        "link": "https://www.youtube.com/watch?v=3hdAJHWrtgQ",
-        "summary": "",
-        "date": "2026-09-08T07:38:29.714463+00:00",
-        "image": "https://img.youtube.com/vi/3hdAJHWrtgQ/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=TXwjWPm7aWo",
-        "summary": "",
-        "date": "2026-09-08T07:38:29.051416+00:00",
-        "image": "https://img.youtube.com/vi/TXwjWPm7aWo/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=Pu-BStbsqH8",
-        "summary": "",
-        "date": "2026-09-08T07:38:29.051410+00:00",
-        "image": "https://img.youtube.com/vi/Pu-BStbsqH8/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
-        "summary": "",
-        "date": "2026-09-07T07:45:15.074836+00:00",
-        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
-      },
-      {
-        "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
-        "link": "https://www.youtube.com/watch?v=-zqYdD9_uxM",
-        "summary": "",
-        "date": "2026-09-06T12:30:49.875866+00:00",
-        "image": "https://img.youtube.com/vi/-zqYdD9_uxM/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=h2tV9Bw3aYw",
-        "summary": "",
-        "date": "2026-09-06T12:30:49.295424+00:00",
-        "image": "https://img.youtube.com/vi/h2tV9Bw3aYw/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-09-06T12:30:49.295419+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=DFsoC-WPpSU",
-        "summary": "",
-        "date": "2026-09-06T12:30:49.295398+00:00",
-        "image": "https://img.youtube.com/vi/DFsoC-WPpSU/mqdefault.jpg"
-      },
-      {
-        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
-        "link": "https://www.youtube.com/watch?v=ga7wGjnEFvE",
-        "summary": "",
-        "date": "2026-09-06T07:28:17.149762+00:00",
-        "image": "https://img.youtube.com/vi/ga7wGjnEFvE/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
-        "summary": "",
-        "date": "2026-09-06T07:28:16.457729+00:00",
-        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=IAquaNse1pA",
-        "summary": "",
-        "date": "2026-09-06T07:28:16.457726+00:00",
-        "image": "https://img.youtube.com/vi/IAquaNse1pA/mqdefault.jpg"
-      },
-      {
-        "title": "שאלות בסיס",
-        "link": "https://www.youtube.com/watch?v=Tj6BJ4XHTks",
-        "summary": "",
-        "date": "2026-09-05T12:15:29.880412+00:00",
-        "image": "https://img.youtube.com/vi/Tj6BJ4XHTks/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=J0xphLEb5Fg",
-        "summary": "",
-        "date": "2026-09-05T07:15:45.431991+00:00",
-        "image": "https://img.youtube.com/vi/J0xphLEb5Fg/mqdefault.jpg"
-      },
-      {
-        "title": "Выводы",
-        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
-        "summary": "",
-        "date": "2026-09-05T07:15:45.431988+00:00",
-        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
-      },
-      {
-        "title": "איך לתקשר עם ג'מיני בעברית בצורה טבעית",
-        "link": "https://www.youtube.com/watch?v=3tbITK3bPFw",
-        "summary": "",
-        "date": "2026-09-04T13:03:39.382694+00:00",
-        "image": "https://img.youtube.com/vi/3tbITK3bPFw/mqdefault.jpg"
-      },
-      {
-        "title": "איך לכתוב פרומפטים חכמים לבינה מלאכותית של גוגל",
-        "link": "https://www.youtube.com/watch?v=WLgEKli7CZM",
-        "summary": "",
-        "date": "2026-09-04T13:03:39.382692+00:00",
-        "image": "https://img.youtube.com/vi/WLgEKli7CZM/mqdefault.jpg"
-      },
-      {
-        "title": "כמה עולה ג'מיני?",
-        "link": "https://www.youtube.com/watch?v=MApDy8hEFEg",
-        "summary": "",
-        "date": "2026-09-04T13:03:39.382689+00:00",
-        "image": "https://img.youtube.com/vi/MApDy8hEFEg/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Gemini ומה היכולות שלה?",
-        "link": "https://www.youtube.com/watch?v=W1XmT3WzCgU",
-        "summary": "",
-        "date": "2026-09-04T13:03:39.382666+00:00",
-        "image": "https://img.youtube.com/vi/W1XmT3WzCgU/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=5kyt2q1hu5E",
-        "summary": "",
-        "date": "2026-09-04T07:35:47.756665+00:00",
-        "image": "https://img.youtube.com/vi/5kyt2q1hu5E/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=LcWtYjrpZ0A",
-        "summary": "",
-        "date": "2026-09-04T07:35:47.756662+00:00",
-        "image": "https://img.youtube.com/vi/LcWtYjrpZ0A/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=s9ZTJGdns_M",
-        "summary": "",
-        "date": "2026-09-03T13:09:33.510270+00:00",
-        "image": "https://img.youtube.com/vi/s9ZTJGdns_M/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=sJPytLUIUOw",
-        "summary": "",
-        "date": "2026-09-03T13:09:33.510265+00:00",
-        "image": "https://img.youtube.com/vi/sJPytLUIUOw/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=yfPjacI9K5o",
-        "summary": "",
-        "date": "2026-09-03T13:09:33.510239+00:00",
-        "image": "https://img.youtube.com/vi/yfPjacI9K5o/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=tTC8iZkvnaA",
-        "summary": "",
-        "date": "2026-09-03T07:35:19.658874+00:00",
-        "image": "https://img.youtube.com/vi/tTC8iZkvnaA/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=kLCwzx-Rev4",
-        "summary": "",
-        "date": "2026-09-03T07:35:19.658870+00:00",
-        "image": "https://img.youtube.com/vi/kLCwzx-Rev4/mqdefault.jpg"
-      },
-      {
-        "title": "מורה פרטי AI - הסוד ללמידה מהירה",
-        "link": "https://www.youtube.com/watch?v=D7qGd74-4rY",
-        "summary": "",
-        "date": "2026-09-02T07:28:54.823197+00:00",
-        "image": "https://img.youtube.com/vi/D7qGd74-4rY/mqdefault.jpg"
-      },
-      {
-        "title": "העלאת קבצים - הפיצ׳ר שישנה לכם את החיים",
-        "link": "https://www.youtube.com/watch?v=5Q2YiP7dm0g",
-        "summary": "",
-        "date": "2026-09-02T07:28:54.823195+00:00",
-        "image": "https://img.youtube.com/vi/5Q2YiP7dm0g/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=aZmxKdA96gY",
-        "summary": "",
-        "date": "2026-09-01T13:50:51.167319+00:00",
-        "image": "https://img.youtube.com/vi/aZmxKdA96gY/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=xJQL7ICMOuY",
-        "summary": "",
-        "date": "2026-09-01T13:50:51.167315+00:00",
-        "image": "https://img.youtube.com/vi/xJQL7ICMOuY/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=-3Q9btMW1TQ",
-        "summary": "",
-        "date": "2026-08-31T09:09:34.756541+00:00",
-        "image": "https://img.youtube.com/vi/-3Q9btMW1TQ/mqdefault.jpg"
-      },
-      {
-        "title": "למה טקסט עברי ב-AI כל כך בעייתי?",
-        "link": "https://www.youtube.com/watch?v=9hSVgbjgH1k",
-        "summary": "",
-        "date": "2026-08-30T14:10:48.206609+00:00",
-        "image": "https://img.youtube.com/vi/9hSVgbjgH1k/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=oT3c6vKSHR4",
-        "summary": "",
-        "date": "2026-08-30T14:10:47.485169+00:00",
-        "image": "https://img.youtube.com/vi/oT3c6vKSHR4/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=fUGqxtTTeWE",
-        "summary": "",
-        "date": "2026-08-30T14:10:47.485164+00:00",
-        "image": "https://img.youtube.com/vi/fUGqxtTTeWE/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-09-13T07:52:14.967890+00:00",
-    "error": null
-  },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-09-13T07:51:42.947497+00:00",
-    "error": null
-  },
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "טרנד האייטיז כבש את העולם הערבי - ויש גם ביקורת",
-        "link": "https://www.ynet.co.il/news/article/hywaqzbtze",
-        "summary": "בגדים חמים ואופנת וינטג': כמו אצלנו, מפורסמים ובעלי עסק פרסמו תמונות שנוצרו בבינה מלאכותית, המדמות חזרה לשנות ה-80. בתקשורת הערבית מתחו ביקורת, בסעודיה הזהירו: \"מלכודת לאיסוף נתונים\". העיתון הלבנוני המזוהה עם חיזבאללה: \"מאחורי כל תצלום מסתתרות שנים של מלחמה, פילוג ועקירה\"",
-        "date": "2026-09-11T08:08:01+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/11/rktEofbtze/rktEofbtze_9_514_974_549_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-09-13T07:51:44.917072+00:00",
-    "error": null
-  },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "אל תתנו ל-Latency להרוג לכם את המוצר",
-        "link": "https://www.geektime.co.il/inference-cloud-with-akamai-1592026/",
-        "summary": "המעבר ליישומי Agentic AI יצר שני אתגרים שמנהלים את לוחות הזמנים של כל צוות DevOps: זמני השהיה שפוגעים בחוויית המשתמש, ועלויות רוחב פס שמאיימות לרסק את המודל העסקי. הסיבה לכך אינה טמונה במודלים עצמם, אלא בארכיטקטורה: הענן הריכוזי, ששירת אותנו נאמנה בעידן ה-SaaS, פשוט אינו בנוי לעומסי העבודה החדשים. כדי להבין את הבעיה, צריך להסתכל [&#8230;] The post אל תתנו ל-Latency להרוג לכם את המוצר appeared firs",
-        "date": "2026-09-10T08:39:37+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_m_409934864-1024x712.jpg"
-      },
-      {
-        "title": "20 דולר פה, 50 דולר שם: איך תצאו מהחור השחור בהוצאות ה-AI שלכם?",
-        "link": "https://www.geektime.co.il/managing-ai-shadow-spend/",
-        "summary": "מאת איתמר ג'ובני עד לא מזמן, רכישת תוכנה ארגונית הייתה תהליך מסודר. מחלקת ה-IT בחנה פתרון, הרכש ניהל משא ומתן, הכספים אישרו תקציב, ההסכם נחתם &#8211; ורק אז התוכנה נכנסה לארגון. השינוי במודל הזה התחיל בעידן ה-SaaS, אבל מודלי ה-AI לוקחים את תהליך האימוץ למקום אחר לגמרי. היום, מנהלת פיתוח יכולה לרכוש כלי AI לצוות [&#8230;] The post 20 דולר פה, 50 דולר שם: איך תצאו מהחור השחור בהוצאות ה-AI שלכם? appe",
-        "date": "2026-09-09T08:19:15+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/Gemini_Generated_Image_y13y72y13y72y13y-1024x572.jpeg"
-      },
-      {
-        "title": "הכנס הגדול של קהילת העסקים וה-IT בישראל חוזר: הנה מה שיחכה לכם",
-        "link": "https://www.geektime.co.il/israel-information-technology-conference-2026-save-the-date/",
-        "summary": "שמונה מסלולים מקצועיים, תערוכת Expo, תחרות סטארטאפים וזירת AI &#38; Cyber חדשה: ועידת ישראל לטכנולוגיות המידע חוזרת לתל אביב וצפויה לארח כ-3,000 יזמות ויזמים, משקיעים, נציגי סטארטאפים ובכירים בארגונים. הכנס יעסוק בשינויים שיוצרת מהפכת ה-AI בשוק העבודה, שוק היזמות, חברות השירותים, חברות מסורתיות וממשלתיות וסטארטאפים. זהו אחד הכנסים הוותיקים והגדולים בישראל, והשנה הוא יתקיים בסימן [&#8230;] The post",
-        "date": "2026-09-06T08:42:33+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/1Y1A4449-1024x683.jpg"
-      },
-      {
-        "title": "עכשיו תדמיינו שמתקני ההתפלה היו קורסים כשהמדינה מלאה בדאטה-סנטרים ל-AI",
-        "link": "https://www.geektime.co.il/desalination-systems-shut-down-and-ai-data-centers/",
-        "summary": "אמנון דירקטור, זווית השבתת רוב מתקני ההתפלה בארץ השבוע המחישה עד כמה משק המים הישראלי פגיע, גם במדינה שנחשבת למעצמה טכנולוגית בתחום התפלת המים. אלא שבעוד המדינה נדרשת להתמודד עם האפשרות של מחסור במים &#8211; בעיקר בענף החקלאות &#8211; צורך חדש במים צפוי להוסיף לחץ על המשאב: חוות השרתים שמאחורי מהפכת הבינה המלאכותית. מרכזי המחשוב [&#8230;] The post עכשיו תדמיינו שמתקני ההתפלה היו קורסים כשהמדינה מל",
-        "date": "2026-09-04T14:48:49+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/distil_ashkelon.jpg"
-      },
-      {
-        "title": "אנבידיה מודיעה רשמית: רכשנו את Hugging Face ב-12.9 מיליארד דולר",
-        "link": "https://www.geektime.co.il/nvidia-acquires-hugging-face/",
-        "summary": "אנבידיה עושה עוד צעד בדרך להפוך מחברת שבבים שמתמקדת ב-GPU לחברה שמעורבת כמעט בכל שלב של מחשוב ה-AI. היום (ה') החברה מודיעה רשמית על רכישת פלטפורמת פיתוח ה-AI הפופולרית Hugging Face תמורת 12.9 מיליארד דולר. העסקה, ששמועות עליה צצו כבר בשבוע שעבר, מסמנת עליית מדרגה משמעותית בניסיון של אנבידיה לשלוט לא רק בתשתיות הפיזיות של [&#8230;] The post אנבידיה מודיעה רשמית: רכשנו את Hugging Face ב-12.9 מיליארד",
-        "date": "2026-09-03T12:44:24+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-part-1024x576.jpg"
-      },
-      {
-        "title": "ServiceNow Acquires Israeli Enterprise Startup Sweep for $400 Million",
-        "link": "https://www.geektime.co.il/servicenow-acquires-israeli-enterprise-startup-sweep-for-400-million/",
-        "summary": "Enterprise software giant ServiceNow is expanding its AI and metadata management capabilities with the acquisition of Israeli startup Sweep. A spokesperson for ServiceNow confirmed the acquisition, but declined to comment on the financial terms of the deal. However, sources indicate the acquisition is valued at approximately $400 million. Making the Enterprise AI-Ready Founded in 2021 [&#8230;] Th",
-        "date": "2026-09-03T10:41:37+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_l_464244314-1024x683.jpg"
-      },
-      {
-        "title": "פייפאל מפטרת כ-20% מהעובדים בישראל",
-        "link": "https://www.geektime.co.il/payapal-israel-layoffs-bizzabo/",
-        "summary": "ענקית התשלומים הבינלאומית PayPal נפרדת מכ-70 עובדים מתוך כ-300 המועסקים במרכז הפיתוח שלה בישראל, שעוסק בין היתר במניעת הונאות, סייבר ופיתוחי AI שונים. הקיצוץ במרכז המקומי של פייפאל הוא חלק מתוכנית התייעלות עולמית נרחבת שהוביל המנכ\"ל אנריקה לורס, במסגרתה יקוצצו כ-20% מכוח האדם הגלובלי של החברה בשנים הקרובות, במטרה לחסוך כ-1.5 מיליארד דולר בשנה. התוכנית [&#8230;] The post פייפאל מפטרת כ-20% מהעובדים",
-        "date": "2026-09-03T05:08:41+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2022/03/PP-1648130305.jpg"
-      },
-      {
-        "title": "פיקסל 11, Google TV ומצלמות Nest מגיעים לישראל בייבוא חדש",
-        "link": "https://www.geektime.co.il/pixel-11-google-tv-and-nest-are-coming-to-israel/",
-        "summary": "זה לא סוד שגוגל לא ממש סופרת את הקהל הישראלי בכל מה שנוגע למכשירים המעניינים שלה. למעשה, בביקורת שלנו ל-Fitbit Air החדש, גילינו שהיא אפילו לא מאפשרת לישראלים להשתמש בכל הפיצ'רים של הצמיד &#8211; גם אם הם מוכנים לשלם תוספת מחיר עבורם. אבל היום (א') יש לנו חדשות קצת יותר טובות לחובבי גוגל בארץ, עם [&#8230;] The post פיקסל 11, Google TV ומצלמות Nest מגיעים לישראל בייבוא חדש appeared first on גיקטיים ",
-        "date": "2026-08-30T10:32:37+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/08/Pixel-11-1024x634.jpeg"
-      }
-    ],
-    "scraped_at": "2026-09-13T07:51:44.692861+00:00",
+    "scraped_at": "2026-09-13T13:33:37.863559+00:00",
     "error": null
   },
   "YouTube — הדרכות": {
@@ -1159,39 +1052,74 @@
     "category": "הדרכות",
     "items": [
       {
-        "title": "Qlik MCP - תקשורת ישירה עם מנוע Qlik",
-        "link": "https://www.youtube.com/watch?v=wzitowj1heE",
-        "summary": "",
-        "date": "2026-09-13T07:52:16.931857+00:00",
-        "image": "https://img.youtube.com/vi/wzitowj1heE/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "title": "Bot Extension vs MCP - השוואה מלאה",
         "link": "https://www.youtube.com/watch?v=lFJ6MrsNITk",
         "summary": "",
-        "date": "2026-09-13T07:52:16.931855+00:00",
+        "date": "2026-09-13T13:34:40.788968+00:00",
         "image": "https://img.youtube.com/vi/lFJ6MrsNITk/mqdefault.jpg"
       },
       {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "title": "Qlik MCP - תקשורת ישירה עם מנוע Qlik",
         "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
         "summary": "",
-        "date": "2026-09-13T07:52:16.931852+00:00",
+        "date": "2026-09-13T13:34:40.788966+00:00",
         "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
+      },
+      {
+        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "link": "https://www.youtube.com/watch?v=wzitowj1heE",
+        "summary": "",
+        "date": "2026-09-13T13:34:40.788964+00:00",
+        "image": "https://img.youtube.com/vi/wzitowj1heE/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=iVvHbPSRyAQ",
+        "summary": "",
+        "date": "2026-09-13T13:34:40.788961+00:00",
+        "image": "https://img.youtube.com/vi/iVvHbPSRyAQ/mqdefault.jpg"
       },
       {
         "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
         "link": "https://www.youtube.com/watch?v=UZvE5fXtJJU",
         "summary": "",
-        "date": "2026-09-13T07:52:16.931849+00:00",
+        "date": "2026-09-13T13:34:40.788958+00:00",
         "image": "https://img.youtube.com/vi/UZvE5fXtJJU/mqdefault.jpg"
       },
       {
         "title": "פתיחה - פתרונות AI לארגוני On-Premise",
         "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
         "summary": "",
-        "date": "2026-09-13T07:52:16.931832+00:00",
+        "date": "2026-09-13T13:34:40.788937+00:00",
         "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
+      },
+      {
+        "title": "מתחילים לעבוד!",
+        "link": "https://www.youtube.com/watch?v=ymCMg9b4Whg",
+        "summary": "",
+        "date": "2026-09-13T13:34:39.904288+00:00",
+        "image": "https://img.youtube.com/vi/ymCMg9b4Whg/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק צ'אט גיפיטי",
+        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
+        "summary": "",
+        "date": "2026-09-13T13:34:39.904282+00:00",
+        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה צ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
+        "summary": "",
+        "date": "2026-09-13T13:34:39.904280+00:00",
+        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-09-13T13:34:39.203944+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
       },
       {
         "title": "סקירת ממשק צ'אט גיפיטי",
@@ -1206,13 +1134,6 @@
         "summary": "",
         "date": "2026-09-13T07:52:16.273221+00:00",
         "image": "https://img.youtube.com/vi/UnYs_nhekjo/mqdefault.jpg"
-      },
-      {
-        "title": "Вступление",
-        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
-        "summary": "",
-        "date": "2026-09-13T07:52:16.273199+00:00",
-        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
       },
       {
         "title": "Not a tool",
@@ -1285,20 +1206,6 @@
         "image": "https://img.youtube.com/vi/DZoMm_mc7OI/mqdefault.jpg"
       },
       {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=ymCMg9b4Whg",
-        "summary": "",
-        "date": "2026-09-12T07:31:21.440609+00:00",
-        "image": "https://img.youtube.com/vi/ymCMg9b4Whg/mqdefault.jpg"
-      },
-      {
-        "title": "מורה פרטי AI - הסוד ללמידה מהירה",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-09-12T07:31:20.875079+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
         "title": "העלאת קבצים - הפיצ׳ר שישנה לכם את החיים",
         "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
         "summary": "",
@@ -1341,13 +1248,6 @@
         "image": "https://img.youtube.com/vi/qkMg-t5I9KQ/mqdefault.jpg"
       },
       {
-        "title": "סקירת ממשק צ'אט גיפיטי",
-        "link": "https://www.youtube.com/watch?v=YZr03kwIFvE",
-        "summary": "",
-        "date": "2026-09-11T07:39:04.998692+00:00",
-        "image": "https://img.youtube.com/vi/YZr03kwIFvE/mqdefault.jpg"
-      },
-      {
         "title": "מחירים: כמה עולה שימוש בצ'אט GPT?",
         "link": "https://www.youtube.com/watch?v=9izuJKO27FU",
         "summary": "",
@@ -1374,13 +1274,6 @@
         "summary": "",
         "date": "2026-09-10T07:42:45.663519+00:00",
         "image": "https://img.youtube.com/vi/bSfyhL3BZ3U/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=iVvHbPSRyAQ",
-        "summary": "",
-        "date": "2026-09-09T13:17:03.429534+00:00",
-        "image": "https://img.youtube.com/vi/iVvHbPSRyAQ/mqdefault.jpg"
       },
       {
         "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
@@ -1628,85 +1521,157 @@
         "image": "https://img.youtube.com/vi/UckZLIr6h4E/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-09-13T07:52:16.931888+00:00",
+    "scraped_at": "2026-09-13T13:34:40.789003+00:00",
     "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-09-13T07:51:44.782683+00:00",
-    "error": "HTTP Status 404"
-  },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-09-13T07:51:40.709026+00:00",
-    "error": "HTTP Status 404"
   },
   "TheMarker טכנולוגיה": {
     "url": "https://www.themarker.com/cmlink/1.4658981",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-09-13T07:51:41.387828+00:00",
+    "scraped_at": "2026-09-13T13:33:39.797432+00:00",
+    "error": null
+  },
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "טרנד האייטיז כבש את העולם הערבי - ויש גם ביקורת",
+        "link": "https://www.ynet.co.il/news/article/hywaqzbtze",
+        "summary": "בגדים חמים ואופנת וינטג': כמו אצלנו, מפורסמים ובעלי עסק פרסמו תמונות שנוצרו בבינה מלאכותית, המדמות חזרה לשנות ה-80. בתקשורת הערבית מתחו ביקורת, בסעודיה הזהירו: \"מלכודת לאיסוף נתונים\". העיתון הלבנוני המזוהה עם חיזבאללה: \"מאחורי כל תצלום מסתתרות שנים של מלחמה, פילוג ועקירה\"",
+        "date": "2026-09-11T08:08:01+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/11/rktEofbtze/rktEofbtze_9_514_974_549_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-09-13T13:33:43.949358+00:00",
+    "error": null
+  },
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
+    "category": "חדשות טכנולוגיה",
+    "items": [
+      {
+        "title": "עיראק סגרה מעבר גבול בינה לבין איראן בעקבות מתקפות הרחפנים על ערב הסעודית",
+        "link": "https://news.walla.co.il/break/3867280",
+        "summary": "עיראק הורתה על סגירת מעבר הגבול \"שלאמצ'ה\" שבין עיראק לאיראן כאמצעי זהירות, בעקבות מתקפות הרחפנים האחרונות נגד ערב הסעודית - כך מסרו היום (שישי) שני גורמי ביטחון לסוכנות הידיעות רויטרס. הגורמים ציינו כי מתנהל מבצע רחב-היקף לאיתור האחראים למתקפה על ערב הסעודית.",
+        "date": "2026-09-12T03:00:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "דיווח: איראן השתמשה במודל AI של ארה\"ב כדי לאתר ולתקוף ספינות של הצי האמריקני",
+        "link": "https://news.walla.co.il/break/3867258",
+        "summary": "איראן השתמשה במודלים של בינה מלאכותית שפותחו בארצות הברית בניסיון לסייע באיתור ובתקיפת ספינות של הצי האמריקני במזרח התיכון - כך עולה מדוח שפורסם היום (שישי) על ידי חברת אנטרופיק, מפתחת \"Claude\". לכתבה המלאה לחצו",
+        "date": "2026-09-11T16:50:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "טלי גוטליב: נתניהו לא יקדם רפורמה משפטית בקדנציה הקרובה",
+        "link": "https://news.walla.co.il/break/3866426",
+        "summary": "בפוסט שפרסמה היום (שלישי) טלי גוטליב כתבה כי ראש הממשלה, בנימין נתניהו לא יקדם רפורמה משפטית בקדנציה הקרובה. \"רה\"מ הוא תעודת הביטוח של בגץ. נתניהו שיריין את דוד פטר ויסכה בינה המשפטנים המצויינים רק כדי 'להרגיע' את הבוחרים שרוצים בצדק רפורמה משפטית וריסון הכח הבריוני של בג\"ץ. רה\"מ מתמקד בבטחון וזו מומחיותו, באשר למערכת המשפט הוא לא יגע בה\", כתבה.",
+        "date": "2026-09-08T11:41:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "דוברונסקי מאשר כי לא יכהן כחבר כנסת מטעם הליכוד: \"העדפתי לכהן כשר מקצועי\"",
+        "link": "https://news.walla.co.il/break/3866344",
+        "summary": "איש העסקים אורן דוברונסקי אישר היום (שלישי) כי לא יכהן כחבר כנסת מטעם הליכוד בחשבונו ברשת החברתית פייסבוק. \"ראש הממשלה הציע לי לכהן כשר לענייני AI ולהיות משוריין ברשימה בעשירייה הראשונה. למרות זאת העדפתי לכהן רק כשר מקצועי\", כתב.",
+        "date": "2026-09-08T00:30:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "לפחות חמישה נהרגו בהתרסקות מטוס אמזון בארה\"ב",
+        "link": "https://news.walla.co.il/break/3866094",
+        "summary": "לפחות חמישה נהרגו היום (שני) בהתרסקות מטוס מטען של Amazon Prime Air שחרג ממסלול בנמל התעופה הבינלאומי של מיאמי ופגע בכמה כלי רכב - כך מדווחת סוכנות הידיעות רויטרס. צוותי החירום בוחנים את מצבם של נפגעים בזירה, ומספרם המדויק טרם ידוע. בעקבות האירוע נסגרו כל מסלולי ההמראה, הנחיתה וההסעה בנמל התעופה.",
+        "date": "2026-09-07T00:48:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "מטוס מטען של אמזון חרג מהמסלול במיאמי ופגע בכמה כלי רכב",
+        "link": "https://news.walla.co.il/break/3866083",
+        "summary": "מטוס מטען של Amazon Prime Air חרג הערב (ראשון) ממסלול בנמל התעופה הבינלאומי של מיאמי ופגע בכמה כלי רכב - כך מסרו שירותי הכבאות וההצלה של מחוז מיאמי-דייד. צוותי החירום בוחנים את מצבם של נפגעים בזירה, ומספרם המדויק טרם ידוע. בעקבות האירוע נסגרו כל מסלולי ההמראה, הנחיתה וההסעה בנמל התעופה.",
+        "date": "2026-09-06T22:46:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      },
+      {
+        "title": "אח\"י \"דרקון\" יצאה מגרמניה לישראל: \"צוללת העתיד של זרוע הים\"",
+        "link": "https://news.walla.co.il/break/3864883",
+        "summary": "הצוללת השישית של ישראל, אח\"י \"דרקון\", יצאה השבוע ממספנת TKMS בקיל שבגרמניה והחלה את הפלגתה לישראל, בתום שנים של תכנון ובנייה. הצוללת, האחרונה בסדרת דולפין AIP, מצוידת בטכנולוגיות מתקדמות וצפויה להרחיב את טווח הפעולה והיכולות המבצעיות של חיל הים. עם הגעתה ייערך טקס ממלכתי בבסיס חיפה.",
+        "date": "2026-09-01T19:10:00+00:00",
+        "image": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/7/5/1/3751628-46.jpg"
+      }
+    ],
+    "scraped_at": "2026-09-13T13:33:40.571150+00:00",
     "error": null
   },
   "ספארקס — בינה מלאכותית": {
     "url": "https://sparks.news/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-09-13T07:51:42.843924+00:00",
+    "scraped_at": "2026-09-13T13:33:41.306140+00:00",
     "error": null
   },
-  "קמפוס GOV": {
-    "url": "https://campus.gov.il",
-    "category": "קמפוס GOV",
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
     "items": [
       {
-        "title": "בינה מלאכותית לארגונים &#8211; הצעד הראשון בעולם ה",
-        "link": "https://campus.gov.il/course/digitalil-gov-aior-he/",
-        "summary": "הקורסים הטובים ביותר - לכולם, בחינם. קידום מקצועי או השכלה אקדמית? העשרה כללית או קורס פסיכומטרי? בקמפוס IL תיהנו מחווית למידה חדשנית - בזמן, במקום, ובקצב שלכם. המיזם הלאומי ללמידה דיגיטלית מובל בשותפות על ידי מטה ישראל דיגיטלית במשרד לשוויון חברתי והמועצה להשכלה גבוהה. המגוון העצום של התכנים האיכותיים מוגש לכם על ידי האוניברסיטאות והמכללות המובילות בישראל, משרד החינוך ומשרדי ממשלה נוספים.",
-        "date": "2026-09-11T07:39:02.125710+00:00",
-        "image": null
+        "title": "27 שניות לפריצה מלאה: איום הסייבר החדש שמדאיג את ישראל",
+        "link": "https://www.ynet.co.il/digital/technews/article/synxofekfg",
+        "summary": "מערך הסייבר הלאומי מזהיר כי כלי AI אוטונומיים כבר מסוגלים לבצע כמעט לבדם שרשרת תקיפה שלמה, ולהתפשט ברשת ארגונית בתוך שניות. כעת מקימים בישראל יחידת התערבות לאומית ומעבדה חדשה שתתמקד באיומי הדור הבא",
+        "date": "2026-09-10T12:10:05+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/10/By00raGlKGe/By00raGlKGe_0_0_1536_865_0_medium.jpg"
       },
       {
-        "title": "מובילי יוזמות AI בארגונים",
-        "link": "https://campus.gov.il/course/labor-gov-leadai-he/",
-        "summary": "הכשרה למנהלים ומובילי שינוי להובלת יוזמות AI בארגון: פרומפטינג, אוטומציה, מדידת ROI והטמעת בינה מלאכותית.",
-        "date": "2026-09-11T07:38:59.184405+00:00",
-        "image": null
+        "title": "גוגל: איראן עברה לשימוש ב-AI במבצעי הסייבר שלה",
+        "link": "https://www.ynet.co.il/digital/technews/article/bylc8ktugl",
+        "summary": "לפי קבוצת מודיעין הסייבר של גוגל, האקרים מאיראן ומסין רותמים מודלי שפה לפיתוח תשתיות תקיפה, ייצור דמויות מזויפות ועקיפת מנגנוני אבטחה ארגוניים. במקביל, סוכני AI מבצעים מבצעי פריצה מורכבים ללא פיקוח אנושי שוטף",
+        "date": "2026-09-08T13:07:22+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2021/11/08/rkv48uUwt/rkv48uUwt_0_0_850_479_0_medium.jpg"
       },
       {
-        "title": "לעבוד חכם עם AI",
-        "link": "https://campus.gov.il/course/digitalil-gov-ai2-he/",
-        "summary": "מרגישים שאתם לא מנצלים נכון כלי AI בעבודה? קורס AI חינמי שילמד בינה מלאכותית, אוטומציה וסוכני AI לייעול תהליכים. התחילו ללמוד עכשיו.",
-        "date": "2026-09-11T07:38:56.816425+00:00",
-        "image": null
+        "title": "\"שטני\": האזהרה החריגה של סגן נשיא ארה\"ב מפני הבינה המלאכותית",
+        "link": "https://www.ynet.co.il/digital/technews/article/b1vrs3c00fl",
+        "summary": "ג'יי די ואנס סיפר בפודקאסט כיצד צ'אטבוט העניק לאדם קרוב אליו ייעוץ זוגי שרק חיזק את עמדותיו, והזהיר מהצד ה\"שטני\" של הטכנולוגיה. אלא שבמקביל, ממשל טראמפ ממשיך לדחוף בכל הכוח את מרוץ ה-AI מול סין ולהתנגד לרגולציה וגבולות קשיחים",
+        "date": "2026-09-06T10:26:39+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/06/BJC8JTcufg/BJC8JTcufg_0_0_1079_607_0_medium.jpg"
       },
       {
-        "title": "בינה מלאכותית כעוזר הוראה",
-        "link": "https://campus.gov.il/course/moe-edu-shelf-aiedu-he/",
-        "summary": "בואו ללמוד על שילוב בינה מלאכותית בהוראה, יצירת ודיוק פרומפטים, יצירת תכנים, תכנון שיעורים ועוד. התחילו את המסע להכרת ושילוב AI כעוזר ההוראה שלכם עכשיו!",
-        "date": "2026-09-11T07:38:54.044748+00:00",
-        "image": null
+        "title": "ה-AI ניצח את הגיימרים: מיקרוסופט מתחילה להגביל את Xbox",
+        "link": "https://www.ynet.co.il/digital/gaming/article/r1ecwi5ozg",
+        "summary": "החל מנובמבר תגביל מיקרוסופט לראשונה את שירות הגיימינג בענן שלה לעד 15 שעות בחודש, גם למנויים שמשלמים 23 דולר מדי חודש. בחברה מסבירים כי רק 4% מהמשתמשים צפויים להיפגע, אבל ברקע נמצאת גם התחרות על משאבי המחשוב מול הבינה המלאכותית",
+        "date": "2026-09-06T09:01:53+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/06/HJsDjscuMg/HJsDjscuMg_52_0_889_500_0_medium.jpg"
       },
       {
-        "title": "AI למתחילים: לומדים לדבר עם בינה מלאכותית",
-        "link": "https://campus.gov.il/course/digitalil-gov-beai-he/",
-        "summary": "רוצים ללמוד בינה מלאכותית מאפס? קורסי AI בחינם לכל הרמות בקמפוס IL – מהבסיס ועד יישום בעבודה. התחילו ללמוד היום, בקצב שלכם וללא עלות.",
-        "date": "2026-09-11T07:38:51.197017+00:00",
-        "image": null
+        "title": "OpenAI חשפה את GPT-6 וטוענת: \"יכול להיות שכבר הגענו ל-AGI\"",
+        "link": "https://www.ynet.co.il/digital/technews/article/rkn5b0p00ze",
+        "summary": "GPT-6 Astra מסוגל לבצע משימות מורכבות במחשב כמעט בעצמו, לכתוב קוד, לערוך מחקר וליצור מסמכים ומצגות. ב-OpenAI כבר מדברים בגלוי על AGI, אך מודים גם כי המודל החדש הגיע לרמת יכולות סייבר \"קריטית\" וככל שהוא נעשה חכם יותר, קשה יותר לפקח עליו",
+        "date": "2026-09-04T05:47:36+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/04/HkHU5Rwufl/HkHU5Rwufl_0_0_1440_810_0_medium.jpg"
+      },
+      {
+        "title": "לונדון מחכה להן: הושקו מוניות רובוטיות של אובר בבירה הבריטית",
+        "link": "https://www.ynet.co.il/digital/technews/article/hj11jcsiufe",
+        "summary": "החברה החלה להפעיל בבירה הבריטית רובוטקסי מבוסס בינה מלאכותית של חברת Wayve, לצד מפעיל אנושי לביטחון. במקביל, טסלה השיקה באוסטין את ה\"סייברקאב\" ללא הגה, המפוקח מרחוק",
+        "date": "2026-09-03T08:26:53+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/03/Bk0YpsLufx/Bk0YpsLufx_0_200_1921_1081_0_medium.jpg"
+      },
+      {
+        "title": "מתקפת הסייבר הבאה כבר תיראה אחרת: כך נערכות התשתיות הקריטיות בישראל",
+        "link": "https://www.ynet.co.il/digital/technology/article/b1ipqazuge",
+        "summary": "ה-AI מאפשר לתוקפים לפעול מהר יותר, בזול ובהיקפים גדולים יותר, ומצמצם את הזמן שנותר לארגונים להגיב. מבנקים ובתי חולים ועד חברות תקשורת: איום הסייבר החדש משנה את תפיסת ההגנה בישראל - ודוחף יותר מערכות קריטיות לענן",
+        "date": "2026-08-31T10:59:13+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2020/05/14/SkdVl6c5I/SkdVl6c5I_0_0_640_360_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-09-13T07:52:13.251741+00:00",
+    "scraped_at": "2026-09-13T13:33:43.775032+00:00",
     "error": null
   },
   "הארץ טכנולוגיה": {
     "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-09-13T07:51:42.818663+00:00",
+    "scraped_at": "2026-09-13T13:33:41.255243+00:00",
     "error": "HTTP Status 404"
   }
 }
