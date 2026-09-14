@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 13/09/2026
+# 🤖 עדכוני AI Pulse — 14/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [Bot Extension vs MCP - השוואה מלאה](https://www.youtube.com/watch?v=lFJ6MrsNITk)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [Qlik MCP - תקשורת ישירה עם מנוע Qlik](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 2. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=wzitowj1heE)
+### 3. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=iVvHbPSRyAQ)
+### 4. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=1iEczPkYTts)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 5. [Вступление](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
