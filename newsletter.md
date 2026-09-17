@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=RPvOavfW65U)
+### 1. [Testing Astra on a messy spreadsheet](https://www.youtube.com/watch?v=z0_G87Tr9Ng)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 2. [Building a playable game from one sentence](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 3. [Astra actually controls the computer](https://www.youtube.com/watch?v=-zqYdD9_uxM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 4. [GPT-6 Astra changes AI](https://www.youtube.com/watch?v=TDgdEMRKVUU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 5. [סקירת ממשק של claude ai](https://www.youtube.com/watch?v=fwANhfjQt9E)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
