@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 17/09/2026
+# 🤖 עדכוני AI Pulse — 18/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [Testing Astra on a messy spreadsheet](https://www.youtube.com/watch?v=z0_G87Tr9Ng)
+### 1. [משמר החופים הסיני: מזהירים את הפיליפינים להפסיק לאלתר את "הפעולות הפרובוקטיביות"](https://news.walla.co.il/break/3868709)
+- **קטגוריה:** חדשות טכנולוגיה
+- **מקור:** וואלה טק
+
+### 2. [מי אנחנו: בני פרבר ודניאל נחמיה](https://www.youtube.com/watch?v=JDuRdEEvHlk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [Building a playable game from one sentence](https://www.youtube.com/watch?v=qkMg-t5I9KQ)
+### 3. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [Astra actually controls the computer](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 4. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [GPT-6 Astra changes AI](https://www.youtube.com/watch?v=TDgdEMRKVUU)
-- **קטגוריה:** הדרכות
-- **מקור:** YouTube — הדרכות
-
-### 5. [סקירת ממשק של claude ai](https://www.youtube.com/watch?v=fwANhfjQt9E)
+### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
