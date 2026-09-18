@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [משמר החופים הסיני: מזהירים את הפיליפינים להפסיק לאלתר את "הפעולות הפרובוקטיביות"](https://news.walla.co.il/break/3868709)
-- **קטגוריה:** חדשות טכנולוגיה
-- **מקור:** וואלה טק
-
-### 2. [מי אנחנו: בני פרבר ודניאל נחמיה](https://www.youtube.com/watch?v=JDuRdEEvHlk)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=0U3NV6ElIHk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+- **קטגוריה:** הדרכות
+- **מקור:** YouTube — הדרכות
+
+### 5. [מתחילים לעבוד!](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
