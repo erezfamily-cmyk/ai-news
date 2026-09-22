@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 1. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=JDuRdEEvHlk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 2. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=lSM4rt9_qZc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [Выводы](https://www.youtube.com/watch?v=TQldVyvxTWI)
+### 4. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [Симуляция диалога](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 5. [מורה פרטי AI - הסוד ללמידה מהירה](https://www.youtube.com/watch?v=QSVw00ceIKY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
