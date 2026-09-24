@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 23/09/2026
+# 🤖 עדכוני AI Pulse — 24/09/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=hwEexGsQuJs)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=lUsamTD_qg4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=lucsn-WxGjc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [סקירת ממשק צ'אט גיפיטי](https://www.youtube.com/watch?v=fo6E4-dXhOo)
+### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=DZoMm_mc7OI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 4. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=TQldVyvxTWI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 5. [מיקרו-יזמות](https://www.youtube.com/watch?v=QYjwSajjf8o)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
