@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=lUsamTD_qg4)
+### 1. [Qlik MCP - תקשורת ישירה עם מנוע Qlik](https://www.youtube.com/watch?v=lucsn-WxGjc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=lucsn-WxGjc)
+### 2. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=lUsamTD_qg4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מתחילים לעבוד!](https://www.youtube.com/watch?v=DZoMm_mc7OI)
+### 3. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=hwEexGsQuJs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=TQldVyvxTWI)
+### 4. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מיקרו-יזמות](https://www.youtube.com/watch?v=QYjwSajjf8o)
+### 5. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
