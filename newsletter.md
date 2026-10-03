@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [המגע האנושי: האם רופאים, עורכי דין ומורים יוחלפו בקרוב?](https://www.youtube.com/watch?v=o_zEQt_Gllg)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [אובדן משרות: עובדי הידע שהולכים לאבד את העבודה שלהם בגלל בינה מלאכותית](https://www.youtube.com/watch?v=0U3NV6ElIHk)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [Codex Inside Spaces](https://www.youtube.com/watch?v=Twz13lSDot0)
+### 3. [Higgsfield Product Ads Demo](https://www.youtube.com/watch?v=Das4indA4xg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [Interface Tour](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 4. [Codex Inside Spaces](https://www.youtube.com/watch?v=0jlCeSfJIwk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [5 דברים מטורפים שרק Gemini יודע לעשות](https://www.youtube.com/watch?v=G1O8AvMbsRo)
+### 5. [Spaces, Pages, and Sub Pages](https://www.youtube.com/watch?v=tAeKFgqEzhQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
