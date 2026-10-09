@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 08/10/2026
+# 🤖 עדכוני AI Pulse — 09/10/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=TBrJfKkTPXA)
+### 1. [כמה זה עולה: המנויים, ולמה לא להתקמצן](https://www.youtube.com/watch?v=foskkMVnl5U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 2. [מה זה Codex, ולמה 2026 היא שנת הסוכנים](https://www.youtube.com/watch?v=1wqmo0D6XWc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 3. [איך לא לפספס את הקורס הבא](https://www.youtube.com/watch?v=JJuNulAs0Qo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מתחילים לעבוד!](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 4. [לפני שמתחילים: כלי חזק, האחריות שלך](https://www.youtube.com/watch?v=i4TY-quLSC0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 5. [פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום](https://www.youtube.com/watch?v=PyG0mV69K34)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
