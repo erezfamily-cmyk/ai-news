@@ -1,10 +1,10 @@
 {
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-10-14T08:15:16.571005+00:00",
-    "error": "HTTP Status 404"
+    "scraped_at": "2026-10-14T14:14:13.246157+00:00",
+    "error": null
   },
   "YouTube — סרטונים": {
     "url": "https://www.youtube.com",
@@ -12,31 +12,80 @@
     "items": [
       {
         "title": "Вступление",
+        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
+        "summary": "",
+        "date": "2026-10-14T14:14:18.886772+00:00",
+        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-10-14T14:14:18.886770+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=WoZcjVAWyFw",
+        "summary": "",
+        "date": "2026-10-14T14:14:18.886767+00:00",
+        "image": "https://img.youtube.com/vi/WoZcjVAWyFw/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-10-14T14:14:18.886751+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764065+00:00",
+        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=IAquaNse1pA",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764063+00:00",
+        "image": "https://img.youtube.com/vi/IAquaNse1pA/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764061+00:00",
+        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=AgKReXGrdl0",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764059+00:00",
+        "image": "https://img.youtube.com/vi/AgKReXGrdl0/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=iYu4sa26K1M",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764055+00:00",
+        "image": "https://img.youtube.com/vi/iYu4sa26K1M/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=H5c0kTHPwkI",
+        "summary": "",
+        "date": "2026-10-14T14:14:17.764039+00:00",
+        "image": "https://img.youtube.com/vi/H5c0kTHPwkI/mqdefault.jpg"
+      },
+      {
+        "title": "Вступление",
         "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
         "summary": "",
         "date": "2026-10-14T08:15:23.862647+00:00",
         "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
-        "summary": "",
-        "date": "2026-10-14T08:15:23.862645+00:00",
-        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-10-14T08:15:23.862643+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=WoZcjVAWyFw",
-        "summary": "",
-        "date": "2026-10-14T08:15:23.862622+00:00",
-        "image": "https://img.youtube.com/vi/WoZcjVAWyFw/mqdefault.jpg"
       },
       {
         "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
@@ -58,13 +107,6 @@
         "summary": "",
         "date": "2026-10-14T08:15:23.310645+00:00",
         "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=iYu4sa26K1M",
-        "summary": "",
-        "date": "2026-10-14T08:15:23.310644+00:00",
-        "image": "https://img.youtube.com/vi/iYu4sa26K1M/mqdefault.jpg"
       },
       {
         "title": "Use big prompts",
@@ -102,27 +144,6 @@
         "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
       },
       {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-10-13T09:55:24.048976+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
-        "summary": "",
-        "date": "2026-10-13T09:55:23.398161+00:00",
-        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
-        "summary": "",
-        "date": "2026-10-13T09:55:23.398159+00:00",
-        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
-      },
-      {
         "title": "Not a tool",
         "link": "https://www.youtube.com/watch?v=dMw0RZUfZ-Q",
         "summary": "",
@@ -144,13 +165,6 @@
         "image": "https://img.youtube.com/vi/n2T_NRTvJUI/mqdefault.jpg"
       },
       {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=AgKReXGrdl0",
-        "summary": "",
-        "date": "2026-10-12T10:02:49.615326+00:00",
-        "image": "https://img.youtube.com/vi/AgKReXGrdl0/mqdefault.jpg"
-      },
-      {
         "title": "הטריק הגאוני ליצירת גרפיקה בעברית עם ChatGPT",
         "link": "https://www.youtube.com/watch?v=lR0hDRT2e88",
         "summary": "",
@@ -170,13 +184,6 @@
         "summary": "",
         "date": "2026-10-11T09:32:24.023263+00:00",
         "image": "https://img.youtube.com/vi/BOAANwSFP9w/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=IAquaNse1pA",
-        "summary": "",
-        "date": "2026-10-11T09:32:24.023260+00:00",
-        "image": "https://img.youtube.com/vi/IAquaNse1pA/mqdefault.jpg"
       },
       {
         "title": "Not a tool",
@@ -443,30 +450,677 @@
         "summary": "",
         "date": "2026-10-01T09:38:40.435375+00:00",
         "image": "https://img.youtube.com/vi/KM3E-b0Jdfk/mqdefault.jpg"
-      },
-      {
-        "title": "כמה עולה ג'מיני?",
-        "link": "https://www.youtube.com/watch?v=5Q2YiP7dm0g",
-        "summary": "",
-        "date": "2026-09-30T09:11:38.705727+00:00",
-        "image": "https://img.youtube.com/vi/5Q2YiP7dm0g/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Gemini ומה היכולות שלה?",
-        "link": "https://www.youtube.com/watch?v=LcWtYjrpZ0A",
-        "summary": "",
-        "date": "2026-09-30T09:11:38.705724+00:00",
-        "image": "https://img.youtube.com/vi/LcWtYjrpZ0A/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-10-14T08:15:23.863147+00:00",
+    "scraped_at": "2026-10-14T14:14:18.887248+00:00",
+    "error": null
+  },
+  "YouTube — הדרכות": {
+    "url": "https://www.youtube.com",
+    "category": "הדרכות",
+    "items": [
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=jOWlDKMB22o",
+        "summary": "",
+        "date": "2026-10-14T14:14:21.049879+00:00",
+        "image": "https://img.youtube.com/vi/jOWlDKMB22o/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=79S33NKY-gw",
+        "summary": "",
+        "date": "2026-10-14T14:14:21.049876+00:00",
+        "image": "https://img.youtube.com/vi/79S33NKY-gw/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
+        "summary": "",
+        "date": "2026-10-14T14:14:21.049857+00:00",
+        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
+      },
+      {
+        "title": "בחירת מודל",
+        "link": "https://www.youtube.com/watch?v=lUgOEYLKp98",
+        "summary": "",
+        "date": "2026-10-14T14:14:20.398021+00:00",
+        "image": "https://img.youtube.com/vi/lUgOEYLKp98/mqdefault.jpg"
+      },
+      {
+        "title": "Playback",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510613+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "Keyboard shortcuts",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510611+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "Search filters",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510609+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510607+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510603+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-10-14T14:14:19.510587+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=TBrJfKkTPXA",
+        "summary": "",
+        "date": "2026-10-14T08:15:25.708306+00:00",
+        "image": "https://img.youtube.com/vi/TBrJfKkTPXA/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=UZvE5fXtJJU",
+        "summary": "",
+        "date": "2026-10-14T08:15:25.708303+00:00",
+        "image": "https://img.youtube.com/vi/UZvE5fXtJJU/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-10-14T08:15:25.118944+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "link": "https://www.youtube.com/watch?v=mBuUesZkWiA",
+        "summary": "",
+        "date": "2026-10-13T09:55:26.059181+00:00",
+        "image": "https://img.youtube.com/vi/mBuUesZkWiA/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
+        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
+        "summary": "",
+        "date": "2026-10-13T09:55:25.465771+00:00",
+        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=bSfyhL3BZ3U",
+        "summary": "",
+        "date": "2026-10-13T09:55:24.801755+00:00",
+        "image": "https://img.youtube.com/vi/bSfyhL3BZ3U/mqdefault.jpg"
+      },
+      {
+        "title": "בחירת מודל",
+        "link": "https://www.youtube.com/watch?v=4LJgbIHjVi0",
+        "summary": "",
+        "date": "2026-10-12T10:02:51.818800+00:00",
+        "image": "https://img.youtube.com/vi/4LJgbIHjVi0/mqdefault.jpg"
+      },
+      {
+        "title": "הסרגל בצד שמאל",
+        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
+        "summary": "",
+        "date": "2026-10-12T10:02:51.818791+00:00",
+        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-10-12T10:02:51.088765+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "מתחילים לעבוד!",
+        "link": "https://www.youtube.com/watch?v=foskkMVnl5U",
+        "summary": "",
+        "date": "2026-10-11T09:32:25.938884+00:00",
+        "image": "https://img.youtube.com/vi/foskkMVnl5U/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=sJPytLUIUOw",
+        "summary": "",
+        "date": "2026-10-11T09:32:25.264649+00:00",
+        "image": "https://img.youtube.com/vi/sJPytLUIUOw/mqdefault.jpg"
+      },
+      {
+        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "link": "https://www.youtube.com/watch?v=NKKs39Yk954",
+        "summary": "",
+        "date": "2026-10-10T09:15:48.669063+00:00",
+        "image": "https://img.youtube.com/vi/NKKs39Yk954/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=sazHF_zNPAo",
+        "summary": "",
+        "date": "2026-10-10T09:15:48.669060+00:00",
+        "image": "https://img.youtube.com/vi/sazHF_zNPAo/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=fq2ssd3_a8A",
+        "summary": "",
+        "date": "2026-10-10T09:15:48.669039+00:00",
+        "image": "https://img.youtube.com/vi/fq2ssd3_a8A/mqdefault.jpg"
+      },
+      {
+        "title": "הסרגל בצד שמאל",
+        "link": "https://www.youtube.com/watch?v=9ceTUMUFMhM",
+        "summary": "",
+        "date": "2026-10-10T09:15:47.930262+00:00",
+        "image": "https://img.youtube.com/vi/9ceTUMUFMhM/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=kLCwzx-Rev4",
+        "summary": "",
+        "date": "2026-10-10T09:15:47.385262+00:00",
+        "image": "https://img.youtube.com/vi/kLCwzx-Rev4/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=30ieacRh5Hs",
+        "summary": "",
+        "date": "2026-10-10T09:15:47.385259+00:00",
+        "image": "https://img.youtube.com/vi/30ieacRh5Hs/mqdefault.jpg"
+      },
+      {
+        "title": "איך לא לפספס את הקורס הבא",
+        "link": "https://www.youtube.com/watch?v=JJuNulAs0Qo",
+        "summary": "",
+        "date": "2026-10-09T09:51:28.177793+00:00",
+        "image": "https://img.youtube.com/vi/JJuNulAs0Qo/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=i4TY-quLSC0",
+        "summary": "",
+        "date": "2026-10-09T09:51:28.177790+00:00",
+        "image": "https://img.youtube.com/vi/i4TY-quLSC0/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
+        "summary": "",
+        "date": "2026-10-09T09:51:28.177774+00:00",
+        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=HZXJ_fTzn3Y",
+        "summary": "",
+        "date": "2026-10-09T09:51:27.505625+00:00",
+        "image": "https://img.youtube.com/vi/HZXJ_fTzn3Y/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=kbVZTKrZq7c",
+        "summary": "",
+        "date": "2026-10-09T09:51:27.505623+00:00",
+        "image": "https://img.youtube.com/vi/kbVZTKrZq7c/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
+        "summary": "",
+        "date": "2026-10-09T09:51:27.505603+00:00",
+        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
+      },
+      {
+        "title": "מתחילים לעבוד!",
+        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
+        "summary": "",
+        "date": "2026-10-08T09:46:34.874577+00:00",
+        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=yWNRCZxu5ww",
+        "summary": "",
+        "date": "2026-10-07T09:36:15.414635+00:00",
+        "image": "https://img.youtube.com/vi/yWNRCZxu5ww/mqdefault.jpg"
+      },
+      {
+        "title": "בינה מלאכותית (AI) בעולם המודרני",
+        "link": "https://www.youtube.com/watch?v=_8OWlPeg7uY",
+        "summary": "",
+        "date": "2026-10-07T09:36:14.771662+00:00",
+        "image": "https://img.youtube.com/vi/_8OWlPeg7uY/mqdefault.jpg"
+      },
+      {
+        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
+        "link": "https://www.youtube.com/watch?v=9izuJKO27FU",
+        "summary": "",
+        "date": "2026-10-06T09:39:35.030004+00:00",
+        "image": "https://img.youtube.com/vi/9izuJKO27FU/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
+        "summary": "",
+        "date": "2026-10-05T09:51:35.348264+00:00",
+        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-10-05T09:51:34.216833+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=0U3NV6ElIHk",
+        "summary": "",
+        "date": "2026-10-04T09:11:14.295894+00:00",
+        "image": "https://img.youtube.com/vi/0U3NV6ElIHk/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה צ'אט GPT?",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-10-04T09:11:13.787198+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה קלוד Chat, Cowork, Code, ומה המודלים של קלוד?",
+        "link": "https://www.youtube.com/watch?v=POHNIk_aoYQ",
+        "summary": "",
+        "date": "2026-10-04T09:11:13.205457+00:00",
+        "image": "https://img.youtube.com/vi/POHNIk_aoYQ/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: התקנת קלוד דסקטופ ופתיחת חשבון פרו",
+        "link": "https://www.youtube.com/watch?v=1lrt3ITrwcc",
+        "summary": "",
+        "date": "2026-10-04T09:11:13.205435+00:00",
+        "image": "https://img.youtube.com/vi/1lrt3ITrwcc/mqdefault.jpg"
+      },
+      {
+        "title": "Higgsfield Product Ads Demo",
+        "link": "https://www.youtube.com/watch?v=Das4indA4xg",
+        "summary": "",
+        "date": "2026-10-03T14:05:39.051772+00:00",
+        "image": "https://img.youtube.com/vi/Das4indA4xg/mqdefault.jpg"
+      },
+      {
+        "title": "Codex Inside Spaces",
+        "link": "https://www.youtube.com/watch?v=0jlCeSfJIwk",
+        "summary": "",
+        "date": "2026-10-03T14:05:39.051770+00:00",
+        "image": "https://img.youtube.com/vi/0jlCeSfJIwk/mqdefault.jpg"
+      },
+      {
+        "title": "Spaces, Pages, and Sub Pages",
+        "link": "https://www.youtube.com/watch?v=tAeKFgqEzhQ",
+        "summary": "",
+        "date": "2026-10-03T14:05:39.051767+00:00",
+        "image": "https://img.youtube.com/vi/tAeKFgqEzhQ/mqdefault.jpg"
+      },
+      {
+        "title": "Interface Tour",
+        "link": "https://www.youtube.com/watch?v=xI0VjMzPqpI",
+        "summary": "",
+        "date": "2026-10-03T14:05:39.051763+00:00",
+        "image": "https://img.youtube.com/vi/xI0VjMzPqpI/mqdefault.jpg"
+      },
+      {
+        "title": "What Is ChatGPT Space?",
+        "link": "https://www.youtube.com/watch?v=2ZT_VYlOt-Y",
+        "summary": "",
+        "date": "2026-10-03T14:05:39.051742+00:00",
+        "image": "https://img.youtube.com/vi/2ZT_VYlOt-Y/mqdefault.jpg"
+      },
+      {
+        "title": "המגע האנושי: האם רופאים, עורכי דין ומורים יוחלפו בקרוב?",
+        "link": "https://www.youtube.com/watch?v=o_zEQt_Gllg",
+        "summary": "",
+        "date": "2026-10-03T08:45:38.234225+00:00",
+        "image": "https://img.youtube.com/vi/o_zEQt_Gllg/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=G1O8AvMbsRo",
+        "summary": "",
+        "date": "2026-10-03T08:45:36.886573+00:00",
+        "image": "https://img.youtube.com/vi/G1O8AvMbsRo/mqdefault.jpg"
+      },
+      {
+        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
+        "link": "https://www.youtube.com/watch?v=7DIuICoW0Y0",
+        "summary": "",
+        "date": "2026-10-02T09:12:42.854897+00:00",
+        "image": "https://img.youtube.com/vi/7DIuICoW0Y0/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=5BU1-3SpnLg",
+        "summary": "",
+        "date": "2026-10-02T09:12:42.854894+00:00",
+        "image": "https://img.youtube.com/vi/5BU1-3SpnLg/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=G6ubUIaKJoM",
+        "summary": "",
+        "date": "2026-10-02T09:12:42.854891+00:00",
+        "image": "https://img.youtube.com/vi/G6ubUIaKJoM/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=IzPv6HKXif4",
+        "summary": "",
+        "date": "2026-10-02T09:12:41.565612+00:00",
+        "image": "https://img.youtube.com/vi/IzPv6HKXif4/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-10-14T14:14:21.050337+00:00",
+    "error": null
+  },
+  "קמפוס GOV": {
+    "url": "https://campus.gov.il",
+    "category": "קמפוס GOV",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:16.947642+00:00",
+    "error": null
+  },
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:16.816007+00:00",
+    "error": null
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:13.939144+00:00",
+    "error": null
+  },
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:12.322781+00:00",
+    "error": null
+  },
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "90% מהנתונים הולכים לפח: מה קורה למידע הרפואי שלנו?",
+        "link": "https://www.ynet.co.il/digital/technews/article/bylmsk6szg",
+        "summary": "במערכת הבריאות נאספות מדי יום כמויות עצומות של מידע, אבל חלק גדול ממנו עדיין אינו מנוצל. בפאנל שנערך במסגרת ועידת החדשנות של רמב\"ם דנו מומחים בפוטנציאל של הבינה המלאכותית לשפר את הטיפול הרפואי, בסיכונים לפרטיות המטופלים ובשאלה מי באמת מרוויח מהמידע",
+        "date": "2026-10-14T11:36:55+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/HJ77u1pjMl/HJ77u1pjMl_0_78_1280_721_0_medium.jpg"
+      },
+      {
+        "title": "לפתח AI זה לא מספיק: הטעות הגדולה של חברות הטכנולוגיה",
+        "link": "https://www.ynet.co.il/digital/technews/article/ryajnr3sfg",
+        "summary": "הבינה המלאכותית מבטיחה לחולל מהפכה בעולם הרפואה, אבל הדרך לשילובה בבתי החולים עדיין רצופה מכשולים: רגולציה מחמירה, רופאים שמרנים ושאלת המימון. בכירי תעשיית הבריאות בישראל מסבירים במסגרת ועידת החדשנות של המרכז הרפואי רמב\"ם מה באמת מעכב את המהפכה, ואיך אפשר להתגבר על האתגרים",
+        "date": "2026-10-14T10:33:11+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/BJz1gwR2jfx/BJz1gwR2jfx_0_32_1280_721_0_medium.jpg"
+      },
+      {
+        "title": "מיקרוסופט ואנבידיה מציגות מחשבים עם מעבדי AI ללא ענן",
+        "link": "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl",
+        "summary": "השילוב יאפשר למחשבי ווינדוס יכולות שדרשו עד כה תשתיות ענן. מיקרוסופט תאפשר גם לבצע היישר משורת המשימות פעולות בסיסיות כמו הפעלת מצב כהה, שיגור הודעה והשתקה של המחשב",
+        "date": "2026-10-08T11:05:53+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/08/HkZHGQeSsGg/HkZHGQeSsGg_0_0_1921_1081_0_medium.jpg"
+      },
+      {
+        "title": "ה-AI הפך למדליף: אלפי סודות של חברות טכנולוגיה נחשפו",
+        "link": "https://www.ynet.co.il/digital/technews/article/s1foq7msge",
+        "summary": "חוקרי סייבר ישראלים חשפו יותר מ-13 אלף צילומי מסך רגישים מ-343 חברות, שהועלו למאגרים ציבוריים בידי סוכני AI. בין המידע שנחשף: התכתבויות פנימיות, קוד ומפתחות גישה לשרתים. החוקרים מזהירים: הכלים שאמורים לייעל את העבודה הארגונית הופכים בעצמם לסיכון אבטחה",
+        "date": "2026-10-06T08:36:34+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/02/05/B1fmSJGwbe/B1fmSJGwbe_0_0_1076_614_0_medium.jpg"
+      },
+      {
+        "title": "החשמל לא מספיק: עמק הסיליקון רוצה להעביר את ה-AI לחלל",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkd22fbofe",
+        "summary": "תיאבון החשמל האדיר של מהפכת הבינה המלאכותית מאלץ את ענקיות הטכנולוגיה לחפש פתרונות קיצוניים יותר ויותר. אחרי אנרגיה גרעינית וחוות שרתים מתחת למים, הרעיון הבא הוא להעלות את מרכזי הנתונים למסלול סביב כדור הארץ",
+        "date": "2026-10-05T13:23:48+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/r1MaMQZjGx/r1MaMQZjGx_0_0_1672_941_0_medium.jpg"
+      },
+      {
+        "title": "התחזו לעובדי אנת'רופיק: מבצע הריגול הסיני נגד מומחי ה-AI בארה\"ב",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze",
+        "summary": "קבוצת ריגול המקושרת לסין התחזתה לעובדי אנת'רופיק ולבכירים לשעבר בבית הלבן בניסיון להגיע למומחים שעוסקים ברגולציה, הגבלות יצוא ואסטרטגיית ה-AI האמריקנית. בין הפיתיונות: בקשה לקבלת משוב על \"שילוב קלוד במערכות צבאיות\"",
+        "date": "2026-10-05T11:12:20+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/rkbArWbszx/rkbArWbszx_0_0_1672_941_0_medium.jpg"
+      },
+      {
+        "title": "פרצת אבטחה מסוכנת: מודלי AI סיניים לימדו חוקרים לייצר נשק ביולוגי",
+        "link": "https://www.ynet.co.il/digital/technews/article/h1an1ijqfl",
+        "summary": "חוקרי אבטחה הצליחו לעקוף את מנגנוני ההגנה של שני מודלים של חברת Moonshot ולגרום להם לספק הוראות לייצור נשק ביולוגי, ואף זיהו חולשה שעלולה לאפשר להאקרים להשתלט על משאבי מחשוב. מדובר בתמרור אזהרה נוסף לתעשיית ה-AI, שמתמודדת בשבועות האחרונים עם שורת תקריות בטיחות חריגות",
+        "date": "2026-10-01T09:26:39+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/S1AgOos9Ge/S1AgOos9Ge_0_38_640_361_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-10-14T14:14:16.743040+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:11.522854+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ynet טכנולוגיה": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [
+      {
+        "title": "90% מהנתונים הולכים לפח: מה קורה למידע הרפואי שלנו?",
+        "link": "https://www.ynet.co.il/digital/technews/article/bylmsk6szg",
+        "summary": "במערכת הבריאות נאספות מדי יום כמויות עצומות של מידע, אבל חלק גדול ממנו עדיין אינו מנוצל. בפאנל שנערך במסגרת ועידת החדשנות של רמב\"ם דנו מומחים בפוטנציאל של הבינה המלאכותית לשפר את הטיפול הרפואי, בסיכונים לפרטיות המטופלים ובשאלה מי באמת מרוויח מהמידע",
+        "date": "2026-10-14T11:36:55+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/HJ77u1pjMl/HJ77u1pjMl_0_78_1280_721_0_medium.jpg"
+      },
+      {
+        "title": "לפתח AI זה לא מספיק: הטעות הגדולה של חברות הטכנולוגיה",
+        "link": "https://www.ynet.co.il/digital/technews/article/ryajnr3sfg",
+        "summary": "הבינה המלאכותית מבטיחה לחולל מהפכה בעולם הרפואה, אבל הדרך לשילובה בבתי החולים עדיין רצופה מכשולים: רגולציה מחמירה, רופאים שמרנים ושאלת המימון. בכירי תעשיית הבריאות בישראל מסבירים במסגרת ועידת החדשנות של המרכז הרפואי רמב\"ם מה באמת מעכב את המהפכה, ואיך אפשר להתגבר על האתגרים",
+        "date": "2026-10-14T10:33:11+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/BJz1gwR2jfx/BJz1gwR2jfx_0_32_1280_721_0_medium.jpg"
+      },
+      {
+        "title": "\"מכפיל כוח שלא ראינו מאז המצאת הגלגל\": בכיר אנבידיה חושף את העתיד",
+        "link": "https://www.ynet.co.il/digital/technews/article/symus32sml",
+        "summary": "סמנכ\"ל הטכנולוגיות של אנבידיה, מיכאל כגן, מאמין שבינה מלאכותית תשנה לחלוטין את עולם הרפואה: מבדיקות גנטיות שיאפשרו לחזות מחלות, דרך רובוטים שיסייעו לצוותים הרפואיים ועד לבתי חולים וירטואליים. בריאיון מיוחד בוועידת Rambam Tomorrow של ynet ורמב\"ם הוא מספר על המחקר שמובילה החברה בישראל ועל האתגרים שבדרך",
+        "date": "2026-10-14T08:36:09+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/14/S1ZLTO3hsfl/S1ZLTO3hsfl_271_94_1024_577_0_medium.jpg"
+      },
+      {
+        "title": "הבטיחה לשנות את העולם, הסתבכה עם צעירים שהתאבדו: ענקית ה-AI קורסת",
+        "link": "https://www.ynet.co.il/digital/technews/article/bywyansjfe",
+        "summary": "אחרי שכבשה עשרות מיליוני משתמשים והפכה לאחת ההבטחות הגדולות של עולם הבינה המלאכותית, Character.ai הגישה בקשה להגנה מפני פשיטת רגל, בצל תביעות הקשורות למקרי התאבדות של בני נוער. כעת דיסני, שרק לאחרונה איימה לתבוע אותה, מבקשת לרכוש חלק מנכסיה במחיר מציאה",
+        "date": "2026-10-13T14:32:09+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/13/BJ6Yeaiifl/BJ6Yeaiifl_0_0_1536_864_0_medium.jpg"
+      },
+      {
+        "title": "הנשק החדש של פוטין: שירי מלחמה שנוצרו בבינה מלאכותית",
+        "link": "https://www.ynet.co.il/digital/technews/article/hjg5ipijml",
+        "summary": "מאות שירי מלחמה שנוצרו באמצעות AI מפארים את הצבא הרוסי, מהללים את הפלישה לאוקראינה וצוברים מיליוני השמעות בספוטיפיי, ביוטיוב ובשירותי סטרימינג נוספים. מחקר חדש חושף כיצד הפכה הטכנולוגיה לכלי תעמולה זול ויעיל, ומדוע ענקיות הטכנולוגיה מתקשות לעצור את התופעה",
+        "date": "2026-10-13T08:51:50+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/13/SybH1dijzl/SybH1dijzl_0_0_1536_865_0_medium.jpg"
+      },
+      {
+        "title": "הדביק את הפער: צוקרברג חושף את התשובה שלו ל-OpenAI ואנת'רופיק",
+        "link": "https://www.ynet.co.il/digital/technews/article/bklhgdsofl",
+        "summary": "אחרי חודשים של עיכובים והשקעות של מיליארדי דולרים, מטא חשפה שני מודלי בינה מלאכותית חדשים שמיועדים לבצע משימות מורכבות באופן עצמאי, גם במשך ימים שלמים. בחברה טוענים כי הצליחו להדביק את המתחרות, ובחלק מהמבחנים אפילו לעקוף אותן. והפעם, מטא מתכוונת לגבות כסף על השימוש בטכנולוגיה",
+        "date": "2026-10-13T08:24:11+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/05/BJs811jPQGx/BJs811jPQGx_1_33_1024_577_0_medium.jpg"
+      },
+      {
+        "title": "הסוף לתלות באנבידיה? מיקרוסופט חושפת שבב AI חדש ועוצמתי",
+        "link": "https://www.ynet.co.il/digital/technews/article/hykfgi9ozg",
+        "summary": "ענקית הטכנולוגיה חשפה את Maia 300, הדור הבא של שבב ה-AI פרי פיתוחה. במיקרוסופט מבטיחים יעילות גבוהה ב-40% לעומת מערכות מתחרות, ומתכננים להפוך את השבב לתשתית מרכזית להפעלת שירותי ה-AI שלה החל מ-2027. האם מאזן הכוחות בשוק השבבים עומד להשתנות?",
+        "date": "2026-10-12T12:59:31+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/12/S13S7Lcjzx/S13S7Lcjzx_477_414_2054_1157_0_medium.jpg"
+      },
+      {
+        "title": "אחרי תקרית פליי דובאי: הפיתוח הישראלי שמבטיח לזהות מחבלים דרך הסמארטפון",
+        "link": "https://www.ynet.co.il/digital/technews/article/ry11npm9izg",
+        "summary": "חברת SDS מציגה מערכת בינה מלאכותית שמבטיחה לזהות אנשי צוות בעלי כוונות זדון באמצעות הסמארטפון, בתוך דקות וללא מגע פיזי. אלא שלצד הפוטנציאל הביטחוני, הטכנולוגיה עדיין סובלת מטעויות בזיהוי ומעוררת שאלות קשות בנוגע לפרטיות ולאמינות הבדיקות",
+        "date": "2026-10-12T10:21:39+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/04/rkogfMloMl/rkogfMloMl_0_0_850_479_0_medium.jpg"
+      },
+      {
+        "title": "מאסק ביקש מגרוק להזמין לו לגו, וחשף את פרטיו האישיים",
+        "link": "https://www.ynet.co.il/digital/technews/article/syimk11fjfg",
+        "summary": "איל ההון רצה להדגים כמה פשוט לבצע רכישות באמצעות בינה מלאכותית, אבל צילום המסך שפרסם חשף שתי כתובות בטקסס, פרטי הזמנה ומידע על כרטיס האשראי שלו. במקביל, הוא מעודד משתמשים לשלוח לגרוק תמונות של כרטיסי האשראי שלהם ולתת לו לבצע עבורם קניות ברשת",
+        "date": "2026-10-11T12:50:15+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/11/H10E4bFife/H10E4bFife_0_0_1461_817_0_medium.jpg"
+      },
+      {
+        "title": "OpenAI חשפה: איראן ניצלה את ChatGPT כדי להחדיר תעמולה לאתרי חדשות במערב",
+        "link": "https://www.ynet.co.il/digital/technews/article/hkn1ltdozx",
+        "summary": "החברה חשפה מבצע השפעה שבמסגרתו מפעילים מאיראן נעזרו בצ'אטבוט כדי להפיץ כמעט 100 מאמרים באתרי חדשות מוכרים, תחת שמות של עיתונאים שלא קיימים. במקביל, אנת'רופיק דיווחה על סוכני AI שפעלו ללא אישור, הגישו בקשות ויזה ושלחו מידע כוזב למשטרה. בבית הלבן זועמים ודורשים תשובות",
+        "date": "2026-10-11T09:04:45+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1sBqFYqMe/B1sBqFYqMe_1_91_2000_1125_0_medium.jpg"
+      },
+      {
+        "title": "\"אמא, כואב לי\": כך הבינה המלאכותית נותנת קול לילדים מאושפזים",
+        "link": "https://www.ynet.co.il/digital/technology/article/rkq3mm8sgl",
+        "summary": "איך מסבירים שכואב, מפחדים או פשוט רוצים את אמא, כשאי אפשר להוציא מילה? עבור ילדים רבים המאושפזים בבתי חולים זו מציאות יומיומית. כעת, יוזמה ישראלית חדשה מנסה לשנות את המצב, וכבר מספקת רגעים מרגשים במיוחד",
+        "date": "2026-10-09T08:35:21+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/09/ryXBBX8izg/ryXBBX8izg_0_0_1434_807_0_medium.jpg"
+      },
+      {
+        "title": "מיקרוסופט ואנבידיה מציגות מחשבים עם מעבדי AI ללא ענן",
+        "link": "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl",
+        "summary": "השילוב יאפשר למחשבי ווינדוס יכולות שדרשו עד כה תשתיות ענן. מיקרוסופט תאפשר גם לבצע היישר משורת המשימות פעולות בסיסיות כמו הפעלת מצב כהה, שיגור הודעה והשתקה של המחשב",
+        "date": "2026-10-08T11:05:53+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/08/HkZHGQeSsGg/HkZHGQeSsGg_0_0_1921_1081_0_medium.jpg"
+      },
+      {
+        "title": "ההישג המטורף של OpenAI: טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם",
+        "link": "https://www.ynet.co.il/digital/technews/article/h1ehas7ifl",
+        "summary": "יותר מ-700 מאמרים ופתרונות ל-377 בעיות מתמטיות שטרם נפתרו פורסמו בבת אחת על-ידי OpenAI, בהם כאלה הקשורים לשלוש מ\"בעיות המילניום\" הנחשבות לקשות בעולם. מאחורי ההישג עומד מודל AI מתקדם שטרם נחשף לציבור. אלא שבקהילה המדעית כבר נשמעת ביקורת",
+        "date": "2026-10-07T12:15:19+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/HkYML3Qofl/HkYML3Qofl_0_21_1536_865_0_medium.jpg"
+      },
+      {
+        "title": "מצלמים בלי לשאול? נורבגיה תאסור שימוש במשקפי AI במרחב הציבורי",
+        "link": "https://www.ynet.co.il/digital/technews/article/syno6dgjzl",
+        "summary": "ממשלת נורבגיה הניחה על שולחן הפרלמנט הצעת חוק תקדימית שתאסור על הרכבת משקפיים חכמים הכוללים מצלמות מובנות וסוכני בינה מלאכותית ברחובות, בבתי ספר ובתחבורה הציבורית",
+        "date": "2026-10-06T13:02:39+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/09/16/HyFI5xvjlg/HyFI5xvjlg_3_0_1198_674_0_medium.jpg"
+      },
+      {
+        "title": "ה-AI הפך למדליף: אלפי סודות של חברות טכנולוגיה נחשפו",
+        "link": "https://www.ynet.co.il/digital/technews/article/s1foq7msge",
+        "summary": "חוקרי סייבר ישראלים חשפו יותר מ-13 אלף צילומי מסך רגישים מ-343 חברות, שהועלו למאגרים ציבוריים בידי סוכני AI. בין המידע שנחשף: התכתבויות פנימיות, קוד ומפתחות גישה לשרתים. החוקרים מזהירים: הכלים שאמורים לייעל את העבודה הארגונית הופכים בעצמם לסיכון אבטחה",
+        "date": "2026-10-06T08:36:34+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/02/05/B1fmSJGwbe/B1fmSJGwbe_0_0_1076_614_0_medium.jpg"
+      },
+      {
+        "title": "החשמל לא מספיק: עמק הסיליקון רוצה להעביר את ה-AI לחלל",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkd22fbofe",
+        "summary": "תיאבון החשמל האדיר של מהפכת הבינה המלאכותית מאלץ את ענקיות הטכנולוגיה לחפש פתרונות קיצוניים יותר ויותר. אחרי אנרגיה גרעינית וחוות שרתים מתחת למים, הרעיון הבא הוא להעלות את מרכזי הנתונים למסלול סביב כדור הארץ",
+        "date": "2026-10-05T13:23:48+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/r1MaMQZjGx/r1MaMQZjGx_0_0_1672_941_0_medium.jpg"
+      },
+      {
+        "title": "התחזו לעובדי אנת'רופיק: מבצע הריגול הסיני נגד מומחי ה-AI בארה\"ב",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze",
+        "summary": "קבוצת ריגול המקושרת לסין התחזתה לעובדי אנת'רופיק ולבכירים לשעבר בבית הלבן בניסיון להגיע למומחים שעוסקים ברגולציה, הגבלות יצוא ואסטרטגיית ה-AI האמריקנית. בין הפיתיונות: בקשה לקבלת משוב על \"שילוב קלוד במערכות צבאיות\"",
+        "date": "2026-10-05T11:12:20+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/rkbArWbszx/rkbArWbszx_0_0_1672_941_0_medium.jpg"
+      },
+      {
+        "title": "\"דברים רעים יקרו, צריך להשלים עם זה\": האמירה החריגה של סם אלטמן",
+        "link": "https://www.ynet.co.il/digital/technews/article/s1yr9pgsme",
+        "summary": "מנכ\"ל OpenAI דוחה את תרחישי האימה סביב הבינה המלאכותית, אך במקביל טוען כי העולם יצטרך לקבל מידה מסוימת של נזק בתמורה ליתרונות הטכנולוגיה. במקביל הוא תומך בהאטת פיתוח המודלים המתקדמים ביותר, אך יוצא נגד הגישה המחמירה של אנת'רופיק ומזהיר מפני ריכוז השליטה בידי קומץ חברות",
+        "date": "2026-10-05T07:46:53+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1vbUWKcfl/B1vbUWKcfl_0_44_1921_1081_0_medium.jpg"
+      },
+      {
+        "title": "אפילו המפתחים מפחדים: תוכנית המילוט של עובדי ענקית ה-AI נחשפת",
+        "link": "https://www.ynet.co.il/digital/technews/article/hk6honjofx",
+        "summary": "תחקיר חדש חושף כיצד עובדים באנת'רופיק בחנו רכישת קרקעות מבודדות כתוכנית מילוט ליום הדין. ובזמן שענקיות ה-AI ממשיכות במירוץ, אנבידיה מציעה פתרון משלה לסכנות, והקריאות לפיקוח בינלאומי הולכות וגוברות. האם האנושות בדרך למירוץ חימוש גרעיני מסוג חדש?",
+        "date": "2026-10-04T12:40:54+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/04/BkKVYTkofg/BkKVYTkofg_0_131_3000_1689_0_medium.jpg"
+      },
+      {
+        "title": "יש לכם מנוי בסיסי או חינמי בג'מיני? יש לנו חדשות רעות",
+        "link": "https://www.ynet.co.il/digital/technews/article/byrcsayofx",
+        "summary": "החל מ-9 באוקטובר, משתמשי ג'מיני החינמיים יאבדו את הגישה למודלים המתקדמים, וגם חלק מהמנויים בתשלום ייאלצו להסתפק בפחות. במקביל, גוגל משדרגת את המסלולים היקרים ומוסיפה יכולות חדשות. המהלך מצטרף לשינויים דומים ב-OpenAI ומסמן מגמה ברורה בתעשייה: רוצים את ה-AI החזק ביותר? תצטרכו לשלם יותר",
+        "date": "2026-10-04T12:32:24+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/07/S1BUfhY011x/S1BUfhY011x_0_26_961_541_0_medium.jpg"
+      },
+      {
+        "title": "עוד בכיר נוטש את OpenAI ומזהיר: \"עידן הניסוי והטעייה הסתיים\"",
+        "link": "https://www.ynet.co.il/digital/technews/article/s1dedqjime",
+        "summary": "בכיר לשעבר בתחום הבטיחות ב-OpenAI יוצא במתקפה חריפה נגד החברה ומזהיר כי שיטת הניסוי והטעייה של עמק הסיליקון עלולה להסתיים באסון. הוא קורא להחיל על תעשיית ה-AI נהלי בטיחות מחמירים כמו בכורים גרעיניים. ההתפטרות מגיעה על רקע פיטורי חוקרים ושורת תקריות שבהן סוכני AI יצאו משליטה",
+        "date": "2026-10-04T09:41:05+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/03/Bk11r2VUyZg/Bk11r2VUyZg_0_22_977_551_0_medium.jpg"
+      },
+      {
+        "title": "אחרי פרשות סוכני ה-AI: חשד להדלפת מידע סודי מתוך OpenAI",
+        "link": "https://www.ynet.co.il/digital/technews/article/ryfhm039zx",
+        "summary": "דווקא בזמן שהיא מתמודדת עם שורת תקריות אבטחה, ענקית הבינה המלאכותית פיטרה שלושה חוקרים בחשד שהעבירו מידע רגיש לארגון חיצוני. אחד מהם היה מעורב בחקירת הפריצה ל-Hugging Face, אך לא ידוע אם יש קשר בין האירועים. במקביל, הרשויות בארה\"ב מגבירות את הלחץ על החברה בעקבות התנהגותם החריגה של סוכני ה-AI שלה",
+        "date": "2026-10-02T06:59:05+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1sBqFYqMe/B1sBqFYqMe_1_152_2000_1125_0_medium.jpg"
+      },
+      {
+        "title": "פרצת אבטחה מסוכנת: מודלי AI סיניים לימדו חוקרים לייצר נשק ביולוגי",
+        "link": "https://www.ynet.co.il/digital/technews/article/h1an1ijqfl",
+        "summary": "חוקרי אבטחה הצליחו לעקוף את מנגנוני ההגנה של שני מודלים של חברת Moonshot ולגרום להם לספק הוראות לייצור נשק ביולוגי, ואף זיהו חולשה שעלולה לאפשר להאקרים להשתלט על משאבי מחשוב. מדובר בתמרור אזהרה נוסף לתעשיית ה-AI, שמתמודדת בשבועות האחרונים עם שורת תקריות בטיחות חריגות",
+        "date": "2026-10-01T09:26:39+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/S1AgOos9Ge/S1AgOos9Ge_0_38_640_361_0_medium.jpg"
+      },
+      {
+        "title": "הסוף לפרטיות של הילדים? בקרת ההורים החדשה של וואטסאפ",
+        "link": "https://www.ynet.co.il/digital/technews/article/hks9u9j9zx",
+        "summary": "מי יוכל להוסיף את הילדים לקבוצות, לאילו ערוצים הם יוכלו להירשם ומה מותר להם לשאול את הבינה המלאכותית של מטא: וואטסאפ הכריזה על כלי פיקוח חדשים שיאפשרו להורים לקבל התראות ולהגביל חלק מהפעילות של בני הנוער באפליקציה. עם זאת, ההודעות והשיחות יישארו מחוץ להישג היד של ההורים",
+        "date": "2026-10-01T08:41:02+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/B14ss9s9zg/B14ss9s9zg_0_0_754_430_0_medium.jpg"
+      },
+      {
+        "title": "גוגל חושפת מודל AI חדש, אבל לא ממהרת לשחרר אותו לציבור",
+        "link": "https://www.ynet.co.il/digital/technews/article/sj21ryjqzx",
+        "summary": "Gemini 4 Argon מסוגל לאתר ולתקן פרצות אבטחה, לכתוב קוד ולבצע משימות מורכבות באופן עצמאי. אלא שבשלב הראשון הגישה אליו תוגבל למומחי אבטחה ולשותפים נבחרים. ההשקה מגיעה יומיים בלבד לאחר שטראמפ כינס את בכירי תעשיית ה-AI לחתימה על הסכם בטיחות משותף",
+        "date": "2026-10-01T08:19:30+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/Sy0489o9Mg/Sy0489o9Mg_0_0_1600_900_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-10-14T14:14:13.590822+00:00",
     "error": null
   },
   "הארץ טכנולוגיה": {
     "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-10-14T08:15:19.050396+00:00",
+    "scraped_at": "2026-10-14T14:14:13.898622+00:00",
     "error": "HTTP Status 404"
   },
   "גיקטיים — מגזר ציבורי": {
@@ -523,13 +1177,48 @@
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Tenzai-_-by-Elad-Malka-09417001-1024x683.jpg"
       }
     ],
-    "scraped_at": "2026-10-14T08:15:21.848718+00:00",
+    "scraped_at": "2026-10-14T14:14:16.408657+00:00",
+    "error": null
+  },
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:16.647276+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-10-14T14:14:13.987646+00:00",
     "error": null
   },
   "גיקטיים": {
     "url": "https://www.geektime.co.il/feed/",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "90 שניות ויש לכם אייג'נט: הסטארטאפ הישראלי Zenzap גייס 44 מיליון דולר",
+        "link": "https://www.geektime.co.il/zenzap-comes-out-of-stealth/",
+        "summary": "עידן ה-AI כבר מזמן כאן, וסביר להניח שגם אצלכם בארגון נעזרים בלא מעט אייג'נטים כדי לייעל תהליכים. אבל למרות ההבטחות, רוב העובדים עדיין מתקשרים עם ה-AI בנפרד משאר הקולגות שלהם, ככה שאין ממש עבודת צוות. אז איך מחברים את כולם לעבודה משותפת? סטארטאפ ישראלי שנחשף היום (ד') חושב שהוא פיצח את זה. מקום אחד לסוכנים [&#8230;] The post 90 שניות ויש לכם אייג&#039;נט: הסטארטאפ הישראלי Zenzap גייס 44 מיליון דולר",
+        "date": "2026-10-14T13:55:29+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/videoframe_29711-1024x576.jpg"
+      },
+      {
+        "title": "בואו ללמוד איך ניהול סיכונים נכון של קוד פתוח יכול להציל לכם את הגיוס הבא",
+        "link": "https://www.geektime.co.il/open-source-ai-risk-management-webinar-21102026/",
+        "summary": "כלי AI לכתיבת קוד הפכו בתוך זמן קצר לחלק משגרת העבודה של רוב צוותי הפיתוח. הם מקצרים זמנים ומאפשרים לצוות קטן לייצר יותר קוד מאי פעם. אבל ה-AI לא כותב הכל מאפס: ברוב המקרים הוא מציע למפתחים להשתמש בספריית קוד פתוח, או מוסיף תלות חדשה. כל הצעה כזו מכניסה למערכת קוד שאף אחד בארגון לא [&#8230;] The post בואו ללמוד איך ניהול סיכונים נכון של קוד פתוח יכול להציל לכם את הגיוס הבא appeared first on גיקטיי",
+        "date": "2026-10-14T11:09:48+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/pic-1024x768.jpg"
+      },
+      {
+        "title": "כן, OpenAI פתרה מאות בעיות פתוחות במתמטיקה, אבל אף אחד לא מבין את הפתרון",
+        "link": "https://www.geektime.co.il/openai-math-proofs-ai-academia-crisis/",
+        "summary": "מאת: פרופ' עלי זלצברגר, ד\"ר אביגיל פרדמן, ד\"ר שירה אחישר, אושרת כץ שחם בתוך לילה אחד העלתה OpenAI לרשת מאות כתבי יד מתמטיים, ובהם הוכחות לבעיות פתוחות. דובר החברה אמר ל-Scientific American שגם המתמטיקאים שלה עדיין אינם מבינים רבות מן התוצאות, והמהלך זה ממחיש היטב בעיות עומק שהאקדמיה נדרשת להתמודד איתן. עבודה של עשרות שנים [&#8230;] The post כן, OpenAI פתרה מאות בעיות פתוחות במתמטיקה, אבל אף אחד לא",
+        "date": "2026-10-14T09:00:01+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Math-Comples-Geektime-1024x670.jpg"
+      },
       {
         "title": "רק בכנס הפיתוח של גיקטיים: הישראלי הראשון ב-Cognition מספר מה למד מלבנות את Devin",
         "link": "https://www.geektime.co.il/evolve-to-ai-2026-cognition/",
@@ -872,670 +1561,9 @@
         "summary": "ענקית ה-AI האמריקאית OpenAI נכנסת ראשונה לזירה המקומית עם מינויו של מוטי הדס לתפקיד העובד הראשון בתחום ה-Go-To-Market בישראל, אשר יתמקד בתמיכה בחברות וסטארטאפים מקומיים. \"המהלך מסמן את החשיבות ש-OpenAI מייחסת לאקוסיסטם הטכנולוגי הישראלי\" ההחלטה של OpenAI לפתוח נציגות מקומית מגיעה ככל הנראה על רקע התחרות הגוברת בתחום, הלחץ להציג תוצאות כספיות לקראת ההנפקה, והרצון [&#8230;] The post נחשף הנציג הראשו",
         "date": "2026-09-30T14:16:19+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/MOTTI-HADAS-OPENAI-ISRAEL-2-1024x666.jpg"
-      },
-      {
-        "title": "מהאירוע הזה תצאו עם סוכן AI עובד שכבר מוטמע בחברה שלכם",
-        "link": "https://www.geektime.co.il/ai-agents-in-action-meetup-21102026/",
-        "summary": "כל חברה שרוצה להישאר תחרותית יודעת שעידן הצ'אטבוטים נגמר: הלקוחות מאסו בתפריט התשובות המוכנות שבמקרים רבים פשוט לא מתאימות לסיטואציה, מסבכות את השירות ויוצרות בעיקר תסכול. השלב הבא הוא סוכני AI שפועלים כמו נציג חכם: הם מזהים את צורכי המשתמש, מבינים הקשרים, שואלים שאלות, מספקים מידע מותאם אישית ומניעים לפעולה. בניגוד לפתרונות מסורתיים, סוכנים יודעים [&#8230;] The post מהאירוע הזה תצאו עם סוכן AI עו",
-        "date": "2026-09-30T09:00:30+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_m_465506798-1024x580.jpg"
       }
     ],
-    "scraped_at": "2026-10-14T08:15:15.661340+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:18.109998+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:21.981068+00:00",
-    "error": "HTTP Status 404"
-  },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:19.587926+00:00",
-    "error": null
-  },
-  "קמפוס GOV": {
-    "url": "https://campus.gov.il",
-    "category": "קמפוס GOV",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:22.703984+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "מיקרוסופט ואנבידיה מציגות מחשבים עם מעבדי AI ללא ענן",
-        "link": "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl",
-        "summary": "השילוב יאפשר למחשבי ווינדוס יכולות שדרשו עד כה תשתיות ענן. מיקרוסופט תאפשר גם לבצע היישר משורת המשימות פעולות בסיסיות כמו הפעלת מצב כהה, שיגור הודעה והשתקה של המחשב",
-        "date": "2026-10-08T11:05:53+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/08/HkZHGQeSsGg/HkZHGQeSsGg_0_0_1921_1081_0_medium.jpg"
-      },
-      {
-        "title": "ה-AI הפך למדליף: אלפי סודות של חברות טכנולוגיה נחשפו",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1foq7msge",
-        "summary": "חוקרי סייבר ישראלים חשפו יותר מ-13 אלף צילומי מסך רגישים מ-343 חברות, שהועלו למאגרים ציבוריים בידי סוכני AI. בין המידע שנחשף: התכתבויות פנימיות, קוד ומפתחות גישה לשרתים. החוקרים מזהירים: הכלים שאמורים לייעל את העבודה הארגונית הופכים בעצמם לסיכון אבטחה",
-        "date": "2026-10-06T08:36:34+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/02/05/B1fmSJGwbe/B1fmSJGwbe_0_0_1076_614_0_medium.jpg"
-      },
-      {
-        "title": "החשמל לא מספיק: עמק הסיליקון רוצה להעביר את ה-AI לחלל",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkd22fbofe",
-        "summary": "תיאבון החשמל האדיר של מהפכת הבינה המלאכותית מאלץ את ענקיות הטכנולוגיה לחפש פתרונות קיצוניים יותר ויותר. אחרי אנרגיה גרעינית וחוות שרתים מתחת למים, הרעיון הבא הוא להעלות את מרכזי הנתונים למסלול סביב כדור הארץ",
-        "date": "2026-10-05T13:23:48+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/r1MaMQZjGx/r1MaMQZjGx_0_0_1672_941_0_medium.jpg"
-      },
-      {
-        "title": "התחזו לעובדי אנת'רופיק: מבצע הריגול הסיני נגד מומחי ה-AI בארה\"ב",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze",
-        "summary": "קבוצת ריגול המקושרת לסין התחזתה לעובדי אנת'רופיק ולבכירים לשעבר בבית הלבן בניסיון להגיע למומחים שעוסקים ברגולציה, הגבלות יצוא ואסטרטגיית ה-AI האמריקנית. בין הפיתיונות: בקשה לקבלת משוב על \"שילוב קלוד במערכות צבאיות\"",
-        "date": "2026-10-05T11:12:20+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/rkbArWbszx/rkbArWbszx_0_0_1672_941_0_medium.jpg"
-      },
-      {
-        "title": "פרצת אבטחה מסוכנת: מודלי AI סיניים לימדו חוקרים לייצר נשק ביולוגי",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1an1ijqfl",
-        "summary": "חוקרי אבטחה הצליחו לעקוף את מנגנוני ההגנה של שני מודלים של חברת Moonshot ולגרום להם לספק הוראות לייצור נשק ביולוגי, ואף זיהו חולשה שעלולה לאפשר להאקרים להשתלט על משאבי מחשוב. מדובר בתמרור אזהרה נוסף לתעשיית ה-AI, שמתמודדת בשבועות האחרונים עם שורת תקריות בטיחות חריגות",
-        "date": "2026-10-01T09:26:39+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/S1AgOos9Ge/S1AgOos9Ge_0_38_640_361_0_medium.jpg"
-      },
-      {
-        "title": "OpenAI עולה שלב במרוץ סוכני ה-AI: הכירו את Dots",
-        "link": "https://www.ynet.co.il/digital/technews/article/hkyarb5qze",
-        "summary": "במקום לחכות לפרומפט הבא, הסוכנים החדשים של OpenAI מקבלים משימות וממשיכים לעבוד עליהן באופן עצמאי גם כשהמשתמש לא מחובר. לכל Dot מחשב ודפדפן בענן משלו, והוא יכול לגלוש ברשת, להריץ קוד ולהתחבר לאלפי אפליקציות ושירותים. השירות זמין בשלב הראשון למנויי פרו וללקוחות עסקיים",
-        "date": "2026-09-30T08:51:07+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/30/B1Et3r5qzx/B1Et3r5qzx_0_15_1900_1070_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-10-14T08:15:22.098110+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:17.205220+00:00",
-    "error": null
-  },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:19.463965+00:00",
-    "error": null
-  },
-  "YouTube — הדרכות": {
-    "url": "https://www.youtube.com",
-    "category": "הדרכות",
-    "items": [
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=TBrJfKkTPXA",
-        "summary": "",
-        "date": "2026-10-14T08:15:25.708306+00:00",
-        "image": "https://img.youtube.com/vi/TBrJfKkTPXA/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=UZvE5fXtJJU",
-        "summary": "",
-        "date": "2026-10-14T08:15:25.708303+00:00",
-        "image": "https://img.youtube.com/vi/UZvE5fXtJJU/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
-        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
-        "summary": "",
-        "date": "2026-10-14T08:15:25.708284+00:00",
-        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-10-14T08:15:25.118944+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546697+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546695+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546693+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546691+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546688+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-10-14T08:15:24.546666+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
-        "link": "https://www.youtube.com/watch?v=mBuUesZkWiA",
-        "summary": "",
-        "date": "2026-10-13T09:55:26.059181+00:00",
-        "image": "https://img.youtube.com/vi/mBuUesZkWiA/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
-        "summary": "",
-        "date": "2026-10-13T09:55:25.465771+00:00",
-        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=bSfyhL3BZ3U",
-        "summary": "",
-        "date": "2026-10-13T09:55:24.801755+00:00",
-        "image": "https://img.youtube.com/vi/bSfyhL3BZ3U/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=jOWlDKMB22o",
-        "summary": "",
-        "date": "2026-10-12T10:02:52.514416+00:00",
-        "image": "https://img.youtube.com/vi/jOWlDKMB22o/mqdefault.jpg"
-      },
-      {
-        "title": "בחירת מודל",
-        "link": "https://www.youtube.com/watch?v=4LJgbIHjVi0",
-        "summary": "",
-        "date": "2026-10-12T10:02:51.818800+00:00",
-        "image": "https://img.youtube.com/vi/4LJgbIHjVi0/mqdefault.jpg"
-      },
-      {
-        "title": "הסרגל בצד שמאל",
-        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
-        "summary": "",
-        "date": "2026-10-12T10:02:51.818791+00:00",
-        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
-        "summary": "",
-        "date": "2026-10-12T10:02:51.088765+00:00",
-        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
-        "title": "מתחילים לעבוד!",
-        "link": "https://www.youtube.com/watch?v=foskkMVnl5U",
-        "summary": "",
-        "date": "2026-10-11T09:32:25.938884+00:00",
-        "image": "https://img.youtube.com/vi/foskkMVnl5U/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=sJPytLUIUOw",
-        "summary": "",
-        "date": "2026-10-11T09:32:25.264649+00:00",
-        "image": "https://img.youtube.com/vi/sJPytLUIUOw/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
-        "link": "https://www.youtube.com/watch?v=NKKs39Yk954",
-        "summary": "",
-        "date": "2026-10-10T09:15:48.669063+00:00",
-        "image": "https://img.youtube.com/vi/NKKs39Yk954/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=sazHF_zNPAo",
-        "summary": "",
-        "date": "2026-10-10T09:15:48.669060+00:00",
-        "image": "https://img.youtube.com/vi/sazHF_zNPAo/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
-        "link": "https://www.youtube.com/watch?v=fq2ssd3_a8A",
-        "summary": "",
-        "date": "2026-10-10T09:15:48.669039+00:00",
-        "image": "https://img.youtube.com/vi/fq2ssd3_a8A/mqdefault.jpg"
-      },
-      {
-        "title": "הסרגל בצד שמאל",
-        "link": "https://www.youtube.com/watch?v=9ceTUMUFMhM",
-        "summary": "",
-        "date": "2026-10-10T09:15:47.930262+00:00",
-        "image": "https://img.youtube.com/vi/9ceTUMUFMhM/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=kLCwzx-Rev4",
-        "summary": "",
-        "date": "2026-10-10T09:15:47.385262+00:00",
-        "image": "https://img.youtube.com/vi/kLCwzx-Rev4/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=30ieacRh5Hs",
-        "summary": "",
-        "date": "2026-10-10T09:15:47.385259+00:00",
-        "image": "https://img.youtube.com/vi/30ieacRh5Hs/mqdefault.jpg"
-      },
-      {
-        "title": "איך לא לפספס את הקורס הבא",
-        "link": "https://www.youtube.com/watch?v=JJuNulAs0Qo",
-        "summary": "",
-        "date": "2026-10-09T09:51:28.177793+00:00",
-        "image": "https://img.youtube.com/vi/JJuNulAs0Qo/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=i4TY-quLSC0",
-        "summary": "",
-        "date": "2026-10-09T09:51:28.177790+00:00",
-        "image": "https://img.youtube.com/vi/i4TY-quLSC0/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
-        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
-        "summary": "",
-        "date": "2026-10-09T09:51:28.177774+00:00",
-        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
-        "link": "https://www.youtube.com/watch?v=HZXJ_fTzn3Y",
-        "summary": "",
-        "date": "2026-10-09T09:51:27.505625+00:00",
-        "image": "https://img.youtube.com/vi/HZXJ_fTzn3Y/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=kbVZTKrZq7c",
-        "summary": "",
-        "date": "2026-10-09T09:51:27.505623+00:00",
-        "image": "https://img.youtube.com/vi/kbVZTKrZq7c/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
-        "summary": "",
-        "date": "2026-10-09T09:51:27.505603+00:00",
-        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
-      },
-      {
-        "title": "מתחילים לעבוד!",
-        "link": "https://www.youtube.com/watch?v=rEkdgzS_e4g",
-        "summary": "",
-        "date": "2026-10-08T09:46:34.874577+00:00",
-        "image": "https://img.youtube.com/vi/rEkdgzS_e4g/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=yWNRCZxu5ww",
-        "summary": "",
-        "date": "2026-10-07T09:36:15.414635+00:00",
-        "image": "https://img.youtube.com/vi/yWNRCZxu5ww/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=_8OWlPeg7uY",
-        "summary": "",
-        "date": "2026-10-07T09:36:14.771662+00:00",
-        "image": "https://img.youtube.com/vi/_8OWlPeg7uY/mqdefault.jpg"
-      },
-      {
-        "title": "3 סוגי הסוכנים: מובנה, API ואוטונומי",
-        "link": "https://www.youtube.com/watch?v=9izuJKO27FU",
-        "summary": "",
-        "date": "2026-10-06T09:39:35.030004+00:00",
-        "image": "https://img.youtube.com/vi/9izuJKO27FU/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
-        "summary": "",
-        "date": "2026-10-05T09:51:35.348264+00:00",
-        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-10-05T09:51:34.216833+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=0U3NV6ElIHk",
-        "summary": "",
-        "date": "2026-10-04T09:11:14.295894+00:00",
-        "image": "https://img.youtube.com/vi/0U3NV6ElIHk/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה צ'אט GPT?",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-10-04T09:11:13.787198+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה קלוד Chat, Cowork, Code, ומה המודלים של קלוד?",
-        "link": "https://www.youtube.com/watch?v=POHNIk_aoYQ",
-        "summary": "",
-        "date": "2026-10-04T09:11:13.205457+00:00",
-        "image": "https://img.youtube.com/vi/POHNIk_aoYQ/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: התקנת קלוד דסקטופ ופתיחת חשבון פרו",
-        "link": "https://www.youtube.com/watch?v=1lrt3ITrwcc",
-        "summary": "",
-        "date": "2026-10-04T09:11:13.205435+00:00",
-        "image": "https://img.youtube.com/vi/1lrt3ITrwcc/mqdefault.jpg"
-      },
-      {
-        "title": "Higgsfield Product Ads Demo",
-        "link": "https://www.youtube.com/watch?v=Das4indA4xg",
-        "summary": "",
-        "date": "2026-10-03T14:05:39.051772+00:00",
-        "image": "https://img.youtube.com/vi/Das4indA4xg/mqdefault.jpg"
-      },
-      {
-        "title": "Codex Inside Spaces",
-        "link": "https://www.youtube.com/watch?v=0jlCeSfJIwk",
-        "summary": "",
-        "date": "2026-10-03T14:05:39.051770+00:00",
-        "image": "https://img.youtube.com/vi/0jlCeSfJIwk/mqdefault.jpg"
-      },
-      {
-        "title": "Spaces, Pages, and Sub Pages",
-        "link": "https://www.youtube.com/watch?v=tAeKFgqEzhQ",
-        "summary": "",
-        "date": "2026-10-03T14:05:39.051767+00:00",
-        "image": "https://img.youtube.com/vi/tAeKFgqEzhQ/mqdefault.jpg"
-      },
-      {
-        "title": "Interface Tour",
-        "link": "https://www.youtube.com/watch?v=xI0VjMzPqpI",
-        "summary": "",
-        "date": "2026-10-03T14:05:39.051763+00:00",
-        "image": "https://img.youtube.com/vi/xI0VjMzPqpI/mqdefault.jpg"
-      },
-      {
-        "title": "What Is ChatGPT Space?",
-        "link": "https://www.youtube.com/watch?v=2ZT_VYlOt-Y",
-        "summary": "",
-        "date": "2026-10-03T14:05:39.051742+00:00",
-        "image": "https://img.youtube.com/vi/2ZT_VYlOt-Y/mqdefault.jpg"
-      },
-      {
-        "title": "המגע האנושי: האם רופאים, עורכי דין ומורים יוחלפו בקרוב?",
-        "link": "https://www.youtube.com/watch?v=o_zEQt_Gllg",
-        "summary": "",
-        "date": "2026-10-03T08:45:38.234225+00:00",
-        "image": "https://img.youtube.com/vi/o_zEQt_Gllg/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=G1O8AvMbsRo",
-        "summary": "",
-        "date": "2026-10-03T08:45:36.886573+00:00",
-        "image": "https://img.youtube.com/vi/G1O8AvMbsRo/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik Bot Extension - צ'אט AI בתוך Qlik",
-        "link": "https://www.youtube.com/watch?v=7DIuICoW0Y0",
-        "summary": "",
-        "date": "2026-10-02T09:12:42.854897+00:00",
-        "image": "https://img.youtube.com/vi/7DIuICoW0Y0/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=5BU1-3SpnLg",
-        "summary": "",
-        "date": "2026-10-02T09:12:42.854894+00:00",
-        "image": "https://img.youtube.com/vi/5BU1-3SpnLg/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=G6ubUIaKJoM",
-        "summary": "",
-        "date": "2026-10-02T09:12:42.854891+00:00",
-        "image": "https://img.youtube.com/vi/G6ubUIaKJoM/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=IzPv6HKXif4",
-        "summary": "",
-        "date": "2026-10-02T09:12:41.565612+00:00",
-        "image": "https://img.youtube.com/vi/IzPv6HKXif4/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=79S33NKY-gw",
-        "summary": "",
-        "date": "2026-09-30T09:11:41.812594+00:00",
-        "image": "https://img.youtube.com/vi/79S33NKY-gw/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-10-14T08:15:25.708800+00:00",
-    "error": null
-  },
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-10-14T08:15:22.224872+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [
-      {
-        "title": "הבטיחה לשנות את העולם, הסתבכה עם צעירים שהתאבדו: ענקית ה-AI קורסת",
-        "link": "https://www.ynet.co.il/digital/technews/article/bywyansjfe",
-        "summary": "אחרי שכבשה עשרות מיליוני משתמשים והפכה לאחת ההבטחות הגדולות של עולם הבינה המלאכותית, Character.ai הגישה בקשה להגנה מפני פשיטת רגל, בצל תביעות הקשורות למקרי התאבדות של בני נוער. כעת דיסני, שרק לאחרונה איימה לתבוע אותה, מבקשת לרכוש חלק מנכסיה במחיר מציאה",
-        "date": "2026-10-13T14:32:09+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/13/BJ6Yeaiifl/BJ6Yeaiifl_0_0_1536_864_0_medium.jpg"
-      },
-      {
-        "title": "הנשק החדש של פוטין: שירי מלחמה שנוצרו בבינה מלאכותית",
-        "link": "https://www.ynet.co.il/digital/technews/article/hjg5ipijml",
-        "summary": "מאות שירי מלחמה שנוצרו באמצעות AI מפארים את הצבא הרוסי, מהללים את הפלישה לאוקראינה וצוברים מיליוני השמעות בספוטיפיי, ביוטיוב ובשירותי סטרימינג נוספים. מחקר חדש חושף כיצד הפכה הטכנולוגיה לכלי תעמולה זול ויעיל, ומדוע ענקיות הטכנולוגיה מתקשות לעצור את התופעה",
-        "date": "2026-10-13T08:51:50+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/13/SybH1dijzl/SybH1dijzl_0_0_1536_865_0_medium.jpg"
-      },
-      {
-        "title": "הדביק את הפער: צוקרברג חושף את התשובה שלו ל-OpenAI ואנת'רופיק",
-        "link": "https://www.ynet.co.il/digital/technews/article/bklhgdsofl",
-        "summary": "אחרי חודשים של עיכובים והשקעות של מיליארדי דולרים, מטא חשפה שני מודלי בינה מלאכותית חדשים שמיועדים לבצע משימות מורכבות באופן עצמאי, גם במשך ימים שלמים. בחברה טוענים כי הצליחו להדביק את המתחרות, ובחלק מהמבחנים אפילו לעקוף אותן. והפעם, מטא מתכוונת לגבות כסף על השימוש בטכנולוגיה",
-        "date": "2026-10-13T08:24:11+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/05/BJs811jPQGx/BJs811jPQGx_1_33_1024_577_0_medium.jpg"
-      },
-      {
-        "title": "הסוף לתלות באנבידיה? מיקרוסופט חושפת שבב AI חדש ועוצמתי",
-        "link": "https://www.ynet.co.il/digital/technews/article/hykfgi9ozg",
-        "summary": "ענקית הטכנולוגיה חשפה את Maia 300, הדור הבא של שבב ה-AI פרי פיתוחה. במיקרוסופט מבטיחים יעילות גבוהה ב-40% לעומת מערכות מתחרות, ומתכננים להפוך את השבב לתשתית מרכזית להפעלת שירותי ה-AI שלה החל מ-2027. האם מאזן הכוחות בשוק השבבים עומד להשתנות?",
-        "date": "2026-10-12T12:59:31+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/12/S13S7Lcjzx/S13S7Lcjzx_477_414_2054_1157_0_medium.jpg"
-      },
-      {
-        "title": "אחרי תקרית פליי דובאי: הפיתוח הישראלי שמבטיח לזהות מחבלים דרך הסמארטפון",
-        "link": "https://www.ynet.co.il/digital/technews/article/ry11npm9izg",
-        "summary": "חברת SDS מציגה מערכת בינה מלאכותית שמבטיחה לזהות אנשי צוות בעלי כוונות זדון באמצעות הסמארטפון, בתוך דקות וללא מגע פיזי. אלא שלצד הפוטנציאל הביטחוני, הטכנולוגיה עדיין סובלת מטעויות בזיהוי ומעוררת שאלות קשות בנוגע לפרטיות ולאמינות הבדיקות",
-        "date": "2026-10-12T10:21:39+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/04/rkogfMloMl/rkogfMloMl_0_0_850_479_0_medium.jpg"
-      },
-      {
-        "title": "מאסק ביקש מגרוק להזמין לו לגו, וחשף את פרטיו האישיים",
-        "link": "https://www.ynet.co.il/digital/technews/article/syimk11fjfg",
-        "summary": "איל ההון רצה להדגים כמה פשוט לבצע רכישות באמצעות בינה מלאכותית, אבל צילום המסך שפרסם חשף שתי כתובות בטקסס, פרטי הזמנה ומידע על כרטיס האשראי שלו. במקביל, הוא מעודד משתמשים לשלוח לגרוק תמונות של כרטיסי האשראי שלהם ולתת לו לבצע עבורם קניות ברשת",
-        "date": "2026-10-11T12:50:15+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/11/H10E4bFife/H10E4bFife_0_0_1461_817_0_medium.jpg"
-      },
-      {
-        "title": "OpenAI חשפה: איראן ניצלה את ChatGPT כדי להחדיר תעמולה לאתרי חדשות במערב",
-        "link": "https://www.ynet.co.il/digital/technews/article/hkn1ltdozx",
-        "summary": "החברה חשפה מבצע השפעה שבמסגרתו מפעילים מאיראן נעזרו בצ'אטבוט כדי להפיץ כמעט 100 מאמרים באתרי חדשות מוכרים, תחת שמות של עיתונאים שלא קיימים. במקביל, אנת'רופיק דיווחה על סוכני AI שפעלו ללא אישור, הגישו בקשות ויזה ושלחו מידע כוזב למשטרה. בבית הלבן זועמים ודורשים תשובות",
-        "date": "2026-10-11T09:04:45+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1sBqFYqMe/B1sBqFYqMe_1_91_2000_1125_0_medium.jpg"
-      },
-      {
-        "title": "\"אמא, כואב לי\": כך הבינה המלאכותית נותנת קול לילדים מאושפזים",
-        "link": "https://www.ynet.co.il/digital/technology/article/rkq3mm8sgl",
-        "summary": "איך מסבירים שכואב, מפחדים או פשוט רוצים את אמא, כשאי אפשר להוציא מילה? עבור ילדים רבים המאושפזים בבתי חולים זו מציאות יומיומית. כעת, יוזמה ישראלית חדשה מנסה לשנות את המצב, וכבר מספקת רגעים מרגשים במיוחד",
-        "date": "2026-10-09T08:35:21+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/09/ryXBBX8izg/ryXBBX8izg_0_0_1434_807_0_medium.jpg"
-      },
-      {
-        "title": "מיקרוסופט ואנבידיה מציגות מחשבים עם מעבדי AI ללא ענן",
-        "link": "https://www.ynet.co.il/digital/technews/article/bjahwgsjzl",
-        "summary": "השילוב יאפשר למחשבי ווינדוס יכולות שדרשו עד כה תשתיות ענן. מיקרוסופט תאפשר גם לבצע היישר משורת המשימות פעולות בסיסיות כמו הפעלת מצב כהה, שיגור הודעה והשתקה של המחשב",
-        "date": "2026-10-08T11:05:53+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/08/HkZHGQeSsGg/HkZHGQeSsGg_0_0_1921_1081_0_medium.jpg"
-      },
-      {
-        "title": "ההישג המטורף של OpenAI: טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1ehas7ifl",
-        "summary": "יותר מ-700 מאמרים ופתרונות ל-377 בעיות מתמטיות שטרם נפתרו פורסמו בבת אחת על-ידי OpenAI, בהם כאלה הקשורים לשלוש מ\"בעיות המילניום\" הנחשבות לקשות בעולם. מאחורי ההישג עומד מודל AI מתקדם שטרם נחשף לציבור. אלא שבקהילה המדעית כבר נשמעת ביקורת",
-        "date": "2026-10-07T12:15:19+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/HkYML3Qofl/HkYML3Qofl_0_21_1536_865_0_medium.jpg"
-      },
-      {
-        "title": "מצלמים בלי לשאול? נורבגיה תאסור שימוש במשקפי AI במרחב הציבורי",
-        "link": "https://www.ynet.co.il/digital/technews/article/syno6dgjzl",
-        "summary": "ממשלת נורבגיה הניחה על שולחן הפרלמנט הצעת חוק תקדימית שתאסור על הרכבת משקפיים חכמים הכוללים מצלמות מובנות וסוכני בינה מלאכותית ברחובות, בבתי ספר ובתחבורה הציבורית",
-        "date": "2026-10-06T13:02:39+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/09/16/HyFI5xvjlg/HyFI5xvjlg_3_0_1198_674_0_medium.jpg"
-      },
-      {
-        "title": "ה-AI הפך למדליף: אלפי סודות של חברות טכנולוגיה נחשפו",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1foq7msge",
-        "summary": "חוקרי סייבר ישראלים חשפו יותר מ-13 אלף צילומי מסך רגישים מ-343 חברות, שהועלו למאגרים ציבוריים בידי סוכני AI. בין המידע שנחשף: התכתבויות פנימיות, קוד ומפתחות גישה לשרתים. החוקרים מזהירים: הכלים שאמורים לייעל את העבודה הארגונית הופכים בעצמם לסיכון אבטחה",
-        "date": "2026-10-06T08:36:34+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/02/05/B1fmSJGwbe/B1fmSJGwbe_0_0_1076_614_0_medium.jpg"
-      },
-      {
-        "title": "החשמל לא מספיק: עמק הסיליקון רוצה להעביר את ה-AI לחלל",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkd22fbofe",
-        "summary": "תיאבון החשמל האדיר של מהפכת הבינה המלאכותית מאלץ את ענקיות הטכנולוגיה לחפש פתרונות קיצוניים יותר ויותר. אחרי אנרגיה גרעינית וחוות שרתים מתחת למים, הרעיון הבא הוא להעלות את מרכזי הנתונים למסלול סביב כדור הארץ",
-        "date": "2026-10-05T13:23:48+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/r1MaMQZjGx/r1MaMQZjGx_0_0_1672_941_0_medium.jpg"
-      },
-      {
-        "title": "התחזו לעובדי אנת'רופיק: מבצע הריגול הסיני נגד מומחי ה-AI בארה\"ב",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkhfv0gjze",
-        "summary": "קבוצת ריגול המקושרת לסין התחזתה לעובדי אנת'רופיק ולבכירים לשעבר בבית הלבן בניסיון להגיע למומחים שעוסקים ברגולציה, הגבלות יצוא ואסטרטגיית ה-AI האמריקנית. בין הפיתיונות: בקשה לקבלת משוב על \"שילוב קלוד במערכות צבאיות\"",
-        "date": "2026-10-05T11:12:20+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/05/rkbArWbszx/rkbArWbszx_0_0_1672_941_0_medium.jpg"
-      },
-      {
-        "title": "\"דברים רעים יקרו, צריך להשלים עם זה\": האמירה החריגה של סם אלטמן",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1yr9pgsme",
-        "summary": "מנכ\"ל OpenAI דוחה את תרחישי האימה סביב הבינה המלאכותית, אך במקביל טוען כי העולם יצטרך לקבל מידה מסוימת של נזק בתמורה ליתרונות הטכנולוגיה. במקביל הוא תומך בהאטת פיתוח המודלים המתקדמים ביותר, אך יוצא נגד הגישה המחמירה של אנת'רופיק ומזהיר מפני ריכוז השליטה בידי קומץ חברות",
-        "date": "2026-10-05T07:46:53+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1vbUWKcfl/B1vbUWKcfl_0_44_1921_1081_0_medium.jpg"
-      },
-      {
-        "title": "אפילו המפתחים מפחדים: תוכנית המילוט של עובדי ענקית ה-AI נחשפת",
-        "link": "https://www.ynet.co.il/digital/technews/article/hk6honjofx",
-        "summary": "תחקיר חדש חושף כיצד עובדים באנת'רופיק בחנו רכישת קרקעות מבודדות כתוכנית מילוט ליום הדין. ובזמן שענקיות ה-AI ממשיכות במירוץ, אנבידיה מציעה פתרון משלה לסכנות, והקריאות לפיקוח בינלאומי הולכות וגוברות. האם האנושות בדרך למירוץ חימוש גרעיני מסוג חדש?",
-        "date": "2026-10-04T12:40:54+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/04/BkKVYTkofg/BkKVYTkofg_0_131_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "יש לכם מנוי בסיסי או חינמי בג'מיני? יש לנו חדשות רעות",
-        "link": "https://www.ynet.co.il/digital/technews/article/byrcsayofx",
-        "summary": "החל מ-9 באוקטובר, משתמשי ג'מיני החינמיים יאבדו את הגישה למודלים המתקדמים, וגם חלק מהמנויים בתשלום ייאלצו להסתפק בפחות. במקביל, גוגל משדרגת את המסלולים היקרים ומוסיפה יכולות חדשות. המהלך מצטרף לשינויים דומים ב-OpenAI ומסמן מגמה ברורה בתעשייה: רוצים את ה-AI החזק ביותר? תצטרכו לשלם יותר",
-        "date": "2026-10-04T12:32:24+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/07/S1BUfhY011x/S1BUfhY011x_0_26_961_541_0_medium.jpg"
-      },
-      {
-        "title": "עוד בכיר נוטש את OpenAI ומזהיר: \"עידן הניסוי והטעייה הסתיים\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1dedqjime",
-        "summary": "בכיר לשעבר בתחום הבטיחות ב-OpenAI יוצא במתקפה חריפה נגד החברה ומזהיר כי שיטת הניסוי והטעייה של עמק הסיליקון עלולה להסתיים באסון. הוא קורא להחיל על תעשיית ה-AI נהלי בטיחות מחמירים כמו בכורים גרעיניים. ההתפטרות מגיעה על רקע פיטורי חוקרים ושורת תקריות שבהן סוכני AI יצאו משליטה",
-        "date": "2026-10-04T09:41:05+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/03/Bk11r2VUyZg/Bk11r2VUyZg_0_22_977_551_0_medium.jpg"
-      },
-      {
-        "title": "אחרי פרשות סוכני ה-AI: חשד להדלפת מידע סודי מתוך OpenAI",
-        "link": "https://www.ynet.co.il/digital/technews/article/ryfhm039zx",
-        "summary": "דווקא בזמן שהיא מתמודדת עם שורת תקריות אבטחה, ענקית הבינה המלאכותית פיטרה שלושה חוקרים בחשד שהעבירו מידע רגיש לארגון חיצוני. אחד מהם היה מעורב בחקירת הפריצה ל-Hugging Face, אך לא ידוע אם יש קשר בין האירועים. במקביל, הרשויות בארה\"ב מגבירות את הלחץ על החברה בעקבות התנהגותם החריגה של סוכני ה-AI שלה",
-        "date": "2026-10-02T06:59:05+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/B1sBqFYqMe/B1sBqFYqMe_1_152_2000_1125_0_medium.jpg"
-      },
-      {
-        "title": "פרצת אבטחה מסוכנת: מודלי AI סיניים לימדו חוקרים לייצר נשק ביולוגי",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1an1ijqfl",
-        "summary": "חוקרי אבטחה הצליחו לעקוף את מנגנוני ההגנה של שני מודלים של חברת Moonshot ולגרום להם לספק הוראות לייצור נשק ביולוגי, ואף זיהו חולשה שעלולה לאפשר להאקרים להשתלט על משאבי מחשוב. מדובר בתמרור אזהרה נוסף לתעשיית ה-AI, שמתמודדת בשבועות האחרונים עם שורת תקריות בטיחות חריגות",
-        "date": "2026-10-01T09:26:39+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/S1AgOos9Ge/S1AgOos9Ge_0_38_640_361_0_medium.jpg"
-      },
-      {
-        "title": "הסוף לפרטיות של הילדים? בקרת ההורים החדשה של וואטסאפ",
-        "link": "https://www.ynet.co.il/digital/technews/article/hks9u9j9zx",
-        "summary": "מי יוכל להוסיף את הילדים לקבוצות, לאילו ערוצים הם יוכלו להירשם ומה מותר להם לשאול את הבינה המלאכותית של מטא: וואטסאפ הכריזה על כלי פיקוח חדשים שיאפשרו להורים לקבל התראות ולהגביל חלק מהפעילות של בני הנוער באפליקציה. עם זאת, ההודעות והשיחות יישארו מחוץ להישג היד של ההורים",
-        "date": "2026-10-01T08:41:02+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/B14ss9s9zg/B14ss9s9zg_0_0_754_430_0_medium.jpg"
-      },
-      {
-        "title": "גוגל חושפת מודל AI חדש, אבל לא ממהרת לשחרר אותו לציבור",
-        "link": "https://www.ynet.co.il/digital/technews/article/sj21ryjqzx",
-        "summary": "Gemini 4 Argon מסוגל לאתר ולתקן פרצות אבטחה, לכתוב קוד ולבצע משימות מורכבות באופן עצמאי. אלא שבשלב הראשון הגישה אליו תוגבל למומחי אבטחה ולשותפים נבחרים. ההשקה מגיעה יומיים בלבד לאחר שטראמפ כינס את בכירי תעשיית ה-AI לחתימה על הסכם בטיחות משותף",
-        "date": "2026-10-01T08:19:30+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/Sy0489o9Mg/Sy0489o9Mg_0_0_1600_900_0_medium.jpg"
-      },
-      {
-        "title": "בלי חוקים ובלי קנסות: טראמפ נותן לענקיות ה-AI לפקח על עצמן",
-        "link": "https://www.ynet.co.il/digital/technews/article/r1ftmiccze",
-        "summary": "נשיא ארה\"ב חתם עם מטא, גוגל, OpenAI, אנבידיה ואנת'רופיק על אמנה חדשה לפיתוח בטוח של בינת-על. אלא שההסכם אינו מחייב משפטית, והפיקוח יישאר ברובו בידי החברות עצמן. ברקע: שורת תקריות שבהן סוכני AI עקפו מנגנוני הגנה ופעלו בניגוד להוראות. טראמפ: \"מי שינצח בבינת-העל, ינצח\"",
-        "date": "2026-09-30T11:49:43+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/30/rkbbkI0059fe/rkbbkI0059fe_0_88_2896_1631_0_medium.jpg"
-      },
-      {
-        "title": "OpenAI עולה שלב במרוץ סוכני ה-AI: הכירו את Dots",
-        "link": "https://www.ynet.co.il/digital/technews/article/hkyarb5qze",
-        "summary": "במקום לחכות לפרומפט הבא, הסוכנים החדשים של OpenAI מקבלים משימות וממשיכים לעבוד עליהן באופן עצמאי גם כשהמשתמש לא מחובר. לכל Dot מחשב ודפדפן בענן משלו, והוא יכול לגלוש ברשת, להריץ קוד ולהתחבר לאלפי אפליקציות ושירותים. השירות זמין בשלב הראשון למנויי פרו וללקוחות עסקיים",
-        "date": "2026-09-30T08:51:07+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/30/B1Et3r5qzx/B1Et3r5qzx_0_15_1900_1070_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-10-14T08:15:18.534887+00:00",
+    "scraped_at": "2026-10-14T14:14:10.803107+00:00",
     "error": null
   }
 }

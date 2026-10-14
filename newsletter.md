@@ -2,11 +2,11 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=TBrJfKkTPXA)
+### 1. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=jOWlDKMB22o)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 2. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=79S33NKY-gw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -14,11 +14,11 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 4. [בחירת מודל](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [New Projects](https://www.youtube.com/watch?v=qFFrDVqCAF0)
+### 5. [Playback](https://www.youtube.com/watch?v=qFFrDVqCAF0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
