@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מתחילים לעבוד!](https://www.youtube.com/watch?v=-zqYdD9_uxM)
+### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [מחירים: כמה עולה שימוש בצ'אט GPT?](https://www.youtube.com/watch?v=1wqmo0D6XWc)
+### 2. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=DZoMm_mc7OI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [ChatGPT עובד בעברית?](https://www.youtube.com/watch?v=NqX1shjH2YE)
+### 3. [בחירת מודל](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [מה זה צ'אט GPT?](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 4. [שלוש רמות האישור](https://www.youtube.com/watch?v=1wqmo0D6XWc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=G0FLdVbrfNQ)
+### 5. [הסרגל בצד שמאל](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
