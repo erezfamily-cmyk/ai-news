@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 16/10/2026
+# 🤖 עדכוני AI Pulse — 17/10/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 1. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=iYZWHtDWHbA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=DZoMm_mc7OI)
+### 2. [בחירת מודל](https://www.youtube.com/watch?v=l1u4zgH8i8g)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [בחירת מודל](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 3. [שלוש רמות האישור](https://www.youtube.com/watch?v=lR0hDRT2e88)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שלוש רמות האישור](https://www.youtube.com/watch?v=1wqmo0D6XWc)
+### 4. [תיבת הכתיבה והפלוס](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [הסרגל בצד שמאל](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 5. [New Projects](https://www.youtube.com/watch?v=H5c0kTHPwkI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
