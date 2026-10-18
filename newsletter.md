@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מה AAI עושה?](https://www.youtube.com/watch?v=K8VX57zGZuY)
+### 1. [האינטליגנציה שמתאדה בסוף כל סשן](https://www.youtube.com/watch?v=i-Im7PJpoSE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה](https://www.youtube.com/watch?v=lWGLmNcFtk0)
+### 2. [למה מדליית זהב במתמטיקה זה עדיין לא מספיק](https://www.youtube.com/watch?v=oZz6WybxJkg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שלוש רמות האישור](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 3. [מה AAI עושה?](https://www.youtube.com/watch?v=zpgyb0j1eUg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [תיבת הכתיבה והפלוס](https://www.youtube.com/watch?v=DZoMm_mc7OI)
+### 4. [פתיחה](https://www.youtube.com/watch?v=Nj8iZ5Qfg2s)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [New Projects](https://www.youtube.com/watch?v=fwANhfjQt9E)
+### 5. [בחירת מודל](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
