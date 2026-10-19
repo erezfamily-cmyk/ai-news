@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מה AAI עושה?](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 1. [מה זו רגרסיה לינארית?](https://www.youtube.com/watch?v=BdwH64defUI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 2. [איך ניגשים לפתור בעיות כ״כ מסובכות?](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 3. [20 ואט: המוח האנושי מול הדאטה סנטרים](https://www.youtube.com/watch?v=nZIqqwqPmXU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [בחירת מודל](https://www.youtube.com/watch?v=1wqmo0D6XWc)
+### 4. [האינטליגנציה שמתאדה בסוף כל סשן](https://www.youtube.com/watch?v=VmrtMvtsaBI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פתיחה](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 5. [מה AAI עושה?](https://www.youtube.com/watch?v=x2YEas5DUGA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
