@@ -2,15 +2,15 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 1. [מה AAI עושה?](https://www.youtube.com/watch?v=x2YEas5DUGA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 2. [פתיחה](https://www.youtube.com/watch?v=PjHbujsaVSY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [בחירת מודל](https://www.youtube.com/watch?v=iS71XdEpfek)
+### 3. [שלוש רמות האישור](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -18,7 +18,7 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [New Projects](https://www.youtube.com/watch?v=bSfyhL3BZ3U)
+### 5. [New Projects](https://www.youtube.com/watch?v=qFFrDVqCAF0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
