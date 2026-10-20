@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 19/10/2026
+# 🤖 עדכוני AI Pulse — 20/10/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מה זו רגרסיה לינארית?](https://www.youtube.com/watch?v=BdwH64defUI)
+### 1. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [איך ניגשים לפתור בעיות כ״כ מסובכות?](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 2. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [20 ואט: המוח האנושי מול הדאטה סנטרים](https://www.youtube.com/watch?v=nZIqqwqPmXU)
+### 3. [בחירת מודל](https://www.youtube.com/watch?v=iS71XdEpfek)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [האינטליגנציה שמתאדה בסוף כל סשן](https://www.youtube.com/watch?v=VmrtMvtsaBI)
+### 4. [פתיחה](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מה AAI עושה?](https://www.youtube.com/watch?v=x2YEas5DUGA)
+### 5. [New Projects](https://www.youtube.com/watch?v=bSfyhL3BZ3U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
