@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 1. [זיהוי חריגות ומגמות – Qlik Alerts ו-Discovery Agent](https://www.youtube.com/watch?v=TBrJfKkTPXA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הכתבה, קול וחשבון](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 2. [האם AI מחליף את האנליטיקה וה-BI?](https://www.youtube.com/watch?v=79S33NKY-gw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שלוש רמות האישור](https://www.youtube.com/watch?v=_mvRUov4aYU)
+### 3. [ארבעת השלבים בתהליך עסקי מבוסס AI](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 4. [פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [העיקרון שמשנה הכל: תיקייה במחשב במקום ענן](https://www.youtube.com/watch?v=QYjwSajjf8o)
+### 5. [מה זה Codex, ולמה 2026 היא שנת הסוכנים](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
