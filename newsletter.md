@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה](https://www.youtube.com/watch?v=_BTf6pGtGEM)
+### 1. [הסרגל בצד שמאל](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הסרגל בצד שמאל](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 2. [איך מבטלים](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [איך מבטלים](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 3. [אותה שאלה אחרי ההוראה](https://www.youtube.com/watch?v=rEkdgzS_e4g)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [כתיבת הוראה קבועה](https://www.youtube.com/watch?v=_mvRUov4aYU)
+### 4. [כתיבת הוראה קבועה](https://www.youtube.com/watch?v=AfIvw3ZgiVM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פתיחה ושאלה לפני ההוראה](https://www.youtube.com/watch?v=AfIvw3ZgiVM)
+### 5. [פתיחה ושאלה לפני ההוראה](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
