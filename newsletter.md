@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 25/10/2026
+# 🤖 עדכוני AI Pulse — 26/10/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [סיכום](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 1. [מה זמין בכל מסלול](https://www.youtube.com/watch?v=_mvRUov4aYU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [עורך התמונות](https://www.youtube.com/watch?v=_mvRUov4aYU)
+### 2. [Work - יעד ותוצר](https://www.youtube.com/watch?v=WmzqT4VW9qs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=RYletuVrY4U)
+### 3. [צ'אט - שאלה ותשובה](https://www.youtube.com/watch?v=X8YeJjaqsuI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [תמונה ראשונה מבקשה רגילה](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 4. [המסך של Work](https://www.youtube.com/watch?v=AfIvw3ZgiVM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [פתיחה](https://www.youtube.com/watch?v=_z60sWsd0WQ)
+### 5. [העיקרון שמשנה הכל: תיקייה במחשב במקום ענן](https://www.youtube.com/watch?v=Vqhy3VD-34U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
