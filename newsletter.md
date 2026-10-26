@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מה זמין בכל מסלול](https://www.youtube.com/watch?v=_mvRUov4aYU)
+### 1. [Qlik Bot Extension - צ'אט AI בתוך Qlik](https://www.youtube.com/watch?v=dpvYv9xs00k)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [Work - יעד ותוצר](https://www.youtube.com/watch?v=WmzqT4VW9qs)
+### 2. [מודל Local מול Secure Endpoint - יתרונות וחסרונות](https://www.youtube.com/watch?v=b4_D6jMjVL4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [צ'אט - שאלה ותשובה](https://www.youtube.com/watch?v=X8YeJjaqsuI)
+### 3. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=h1Y0yeHJNyc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [המסך של Work](https://www.youtube.com/watch?v=AfIvw3ZgiVM)
+### 4. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [העיקרון שמשנה הכל: תיקייה במחשב במקום ענן](https://www.youtube.com/watch?v=Vqhy3VD-34U)
+### 5. [תיבת הכתיבה והפלוס](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
