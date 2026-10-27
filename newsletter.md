@@ -2,23 +2,23 @@
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [עורך התמונות](https://www.youtube.com/watch?v=RYletuVrY4U)
+### 3. [פתיחה](https://www.youtube.com/watch?v=TQldVyvxTWI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=_z60sWsd0WQ)
+### 4. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=Twz13lSDot0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [תמונה ראשונה מבקשה רגילה](https://www.youtube.com/watch?v=CRR5QGpcsgE)
+### 5. [איך לא לפספס את הקורס הבא](https://www.youtube.com/watch?v=qFFrDVqCAF0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
