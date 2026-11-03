@@ -1,16 +1,16 @@
-# 🤖 עדכוני AI Pulse — 02/11/2026
+# 🤖 עדכוני AI Pulse — 03/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [למה לבנות AI מעל Qlik ולא מול מערכות המקור](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 1. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=JDuRdEEvHlk)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה - פתרונות AI לארגוני On-Premise](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 2. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה](https://www.youtube.com/watch?v=RYletuVrY4U)
+### 3. [פתיחה](https://www.youtube.com/watch?v=4buYIIeBGA8)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
@@ -18,7 +18,7 @@
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [עורך התמונות](https://www.youtube.com/watch?v=1wqmo0D6XWc)
+### 5. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=_z60sWsd0WQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
