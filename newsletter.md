@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 03/11/2026
+# 🤖 עדכוני AI Pulse — 04/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [שאלון האבחון: איפה אתם עומדים עם AI?](https://www.youtube.com/watch?v=JDuRdEEvHlk)
+### 1. [בינה מלאכותית (AI) בעולם המודרני](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [פתיחה: על מה הוובינר ואיך זה יעבוד](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 2. [עורך התמונות](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה](https://www.youtube.com/watch?v=4buYIIeBGA8)
+### 3. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=_z60sWsd0WQ)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סיכום](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
+### 4. [תמונה ראשונה מבקשה רגילה](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=_z60sWsd0WQ)
+### 5. [העיקרון שמשנה הכל: תיקייה במחשב במקום ענן](https://www.youtube.com/watch?v=qFFrDVqCAF0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
