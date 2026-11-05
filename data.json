@@ -1,4 +1,18 @@
 {
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-11-05T10:07:33.105791+00:00",
+    "error": null
+  },
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-11-05T10:07:32.795827+00:00",
+    "error": "HTTP Status 404"
+  },
   "וואלה טק": {
     "url": "https://rss.walla.co.il/feed/22",
     "category": "חדשות טכנולוגיה",
@@ -16,29 +30,107 @@
         "summary": "האקרים מצפון קוריאה עומדים מאחורי גניבת מטבעות קריפטוגרפיים בשווי של כ-6.3 מיליארד דולר מבורסת בינאנס (Binance), כך דיווחה היום (שישי) חברת ניתוח הבלוקצ'יין האמריקנית TRM Labs. לפי החברה, התוקפים העבירו כ-6.36 מיליארד דולר מארנקי הבורסה בעשר רשתות בלוקצ'יין, רובם בתוך כ-20 דקות. החברה ייחסה את המתקפה ליחידת ההאקרים הצפון קוריאנית TraderTraitor, ברמת ביטחון גבוהה.",
         "date": "2026-10-30T04:46:19+00:00",
         "image": null
-      },
-      {
-        "title": "שינוי דרמטי באיפא”ק: השדולה הפרו-ישראלית תפסיק לתמוך במועמדים לקונגרס",
-        "link": "https://www.walla.co.il/news/breaking-news/383958414",
-        "summary": "השדולה הפרו-ישראלית איפא”ק (AIPAC) הודיעה הלילה (חמישי) כי תפסיק להעניק תמיכה רשמית למועמדים בבחירות לקונגרס האמריקני ולהעביר להם תרומות ייעודיות באמצעות ועדת הפעולה הפוליטית שלה (AIPAC PAC). ההחלטה מגיעה לאחר שלושה מחזורי בחירות שבהם הייתה השדולה מעורבת ישירות בתמיכה במועמדים ובגיוס כספים עבורם. עם זאת, איפא”ק הבהירה כי תמשיך לפעול בזירה הפוליטית ולגייס כספים בדרכים אחרות, בין היתר באמצעות ארגון ",
-        "date": "2026-10-21T21:29:37+00:00",
-        "image": null
       }
     ],
-    "scraped_at": "2026-11-04T10:14:22.995519+00:00",
+    "scraped_at": "2026-11-05T10:07:28.019862+00:00",
     "error": null
   },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-11-04T10:14:24.155333+00:00",
+    "scraped_at": "2026-11-05T10:07:29.083069+00:00",
+    "error": null
+  },
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "תורים שלא היו, פתקים שלא הושחתו: השקרים שכבשו את הרשת ביום הבחירות",
+        "link": "https://www.ynet.co.il/digital/technews/article/sk401jjazg",
+        "summary": "תמונות שנוצרו בבינה מלאכותית, דיווחים כוזבים על זיופים בקלפיות וחשד להתערבות איראנית: דו\"ח חדש של ארגון \"פייק ריפורטר\" חושף את היקף המידע המטעה שהציף את הרשתות ביום הבחירות. בין הממצאים: פרסומים ששיתף ראש הממשלה ושימוש בדמותה של שירי ביבס ז\"ל | כך נראתה המלחמה על דעת הקהל",
+        "date": "2026-10-28T16:40:44+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/H1HNrjJTGe/H1HNrjJTGe_0_743_941_530_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-05T10:07:32.989999+00:00",
     "error": null
   },
   "YouTube — הדרכות": {
     "url": "https://www.youtube.com",
     "category": "הדרכות",
     "items": [
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=pflcgTGxIbc",
+        "summary": "",
+        "date": "2026-11-05T10:07:36.648932+00:00",
+        "image": "https://img.youtube.com/vi/pflcgTGxIbc/mqdefault.jpg"
+      },
+      {
+        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
+        "link": "https://www.youtube.com/watch?v=4buYIIeBGA8",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946543+00:00",
+        "image": "https://img.youtube.com/vi/4buYIIeBGA8/mqdefault.jpg"
+      },
+      {
+        "title": "כמה זה עולה: המנויים, ולמה לא להתקמצן",
+        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946541+00:00",
+        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
+      },
+      {
+        "title": "איך לא לפספס את הקורס הבא",
+        "link": "https://www.youtube.com/watch?v=41Q7DtPmrEI",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946537+00:00",
+        "image": "https://img.youtube.com/vi/41Q7DtPmrEI/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946517+00:00",
+        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
+      },
+      {
+        "title": "איך לא לפספס את הקורס הבא",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.368915+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.368912+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.368908+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.368902+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.368883+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
       {
         "title": "בינה מלאכותית (AI) בעולם המודרני",
         "link": "https://www.youtube.com/watch?v=8m5LbJ8Nnaw",
@@ -68,46 +160,11 @@
         "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
       },
       {
-        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.213878+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "כמה זה עולה: המנויים, ולמה לא להתקמצן",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.213875+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Codex, ולמה 2026 היא שנת הסוכנים",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.213873+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
-      },
-      {
         "title": "איך לא לפספס את הקורס הבא",
         "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
         "summary": "",
         "date": "2026-11-04T10:14:31.213870+00:00",
         "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.213866+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.213842+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
       },
       {
         "title": "שאלון האבחון: איפה אתם עומדים עם AI?",
@@ -122,13 +179,6 @@
         "summary": "",
         "date": "2026-11-03T10:20:56.425618+00:00",
         "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=4buYIIeBGA8",
-        "summary": "",
-        "date": "2026-11-03T10:20:55.801311+00:00",
-        "image": "https://img.youtube.com/vi/4buYIIeBGA8/mqdefault.jpg"
       },
       {
         "title": "New Projects",
@@ -150,13 +200,6 @@
         "summary": "",
         "date": "2026-11-02T10:22:17.547884+00:00",
         "image": "https://img.youtube.com/vi/RYletuVrY4U/mqdefault.jpg"
-      },
-      {
-        "title": "עורך התמונות",
-        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
-        "summary": "",
-        "date": "2026-11-02T10:22:17.547879+00:00",
-        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
       },
       {
         "title": "פתיחה והיכרות – Make Agentic AI Real",
@@ -416,71 +459,381 @@
         "summary": "",
         "date": "2026-10-23T08:08:27.664453+00:00",
         "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
-        "title": "כמה זה עולה: המנויים, ולמה לא להתקמצן",
-        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
-        "summary": "",
-        "date": "2026-10-22T14:15:32.862353+00:00",
-        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=xIhxybFdeWk",
-        "summary": "",
-        "date": "2026-10-22T08:10:29.603400+00:00",
-        "image": "https://img.youtube.com/vi/xIhxybFdeWk/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=PjHbujsaVSY",
-        "summary": "",
-        "date": "2026-10-22T08:10:29.603395+00:00",
-        "image": "https://img.youtube.com/vi/PjHbujsaVSY/mqdefault.jpg"
-      },
-      {
-        "title": "שלוש רמות האישור",
-        "link": "https://www.youtube.com/watch?v=J1EyaotCViw",
-        "summary": "",
-        "date": "2026-10-21T14:15:53.368119+00:00",
-        "image": "https://img.youtube.com/vi/J1EyaotCViw/mqdefault.jpg"
-      },
-      {
-        "title": "תיבת הכתיבה והפלוס",
-        "link": "https://www.youtube.com/watch?v=jyy2RsDdYs8",
-        "summary": "",
-        "date": "2026-10-21T14:15:53.368116+00:00",
-        "image": "https://img.youtube.com/vi/jyy2RsDdYs8/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-11-04T10:14:31.869446+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-04T10:14:21.970107+00:00",
+    "scraped_at": "2026-11-05T10:07:36.648993+00:00",
     "error": null
   },
   "קמפוס GOV": {
     "url": "https://campus.gov.il",
     "category": "קמפוס GOV",
     "items": [],
-    "scraped_at": "2026-11-04T10:14:29.051644+00:00",
+    "scraped_at": "2026-11-05T10:07:33.299371+00:00",
+    "error": null
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-11-05T10:07:28.998996+00:00",
+    "error": null
+  },
+  "גיקטיים": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "חדשות טכנולוגיה",
+    "items": [
+      {
+        "title": "פיצ'ר התרגום של Google Meet תומך סוף סוף גם בעברית – וזה די משוגע",
+        "link": "https://www.geektime.co.il/google-meet-live-translate-now-supports-hebrew/",
+        "summary": "אחד הדברים הטובים ביותר שמהפכת ה-AI הביאה הוא צמצום פערי השפה. כמעט כל כלי ה-AI תומכים בעברית בצורה טובה ואפילו מעולה בזכות הפיתוחים בתחום, וכעת, גוגל עושה עוד צעד מעניין מאוד בצמצום מחסום השפה, כשהיא מרחיבה את פיצ'ר התרגום שלה לעשרות שפות נוספות, והפעם &#8211; גם עברית בפנים. אז איך זה עובד? כמה לחיצות ואתם [&#8230;] The post פיצ&#039;ר התרגום של Google Meet תומך סוף סוף גם בעברית &#8211; וזה די ",
+        "date": "2026-11-05T08:36:03+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/videoframe_20253-1024x576.jpg"
+      },
+      {
+        "title": "במקום לנחש איזה מודל יצליח, תנו לסוכני ה-AI לבחור בעצמם",
+        "link": "https://www.geektime.co.il/evolve-to-ai-2026-red-hat/",
+        "summary": "צוותים שבוחרים מודלים ו-GPUs על בסיס אינטואיציה, מגלים לעתים קרובות את בעיות ה-Latency רק אחרי שהשקיעו זמן פיתוח וכסף. הפתרון הוא כמובן לא להוסיף עוד סוכנים למערכת, אלא לספק להם נתונים טובים יותר וארכיטקטורה שתאפשר להם לקבל החלטות מושכלות. כנס Evolve to AI של גיקטיים אירח היום (ד') את יובל לוריא, Senior Machine Learning Engineer [&#8230;] The post במקום לנחש איזה מודל יצליח, תנו לסוכני ה-AI לבחור ",
+        "date": "2026-11-04T17:09:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-09.36.45-1024x683.jpeg"
+      },
+      {
+        "title": "לא באתם לכנס Evolve to AI? הנה כל מה שפספסתם",
+        "link": "https://www.geektime.co.il/evolve-to-ai-2026-recap/",
+        "summary": "מאות מפתחות ומפתחים הגיעו היום (ד') לכנס Evolve to AI של גיקטיים, שהתקיים באוניברסיטת תל אביב והציע הרצאות מקצועיות, הזדמנויות ליצור קשרים והפסקה מהעבודה היומיומית. השנה התמקדנו בליבת ה-Agentic SDLC &#8211; כלומר, אייג'נטים פנים-ארגוניים שמבצעים תהליכים בתוך הארגון ומייעלים אותם. גם הפעם אירחנו דוברות ודוברים מחברות טכנולוגיה מובילות שעושות אימפקט אמיתי, בהן Cognition ,Apwind ,AWS [&#8230;] The po",
+        "date": "2026-11-04T15:44:25+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.18.02-1-1024x683.jpeg"
+      },
+      {
+        "title": "הטעות שיכולה לעלות לכם 46 אלף דולר ביום",
+        "link": "https://www.geektime.co.il/double-agent-evolve-to-ai-2026/",
+        "summary": "איזה כיף זה אייג'נטים, נכון? אבל בסוף, האייג'נטים שאתם בונים, מטפחים וגם חופרים עליהם בארוחת הצהריים, עשויים לבגוד בכם, וגם לעלות לכם ביוקר. אור ברוקמן, Staff Cyber Security Engineer ב-Google Cloud, הסבירה ליותר מ-1,200 מפתחות ומפתחים בכנס Evolve to AI שנערך היום (ד') בתל אביב, כי האייג'נטים לא עושים את זה בכוונה, ויש לה כמה [&#8230;] The post הטעות שיכולה לעלות לכם 46 אלף דולר ביום appeared first",
+        "date": "2026-11-04T15:32:37+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.55.09-1-1024x682.jpeg"
+      },
+      {
+        "title": "הישראלי הראשון ב-Cognition: \"אין לי בכלל IDE במחשב\"",
+        "link": "https://www.geektime.co.il/gilad-samules-cognition-geektime-evolve-ai-2026/",
+        "summary": "תארו לעצמכם חברה ששווה עשרות מיליארדי דולרים כשרוב היוזמות שלה, תיקוני הבאגים ואפילו הכוננויות של העובדים מנוהלים על ידי סוכני AI. זה בדיוק מה שקורה ב-Cognition, הסטארטאפ שמאחורי Devin. במסגרת כנס Geektime Evolve to AI, גלעד סמואלס, הישראלי הראשון בחברה, חושף איך סביבת עבודה ללא אנשי QA או פרודקט מקפיצה את יעילות המהנדסים פי 9. [&#8230;] The post הישראלי הראשון ב-Cognition: &quot;אין לי בכלל IDE ב",
+        "date": "2026-11-04T14:30:23+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.49.52-1024x683.jpeg"
+      },
+      {
+        "title": "אלופים באבטחת ענן? בואו להוכיח את זה בתחרות Capture the Flag חדשה",
+        "link": "https://www.geektime.co.il/capture-the-flag-find-the-threat-26112026/",
+        "summary": "סוכני קוד, עומסי AI ופיתוח בקצב גבוה הפכו את אבטחת הענן המודרנית למשחק אחר לגמרי. תוסיפו לכל זה מעבר של ארגונים לסביבות Multi-Cloud, ותקבלו קושי גדול מאוד לנטר ולעקוב אחר כל מה שנמצא בענן. הפער בין מה שאנחנו חושבים שנמצא על השרתים המרוחקים לבין מה שבאמת קורה שם עלול להיות מסוכן: Misconfigurations, הרשאות רחבות מדי, [&#8230;] The post אלופים באבטחת ענן? בואו להוכיח את זה בתחרות Capture the Flag חדש",
+        "date": "2026-11-04T12:42:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_360270705-1024x715.jpg"
+      },
+      {
+        "title": "כך בנה צוות של 10 ישראלים דפדפן עם מיליוני הורדות",
+        "link": "https://www.geektime.co.il/arpeely-ace-browser-against-the-world/",
+        "summary": "מה גורם לסטארטאפ ישראלי, שבכלל מגיע מתחום ה-AdTech, להחליט להתחרות ראש בראש עם Chrome של גוגל? רועי שפר, סמנכ\"ל המו\"פ של Arpeely, הסביר בכנס Evolve to AI 2026 אל מול 1,200 מפתחות ומפתחים בתל אביב. על הדרך הוא גם סיפר על כל הקשיים, התקלות, והסיבה שהוא הבין שהדבר הכי חשוב הוא שהאייג'נט שלו יפסיק לכתוב [&#8230;] The post כך בנה צוות של 10 ישראלים דפדפן עם מיליוני הורדות appeared first on גיקטיים .",
+        "date": "2026-11-04T12:19:11+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.18.01-1024x683.jpeg"
+      },
+      {
+        "title": "הסטארטאפ Sentra שהוקם על ידי מפקד 8200 לשעבר מגייס 150 מיליון דולר",
+        "link": "https://www.geektime.co.il/sentra-nabs-major-funding-round/",
+        "summary": "כשארגונים דוהרים לענן ומאמצים כלי AI בקצב מהיר, משהו אחד נשאר מאחור &#8211; השליטה במידע הרגיש. פתאום אף אחד לא באמת יודע איפה יושב הדאטה או למי יש גישה אליו. הסטארטאפ הישראלי Sentra, שמורכב מבכירי 8200 לשעבר החליט לעשות לזה סוף, ועל הדרך גם להראות למיקרוסופט איך עושים את זה נכון. עכשיו הוא חושף גיוס [&#8230;] The post הסטארטאפ Sentra שהוקם על ידי מפקד 8200 לשעבר מגייס 150 מיליון דולר appeared fir",
+        "date": "2026-11-04T12:00:25+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/04/sentra-1024x683.jpeg"
+      },
+      {
+        "title": "\"מפתחים, תפסיקו להיות Meat Proxy\"",
+        "link": "https://www.geektime.co.il/aws-software-factory-meat-proxy-ai/",
+        "summary": "לא יודעים מה איתכם אבל בחודשים האחרונים אנחנו רואים יותר ויותר אנשים שמסתובבים עם לפטופ חצי סגור. הסיבה? ברקע רץ סוכן AI שהם לא רוצים שיעצור&#8230; רגע אחרי, אתם רואים את אותם אנשים מנהלים שיחות בטלפון שמזכירות טיפול זוגי עם IDE: \"סיימתי לקודד, להתחיל Code Review?\", \"כן, תתחיל\". המצב הזה הפך רבים מאיתנו למה שגילי נחום, [&#8230;] The post &quot;מפתחים, תפסיקו להיות Meat Proxy&quot; appeared first o",
+        "date": "2026-11-04T10:45:15+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/GILI-NACHUM-AWS2-1024x656.jpg"
+      },
+      {
+        "title": "\"הסוכנים בהגדרה הם לא רעים, הם פשוט רוצים להצליח\"",
+        "link": "https://www.geektime.co.il/upwind-security-geektime-evole-to-ai-2026/",
+        "summary": "תופעת הסוכנים שיוצאים מכלל שליטה, או Rogue Agents, הפכה לחלק בלתי נפרד מחיינו. מאז תקרית הפריצה ל-Hugging Face, אנחנו רשמית בעידן שבו עלינו להיערך לכך שהסוכנים שאנחנו מריצים עלולים להתהפך עלינו, ולהפוך לבעיה חמורה עבור הארגון. בהרצאה בכנס Evolve to AI של גיקטיים, חשף משה חסן &#8211; סמנכ\"ל מוצר ומחקר ב-Upwind Security &#8211; את הגישה [&#8230;] The post &quot;הסוכנים בהגדרה הם לא רעים, הם פשוט רוצ",
+        "date": "2026-11-04T10:20:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.18.04-1-1024x683.jpeg"
+      },
+      {
+        "title": "ההכרזות של GitHub מגיעות לתל אביב: בואו לראות מקרוב כל מה שחדש",
+        "link": "https://www.geektime.co.il/github-winter-event-2026/",
+        "summary": "מרגיש כאילו זה היה לפני נצח, אבל יחסית עד לא מזמן, המשמעות של AI בפיתוח תוכנה הייתה השלמה אוטומטית של שורות קוד בתוך העורך. כמובן שהיום התמונה כבר שונה לגמרי: המפתחים מגדירים את הכיוון, מקבלים את ההחלטות ונושאים באחריות למה שעולה לאוויר, בזמן שסוכני AI מבצעים את העבודה ובודקים אותה. בכנס GitHub Universe 2026 שהתקיים [&#8230;] The post ההכרזות של GitHub מגיעות לתל אביב: בואו לראות מקרוב כל מה שחדש ",
+        "date": "2026-11-04T08:51:23+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/IMG_3551-1024x684.jpg"
+      },
+      {
+        "title": "אחרי שגייס 127 מיליון דולר: נסגר הסטארטאפ הקודם שהקים מאור שלמה",
+        "link": "https://www.geektime.co.il/explorium-startup-shuts-down-ai-agents-data/",
+        "summary": "בשנים האחרונות אנחנו שומעים המון על ההבטחה של AI בעולם הארגוני, אבל כולם יודעים שהאתגר האמיתי של המודלים מתחיל בנתונים. סטארטאפ ישראלי שניסה לפתור בדיוק את הבעיה הזו הוא Explorium, שפיתח פלטפורמה שמאפשרת לארגונים להרחיב ולדייק את מאגרי המידע הפנימיים שלהם באמצעות חיבור מיידי לאלפי מקורות מידע חיצוניים, וכך לאמן מודלי למידת מכונה בצורה טובה [&#8230;] The post אחרי שגייס 127 מיליון דולר: נסגר הסטארט",
+        "date": "2026-11-04T07:53:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/EXPLORIUM-1024x683.jpg"
+      },
+      {
+        "title": "ה-AI מטשטש את הגבול בין פרודקט, דיזיין ופיתוח, וחייבים לדעת מתי לעצור",
+        "link": "https://www.geektime.co.il/ai-product-design-dev-boundaries/",
+        "summary": "מאת ענת גרניט אצלנו בחברה כמעט כולם בונים את המוצר &#8211; ממש בילדרים לכל דבר: מפתחים חוקרים כיווני מוצר חדשים ומקבלים החלטות על התנהגות המוצר תוך כדי מימוש; אנשי פרודקט ודיזיין נכנסים לקוד, בונים פרוטוטייפים ומעלים שינויים אמיתיים לפרודקשן. תהליכים שפעם היו עוברים בין כמה בעלי תפקידים יכולים היום להתחיל מזה שמישהו פותח כלי AI [&#8230;] The post ה-AI מטשטש את הגבול בין פרודקט, דיזיין ופיתוח, וחיי",
+        "date": "2026-11-03T12:02:29+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-14.59.06-1024x706.jpg"
+      },
+      {
+        "title": "סטארטאפ ישראלי שעוזר לחולים נמכר ברבע מיליארד דולר",
+        "link": "https://www.geektime.co.il/tailormed-acquired-by-growthcurve-capital-250m/",
+        "summary": "מערכת הבריאות בארצות הברית ידועה לשמצה במורכבות שלה ובעלויות הטיפול הגבוהות. כתוצאה מזה, חולים רבים מוצאים את עצמם חסרי אונים מול מחירי תרופות מרשם &#8211; אגב גם כשיש להם ביטוח רפואי. הסטארטאפ הישראלי TailorMed פיתח פלטפורמה שמנסה לפתור בדיוק את הכאב הזה, על ידי איתור וחיבור אוטומטי של מטופלים לתוכניות סיוע ומימון שיעזרו להם לעמוד [&#8230;] The post סטארטאפ ישראלי שעוזר לחולים נמכר ברבע מיליארד ד",
+        "date": "2026-11-03T06:00:10+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/national-cancer-institute-NFvdKIhxYlU-unsplash-1024x683.jpg"
+      },
+      {
+        "title": "וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג'נטים, Cursor וקלוד",
+        "link": "https://www.geektime.co.il/wix-launches-studio-two/",
+        "summary": "חברת Wix הישראלית מנסה לצאת מנישת המערכת ההיא לבניית אתרים מהירים ופשוטים ב-5 דקות, והיא חושפת היום (ב') את Studio Two, סביבת הפיתוח והעיצוב החדשה שלה לבניית אתרים. העורך החדש, שהיא מכנה \"עורך האתרים המתקדם ביותר בתולדות החברה\", משלב (כמובן) סוכן AI, יכולות עריכה ויזואלית חופשית וכתיבת קוד ממש בתוך המערכת. הפלטפורמה מיועדת בעיקר עבור [&#8230;] The post וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג&#039",
+        "date": "2026-11-02T15:00:25+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/context-1024x680.png"
+      },
+      {
+        "title": "אתם לא לבד: מיטאפ חדש מציע תשובות לבלגן שיוצר ה-AI בפרודקשן ובעלויות",
+        "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup-last-call/",
+        "summary": "שילבתם LLMs במקומות הנכונים, אבל הכל נהיה איטי ויקר? מתבאסים על המגבלות של כלי AI כמו קלוד וקרסר ועל מודלי המחור שלהם? לא מצליחים לגרום למודל לעבד כמויות גדולות של מידע? אתם ממש לא לבד בתסכול הזה, והחדשות הטובות הן שיש הרבה מה לעשות כדי לצאת מהבלגן. לפעמים צריך \"לנקות\" את ה-AI ממקומות שבהם הוא [&#8230;] The post אתם לא לבד: מיטאפ חדש מציע תשובות לבלגן שיוצר ה-AI בפרודקשן ובעלויות appeared first on",
+        "date": "2026-11-02T12:18:52+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/charlesdeluvio-pjAH2Ax4uWk-unsplash-1024x683.jpg"
+      },
+      {
+        "title": "ככה תבנו מפעל AI עם סוכנים שמדברים אחד עם השני – בלי להיתקע ביניהם",
+        "link": "https://www.geektime.co.il/build-ai-factory-multi-agent-collaboration/",
+        "summary": "מאת עופר מנדלביץ' בשנה האחרונה סוכני קוד התקדמו מהשלמת שורות קוד לביצוע משימות שלמות &#8211; מהתכנון ועד ה-PR. הצעד הבא הוא בניית מפעל AI: צוות של סוכנים מתמחים, שכל אחד מהם רץ בסביבה משלו עם המודל והכלים שלו, והם עובדים יחד כדי לפתור את אותה הבעיה. לדוגמה, סוכן אחד מתכנן, אחר מממש, שלישי בודק, וכולם [&#8230;] The post ככה תבנו מפעל AI עם סוכנים שמדברים אחד עם השני &#8211; בלי להיתקע ביניהם appear",
+        "date": "2026-11-02T09:45:26+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_481011080-1024x574.jpg"
+      },
+      {
+        "title": "אלו קרנות הון הסיכון המובילות בישראל ב-2026 על פי דן אנד ברדסטריט",
+        "link": "https://www.geektime.co.il/duns-100-top-vc-funds-ranking-2026/",
+        "summary": "בין עסקאות ענק של מיליארדים למירוץ קשוח אחרי הסיד, האקוסיסטם הישראלי מחשב מסלול מחדש. המשקיעים, מן הסתם, רוצים לראות את שורת הרווח, והיזמים, בעקבות קיצור הדרך של בניית מוצרים עם AI, נדרשים להגיע בשלים יותר מתמיד. עכשיו, חושף דירוג חדש אילו קרנות הון ישראליות מובילות מהצ'ק הראשון ועד האקזיט. מ-Team8 עד ל-Red Dot על פי [&#8230;] The post אלו קרנות הון הסיכון המובילות בישראל ב-2026 על פי דן אנד ברדסט",
+        "date": "2026-11-02T09:20:40+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Team8-1024x683.jpg"
+      },
+      {
+        "title": "כנס הפיתוח וה-AI של גיקטיים חוזר ברביעי עם תשובה לשאלה: מה בעצם נשאר לנו לעשות?",
+        "link": "https://www.geektime.co.il/evolve-to-ai-2026-last-call/",
+        "summary": "שלא תגידו שלא אמרנו: ביום רביעי הקרוב (4.11) כנס Evolve to AI של גיקטיים חוזר לאודיטוריום סמולרש באוניברסיטת תל אביב &#8211; ונותרו כרטיסים אחרונים בלבד. הכנס, שצפוי לארח כ-1,200 מפתחות ומפתחים מכל התחומים, יתמקד באייג'נטים פנים-ארגוניים – כלומר, כאלה שמבצעים ומייעלים תהליכים בתוך הארגון. ההרצאות יעסקו בליבת ה-Agentic SDLC ובאבני הבניין הנדרשות לפיתוח ולהטמעה של [&#8230;] The post כנס הפיתוח וה-AI",
+        "date": "2026-11-01T16:32:55+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-05-at-14.43.55.jpeg"
+      },
+      {
+        "title": "המודל נחנק? כך תרוויחו בחזרה 76% מהזיכרון",
+        "link": "https://www.geektime.co.il/optimize-llm-kv-cache-gpu-performance/",
+        "summary": "מאת יובל לוריא התרחיש הבא כנראה מוכר לכל מי שניסה להעלות לאוויר מודל שפה עצמאי בארגון: ה-PoC בסביבת הפיתוח היה הצלחה מסחררת &#8211; הרצתם שאילתות בלפטופ או על כרטיס GPU בודד, המודל ענה לעניין, כולם מחאו כפיים וההנהלה אישרה תקציב רכש נדיב של עשרות אלפי דולרים לכרטיסי GPU איכותיים. ואז הגעתם לפרודקשן. חיברתם את המודל [&#8230;] The post המודל נחנק? כך תרוויחו בחזרה 76% מהזיכרון appeared first on גיקט",
+        "date": "2026-11-01T12:32:18+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_229572001-1024x683.jpg"
+      },
+      {
+        "title": "לאנת'רופיק נמאס והיא לא תאפשר יותר הנדסה לאחור",
+        "link": "https://www.geektime.co.il/anthropic-claude-code-blocks-game-reverse-engineering/",
+        "summary": "בשבועות האחרונים הוצפה הרשת בסיפורים של אנשים שעשו הנדסה לאחור של כלים, משחקים ואפילו של מערכת ההפעלה של הטלוויזיה בעזרת כלי קידוד עם AI דוגמת קלוד של אנת'רופיק. המגמה הזו העלתה לא מעט סוגיות אתיות וחוקיות, אבל עכשיו נראה שאנת'רופיק לא מחכה, ומחרבת את החגיגה והתוכניות של חלק מהמשתמשים. שני משפטים שמשנים את הכללים \"אנת'רופיק [&#8230;] The post לאנת&#039;רופיק נמאס והיא לא תאפשר יותר הנדסה לאחור app",
+        "date": "2026-11-01T08:16:11+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Anthropic-Claude-Geektime-1024x668.jpg"
+      },
+      {
+        "title": "מתי באמת צריך AI ומתי עדיף קוד מסורתי? 3 אירועי טכנולוגיה מומלצים",
+        "link": "https://www.geektime.co.il/geek-events-1112026/",
+        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. Own Your AI Stack מתי? 9 בנובמבר (18:00) איפה? משרדי [&#8230;] The post מתי באמת צריך AI ומתי עדיף קוד מסורתי",
+        "date": "2026-10-31T17:19:39+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
+      },
+      {
+        "title": "מאור שלמה ומנכ\"ל פייבר השקיעו בפיתוח ישראלי לאנשי קריאייטיב",
+        "link": "https://www.geektime.co.il/plnty-is-out-of-stealth-with-a-check-from-base44-founder/",
+        "summary": "צוותי קריאייטיב מכירים את הכאב הזה מקרוב: הקפיצה הבלתי פוסקת בין עשרות כלים ופלטפורמות כדי להגיע לתוצר הסופי, במיוחד כשמשלבים כלי AI שונים בתהליך. עכשיו, שני יזמים ישראלים מגיעים לפתור את הבלאגן עם סביבת עבודה אחת שמרכזת הכל, כשמה שמעניין הוא שהם בנו אותה לגמרי בעצמם, בלי לכתוב שורת קוד אחת. נבנה בימים הראשונים של [&#8230;] The post מאור שלמה ומנכ&quot;ל פייבר השקיעו בפיתוח ישראלי לאנשי קריאייטיב ",
+        "date": "2026-10-31T13:03:36+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/videoframe_90780-1024x535.jpg"
+      },
+      {
+        "title": "הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר",
+        "link": "https://www.geektime.co.il/github-copilot-universe-2026-agents-guide/",
+        "summary": "מאת: אור שוחט בכנס Universe 2026 הציגה GitHub שורה של הכרזות שרובן היו סביב Copilot: מסשנים שרצים בענן ועוברים בין ממשקים ואוטומציות, דרך שכבת זיכרון והקשר, מנגנון לבחירת מודלים ועד סריקות אבטחה ושינוי במודל הרישוי. כל אחת מהן מציגה פיצ'ר בפני עצמו, אבל יחד הן מצביעות על כיוון ברור: Copilot עובר מעוזר שמגיב לפרומפט ב-IDE [&#8230;] The post הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר appeared fi",
+        "date": "2026-10-29T17:12:21+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/GITHUB-2026.jpg"
+      },
+      {
+        "title": "חצי טריליון דולר נמחקו ביממה: מה מפחיד כל-כך את המשקיעים של גוגל?",
+        "link": "https://www.geektime.co.il/google-lost-400b-dollars-in-a-day/",
+        "summary": "מניית גוגל מתרסקת: מיד לאחר חשיפת הדוחות הרבעוניים שלה, ענקית הטכנולוגיה הספיקה לחתוך יותר מחצי טריליון דולר משוויה בשעות הראשונות של פתיחת המסחר. אז למה זה בעצם קורה? לא עומדים ביעדים הדוחות של אלפאבית, חברת האם של גוגל, מציגים בעיה כפולה. מצד אחד גוגל שופכת סכומי עתק על תשתיות AI, ומצד שני מנוע הרווח המרכזי [&#8230;] The post חצי טריליון דולר נמחקו ביממה: מה מפחיד כל-כך את המשקיעים של גוגל? appe",
+        "date": "2026-10-29T15:17:49+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/04/Sundar-Google-On-Stage-1024x597.jpg"
+      },
+      {
+        "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI",
+        "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
+        "summary": "מיקרוסופט מפרסמת הלילה (ד') את הדוחות הרבעוניים שלה וסוגרת רצף של עשרה רבעונים עם שיא בהכנסות. על פי הדוחות, מיקרוסופט מציגה הכנסות של 92.3 מיליארד דולר &#8211; עלייה של 19 אחוזים בהשוואה לרבעון המקביל אשתקד, ורווח נקי של 33.6 מיליארד דולר, המהווה זינוק של 32 אחוזים ביחס לשנה שעברה. הדוחות החדשים כוללים גם שינוי מעניין [&#8230;] The post מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI app",
+        "date": "2026-10-29T12:12:40+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2023/11/NEW-SAM-ALTMAN-AND-SATYA-NADELLA-SELFIE-1024x746.jpg"
+      },
+      {
+        "title": "מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים",
+        "link": "https://www.geektime.co.il/ai-tokenizer-tax-cost-llm-hebrew/",
+        "summary": "כשאנחנו משתמשים במודלי שפה גדולים, בין אם דרך הצ'אט או באמצעות API, אתם בטח כבר יודעים שהמנוע מאחורי הקלעים לא קורא מילים כמו בני אדם. במקום זאת, הוא מפרק את הטקסט ליחידות מידע קטנות שנקראות טוקנים, שמשמשות את מעבדות ה-AI גם לצורך תמחור השירותים שלהן. \"מס טוקנים\" דוח של קבוצת המחקר CLEAR שופך אור על [&#8230;] The post מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים appeared first on גיקטי",
+        "date": "2026-10-28T14:39:04+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/CLAUDE-AI-GEMINI-CHATGPT-1024x683.jpg"
+      },
+      {
+        "title": "כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראלי מלמד AI לראות אחרת",
+        "link": "https://www.geektime.co.il/ai-vision-event-based-processing-weizmann/",
+        "summary": "מאת: טל סוקולוב הבינה המלאכותית מתחרה כיום בביצועיהם של בני האדם במגוון גדל והולך של תחומים. האם היא תצליח להתחרות גם בחוש הראייה שלנו? מחקר חדש שנעשה במכון ויצמן למדע מנסה ליישם במערכת מלאכותית את אחד הכלים המפתיעים והמתוחכמים שהטבע העניק למערכת הראייה שלנו &#8211; והתוצאות מרשימות. אנחנו מסוגלים לראות פרטים קטנים במיוחד, בסדר גודל [&#8230;] The post כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראל",
+        "date": "2026-10-28T12:15:12+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/amanda-dalbjorn-UbJMy92p8wk-unsplash-1024x683.jpg"
+      },
+      {
+        "title": "שלושה עשורים בנינו אתרים לבני אדם. עכשיו, אנחנו בונים אותם לסוכנים",
+        "link": "https://www.geektime.co.il/ai-agents-change-web-design/",
+        "summary": "מאת: גיא עמר במשך 30 שנה ניסינו לגרום לאנשים ללחוץ על הכפתור הנכון באפליקציה. עכשיו סוכני AI מתחילים לחפש, להשוות, להזמין, לשלם ולהפעיל מערכות במקומנו. אם המגמה הזו תימשך, היא לא תשנה רק את הדרך שבה אנחנו משתמשים באינטרנט. היא תשנה את הדרך שבה בונים אותו. במשך כמעט שלושים שנה הושקעו מיליארדי שעות עבודה בשאלה: [&#8230;] The post שלושה עשורים בנינו אתרים לבני אדם. עכשיו, אנחנו בונים אותם לסוכנים app",
+        "date": "2026-10-27T16:10:21+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/tirza-van-dijk-o1SKqmgSDbg-unsplash-1024x576.jpg"
+      },
+      {
+        "title": "\"לחצנו Scan וחיכינו\": כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיליון דולר",
+        "link": "https://www.geektime.co.il/half-a-million-dollar-bounty-from-one-vuln/",
+        "summary": "בתחילת השנה סיפרנו לכם על הראל רום וגבריאל בלקו, שני ישראלים שפיתחו מערכת מבוססת AI לאיתור חולשות אבטחה וגרפו באמצעותה חצי מיליון דולר במצטבר מתוכניות Bug Bounty שונות. השיא הקודם שלהם עמד על 250 אלף דולר עבור חולשה בודדת, אבל לאחרונה שברו השניים את השיא של עצמם והכפילו את הסכום &#8211; עם באונטי על סך [&#8230;] The post &quot;לחצנו Scan וחיכינו&quot;: כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיל",
+        "date": "2026-10-27T12:13:03+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/2026-01-24-10.41.54-1024x768.jpg"
+      },
+      {
+        "title": "הסטארטאפ של יוצאי מלאנוקס ואינטל נרכש ע\"י חברה אמריקאית בת שנה",
+        "link": "https://www.geektime.co.il/neureality-acquired-by-unconventional/",
+        "summary": "Unconventional, סטארטאפ חומרה בן שנה בלבד, הודיע היום (ב') על רכישת הסטארטאפ הישראלי Neureality. סכום העסקה לא פורסם. Neureality (ניוריאליטי) הישראלית מפתחת שבב שנועד להאצה ולעיבוד של מודלי Deep Learning בדאטה סנטרים ובמרכזי עיבוד קצה (מה שמוכר גם בתור Edge). מבחינת הארכיטקטורה, המוצר נמצא בצד השרת ואמור לענות על כל הצרכים, כולל התממשקות לחלקי מערכת [&#8230;] The post הסטארטאפ של יוצאי מלאנוקס ואי",
+        "date": "2026-10-26T15:00:33+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/03/NeuReality-company-team.-Credit-Aviv-Kurt-1024x683.jpg"
+      },
+      {
+        "title": "כנס Evolve to AI מסביר: מהי הרעלת קונטקסט ואיך תשמרו על הסוכן שלכם?",
+        "link": "https://www.geektime.co.il/evolve-to-ai-2026-context-poisoning/",
+        "summary": "כנס Evolve to AI של גיקטיים חוזר, והפעם הוא פוגש אותנו ברגע שבו ה-Agentic SDLC הופך קריטי. לכן, בחרנו להתמקד השנה באייג'נטים פנים-ארגוניים &#8211; כלומר, כאלה שמבצעים ומייעלים תהליכים בתוך הארגון. ההרצאות יעסקו בליבת ה-Agentic SDLC ובאבני הבניין הנדרשות לפיתוח ולהטמעה של אייג'נטים בארגון: פיתוח תוכנה אוטונומי, אוטומציות ואורקסטרציה, אבטחה, הרשאות ובקרה, והמוח הארגוני. הכנס [&#8230;] The post כנס E",
+        "date": "2026-10-26T09:49:39+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_42jpg-1024x574.jpg"
+      },
+      {
+        "title": "מתי להשתמש ב-AI ומתי לחזור לקוד? מיטאפ חדש יעשה לכם סדר",
+        "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup/",
+        "summary": "מה קורה כשמנסים לקחת את \"הקסם\" של סוכנים אוטונומיים, LLMs וכלי AI גנריים, וליישם אותם בפרודקשן או בתהליכי העבודה היומיומיים? התשובה ברוב הפעמים מאכזבת למדי. בשלב הזה אולי גם אתם כבר גיליתם שפתרונות מדף והנטייה לזרוק הכל על המודל מובילים לעלויות גבוהות, Latency, חוסר דטרמיניזם וחוויות משתמש מתסכלות. ארגונים משקיעים הרבה זמן וכסף בכלי ה-AI [&#8230;] The post מתי להשתמש ב-AI ומתי לחזור לקוד? מיטאפ חד",
+        "date": "2026-10-25T09:50:59+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_359865378-1024x683.jpg"
+      },
+      {
+        "title": "אחרי השערוריות: OpenAI חזרה לאמן מודלים עם אינטרנט מזויף",
+        "link": "https://www.geektime.co.il/openai-offline-world-frontier-model-training/",
+        "summary": "אחד האתגרים הגדולים של חברות ה-AI הוא לא רק לפתח מודלים חכמים וחזקים יותר, אלא גם לוודא שהם יפעלו כמו שאנחנו רוצים שיפעלו &#8211; ולא יעשו ככל העולה על רצונם. בחודש שעבר דיווחה OpenAI כי אחרי שורה של מקרים שבהם המודלים שלה לא פעלו כמו שצריך &#8211; ופרצו לאתרים על דעת עצמם &#8211; היא הפסיקה [&#8230;] The post אחרי השערוריות: OpenAI חזרה לאמן מודלים עם אינטרנט מזויף appeared first on גיקטיים .",
+        "date": "2026-10-25T07:33:42+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/SAM-ALTMAN-OPENAI-DEV-DAY-GEEKTIME-1024x644.jpg"
+      },
+      {
+        "title": "הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם של חברות ה-AI",
+        "link": "https://www.geektime.co.il/slack-dms-are-so-hot-right-now/",
+        "summary": "סגירת סטארטאפ היא כאב ראש מתמשך שכולל לרוב פיטורים, מכירת ציוד מחשוב, פינוי משרדים, סגירת חובות ומכירה של טכנולוגיות או קניין רוחני. אבל מתברר שיש לחברות שנסגרות עוד נכס שווה: הודעות הסלאק, המיילים והטיקטים בג'ירה של העובדים שלהן, והמידע הזה הוא הזהב החדש של עמק הסיליקון. \"הצעות מתפוצצות\" של מאות אלפי דולרים המידע המדובר הוא [&#8230;] The post הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם ",
+        "date": "2026-10-23T14:12:06+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/05/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash-1024x683.jpg"
+      },
+      {
+        "title": "רק למוזמנים: בואו ללמוד איך הופכים את Gemini Agent החדש ליתרון עסקי",
+        "link": "https://www.geektime.co.il/gemini-agent-cxo-breakfast-roundtable-101126/",
+        "summary": "סוכן ה-AI החדש והמדובר של Google הפך זמין ממש החודש, ומסמן מעבר דרמטי משימוש במודלי שפה בסיסיים להאצלת משימות ואחריות אוטונומית. Gemini Agent תומך בעיבוד מידע מסוגים שונים ובהתמודדות עם משימות רב-שלביות מורכבות, ופותח אפשרויות חדשות לפיתוח פתרונות AI מתקדמים. אבל אימוץ של פלטפורמת סוכנים מתקדמת היא רק תחילת הדרך. כדי להפיק ערך עסקי, ארגונים [&#8230;] The post רק למוזמנים: בואו ללמוד איך הופכים את ",
+        "date": "2026-10-22T11:31:58+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_478963760-1024x683.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-05T10:07:25.212366+00:00",
     "error": null
   },
   "כלכליסט טק": {
     "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
     "category": "חדשות טכנולוגיה",
     "items": [],
-    "scraped_at": "2026-11-04T10:14:21.147023+00:00",
+    "scraped_at": "2026-11-05T10:07:26.293802+00:00",
     "error": "HTTP Status 404"
+  },
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "במקום לנחש איזה מודל יצליח, תנו לסוכני ה-AI לבחור בעצמם",
+        "link": "https://www.geektime.co.il/evolve-to-ai-2026-red-hat/",
+        "summary": "צוותים שבוחרים מודלים ו-GPUs על בסיס אינטואיציה, מגלים לעתים קרובות את בעיות ה-Latency רק אחרי שהשקיעו זמן פיתוח וכסף. הפתרון הוא כמובן לא להוסיף עוד סוכנים למערכת, אלא לספק להם נתונים טובים יותר וארכיטקטורה שתאפשר להם לקבל החלטות מושכלות. כנס Evolve to AI של גיקטיים אירח היום (ד') את יובל לוריא, Senior Machine Learning Engineer [&#8230;] The post במקום לנחש איזה מודל יצליח, תנו לסוכני ה-AI לבחור ",
+        "date": "2026-11-04T17:09:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-09.36.45-1024x683.jpeg"
+      },
+      {
+        "title": "הטעות שיכולה לעלות לכם 46 אלף דולר ביום",
+        "link": "https://www.geektime.co.il/double-agent-evolve-to-ai-2026/",
+        "summary": "איזה כיף זה אייג'נטים, נכון? אבל בסוף, האייג'נטים שאתם בונים, מטפחים וגם חופרים עליהם בארוחת הצהריים, עשויים לבגוד בכם, וגם לעלות לכם ביוקר. אור ברוקמן, Staff Cyber Security Engineer ב-Google Cloud, הסבירה ליותר מ-1,200 מפתחות ומפתחים בכנס Evolve to AI שנערך היום (ד') בתל אביב, כי האייג'נטים לא עושים את זה בכוונה, ויש לה כמה [&#8230;] The post הטעות שיכולה לעלות לכם 46 אלף דולר ביום appeared first",
+        "date": "2026-11-04T15:32:37+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.55.09-1-1024x682.jpeg"
+      },
+      {
+        "title": "אלופים באבטחת ענן? בואו להוכיח את זה בתחרות Capture the Flag חדשה",
+        "link": "https://www.geektime.co.il/capture-the-flag-find-the-threat-26112026/",
+        "summary": "סוכני קוד, עומסי AI ופיתוח בקצב גבוה הפכו את אבטחת הענן המודרנית למשחק אחר לגמרי. תוסיפו לכל זה מעבר של ארגונים לסביבות Multi-Cloud, ותקבלו קושי גדול מאוד לנטר ולעקוב אחר כל מה שנמצא בענן. הפער בין מה שאנחנו חושבים שנמצא על השרתים המרוחקים לבין מה שבאמת קורה שם עלול להיות מסוכן: Misconfigurations, הרשאות רחבות מדי, [&#8230;] The post אלופים באבטחת ענן? בואו להוכיח את זה בתחרות Capture the Flag חדש",
+        "date": "2026-11-04T12:42:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_360270705-1024x715.jpg"
+      },
+      {
+        "title": "הסטארטאפ Sentra שהוקם על ידי מפקד 8200 לשעבר מגייס 150 מיליון דולר",
+        "link": "https://www.geektime.co.il/sentra-nabs-major-funding-round/",
+        "summary": "כשארגונים דוהרים לענן ומאמצים כלי AI בקצב מהיר, משהו אחד נשאר מאחור &#8211; השליטה במידע הרגיש. פתאום אף אחד לא באמת יודע איפה יושב הדאטה או למי יש גישה אליו. הסטארטאפ הישראלי Sentra, שמורכב מבכירי 8200 לשעבר החליט לעשות לזה סוף, ועל הדרך גם להראות למיקרוסופט איך עושים את זה נכון. עכשיו הוא חושף גיוס [&#8230;] The post הסטארטאפ Sentra שהוקם על ידי מפקד 8200 לשעבר מגייס 150 מיליון דולר appeared fir",
+        "date": "2026-11-04T12:00:25+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/04/sentra-1024x683.jpeg"
+      },
+      {
+        "title": "אחרי שגייס 127 מיליון דולר: נסגר הסטארטאפ הקודם שהקים מאור שלמה",
+        "link": "https://www.geektime.co.il/explorium-startup-shuts-down-ai-agents-data/",
+        "summary": "בשנים האחרונות אנחנו שומעים המון על ההבטחה של AI בעולם הארגוני, אבל כולם יודעים שהאתגר האמיתי של המודלים מתחיל בנתונים. סטארטאפ ישראלי שניסה לפתור בדיוק את הבעיה הזו הוא Explorium, שפיתח פלטפורמה שמאפשרת לארגונים להרחיב ולדייק את מאגרי המידע הפנימיים שלהם באמצעות חיבור מיידי לאלפי מקורות מידע חיצוניים, וכך לאמן מודלי למידת מכונה בצורה טובה [&#8230;] The post אחרי שגייס 127 מיליון דולר: נסגר הסטארט",
+        "date": "2026-11-04T07:53:20+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/EXPLORIUM-1024x683.jpg"
+      },
+      {
+        "title": "מתי באמת צריך AI ומתי עדיף קוד מסורתי? 3 אירועי טכנולוגיה מומלצים",
+        "link": "https://www.geektime.co.il/geek-events-1112026/",
+        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. Own Your AI Stack מתי? 9 בנובמבר (18:00) איפה? משרדי [&#8230;] The post מתי באמת צריך AI ומתי עדיף קוד מסורתי",
+        "date": "2026-10-31T17:19:39+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
+      },
+      {
+        "title": "הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר",
+        "link": "https://www.geektime.co.il/github-copilot-universe-2026-agents-guide/",
+        "summary": "מאת: אור שוחט בכנס Universe 2026 הציגה GitHub שורה של הכרזות שרובן היו סביב Copilot: מסשנים שרצים בענן ועוברים בין ממשקים ואוטומציות, דרך שכבת זיכרון והקשר, מנגנון לבחירת מודלים ועד סריקות אבטחה ושינוי במודל הרישוי. כל אחת מהן מציגה פיצ'ר בפני עצמו, אבל יחד הן מצביעות על כיוון ברור: Copilot עובר מעוזר שמגיב לפרומפט ב-IDE [&#8230;] The post הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר appeared fi",
+        "date": "2026-10-29T17:12:21+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/GITHUB-2026.jpg"
+      },
+      {
+        "title": "הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם של חברות ה-AI",
+        "link": "https://www.geektime.co.il/slack-dms-are-so-hot-right-now/",
+        "summary": "סגירת סטארטאפ היא כאב ראש מתמשך שכולל לרוב פיטורים, מכירת ציוד מחשוב, פינוי משרדים, סגירת חובות ומכירה של טכנולוגיות או קניין רוחני. אבל מתברר שיש לחברות שנסגרות עוד נכס שווה: הודעות הסלאק, המיילים והטיקטים בג'ירה של העובדים שלהן, והמידע הזה הוא הזהב החדש של עמק הסיליקון. \"הצעות מתפוצצות\" של מאות אלפי דולרים המידע המדובר הוא [&#8230;] The post הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם ",
+        "date": "2026-10-23T14:12:06+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/05/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash-1024x683.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-05T10:07:32.343081+00:00",
+    "error": null
   },
   "ynet טכנולוגיה": {
     "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "אפל מזהירה מגל התייקרויות: \"עליות מחירים חסרות תקדים\"",
+        "link": "https://www.ynet.co.il/digital/technews/article/b1uw8ntazg",
+        "summary": "הביקוש האדיר לשבבים עבור תשתיות בינה מלאכותית גורם למחסור עולמי ברכיבי זיכרון ולזינוק חד במחיריהם. אפל כבר נאלצה להעלות מחירים של חלק ממוצריה, וכעת מזהירה מהתייקרות נוספת. בתעשייה חוששים שהמשבר יימשך עד 2028, ושהצרכנים ייאלצו לשלם את המחיר",
+        "date": "2026-11-05T08:20:18+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/08/B111jGQtNWfg/B111jGQtNWfg_150_165_1700_957_0_medium.jpg"
+      },
+      {
+        "title": "גוגל, מאחורייך: הנתון המטורף שחושף כמה ChatGPT התחזק",
+        "link": "https://www.ynet.co.il/digital/technews/article/skadxc00tgx",
+        "summary": "לפי נתוני OpenAI, היקף החיפושים ב-ChatGPT כבר מגיע לכחמישית מזה של גוגל, ומספר המשתמשים הפעילים השבועי חצה את רף 1.2 מיליארד. האם ענקית החיפוש עומדת לאבד את ההגמוניה שלה אחרי יותר משני עשורים, או שמוקדם מדי להספיד אותה?",
+        "date": "2026-11-04T11:31:34+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/04/Hk2IvSvk11l/Hk2IvSvk11l_190_58_719_405_0_medium.jpg"
+      },
+      {
+        "title": "או שתשתמשו ב-AI, או שלא יהיה חיפוש: האולטימטום של גוגל שמסעיר את ארה\"ב",
+        "link": "https://www.ynet.co.il/digital/technews/article/bylmh0000tgg",
+        "summary": "גוגל הודיעה כי תאפשר לבתי ספר לחסום את כלי הבינה המלאכותית שלה, אבל הציבה תנאי: מי שיסרב לשלב AI במנוע החיפוש יאבד גם את הגישה לחיפוש הרגיל. ראש העיר ניו יורק, זוהראן ממדאני: \"בתי הספר קיימים כדי לשרת תלמידים, לא כדי להגדיל את הרווחים של התאגידים\". גם ברני סנדרס תוקף: \"סחיטה\"",
+        "date": "2026-11-04T11:09:24+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/30/Hk7WJ8uq5fx/Hk7WJ8uq5fx_0_71_3000_1689_0_medium.jpg"
+      },
       {
         "title": "אנת'רופיק מזהירה: הבינה המלאכותית מתפתחת מהר מכפי שצפינו",
         "link": "https://www.ynet.co.il/digital/technews/article/bytpjnpagx",
@@ -627,43 +980,85 @@
         "summary": "קבוצה של עובדים בחטיבת דיפמיינד של גוגל התפטרו במחאה על מכירת טכנולוגיית AI לשימוש צבאי, ואחרים נמצאים בהליכי עזיבה. לטענתם, הפיקוח על השימוש במערכות אינו מספק, ועובדים חוששים להשמיע ביקורת מחשש לפגיעה בקריירה",
         "date": "2026-10-22T10:13:39+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/30/Hk7WJ8uq5fx/Hk7WJ8uq5fx_1_110_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "מנכ\"ל אנבידיה: \"ה-AI לא יחסל את המתכנתים, אלא יגדיל את מספרם\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1ckimuhmx",
-        "summary": "ענקית הטק הציגה בכנס GTC Berlin 2026 מערכת שנועדה לרסן סוכני AI ולמנוע מהם לפעול בניגוד להוראות, בעזרת שבבים שפותחו בישראל. עוד נחשפו רובוט דמוי אדם ושיתופי פעולה בתחום הנהיגה האוטונומית והטיפול בסרטן. המנכ\"ל ג'נסן הואנג דחה את התחזיות על היעלמות המתכנתים וטען שכלי ה-AI דווקא יגדילו את מספרם",
-        "date": "2026-10-21T13:03:28+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/21/ryxZW8XU3fg/ryxZW8XU3fg_0_0_3000_1689_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-11-04T10:14:23.319973+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-11-04T10:14:28.307705+00:00",
-    "error": "HTTP Status 404"
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-04T10:14:23.987081+00:00",
-    "error": "HTTP Status 404"
-  },
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-11-04T10:14:28.551596+00:00",
+    "scraped_at": "2026-11-05T10:07:28.439419+00:00",
     "error": null
   },
   "YouTube — סרטונים": {
     "url": "https://www.youtube.com",
     "category": "סרטונים",
     "items": [
+      {
+        "title": "מצב קודקס",
+        "link": "https://www.youtube.com/watch?v=jqWRNfgdJqQ",
+        "summary": "",
+        "date": "2026-11-05T10:07:34.762080+00:00",
+        "image": "https://img.youtube.com/vi/jqWRNfgdJqQ/mqdefault.jpg"
+      },
+      {
+        "title": "שאלה ותשובה בצ'אט",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-11-05T10:07:34.762078+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "המעבר לצ'אט",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-11-05T10:07:34.762075+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה ומצב Work",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-11-05T10:07:34.762058+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
+        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995403+00:00",
+        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995401+00:00",
+        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995398+00:00",
+        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=bf3viS0GDl4",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995396+00:00",
+        "image": "https://img.youtube.com/vi/bf3viS0GDl4/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=ObqzF1V1m8I",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995393+00:00",
+        "image": "https://img.youtube.com/vi/ObqzF1V1m8I/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=c0SxYc_LRYI",
+        "summary": "",
+        "date": "2026-11-05T10:07:33.995375+00:00",
+        "image": "https://img.youtube.com/vi/c0SxYc_LRYI/mqdefault.jpg"
+      },
       {
         "title": "שלוש רמות האישור",
         "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
@@ -686,13 +1081,6 @@
         "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
       },
       {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-11-04T10:14:30.481633+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
         "title": "מה צפוי בשיעורים למתקדמים (היכרות עם Claude)",
         "link": "https://www.youtube.com/watch?v=OPjcyx_uVdo",
         "summary": "",
@@ -707,67 +1095,11 @@
         "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
       },
       {
-        "title": "פתיחה והיכרות עם מועדון AI4Life",
-        "link": "https://www.youtube.com/watch?v=ObqzF1V1m8I",
-        "summary": "",
-        "date": "2026-11-04T10:14:29.781414+00:00",
-        "image": "https://img.youtube.com/vi/ObqzF1V1m8I/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=bf3viS0GDl4",
-        "summary": "",
-        "date": "2026-11-04T10:14:29.781411+00:00",
-        "image": "https://img.youtube.com/vi/bf3viS0GDl4/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=c0SxYc_LRYI",
-        "summary": "",
-        "date": "2026-11-04T10:14:29.781407+00:00",
-        "image": "https://img.youtube.com/vi/c0SxYc_LRYI/mqdefault.jpg"
-      },
-      {
         "title": "Not a tool",
         "link": "https://www.youtube.com/watch?v=fWTm_K1w9JQ",
         "summary": "",
         "date": "2026-11-04T10:14:29.781385+00:00",
         "image": "https://img.youtube.com/vi/fWTm_K1w9JQ/mqdefault.jpg"
-      },
-      {
-        "title": "איך לא לפספס את הקורס הבא",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-11-03T10:20:54.388007+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-11-03T10:20:54.388004+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
-        "summary": "",
-        "date": "2026-11-03T10:20:53.657689+00:00",
-        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
-      },
-      {
-        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
-        "link": "https://www.youtube.com/watch?v=NDzmNU64pBc",
-        "summary": "",
-        "date": "2026-11-03T10:20:53.657684+00:00",
-        "image": "https://img.youtube.com/vi/NDzmNU64pBc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=Zsf5kTvmf8U",
-        "summary": "",
-        "date": "2026-11-03T10:20:53.657682+00:00",
-        "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
       },
       {
         "title": "העלאת קבצים - הפיצ׳ר שישנה לכם את החיים",
@@ -1076,313 +1408,23 @@
         "summary": "",
         "date": "2026-10-22T14:15:31.025616+00:00",
         "image": "https://img.youtube.com/vi/wYfrFFEUEc0/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=5McGLcSGCT8",
-        "summary": "",
-        "date": "2026-10-22T08:10:26.994515+00:00",
-        "image": "https://img.youtube.com/vi/5McGLcSGCT8/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=vWSkr3Q78IQ",
-        "summary": "",
-        "date": "2026-10-21T14:15:51.327276+00:00",
-        "image": "https://img.youtube.com/vi/vWSkr3Q78IQ/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-11-04T10:14:30.481985+00:00",
+    "scraped_at": "2026-11-05T10:07:34.762409+00:00",
     "error": null
   },
-  "גיקטיים": {
-    "url": "https://www.geektime.co.il/feed/",
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
     "category": "חדשות טכנולוגיה",
-    "items": [
-      {
-        "title": "ההכרזות של GitHub מגיעות לתל אביב: בואו לראות מקרוב כל מה שחדש",
-        "link": "https://www.geektime.co.il/github-winter-event-2026/",
-        "summary": "מרגיש כאילו זה היה לפני נצח, אבל יחסית עד לא מזמן, המשמעות של AI בפיתוח תוכנה הייתה השלמה אוטומטית של שורות קוד בתוך העורך. כמובן שהיום התמונה כבר שונה לגמרי: המפתחים מגדירים את הכיוון, מקבלים את ההחלטות ונושאים באחריות למה שעולה לאוויר, בזמן שסוכני AI מבצעים את העבודה ובודקים אותה. בכנס GitHub Universe 2026 שהתקיים [&#8230;] The post ההכרזות של GitHub מגיעות לתל אביב: בואו לראות מקרוב כל מה שחדש ",
-        "date": "2026-11-04T08:51:23+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/IMG_3551-1024x684.jpg"
-      },
-      {
-        "title": "אחרי שגייס 127 מיליון דולר: נסגר הסטארטאפ הקודם שהקים מאור שלמה",
-        "link": "https://www.geektime.co.il/explorium-startup-shuts-down-ai-agents-data/",
-        "summary": "בשנים האחרונות אנחנו שומעים המון על ההבטחה של AI בעולם הארגוני, אבל כולם יודעים שהאתגר האמיתי של המודלים מתחיל בנתונים. סטארטאפ ישראלי שניסה לפתור בדיוק את הבעיה הזו הוא Explorium, שפיתח פלטפורמה שמאפשרת לארגונים להרחיב ולדייק את מאגרי המידע הפנימיים שלהם באמצעות חיבור מיידי לאלפי מקורות מידע חיצוניים, וכך לאמן מודלי למידת מכונה בצורה טובה [&#8230;] The post אחרי שגייס 127 מיליון דולר: נסגר הסטארט",
-        "date": "2026-11-04T07:53:20+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/EXPLORIUM-1024x683.jpg"
-      },
-      {
-        "title": "ה-AI מטשטש את הגבול בין פרודקט, דיזיין ופיתוח, וחייבים לדעת מתי לעצור",
-        "link": "https://www.geektime.co.il/ai-product-design-dev-boundaries/",
-        "summary": "מאת ענת גרניט אצלנו בחברה כמעט כולם בונים את המוצר &#8211; ממש בילדרים לכל דבר: מפתחים חוקרים כיווני מוצר חדשים ומקבלים החלטות על התנהגות המוצר תוך כדי מימוש; אנשי פרודקט ודיזיין נכנסים לקוד, בונים פרוטוטייפים ומעלים שינויים אמיתיים לפרודקשן. תהליכים שפעם היו עוברים בין כמה בעלי תפקידים יכולים היום להתחיל מזה שמישהו פותח כלי AI [&#8230;] The post ה-AI מטשטש את הגבול בין פרודקט, דיזיין ופיתוח, וחיי",
-        "date": "2026-11-03T12:02:29+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-14.59.06-1024x706.jpg"
-      },
-      {
-        "title": "סטארטאפ ישראלי שעוזר לחולים נמכר ברבע מיליארד דולר",
-        "link": "https://www.geektime.co.il/tailormed-acquired-by-growthcurve-capital-250m/",
-        "summary": "מערכת הבריאות בארצות הברית ידועה לשמצה במורכבות שלה ובעלויות הטיפול הגבוהות. כתוצאה מזה, חולים רבים מוצאים את עצמם חסרי אונים מול מחירי תרופות מרשם &#8211; אגב גם כשיש להם ביטוח רפואי. הסטארטאפ הישראלי TailorMed פיתח פלטפורמה שמנסה לפתור בדיוק את הכאב הזה, על ידי איתור וחיבור אוטומטי של מטופלים לתוכניות סיוע ומימון שיעזרו להם לעמוד [&#8230;] The post סטארטאפ ישראלי שעוזר לחולים נמכר ברבע מיליארד ד",
-        "date": "2026-11-03T06:00:10+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/national-cancer-institute-NFvdKIhxYlU-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג'נטים, Cursor וקלוד",
-        "link": "https://www.geektime.co.il/wix-launches-studio-two/",
-        "summary": "חברת Wix הישראלית מנסה לצאת מנישת המערכת ההיא לבניית אתרים מהירים ופשוטים ב-5 דקות, והיא חושפת היום (ב') את Studio Two, סביבת הפיתוח והעיצוב החדשה שלה לבניית אתרים. העורך החדש, שהיא מכנה \"עורך האתרים המתקדם ביותר בתולדות החברה\", משלב (כמובן) סוכן AI, יכולות עריכה ויזואלית חופשית וכתיבת קוד ממש בתוך המערכת. הפלטפורמה מיועדת בעיקר עבור [&#8230;] The post וויקס מאפשרת לכם עכשיו לבנות אתר עם אייג&#039",
-        "date": "2026-11-02T15:00:25+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/context-1024x680.png"
-      },
-      {
-        "title": "אתם לא לבד: מיטאפ חדש מציע תשובות לבלגן שיוצר ה-AI בפרודקשן ובעלויות",
-        "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup-last-call/",
-        "summary": "שילבתם LLMs במקומות הנכונים, אבל הכל נהיה איטי ויקר? מתבאסים על המגבלות של כלי AI כמו קלוד וקרסר ועל מודלי המחור שלהם? לא מצליחים לגרום למודל לעבד כמויות גדולות של מידע? אתם ממש לא לבד בתסכול הזה, והחדשות הטובות הן שיש הרבה מה לעשות כדי לצאת מהבלגן. לפעמים צריך \"לנקות\" את ה-AI ממקומות שבהם הוא [&#8230;] The post אתם לא לבד: מיטאפ חדש מציע תשובות לבלגן שיוצר ה-AI בפרודקשן ובעלויות appeared first on",
-        "date": "2026-11-02T12:18:52+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/charlesdeluvio-pjAH2Ax4uWk-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "ככה תבנו מפעל AI עם סוכנים שמדברים אחד עם השני – בלי להיתקע ביניהם",
-        "link": "https://www.geektime.co.il/build-ai-factory-multi-agent-collaboration/",
-        "summary": "מאת עופר מנדלביץ' בשנה האחרונה סוכני קוד התקדמו מהשלמת שורות קוד לביצוע משימות שלמות &#8211; מהתכנון ועד ה-PR. הצעד הבא הוא בניית מפעל AI: צוות של סוכנים מתמחים, שכל אחד מהם רץ בסביבה משלו עם המודל והכלים שלו, והם עובדים יחד כדי לפתור את אותה הבעיה. לדוגמה, סוכן אחד מתכנן, אחר מממש, שלישי בודק, וכולם [&#8230;] The post ככה תבנו מפעל AI עם סוכנים שמדברים אחד עם השני &#8211; בלי להיתקע ביניהם appear",
-        "date": "2026-11-02T09:45:26+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_481011080-1024x574.jpg"
-      },
-      {
-        "title": "אלו קרנות הון הסיכון המובילות בישראל ב-2026 על פי דן אנד ברדסטריט",
-        "link": "https://www.geektime.co.il/duns-100-top-vc-funds-ranking-2026/",
-        "summary": "בין עסקאות ענק של מיליארדים למירוץ קשוח אחרי הסיד, האקוסיסטם הישראלי מחשב מסלול מחדש. המשקיעים, מן הסתם, רוצים לראות את שורת הרווח, והיזמים, בעקבות קיצור הדרך של בניית מוצרים עם AI, נדרשים להגיע בשלים יותר מתמיד. עכשיו, חושף דירוג חדש אילו קרנות הון ישראליות מובילות מהצ'ק הראשון ועד האקזיט. מ-Team8 עד ל-Red Dot על פי [&#8230;] The post אלו קרנות הון הסיכון המובילות בישראל ב-2026 על פי דן אנד ברדסט",
-        "date": "2026-11-02T09:20:40+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Team8-1024x683.jpg"
-      },
-      {
-        "title": "כנס הפיתוח וה-AI של גיקטיים חוזר ברביעי עם תשובה לשאלה: מה בעצם נשאר לנו לעשות?",
-        "link": "https://www.geektime.co.il/evolve-to-ai-2026-last-call/",
-        "summary": "שלא תגידו שלא אמרנו: ביום רביעי הקרוב (4.11) כנס Evolve to AI של גיקטיים חוזר לאודיטוריום סמולרש באוניברסיטת תל אביב &#8211; ונותרו כרטיסים אחרונים בלבד. הכנס, שצפוי לארח כ-1,200 מפתחות ומפתחים מכל התחומים, יתמקד באייג'נטים פנים-ארגוניים – כלומר, כאלה שמבצעים ומייעלים תהליכים בתוך הארגון. ההרצאות יעסקו בליבת ה-Agentic SDLC ובאבני הבניין הנדרשות לפיתוח ולהטמעה של [&#8230;] The post כנס הפיתוח וה-AI",
-        "date": "2026-11-01T16:32:55+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-05-at-14.43.55.jpeg"
-      },
-      {
-        "title": "המודל נחנק? כך תרוויחו בחזרה 76% מהזיכרון",
-        "link": "https://www.geektime.co.il/optimize-llm-kv-cache-gpu-performance/",
-        "summary": "מאת יובל לוריא התרחיש הבא כנראה מוכר לכל מי שניסה להעלות לאוויר מודל שפה עצמאי בארגון: ה-PoC בסביבת הפיתוח היה הצלחה מסחררת &#8211; הרצתם שאילתות בלפטופ או על כרטיס GPU בודד, המודל ענה לעניין, כולם מחאו כפיים וההנהלה אישרה תקציב רכש נדיב של עשרות אלפי דולרים לכרטיסי GPU איכותיים. ואז הגעתם לפרודקשן. חיברתם את המודל [&#8230;] The post המודל נחנק? כך תרוויחו בחזרה 76% מהזיכרון appeared first on גיקט",
-        "date": "2026-11-01T12:32:18+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_229572001-1024x683.jpg"
-      },
-      {
-        "title": "לאנת'רופיק נמאס והיא לא תאפשר יותר הנדסה לאחור",
-        "link": "https://www.geektime.co.il/anthropic-claude-code-blocks-game-reverse-engineering/",
-        "summary": "בשבועות האחרונים הוצפה הרשת בסיפורים של אנשים שעשו הנדסה לאחור של כלים, משחקים ואפילו של מערכת ההפעלה של הטלוויזיה בעזרת כלי קידוד עם AI דוגמת קלוד של אנת'רופיק. המגמה הזו העלתה לא מעט סוגיות אתיות וחוקיות, אבל עכשיו נראה שאנת'רופיק לא מחכה, ומחרבת את החגיגה והתוכניות של חלק מהמשתמשים. שני משפטים שמשנים את הכללים \"אנת'רופיק [&#8230;] The post לאנת&#039;רופיק נמאס והיא לא תאפשר יותר הנדסה לאחור app",
-        "date": "2026-11-01T08:16:11+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Anthropic-Claude-Geektime-1024x668.jpg"
-      },
-      {
-        "title": "מתי באמת צריך AI ומתי עדיף קוד מסורתי? 3 אירועי טכנולוגיה מומלצים",
-        "link": "https://www.geektime.co.il/geek-events-1112026/",
-        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. Own Your AI Stack מתי? 9 בנובמבר (18:00) איפה? משרדי [&#8230;] The post מתי באמת צריך AI ומתי עדיף קוד מסורתי",
-        "date": "2026-10-31T17:19:39+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
-      },
-      {
-        "title": "מאור שלמה ומנכ\"ל פייבר השקיעו בפיתוח ישראלי לאנשי קריאייטיב",
-        "link": "https://www.geektime.co.il/plnty-is-out-of-stealth-with-a-check-from-base44-founder/",
-        "summary": "צוותי קריאייטיב מכירים את הכאב הזה מקרוב: הקפיצה הבלתי פוסקת בין עשרות כלים ופלטפורמות כדי להגיע לתוצר הסופי, במיוחד כשמשלבים כלי AI שונים בתהליך. עכשיו, שני יזמים ישראלים מגיעים לפתור את הבלאגן עם סביבת עבודה אחת שמרכזת הכל, כשמה שמעניין הוא שהם בנו אותה לגמרי בעצמם, בלי לכתוב שורת קוד אחת. נבנה בימים הראשונים של [&#8230;] The post מאור שלמה ומנכ&quot;ל פייבר השקיעו בפיתוח ישראלי לאנשי קריאייטיב ",
-        "date": "2026-10-31T13:03:36+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/videoframe_90780-1024x535.jpg"
-      },
-      {
-        "title": "הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר",
-        "link": "https://www.geektime.co.il/github-copilot-universe-2026-agents-guide/",
-        "summary": "מאת: אור שוחט בכנס Universe 2026 הציגה GitHub שורה של הכרזות שרובן היו סביב Copilot: מסשנים שרצים בענן ועוברים בין ממשקים ואוטומציות, דרך שכבת זיכרון והקשר, מנגנון לבחירת מודלים ועד סריקות אבטחה ושינוי במודל הרישוי. כל אחת מהן מציגה פיצ'ר בפני עצמו, אבל יחד הן מצביעות על כיוון ברור: Copilot עובר מעוזר שמגיב לפרומפט ב-IDE [&#8230;] The post הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר appeared fi",
-        "date": "2026-10-29T17:12:21+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/GITHUB-2026.jpg"
-      },
-      {
-        "title": "חצי טריליון דולר נמחקו ביממה: מה מפחיד כל-כך את המשקיעים של גוגל?",
-        "link": "https://www.geektime.co.il/google-lost-400b-dollars-in-a-day/",
-        "summary": "מניית גוגל מתרסקת: מיד לאחר חשיפת הדוחות הרבעוניים שלה, ענקית הטכנולוגיה הספיקה לחתוך יותר מחצי טריליון דולר משוויה בשעות הראשונות של פתיחת המסחר. אז למה זה בעצם קורה? לא עומדים ביעדים הדוחות של אלפאבית, חברת האם של גוגל, מציגים בעיה כפולה. מצד אחד גוגל שופכת סכומי עתק על תשתיות AI, ומצד שני מנוע הרווח המרכזי [&#8230;] The post חצי טריליון דולר נמחקו ביממה: מה מפחיד כל-כך את המשקיעים של גוגל? appe",
-        "date": "2026-10-29T15:17:49+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/04/Sundar-Google-On-Stage-1024x597.jpg"
-      },
-      {
-        "title": "מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI",
-        "link": "https://www.geektime.co.il/microsoft-q1-2027-azure-xbox-openai-revenue/",
-        "summary": "מיקרוסופט מפרסמת הלילה (ד') את הדוחות הרבעוניים שלה וסוגרת רצף של עשרה רבעונים עם שיא בהכנסות. על פי הדוחות, מיקרוסופט מציגה הכנסות של 92.3 מיליארד דולר &#8211; עלייה של 19 אחוזים בהשוואה לרבעון המקביל אשתקד, ורווח נקי של 33.6 מיליארד דולר, המהווה זינוק של 32 אחוזים ביחס לשנה שעברה. הדוחות החדשים כוללים גם שינוי מעניין [&#8230;] The post מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI app",
-        "date": "2026-10-29T12:12:40+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2023/11/NEW-SAM-ALTMAN-AND-SATYA-NADELLA-SELFIE-1024x746.jpg"
-      },
-      {
-        "title": "מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים",
-        "link": "https://www.geektime.co.il/ai-tokenizer-tax-cost-llm-hebrew/",
-        "summary": "כשאנחנו משתמשים במודלי שפה גדולים, בין אם דרך הצ'אט או באמצעות API, אתם בטח כבר יודעים שהמנוע מאחורי הקלעים לא קורא מילים כמו בני אדם. במקום זאת, הוא מפרק את הטקסט ליחידות מידע קטנות שנקראות טוקנים, שמשמשות את מעבדות ה-AI גם לצורך תמחור השירותים שלהן. \"מס טוקנים\" דוח של קבוצת המחקר CLEAR שופך אור על [&#8230;] The post מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים appeared first on גיקטי",
-        "date": "2026-10-28T14:39:04+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/CLAUDE-AI-GEMINI-CHATGPT-1024x683.jpg"
-      },
-      {
-        "title": "כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראלי מלמד AI לראות אחרת",
-        "link": "https://www.geektime.co.il/ai-vision-event-based-processing-weizmann/",
-        "summary": "מאת: טל סוקולוב הבינה המלאכותית מתחרה כיום בביצועיהם של בני האדם במגוון גדל והולך של תחומים. האם היא תצליח להתחרות גם בחוש הראייה שלנו? מחקר חדש שנעשה במכון ויצמן למדע מנסה ליישם במערכת מלאכותית את אחד הכלים המפתיעים והמתוחכמים שהטבע העניק למערכת הראייה שלנו &#8211; והתוצאות מרשימות. אנחנו מסוגלים לראות פרטים קטנים במיוחד, בסדר גודל [&#8230;] The post כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראל",
-        "date": "2026-10-28T12:15:12+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/amanda-dalbjorn-UbJMy92p8wk-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "שלושה עשורים בנינו אתרים לבני אדם. עכשיו, אנחנו בונים אותם לסוכנים",
-        "link": "https://www.geektime.co.il/ai-agents-change-web-design/",
-        "summary": "מאת: גיא עמר במשך 30 שנה ניסינו לגרום לאנשים ללחוץ על הכפתור הנכון באפליקציה. עכשיו סוכני AI מתחילים לחפש, להשוות, להזמין, לשלם ולהפעיל מערכות במקומנו. אם המגמה הזו תימשך, היא לא תשנה רק את הדרך שבה אנחנו משתמשים באינטרנט. היא תשנה את הדרך שבה בונים אותו. במשך כמעט שלושים שנה הושקעו מיליארדי שעות עבודה בשאלה: [&#8230;] The post שלושה עשורים בנינו אתרים לבני אדם. עכשיו, אנחנו בונים אותם לסוכנים app",
-        "date": "2026-10-27T16:10:21+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/tirza-van-dijk-o1SKqmgSDbg-unsplash-1024x576.jpg"
-      },
-      {
-        "title": "\"לחצנו Scan וחיכינו\": כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיליון דולר",
-        "link": "https://www.geektime.co.il/half-a-million-dollar-bounty-from-one-vuln/",
-        "summary": "בתחילת השנה סיפרנו לכם על הראל רום וגבריאל בלקו, שני ישראלים שפיתחו מערכת מבוססת AI לאיתור חולשות אבטחה וגרפו באמצעותה חצי מיליון דולר במצטבר מתוכניות Bug Bounty שונות. השיא הקודם שלהם עמד על 250 אלף דולר עבור חולשה בודדת, אבל לאחרונה שברו השניים את השיא של עצמם והכפילו את הסכום &#8211; עם באונטי על סך [&#8230;] The post &quot;לחצנו Scan וחיכינו&quot;: כלי AI בקוד פתוח סידר לחוקרים ישראלים חצי מיל",
-        "date": "2026-10-27T12:13:03+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/01/2026-01-24-10.41.54-1024x768.jpg"
-      },
-      {
-        "title": "הסטארטאפ של יוצאי מלאנוקס ואינטל נרכש ע\"י חברה אמריקאית בת שנה",
-        "link": "https://www.geektime.co.il/neureality-acquired-by-unconventional/",
-        "summary": "Unconventional, סטארטאפ חומרה בן שנה בלבד, הודיע היום (ב') על רכישת הסטארטאפ הישראלי Neureality. סכום העסקה לא פורסם. Neureality (ניוריאליטי) הישראלית מפתחת שבב שנועד להאצה ולעיבוד של מודלי Deep Learning בדאטה סנטרים ובמרכזי עיבוד קצה (מה שמוכר גם בתור Edge). מבחינת הארכיטקטורה, המוצר נמצא בצד השרת ואמור לענות על כל הצרכים, כולל התממשקות לחלקי מערכת [&#8230;] The post הסטארטאפ של יוצאי מלאנוקס ואי",
-        "date": "2026-10-26T15:00:33+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/03/NeuReality-company-team.-Credit-Aviv-Kurt-1024x683.jpg"
-      },
-      {
-        "title": "כנס Evolve to AI מסביר: מהי הרעלת קונטקסט ואיך תשמרו על הסוכן שלכם?",
-        "link": "https://www.geektime.co.il/evolve-to-ai-2026-context-poisoning/",
-        "summary": "כנס Evolve to AI של גיקטיים חוזר, והפעם הוא פוגש אותנו ברגע שבו ה-Agentic SDLC הופך קריטי. לכן, בחרנו להתמקד השנה באייג'נטים פנים-ארגוניים &#8211; כלומר, כאלה שמבצעים ומייעלים תהליכים בתוך הארגון. ההרצאות יעסקו בליבת ה-Agentic SDLC ובאבני הבניין הנדרשות לפיתוח ולהטמעה של אייג'נטים בארגון: פיתוח תוכנה אוטונומי, אוטומציות ואורקסטרציה, אבטחה, הרשאות ובקרה, והמוח הארגוני. הכנס [&#8230;] The post כנס E",
-        "date": "2026-10-26T09:49:39+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_42jpg-1024x574.jpg"
-      },
-      {
-        "title": "מתי להשתמש ב-AI ומתי לחזור לקוד? מיטאפ חדש יעשה לכם סדר",
-        "link": "https://www.geektime.co.il/own-your-ai-stack-papaya-meetup/",
-        "summary": "מה קורה כשמנסים לקחת את \"הקסם\" של סוכנים אוטונומיים, LLMs וכלי AI גנריים, וליישם אותם בפרודקשן או בתהליכי העבודה היומיומיים? התשובה ברוב הפעמים מאכזבת למדי. בשלב הזה אולי גם אתם כבר גיליתם שפתרונות מדף והנטייה לזרוק הכל על המודל מובילים לעלויות גבוהות, Latency, חוסר דטרמיניזם וחוויות משתמש מתסכלות. ארגונים משקיעים הרבה זמן וכסף בכלי ה-AI [&#8230;] The post מתי להשתמש ב-AI ומתי לחזור לקוד? מיטאפ חד",
-        "date": "2026-10-25T09:50:59+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_359865378-1024x683.jpg"
-      },
-      {
-        "title": "אחרי השערוריות: OpenAI חזרה לאמן מודלים עם אינטרנט מזויף",
-        "link": "https://www.geektime.co.il/openai-offline-world-frontier-model-training/",
-        "summary": "אחד האתגרים הגדולים של חברות ה-AI הוא לא רק לפתח מודלים חכמים וחזקים יותר, אלא גם לוודא שהם יפעלו כמו שאנחנו רוצים שיפעלו &#8211; ולא יעשו ככל העולה על רצונם. בחודש שעבר דיווחה OpenAI כי אחרי שורה של מקרים שבהם המודלים שלה לא פעלו כמו שצריך &#8211; ופרצו לאתרים על דעת עצמם &#8211; היא הפסיקה [&#8230;] The post אחרי השערוריות: OpenAI חזרה לאמן מודלים עם אינטרנט מזויף appeared first on גיקטיים .",
-        "date": "2026-10-25T07:33:42+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/SAM-ALTMAN-OPENAI-DEV-DAY-GEEKTIME-1024x644.jpg"
-      },
-      {
-        "title": "הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם של חברות ה-AI",
-        "link": "https://www.geektime.co.il/slack-dms-are-so-hot-right-now/",
-        "summary": "סגירת סטארטאפ היא כאב ראש מתמשך שכולל לרוב פיטורים, מכירת ציוד מחשוב, פינוי משרדים, סגירת חובות ומכירה של טכנולוגיות או קניין רוחני. אבל מתברר שיש לחברות שנסגרות עוד נכס שווה: הודעות הסלאק, המיילים והטיקטים בג'ירה של העובדים שלהן, והמידע הזה הוא הזהב החדש של עמק הסיליקון. \"הצעות מתפוצצות\" של מאות אלפי דולרים המידע המדובר הוא [&#8230;] The post הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם ",
-        "date": "2026-10-23T14:12:06+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/05/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "רק למוזמנים: בואו ללמוד איך הופכים את Gemini Agent החדש ליתרון עסקי",
-        "link": "https://www.geektime.co.il/gemini-agent-cxo-breakfast-roundtable-101126/",
-        "summary": "סוכן ה-AI החדש והמדובר של Google הפך זמין ממש החודש, ומסמן מעבר דרמטי משימוש במודלי שפה בסיסיים להאצלת משימות ואחריות אוטונומית. Gemini Agent תומך בעיבוד מידע מסוגים שונים ובהתמודדות עם משימות רב-שלביות מורכבות, ופותח אפשרויות חדשות לפיתוח פתרונות AI מתקדמים. אבל אימוץ של פלטפורמת סוכנים מתקדמת היא רק תחילת הדרך. כדי להפיק ערך עסקי, ארגונים [&#8230;] The post רק למוזמנים: בואו ללמוד איך הופכים את ",
-        "date": "2026-10-22T11:31:58+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_478963760-1024x683.jpg"
-      },
-      {
-        "title": "ג'נרל מוטורס מציגה: AI, אוטונומיה וטכנולוגיה מישראל",
-        "link": "https://www.geektime.co.il/gm-ai-autonomous-israel/",
-        "summary": "באירוע GM Forward שנערך הלילה (ד', שעון ישראל) הציגה ג'נרל מוטורס את הדור הבא של מערכות הרכב שלה, שמבוסס על מחשוב מתקדם, נהיגה אוטונומית ואיך לא &#8211; AI. החברה הודיעה שהחל מ-2028 היא תשלב ארכיטקטורת מחשוב חדשה שתספק פי 40 יותר כוח עיבוד, לצד אפליקציית OnStar משודרגת עם עוזר AI ומצלמות מחוברות שיגיעו ב-2027. האפליקציה [&#8230;] The post ג&#039;נרל מוטורס מציגה: AI, אוטונומיה וטכנולוגיה מישראל ap",
-        "date": "2026-10-22T09:19:50+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Chevrolet-Silverado-HighCountry-AP1-1024x640.jpg"
-      },
-      {
-        "title": "הסוכן שבניתם נתקע בדמו? המומחים של MongoDB יעזרו לכם להביא אותו לפרודקשן",
-        "link": "https://www.geektime.co.il/mongodb-local-tel-aviv-2026/",
-        "summary": "בניתם סוכן AI ובינתיים הכל עובד פיקס &#8211; הוא עונה לעניין, מבצע משימות ונותן דמו מרשים מול ההנהלה. ואז מגיע הרגע להטמיע אותו בעבודה השוטפת של הארגון. פתאום דברים כבר לא עובדים כל כך חלק, ואתם נתקלים במסלול מכשולים של זיכרון, שליפת מידע ובקרה. הסיבה לכך כמעט אף פעם לא נמצאת במודל, אלא במה שמתחתיו. [&#8230;] The post הסוכן שבניתם נתקע בדמו? המומחים של MongoDB יעזרו לכם להביא אותו לפרודקשן appeare",
-        "date": "2026-10-22T07:53:40+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/12-1024x682.jpg"
-      },
-      {
-        "title": "אנת'רופיק חושפת עוזר AI חדש, Claude Duet, שיעבוד במקומכם",
-        "link": "https://www.geektime.co.il/anthropic-launches-claude-duet-ai-agent/",
-        "summary": "מחפשים עוזר AI שיעשה בשבילכם עבודה? אחרי Instinct, Muse, Dots ו-Grok Bot, גם אנת'רופיק מצטרפת למירוץ ומשיקה את Duet. בניגוד לצ'אטבוטים רגילים, הסוכן החדש שלה לא מחכה לפקודות &#8211; הוא פשוט עובד ברקע, סורק מיילים, בונה דשבורדים ואפילו מעביר את האשראי כשצריך. אבל לפני שאתם רצים לפתוח חשבון, כדאי שתכירו את האותיות הקטנות. מה הוא [&#8230;] The post אנת&#039;רופיק חושפת עוזר AI חדש, Claude Duet, שיעב",
-        "date": "2026-10-22T06:47:01+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Fb-68zqcSVs-HD-1-1024x576.jpg"
-      },
-      {
-        "title": "תסמונת הסטארטרק ו-2 המלכודות של ארגונים בהטמעת סוכני AI",
-        "link": "https://www.geektime.co.il/multi-agent-vs-single-agent-fintech-compliance/",
-        "summary": "מאת עידו לוסטיג גם בעידן של אוטומציה מתקדמת, כשקופצת התראה על סכנת ציות, אנליסט הסיכונים יודע שהשלב הבא מחייב בדיקה ידנית. ההתראה עשויה לפעול בעקבות מגוון סימנים מחשידים, כגון קפיצה חדה ופתאומית בהיקף העסקאות בחשבון. ברגע הזה האנליסט נכנס לתמונה: הוא בוחן את פרופיל העסק, סורק את האתר, מנתח את נתיבי זרימת הכספים ומבצע השוואה [&#8230;] The post תסמונת הסטארטרק ו-2 המלכודות של ארגונים בהטמעת סוכני AI",
-        "date": "2026-10-21T11:16:05+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_361596234-1024x512.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-04T10:14:20.351528+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "תורים שלא היו, פתקים שלא הושחתו: השקרים שכבשו את הרשת ביום הבחירות",
-        "link": "https://www.ynet.co.il/digital/technews/article/sk401jjazg",
-        "summary": "תמונות שנוצרו בבינה מלאכותית, דיווחים כוזבים על זיופים בקלפיות וחשד להתערבות איראנית: דו\"ח חדש של ארגון \"פייק ריפורטר\" חושף את היקף המידע המטעה שהציף את הרשתות ביום הבחירות. בין הממצאים: פרסומים ששיתף ראש הממשלה ושימוש בדמותה של שירי ביבס ז\"ל | כך נראתה המלחמה על דעת הקהל",
-        "date": "2026-10-28T16:40:44+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/H1HNrjJTGe/H1HNrjJTGe_0_743_941_530_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-04T10:14:28.432751+00:00",
-    "error": null
-  },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-11-04T10:14:24.284641+00:00",
+    "scraped_at": "2026-11-05T10:07:27.045728+00:00",
     "error": null
   },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "אחרי שגייס 127 מיליון דולר: נסגר הסטארטאפ הקודם שהקים מאור שלמה",
-        "link": "https://www.geektime.co.il/explorium-startup-shuts-down-ai-agents-data/",
-        "summary": "בשנים האחרונות אנחנו שומעים המון על ההבטחה של AI בעולם הארגוני, אבל כולם יודעים שהאתגר האמיתי של המודלים מתחיל בנתונים. סטארטאפ ישראלי שניסה לפתור בדיוק את הבעיה הזו הוא Explorium, שפיתח פלטפורמה שמאפשרת לארגונים להרחיב ולדייק את מאגרי המידע הפנימיים שלהם באמצעות חיבור מיידי לאלפי מקורות מידע חיצוניים, וכך לאמן מודלי למידת מכונה בצורה טובה [&#8230;] The post אחרי שגייס 127 מיליון דולר: נסגר הסטארט",
-        "date": "2026-11-04T07:53:20+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/EXPLORIUM-1024x683.jpg"
-      },
-      {
-        "title": "מתי באמת צריך AI ומתי עדיף קוד מסורתי? 3 אירועי טכנולוגיה מומלצים",
-        "link": "https://www.geektime.co.il/geek-events-1112026/",
-        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. Own Your AI Stack מתי? 9 בנובמבר (18:00) איפה? משרדי [&#8230;] The post מתי באמת צריך AI ומתי עדיף קוד מסורתי",
-        "date": "2026-10-31T17:19:39+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
-      },
-      {
-        "title": "הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר",
-        "link": "https://www.geektime.co.il/github-copilot-universe-2026-agents-guide/",
-        "summary": "מאת: אור שוחט בכנס Universe 2026 הציגה GitHub שורה של הכרזות שרובן היו סביב Copilot: מסשנים שרצים בענן ועוברים בין ממשקים ואוטומציות, דרך שכבת זיכרון והקשר, מנגנון לבחירת מודלים ועד סריקות אבטחה ושינוי במודל הרישוי. כל אחת מהן מציגה פיצ'ר בפני עצמו, אבל יחד הן מצביעות על כיוון ברור: Copilot עובר מעוזר שמגיב לפרומפט ב-IDE [&#8230;] The post הנה ההכרזות החדשות של גיטהאב שאתם צריכים להכיר appeared fi",
-        "date": "2026-10-29T17:12:21+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/GITHUB-2026.jpg"
-      },
-      {
-        "title": "הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם של חברות ה-AI",
-        "link": "https://www.geektime.co.il/slack-dms-are-so-hot-right-now/",
-        "summary": "סגירת סטארטאפ היא כאב ראש מתמשך שכולל לרוב פיטורים, מכירת ציוד מחשוב, פינוי משרדים, סגירת חובות ומכירה של טכנולוגיות או קניין רוחני. אבל מתברר שיש לחברות שנסגרות עוד נכס שווה: הודעות הסלאק, המיילים והטיקטים בג'ירה של העובדים שלהן, והמידע הזה הוא הזהב החדש של עמק הסיליקון. \"הצעות מתפוצצות\" של מאות אלפי דולרים המידע המדובר הוא [&#8230;] The post הודעות הסלאק והמיילים של סטארטאפים שנסגרו הם היעד החם ",
-        "date": "2026-10-23T14:12:06+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2024/05/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "ג'נרל מוטורס מציגה: AI, אוטונומיה וטכנולוגיה מישראל",
-        "link": "https://www.geektime.co.il/gm-ai-autonomous-israel/",
-        "summary": "באירוע GM Forward שנערך הלילה (ד', שעון ישראל) הציגה ג'נרל מוטורס את הדור הבא של מערכות הרכב שלה, שמבוסס על מחשוב מתקדם, נהיגה אוטונומית ואיך לא &#8211; AI. החברה הודיעה שהחל מ-2028 היא תשלב ארכיטקטורת מחשוב חדשה שתספק פי 40 יותר כוח עיבוד, לצד אפליקציית OnStar משודרגת עם עוזר AI ומצלמות מחוברות שיגיעו ב-2027. האפליקציה [&#8230;] The post ג&#039;נרל מוטורס מציגה: AI, אוטונומיה וטכנולוגיה מישראל ap",
-        "date": "2026-10-22T09:19:50+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Chevrolet-Silverado-HighCountry-AP1-1024x640.jpg"
-      },
-      {
-        "title": "תסמונת הסטארטרק ו-2 המלכודות של ארגונים בהטמעת סוכני AI",
-        "link": "https://www.geektime.co.il/multi-agent-vs-single-agent-fintech-compliance/",
-        "summary": "מאת עידו לוסטיג גם בעידן של אוטומציה מתקדמת, כשקופצת התראה על סכנת ציות, אנליסט הסיכונים יודע שהשלב הבא מחייב בדיקה ידנית. ההתראה עשויה לפעול בעקבות מגוון סימנים מחשידים, כגון קפיצה חדה ופתאומית בהיקף העסקאות בחשבון. ברגע הזה האנליסט נכנס לתמונה: הוא בוחן את פרופיל העסק, סורק את האתר, מנתח את נתיבי זרימת הכספים ומבצע השוואה [&#8230;] The post תסמונת הסטארטרק ו-2 המלכודות של ארגונים בהטמעת סוכני AI",
-        "date": "2026-10-21T11:16:05+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/dreamstime_m_361596234-1024x512.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-04T10:14:28.023313+00:00",
-    "error": null
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-05T10:07:28.746353+00:00",
+    "error": "HTTP Status 404"
   }
 }
