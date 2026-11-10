@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 09/11/2026
+# 🤖 עדכוני AI Pulse — 10/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [האם AI מחליף את האנליטיקה וה-BI?](https://www.youtube.com/watch?v=VJP-BS_MVh0)
+### 1. [הפרומפט: דפדפן, שלושה סקילים וברירות מחדל](https://www.youtube.com/watch?v=xlalaJx9yvI)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [ארבעת השלבים בתהליך עסקי מבוסס AI](https://www.youtube.com/watch?v=9TZ_bU6KLlo)
+### 2. [בונים סוכן טיסות מפרומפט אחד בקלוד קוד](https://www.youtube.com/watch?v=f0Z6kT8gMd0)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud](https://www.youtube.com/watch?v=pflcgTGxIbc)
+### 3. [פתיחה](https://www.youtube.com/watch?v=pflcgTGxIbc)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [סיכום](https://www.youtube.com/watch?v=D9yt1oGTHXo)
+### 4. [סיכום: מתי כל מצב](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=_z60sWsd0WQ)
+### 5. [שאלה ותשובה בצ'אט](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
