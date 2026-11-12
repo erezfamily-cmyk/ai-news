@@ -1,4 +1,18 @@
 {
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:14.622381+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:15.008692+00:00",
+    "error": null
+  },
   "ynet טכנולוגיה": {
     "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
     "category": "חדשות טכנולוגיה",
@@ -170,36 +184,346 @@
         "summary": "הוא מסוגל להריץ מודלי AI מקומיים, לייצר תמונות בתוך שניות ולהפעיל משחקים מתקדמים עם גרפיקה מרשימה, וכל זה במחשב נייד דק יחסית. אבל האם ה-Asus ProArt P16 החדש, שמבוסס על פלטפורמת RTX Spark, באמת יכול להתחרות במקבוק פרו ובמחשבים החזקים בשוק? העמדנו אותו בשורה של מבחני ביצועים, וחזרנו עם התוצאות",
         "date": "2026-10-29T12:31:33+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/15/BkiwG8Asze/BkiwG8Asze_271_39_1164_655_0_medium.jpg"
-      },
-      {
-        "title": "כמו במטריקס, רק באמת: הטכנולוגיה החדשה של גוגל נראית כמו מדע בדיוני",
-        "link": "https://www.ynet.co.il/digital/technews/article/hyiksllafx",
-        "summary": "ענקית הטכנולוגיה חשפה את ג'יני 4, מודל AI שמסוגל לייצר עולמות וירטואליים אינטראקטיביים בזמן אמת, עם דמויות, צלילים וחוקי פיזיקה. הטכנולוגיה עשויה לשנות את הדרך שבה מאמנים רובוטים ומפתחים משחקים, אבל היא עדיין מוגבלת לשתי דקות של סימולציה",
-        "date": "2026-10-29T06:33:43+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/ByAtdPxpfe/ByAtdPxpfe_0_0_1365_768_0_medium.jpg"
-      },
-      {
-        "title": "תורים שלא היו, פתקים שלא הושחתו: השקרים שכבשו את הרשת ביום הבחירות",
-        "link": "https://www.ynet.co.il/digital/technews/article/sk401jjazg",
-        "summary": "תמונות שנוצרו בבינה מלאכותית, דיווחים כוזבים על זיופים בקלפיות וחשד להתערבות איראנית: דו\"ח חדש של ארגון \"פייק ריפורטר\" חושף את היקף המידע המטעה שהציף את הרשתות ביום הבחירות. בין הממצאים: פרסומים ששיתף ראש הממשלה ושימוש בדמותה של שירי ביבס ז\"ל | כך נראתה המלחמה על דעת הקהל",
-        "date": "2026-10-28T16:40:44+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/H1HNrjJTGe/H1HNrjJTGe_0_743_941_530_0_medium.jpg"
-      },
-      {
-        "title": "אפילו סם אלטמן הופתע: \"ה-AI חושף פרצות אבטחה בקצב מסחרר\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/hjmrfikage",
-        "summary": "בכנס השנתי שלה בלאס וגאס הציגה אורקל את הדור הבא של הבינה המלאכותית, שלא רק מספקת תשובות אלא גם מבצעת משימות מורכבות באופן עצמאי. מנכ\"ל OpenAI התארח בפאנל והודה כי קצב ההתקדמות הפתיע אפילו אותו, והזהיר מפני פרצות האבטחה שהטכנולוגיה חושפת. וגם: הפרויקט שמגייס את ה-AI לשיקום החקלאות בישראל",
-        "date": "2026-10-28T11:24:48+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/H1rQiUy6fx/H1rQiUy6fx_159_22_731_412_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-11-11T10:06:39.051076+00:00",
+    "scraped_at": "2026-11-12T10:30:14.147500+00:00",
     "error": null
+  },
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "תבוסה לענקיות ה-AI: תומכי הרגולציה ניצחו בבחירות בארה\"ב",
+        "link": "https://www.ynet.co.il/digital/technews/article/h1bw2ecafl",
+        "summary": "לאחר שענקיות הטכנולוגיה הזרימו הון לבלימת פיקוח, מחנה הבטיחות הביס אותן בבחירות האמצע בארה\"ב. קמפיין ממוקד נגד מרכזי נתונים, אובדן משרות ובטיחות ילדים הפך לגורם משמעותי שסייע להכריע בקלפי",
+        "date": "2026-11-08T13:54:34+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/14/B1kp110rYfg/B1kp110rYfg_0_0_850_479_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-12T10:30:22.750627+00:00",
+    "error": null
+  },
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:12.996693+00:00",
+    "error": null
+  },
+  "YouTube — הדרכות": {
+    "url": "https://www.youtube.com",
+    "category": "הדרכות",
+    "items": [
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=79S33NKY-gw",
+        "summary": "",
+        "date": "2026-11-12T10:30:26.549061+00:00",
+        "image": "https://img.youtube.com/vi/79S33NKY-gw/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=UZvE5fXtJJU",
+        "summary": "",
+        "date": "2026-11-12T10:30:26.549059+00:00",
+        "image": "https://img.youtube.com/vi/UZvE5fXtJJU/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה - פתרונות AI לארגוני On-Premise",
+        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
+        "summary": "",
+        "date": "2026-11-12T10:30:26.549047+00:00",
+        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה ומצב Work",
+        "link": "https://www.youtube.com/watch?v=lSM4rt9_qZc",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.870191+00:00",
+        "image": "https://img.youtube.com/vi/lSM4rt9_qZc/mqdefault.jpg"
+      },
+      {
+        "title": "סיכום",
+        "link": "https://www.youtube.com/watch?v=3QBsrSVqGhg",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.870190+00:00",
+        "image": "https://img.youtube.com/vi/3QBsrSVqGhg/mqdefault.jpg"
+      },
+      {
+        "title": "איך לא לפספס את הקורס הבא",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.286634+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.286633+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.286632+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.286628+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-11-12T10:30:25.286618+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "זיהוי חריגות ומגמות – Qlik Alerts ו-Discovery Agent",
+        "link": "https://www.youtube.com/watch?v=h1Y0yeHJNyc",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.749360+00:00",
+        "image": "https://img.youtube.com/vi/h1Y0yeHJNyc/mqdefault.jpg"
+      },
+      {
+        "title": "האם AI מחליף את האנליטיקה וה-BI?",
+        "link": "https://www.youtube.com/watch?v=9TZ_bU6KLlo",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.749356+00:00",
+        "image": "https://img.youtube.com/vi/9TZ_bU6KLlo/mqdefault.jpg"
+      },
+      {
+        "title": "ארבעת השלבים בתהליך עסקי מבוסס AI",
+        "link": "https://www.youtube.com/watch?v=pflcgTGxIbc",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.749352+00:00",
+        "image": "https://img.youtube.com/vi/pflcgTGxIbc/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud",
+        "link": "https://www.youtube.com/watch?v=f0Z6kT8gMd0",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.749333+00:00",
+        "image": "https://img.youtube.com/vi/f0Z6kT8gMd0/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
+        "link": "https://www.youtube.com/watch?v=6nuyCZ2ZlcE",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.187264+00:00",
+        "image": "https://img.youtube.com/vi/6nuyCZ2ZlcE/mqdefault.jpg"
+      },
+      {
+        "title": "המעבר לצ'אט",
+        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
+        "summary": "",
+        "date": "2026-11-11T10:06:46.187254+00:00",
+        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
+      },
+      {
+        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
+        "link": "https://www.youtube.com/watch?v=FV8L57zSaEU",
+        "summary": "",
+        "date": "2026-11-11T10:06:45.445689+00:00",
+        "image": "https://img.youtube.com/vi/FV8L57zSaEU/mqdefault.jpg"
+      },
+      {
+        "title": "כמה זה עולה: המנויים, ולמה לא להתקמצן",
+        "link": "https://www.youtube.com/watch?v=vWSkr3Q78IQ",
+        "summary": "",
+        "date": "2026-11-11T10:06:45.445686+00:00",
+        "image": "https://img.youtube.com/vi/vWSkr3Q78IQ/mqdefault.jpg"
+      },
+      {
+        "title": "מה זה Codex, ולמה 2026 היא שנת הסוכנים",
+        "link": "https://www.youtube.com/watch?v=V8bzC6o-zBg",
+        "summary": "",
+        "date": "2026-11-11T10:06:45.445683+00:00",
+        "image": "https://img.youtube.com/vi/V8bzC6o-zBg/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
+        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
+        "summary": "",
+        "date": "2026-11-11T10:06:45.445656+00:00",
+        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
+      },
+      {
+        "title": "הפרומפט: דפדפן, שלושה סקילים וברירות מחדל",
+        "link": "https://www.youtube.com/watch?v=xlalaJx9yvI",
+        "summary": "",
+        "date": "2026-11-10T10:38:59.129732+00:00",
+        "image": "https://img.youtube.com/vi/xlalaJx9yvI/mqdefault.jpg"
+      },
+      {
+        "title": "סיכום: מתי כל מצב",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-11-10T10:38:58.450537+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "שאלה ותשובה בצ'אט",
+        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
+        "summary": "",
+        "date": "2026-11-10T10:38:58.450533+00:00",
+        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
+      },
+      {
+        "title": "האם AI מחליף את האנליטיקה וה-BI?",
+        "link": "https://www.youtube.com/watch?v=VJP-BS_MVh0",
+        "summary": "",
+        "date": "2026-11-09T10:43:34.184324+00:00",
+        "image": "https://img.youtube.com/vi/VJP-BS_MVh0/mqdefault.jpg"
+      },
+      {
+        "title": "סיכום",
+        "link": "https://www.youtube.com/watch?v=D9yt1oGTHXo",
+        "summary": "",
+        "date": "2026-11-09T10:43:33.654667+00:00",
+        "image": "https://img.youtube.com/vi/D9yt1oGTHXo/mqdefault.jpg"
+      },
+      {
+        "title": "שלט בעברית, ומה לבדוק",
+        "link": "https://www.youtube.com/watch?v=_z60sWsd0WQ",
+        "summary": "",
+        "date": "2026-11-09T10:43:33.654663+00:00",
+        "image": "https://img.youtube.com/vi/_z60sWsd0WQ/mqdefault.jpg"
+      },
+      {
+        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
+        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
+        "summary": "",
+        "date": "2026-11-08T09:44:53.565014+00:00",
+        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-11-08T09:44:53.565006+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "תמונה ראשונה מבקשה רגילה",
+        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
+        "summary": "",
+        "date": "2026-11-07T09:28:56.695281+00:00",
+        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
+      },
+      {
+        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
+        "link": "https://www.youtube.com/watch?v=4buYIIeBGA8",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946543+00:00",
+        "image": "https://img.youtube.com/vi/4buYIIeBGA8/mqdefault.jpg"
+      },
+      {
+        "title": "איך לא לפספס את הקורס הבא",
+        "link": "https://www.youtube.com/watch?v=41Q7DtPmrEI",
+        "summary": "",
+        "date": "2026-11-05T10:07:35.946537+00:00",
+        "image": "https://img.youtube.com/vi/41Q7DtPmrEI/mqdefault.jpg"
+      },
+      {
+        "title": "בינה מלאכותית (AI) בעולם המודרני",
+        "link": "https://www.youtube.com/watch?v=8m5LbJ8Nnaw",
+        "summary": "",
+        "date": "2026-11-04T10:14:31.868793+00:00",
+        "image": "https://img.youtube.com/vi/8m5LbJ8Nnaw/mqdefault.jpg"
+      },
+      {
+        "title": "שאלון האבחון: איפה אתם עומדים עם AI?",
+        "link": "https://www.youtube.com/watch?v=JDuRdEEvHlk",
+        "summary": "",
+        "date": "2026-11-03T10:20:56.425637+00:00",
+        "image": "https://img.youtube.com/vi/JDuRdEEvHlk/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה",
+        "link": "https://www.youtube.com/watch?v=RYletuVrY4U",
+        "summary": "",
+        "date": "2026-11-02T10:22:17.547884+00:00",
+        "image": "https://img.youtube.com/vi/RYletuVrY4U/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה והיכרות – Make Agentic AI Real",
+        "link": "https://www.youtube.com/watch?v=oZz6WybxJkg",
+        "summary": "",
+        "date": "2026-11-01T09:56:07.633858+00:00",
+        "image": "https://img.youtube.com/vi/oZz6WybxJkg/mqdefault.jpg"
+      },
+      {
+        "title": "סיכום",
+        "link": "https://www.youtube.com/watch?v=zHMxOC88Po0",
+        "summary": "",
+        "date": "2026-11-01T09:56:06.866405+00:00",
+        "image": "https://img.youtube.com/vi/zHMxOC88Po0/mqdefault.jpg"
+      },
+      {
+        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-11-01T09:56:06.245874+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
+        "link": "https://www.youtube.com/watch?v=-Z9DP6eF9kw",
+        "summary": "",
+        "date": "2026-10-31T09:08:18.473348+00:00",
+        "image": "https://img.youtube.com/vi/-Z9DP6eF9kw/mqdefault.jpg"
+      },
+      {
+        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
+        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
+        "summary": "",
+        "date": "2026-10-31T09:08:18.473345+00:00",
+        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
+      },
+      {
+        "title": "סיכום",
+        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
+        "summary": "",
+        "date": "2026-10-31T09:08:17.482433+00:00",
+        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-12T10:30:26.550029+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:12.278154+00:00",
+    "error": "HTTP Status 404"
   },
   "גיקטיים": {
     "url": "https://www.geektime.co.il/feed/",
     "category": "חדשות טכנולוגיה",
     "items": [
+      {
+        "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם",
+        "link": "https://www.geektime.co.il/claude-code-desktop-vulnerability-cvss-8-7-high/",
+        "summary": "מאת אלי איינהורן אם אתם מפתחים שמשתמשים ב-Claude Code Desktop, אז אתם מכירים את הפיצ'ר הבא: מבקשים מ-Claude לבדוק קובץ HTML לדוגמה, והאפליקציה מרנדרת אותו אוטומטית בפאנל צדדי. נוח, מהיר, ושימושי. ובכן… לא בדיוק. החוקרים שלנו ב-Noma Labs גילו חולשה חמורה ב-Preview Pane של אפליקציית הדסקטופ, שאפשרה לקובץ HTML לעקוף שלוש שכבות הגנה ולשלוף סיסמאות, [&#8230;] The post איך Claude Code Desktop כמעט הדליף",
+        "date": "2026-11-12T08:58:03+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/SneakPeek-Attack-Flow-Overview_Noma-Labs.gif"
+      },
+      {
+        "title": "הם בנו למיקרוסופט את תשתית הדאטה, ועכשיו הם מגייסים 70 מיליון דולר כדי להתחרות בה",
+        "link": "https://www.geektime.co.il/edelbyte-raises-70m-ex-microsoft-data-startup-edelbyte/",
+        "summary": "כשארבעה מהנדסים, שעומדים מאחורי אחת מתשתיות הדאטה המרכזיות של מיקרוסופט, עוזבים את החברה כדי להקים סטארטאפ, אתם יכולים לדעת די בבטחון שזה לא בשביל לבנות עוד אפליקציית To-Do&#8230; הסטארטאפ הישראלי Edelbyte, שנחשף היום (ד') לראשונה, מודיע על גיוסים בגובה 70 מיליון דולר בתוך שנה בלבד מאז הקמתו. המטרה? לפתור את כאב הראש שתשתיות ה-AI עושות [&#8230;] The post הם בנו למיקרוסופט את תשתית הדאטה, ועכשיו הם",
+        "date": "2026-11-11T14:00:04+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/EDELBYTE-TEAM-1024x664.jpg"
+      },
       {
         "title": "חיפאים, Google Cloud מזמינה אתכם לאירוע AI ודאטה חדש",
         "link": "https://www.geektime.co.il/ai-in-action-haifa-30112026/",
@@ -243,9 +567,9 @@
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/GROK-UNSPLASH.jpg"
       },
       {
-        "title": "בכנס הזה תלמדו איך מחברים AI לדאטה שלכם בלי שורת SQL אחת",
+        "title": "בכנס ה-AI של Google Cloud תלמדו לחבר את המודל לדאטה בלי שורת SQL אחת",
         "link": "https://www.geektime.co.il/ai-reimagined-26112026/",
-        "summary": "השלב הבא ב-AI הוא להפוך את המודלים לחלק בלתי נפרד מהמערכות, התהליכים הארגוניים וסביבת העבודה: לחבר אותו לדאטה אמיתי, לאפשר לו לבצע פעולות, להניע תהליכים ולקבל החלטות מבוססות מידע. אבל איך עוברים מדמו מרשים למערכת שעובדת בפרודקשן, מתממשקת לתשתיות קיימות ועומדת בדרישות האבטחה וה-Governance של הארגון? השאלה הזאת היא המקום שבו מתחיל האתגר ההנדסי האמיתי. [&#8230;] The post בכנס הזה תלמדו איך מחברים AI ",
+        "summary": "השלב הבא ב-AI הוא להפוך את המודלים לחלק בלתי נפרד מהמערכות, התהליכים הארגוניים וסביבת העבודה: לחבר אותו לדאטה אמיתי, לאפשר לו לבצע פעולות, להניע תהליכים ולקבל החלטות מבוססות מידע. אבל איך עוברים מדמו מרשים למערכת שעובדת בפרודקשן, מתממשקת לתשתיות קיימות ועומדת בדרישות האבטחה וה-Governance של הארגון? השאלה הזאת היא המקום שבו מתחיל האתגר ההנדסי האמיתי. [&#8230;] The post בכנס ה-AI של Google Cloud תלמ",
         "date": "2026-11-09T12:40:47+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_470850779-1024x681.jpg"
       },
@@ -472,23 +796,9 @@
         "summary": "מיקרוסופט מפרסמת הלילה (ד') את הדוחות הרבעוניים שלה וסוגרת רצף של עשרה רבעונים עם שיא בהכנסות. על פי הדוחות, מיקרוסופט מציגה הכנסות של 92.3 מיליארד דולר &#8211; עלייה של 19 אחוזים בהשוואה לרבעון המקביל אשתקד, ורווח נקי של 33.6 מיליארד דולר, המהווה זינוק של 32 אחוזים ביחס לשנה שעברה. הדוחות החדשים כוללים גם שינוי מעניין [&#8230;] The post מיקרוסופט חושפת לראשונה את המיליארדים שהיא עושה מ-OpenAI app",
         "date": "2026-10-29T12:12:40+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2023/11/NEW-SAM-ALTMAN-AND-SATYA-NADELLA-SELFIE-1024x746.jpg"
-      },
-      {
-        "title": "מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים",
-        "link": "https://www.geektime.co.il/ai-tokenizer-tax-cost-llm-hebrew/",
-        "summary": "כשאנחנו משתמשים במודלי שפה גדולים, בין אם דרך הצ'אט או באמצעות API, אתם בטח כבר יודעים שהמנוע מאחורי הקלעים לא קורא מילים כמו בני אדם. במקום זאת, הוא מפרק את הטקסט ליחידות מידע קטנות שנקראות טוקנים, שמשמשות את מעבדות ה-AI גם לצורך תמחור השירותים שלהן. \"מס טוקנים\" דוח של קבוצת המחקר CLEAR שופך אור על [&#8230;] The post מחקר חדש: כותבים ל-AI בעברית? זה עולה לכם עד פי 3 טוקנים appeared first on גיקטי",
-        "date": "2026-10-28T14:39:04+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/CLAUDE-AI-GEMINI-CHATGPT-1024x683.jpg"
-      },
-      {
-        "title": "כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראלי מלמד AI לראות אחרת",
-        "link": "https://www.geektime.co.il/ai-vision-event-based-processing-weizmann/",
-        "summary": "מאת: טל סוקולוב הבינה המלאכותית מתחרה כיום בביצועיהם של בני האדם במגוון גדל והולך של תחומים. האם היא תצליח להתחרות גם בחוש הראייה שלנו? מחקר חדש שנעשה במכון ויצמן למדע מנסה ליישם במערכת מלאכותית את אחד הכלים המפתיעים והמתוחכמים שהטבע העניק למערכת הראייה שלנו &#8211; והתוצאות מרשימות. אנחנו מסוגלים לראות פרטים קטנים במיוחד, בסדר גודל [&#8230;] The post כשהעין האנושית פוגשת רשת נוירונים: פיתוח ישראל",
-        "date": "2026-10-28T12:15:12+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/amanda-dalbjorn-UbJMy92p8wk-unsplash-1024x683.jpg"
       }
     ],
-    "scraped_at": "2026-11-11T10:06:35.423335+00:00",
+    "scraped_at": "2026-11-12T10:30:11.142861+00:00",
     "error": null
   },
   "גיקטיים — מגזר ציבורי": {
@@ -515,6 +825,13 @@
         "summary": "בדיוק שנה עברה מאז שחברת הסייבר הישראלית Daylight הודיעה על סבב הגיוס הקודם שלה, והיום (ג') היא חושפת גיוס גדול נוסף. עכשיו מודיע הסטארטאפ על השלמת סבב B בגובה 80 מיליון דולר בהובלת Goldman Sachs ובהשתתפות משקיעה חדשה, Okta Ventures, לצד הקרנות הקיימות Vintage Partners, Craft Ventures, Bain Capital ו-Maple Capital. הגיוס הנוכחי מביא את [&#8230;] The post גיוס של 80 מיליון דולר לסטארטאפ הישראלי שמג",
         "date": "2026-11-10T14:31:48+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Daylight-Team-1024x683.jpg"
+      },
+      {
+        "title": "בכנס ה-AI של Google Cloud תלמדו לחבר את המודל לדאטה בלי שורת SQL אחת",
+        "link": "https://www.geektime.co.il/ai-reimagined-26112026/",
+        "summary": "השלב הבא ב-AI הוא להפוך את המודלים לחלק בלתי נפרד מהמערכות, התהליכים הארגוניים וסביבת העבודה: לחבר אותו לדאטה אמיתי, לאפשר לו לבצע פעולות, להניע תהליכים ולקבל החלטות מבוססות מידע. אבל איך עוברים מדמו מרשים למערכת שעובדת בפרודקשן, מתממשקת לתשתיות קיימות ועומדת בדרישות האבטחה וה-Governance של הארגון? השאלה הזאת היא המקום שבו מתחיל האתגר ההנדסי האמיתי. [&#8230;] The post בכנס ה-AI של Google Cloud תלמ",
+        "date": "2026-11-09T12:40:47+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_470850779-1024x681.jpg"
       },
       {
         "title": "למה הסוכן החכם שלכם לא מבין את העסק, ואיך פותרים את זה?",
@@ -573,36 +890,7 @@
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/GITHUB-2026.jpg"
       }
     ],
-    "scraped_at": "2026-11-11T10:06:42.137403+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:37.599269+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "תבוסה לענקיות ה-AI: תומכי הרגולציה ניצחו בבחירות בארה\"ב",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1bw2ecafl",
-        "summary": "לאחר שענקיות הטכנולוגיה הזרימו הון לבלימת פיקוח, מחנה הבטיחות הביס אותן בבחירות האמצע בארה\"ב. קמפיין ממוקד נגד מרכזי נתונים, אובדן משרות ובטיחות ילדים הפך לגורם משמעותי שסייע להכריע בקלפי",
-        "date": "2026-11-08T13:54:34+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/14/B1kp110rYfg/B1kp110rYfg_0_0_850_479_0_medium.jpg"
-      },
-      {
-        "title": "תורים שלא היו, פתקים שלא הושחתו: השקרים שכבשו את הרשת ביום הבחירות",
-        "link": "https://www.ynet.co.il/digital/technews/article/sk401jjazg",
-        "summary": "תמונות שנוצרו בבינה מלאכותית, דיווחים כוזבים על זיופים בקלפיות וחשד להתערבות איראנית: דו\"ח חדש של ארגון \"פייק ריפורטר\" חושף את היקף המידע המטעה שהציף את הרשתות ביום הבחירות. בין הממצאים: פרסומים ששיתף ראש הממשלה ושימוש בדמותה של שירי ביבס ז\"ל | כך נראתה המלחמה על דעת הקהל",
-        "date": "2026-10-28T16:40:44+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/H1HNrjJTGe/H1HNrjJTGe_0_743_941_530_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-11T10:06:42.754443+00:00",
+    "scraped_at": "2026-11-12T10:30:22.298799+00:00",
     "error": null
   },
   "וואלה טק": {
@@ -638,338 +926,15 @@
         "image": null
       }
     ],
-    "scraped_at": "2026-11-11T10:06:38.726963+00:00",
-    "error": null
-  },
-  "קמפוס GOV": {
-    "url": "https://campus.gov.il",
-    "category": "קמפוס GOV",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:43.204503+00:00",
-    "error": null
-  },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:39.438281+00:00",
-    "error": null
-  },
-  "YouTube — הדרכות": {
-    "url": "https://www.youtube.com",
-    "category": "הדרכות",
-    "items": [
-      {
-        "title": "זיהוי חריגות ומגמות – Qlik Alerts ו-Discovery Agent",
-        "link": "https://www.youtube.com/watch?v=h1Y0yeHJNyc",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.749360+00:00",
-        "image": "https://img.youtube.com/vi/h1Y0yeHJNyc/mqdefault.jpg"
-      },
-      {
-        "title": "האם AI מחליף את האנליטיקה וה-BI?",
-        "link": "https://www.youtube.com/watch?v=9TZ_bU6KLlo",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.749356+00:00",
-        "image": "https://img.youtube.com/vi/9TZ_bU6KLlo/mqdefault.jpg"
-      },
-      {
-        "title": "ארבעת השלבים בתהליך עסקי מבוסס AI",
-        "link": "https://www.youtube.com/watch?v=pflcgTGxIbc",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.749352+00:00",
-        "image": "https://img.youtube.com/vi/pflcgTGxIbc/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud",
-        "link": "https://www.youtube.com/watch?v=f0Z6kT8gMd0",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.749333+00:00",
-        "image": "https://img.youtube.com/vi/f0Z6kT8gMd0/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=6nuyCZ2ZlcE",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.187264+00:00",
-        "image": "https://img.youtube.com/vi/6nuyCZ2ZlcE/mqdefault.jpg"
-      },
-      {
-        "title": "המעבר לצ'אט",
-        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
-        "summary": "",
-        "date": "2026-11-11T10:06:46.187254+00:00",
-        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
-      },
-      {
-        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
-        "link": "https://www.youtube.com/watch?v=FV8L57zSaEU",
-        "summary": "",
-        "date": "2026-11-11T10:06:45.445689+00:00",
-        "image": "https://img.youtube.com/vi/FV8L57zSaEU/mqdefault.jpg"
-      },
-      {
-        "title": "כמה זה עולה: המנויים, ולמה לא להתקמצן",
-        "link": "https://www.youtube.com/watch?v=vWSkr3Q78IQ",
-        "summary": "",
-        "date": "2026-11-11T10:06:45.445686+00:00",
-        "image": "https://img.youtube.com/vi/vWSkr3Q78IQ/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Codex, ולמה 2026 היא שנת הסוכנים",
-        "link": "https://www.youtube.com/watch?v=V8bzC6o-zBg",
-        "summary": "",
-        "date": "2026-11-11T10:06:45.445683+00:00",
-        "image": "https://img.youtube.com/vi/V8bzC6o-zBg/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
-        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
-        "summary": "",
-        "date": "2026-11-11T10:06:45.445656+00:00",
-        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
-      },
-      {
-        "title": "הפרומפט: דפדפן, שלושה סקילים וברירות מחדל",
-        "link": "https://www.youtube.com/watch?v=xlalaJx9yvI",
-        "summary": "",
-        "date": "2026-11-10T10:38:59.129732+00:00",
-        "image": "https://img.youtube.com/vi/xlalaJx9yvI/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום: מתי כל מצב",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-11-10T10:38:58.450537+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "שאלה ותשובה בצ'אט",
-        "link": "https://www.youtube.com/watch?v=dMdThspsSbo",
-        "summary": "",
-        "date": "2026-11-10T10:38:58.450533+00:00",
-        "image": "https://img.youtube.com/vi/dMdThspsSbo/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-11-10T10:38:57.581270+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-11-10T10:38:57.581268+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-11-10T10:38:57.581265+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-11-10T10:38:57.581259+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "Not a tool",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-11-10T10:38:57.581241+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "האם AI מחליף את האנליטיקה וה-BI?",
-        "link": "https://www.youtube.com/watch?v=VJP-BS_MVh0",
-        "summary": "",
-        "date": "2026-11-09T10:43:34.184324+00:00",
-        "image": "https://img.youtube.com/vi/VJP-BS_MVh0/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום",
-        "link": "https://www.youtube.com/watch?v=D9yt1oGTHXo",
-        "summary": "",
-        "date": "2026-11-09T10:43:33.654667+00:00",
-        "image": "https://img.youtube.com/vi/D9yt1oGTHXo/mqdefault.jpg"
-      },
-      {
-        "title": "שלט בעברית, ומה לבדוק",
-        "link": "https://www.youtube.com/watch?v=_z60sWsd0WQ",
-        "summary": "",
-        "date": "2026-11-09T10:43:33.654663+00:00",
-        "image": "https://img.youtube.com/vi/_z60sWsd0WQ/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud",
-        "link": "https://www.youtube.com/watch?v=UZvE5fXtJJU",
-        "summary": "",
-        "date": "2026-11-08T09:44:54.856947+00:00",
-        "image": "https://img.youtube.com/vi/UZvE5fXtJJU/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום",
-        "link": "https://www.youtube.com/watch?v=lSM4rt9_qZc",
-        "summary": "",
-        "date": "2026-11-08T09:44:54.246396+00:00",
-        "image": "https://img.youtube.com/vi/lSM4rt9_qZc/mqdefault.jpg"
-      },
-      {
-        "title": "עורך התמונות",
-        "link": "https://www.youtube.com/watch?v=3QBsrSVqGhg",
-        "summary": "",
-        "date": "2026-11-08T09:44:54.246395+00:00",
-        "image": "https://img.youtube.com/vi/3QBsrSVqGhg/mqdefault.jpg"
-      },
-      {
-        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
-        "link": "https://www.youtube.com/watch?v=QYjwSajjf8o",
-        "summary": "",
-        "date": "2026-11-08T09:44:53.565014+00:00",
-        "image": "https://img.youtube.com/vi/QYjwSajjf8o/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-11-08T09:44:53.565006+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "תמונה ראשונה מבקשה רגילה",
-        "link": "https://www.youtube.com/watch?v=1wqmo0D6XWc",
-        "summary": "",
-        "date": "2026-11-07T09:28:56.695281+00:00",
-        "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
-      },
-      {
-        "title": "העיקרון שמשנה הכל: תיקייה במחשב במקום ענן",
-        "link": "https://www.youtube.com/watch?v=4buYIIeBGA8",
-        "summary": "",
-        "date": "2026-11-05T10:07:35.946543+00:00",
-        "image": "https://img.youtube.com/vi/4buYIIeBGA8/mqdefault.jpg"
-      },
-      {
-        "title": "איך לא לפספס את הקורס הבא",
-        "link": "https://www.youtube.com/watch?v=41Q7DtPmrEI",
-        "summary": "",
-        "date": "2026-11-05T10:07:35.946537+00:00",
-        "image": "https://img.youtube.com/vi/41Q7DtPmrEI/mqdefault.jpg"
-      },
-      {
-        "title": "בינה מלאכותית (AI) בעולם המודרני",
-        "link": "https://www.youtube.com/watch?v=8m5LbJ8Nnaw",
-        "summary": "",
-        "date": "2026-11-04T10:14:31.868793+00:00",
-        "image": "https://img.youtube.com/vi/8m5LbJ8Nnaw/mqdefault.jpg"
-      },
-      {
-        "title": "שאלון האבחון: איפה אתם עומדים עם AI?",
-        "link": "https://www.youtube.com/watch?v=JDuRdEEvHlk",
-        "summary": "",
-        "date": "2026-11-03T10:20:56.425637+00:00",
-        "image": "https://img.youtube.com/vi/JDuRdEEvHlk/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: על מה הוובינר ואיך זה יעבוד",
-        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
-        "summary": "",
-        "date": "2026-11-03T10:20:56.425618+00:00",
-        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה",
-        "link": "https://www.youtube.com/watch?v=RYletuVrY4U",
-        "summary": "",
-        "date": "2026-11-02T10:22:17.547884+00:00",
-        "image": "https://img.youtube.com/vi/RYletuVrY4U/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה והיכרות – Make Agentic AI Real",
-        "link": "https://www.youtube.com/watch?v=oZz6WybxJkg",
-        "summary": "",
-        "date": "2026-11-01T09:56:07.633858+00:00",
-        "image": "https://img.youtube.com/vi/oZz6WybxJkg/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום",
-        "link": "https://www.youtube.com/watch?v=zHMxOC88Po0",
-        "summary": "",
-        "date": "2026-11-01T09:56:06.866405+00:00",
-        "image": "https://img.youtube.com/vi/zHMxOC88Po0/mqdefault.jpg"
-      },
-      {
-        "title": "לפני שמתחילים: כלי חזק, האחריות שלך",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-11-01T09:56:06.245874+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "מודל Local מול Secure Endpoint - יתרונות וחסרונות",
-        "link": "https://www.youtube.com/watch?v=-Z9DP6eF9kw",
-        "summary": "",
-        "date": "2026-10-31T09:08:18.473348+00:00",
-        "image": "https://img.youtube.com/vi/-Z9DP6eF9kw/mqdefault.jpg"
-      },
-      {
-        "title": "למה לבנות AI מעל Qlik ולא מול מערכות המקור",
-        "link": "https://www.youtube.com/watch?v=hwEexGsQuJs",
-        "summary": "",
-        "date": "2026-10-31T09:08:18.473345+00:00",
-        "image": "https://img.youtube.com/vi/hwEexGsQuJs/mqdefault.jpg"
-      },
-      {
-        "title": "סיכום",
-        "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
-        "summary": "",
-        "date": "2026-10-31T09:08:17.482433+00:00",
-        "image": "https://img.youtube.com/vi/DpRDlP386VY/mqdefault.jpg"
-      },
-      {
-        "title": "Filtros de búsqueda",
-        "link": "https://www.youtube.com/watch?v=BdwH64defUI",
-        "summary": "",
-        "date": "2026-10-29T09:10:11.398080+00:00",
-        "image": "https://img.youtube.com/vi/BdwH64defUI/mqdefault.jpg"
-      },
-      {
-        "title": "Bot Extension vs MCP - השוואה מלאה",
-        "link": "https://www.youtube.com/watch?v=SNlJ4w7rz9M",
-        "summary": "",
-        "date": "2026-10-29T09:10:10.794514+00:00",
-        "image": "https://img.youtube.com/vi/SNlJ4w7rz9M/mqdefault.jpg"
-      },
-      {
-        "title": "Qlik MCP - תקשורת ישירה עם מנוע Qlik",
-        "link": "https://www.youtube.com/watch?v=KzOaEp8MlDU",
-        "summary": "",
-        "date": "2026-10-29T09:10:10.794512+00:00",
-        "image": "https://img.youtube.com/vi/KzOaEp8MlDU/mqdefault.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-11T10:06:46.749399+00:00",
+    "scraped_at": "2026-11-12T10:30:13.800120+00:00",
     "error": null
   },
   "ICT Israel": {
     "url": "https://ictisrael.com/feed/",
     "category": "AI ישראל",
     "items": [],
-    "scraped_at": "2026-11-11T10:06:39.519518+00:00",
+    "scraped_at": "2026-11-12T10:30:15.085887+00:00",
     "error": null
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:39.402666+00:00",
-    "error": "HTTP Status 404"
   },
   "ynet כללי — מגזר ציבורי": {
     "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
@@ -983,22 +948,8 @@
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/09/Sy3Q11n10Ml/Sy3Q11n10Ml_0_103_1367_770_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-11-11T10:06:42.842827+00:00",
+    "scraped_at": "2026-11-12T10:30:22.845967+00:00",
     "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:42.580506+00:00",
-    "error": "HTTP Status 404"
-  },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-11T10:06:36.451347+00:00",
-    "error": "HTTP Status 404"
   },
   "YouTube — סרטונים": {
     "url": "https://www.youtube.com",
@@ -1006,38 +957,80 @@
     "items": [
       {
         "title": "מצב קודקס",
-        "link": "https://www.youtube.com/watch?v=jqWRNfgdJqQ",
+        "link": "https://www.youtube.com/watch?v=lR0hDRT2e88",
         "summary": "",
-        "date": "2026-11-11T10:06:44.575582+00:00",
-        "image": "https://img.youtube.com/vi/jqWRNfgdJqQ/mqdefault.jpg"
+        "date": "2026-11-12T10:30:24.620991+00:00",
+        "image": "https://img.youtube.com/vi/lR0hDRT2e88/mqdefault.jpg"
       },
       {
         "title": "שאלה ותשובה בצ'אט",
         "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
         "summary": "",
-        "date": "2026-11-11T10:06:44.575580+00:00",
+        "date": "2026-11-12T10:30:24.620990+00:00",
         "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
       },
       {
         "title": "המעבר לצ'אט",
         "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
         "summary": "",
-        "date": "2026-11-11T10:06:44.575576+00:00",
+        "date": "2026-11-12T10:30:24.620988+00:00",
         "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
       },
       {
         "title": "פתיחה ומצב Work",
         "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
         "summary": "",
-        "date": "2026-11-11T10:06:44.575557+00:00",
+        "date": "2026-11-12T10:30:24.620975+00:00",
         "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
       },
       {
         "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
         "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
         "summary": "",
-        "date": "2026-11-11T10:06:43.984295+00:00",
+        "date": "2026-11-12T10:30:23.892303+00:00",
         "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
+      },
+      {
+        "title": "התחברות מהירה - 30 שניות וסיימתם",
+        "link": "https://www.youtube.com/watch?v=fWTm_K1w9JQ",
+        "summary": "",
+        "date": "2026-11-12T10:30:23.892301+00:00",
+        "image": "https://img.youtube.com/vi/fWTm_K1w9JQ/mqdefault.jpg"
+      },
+      {
+        "title": "הצ׳אטבוט שמנצח את ChatGPT? (ועוד בחינם!)",
+        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
+        "summary": "",
+        "date": "2026-11-12T10:30:23.892300+00:00",
+        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=iYu4sa26K1M",
+        "summary": "",
+        "date": "2026-11-12T10:30:23.892298+00:00",
+        "image": "https://img.youtube.com/vi/iYu4sa26K1M/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
+        "summary": "",
+        "date": "2026-11-12T10:30:23.892297+00:00",
+        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
+      },
+      {
+        "title": "Not a tool",
+        "link": "https://www.youtube.com/watch?v=c0SxYc_LRYI",
+        "summary": "",
+        "date": "2026-11-12T10:30:23.892289+00:00",
+        "image": "https://img.youtube.com/vi/c0SxYc_LRYI/mqdefault.jpg"
+      },
+      {
+        "title": "מצב קודקס",
+        "link": "https://www.youtube.com/watch?v=jqWRNfgdJqQ",
+        "summary": "",
+        "date": "2026-11-11T10:06:44.575582+00:00",
+        "image": "https://img.youtube.com/vi/jqWRNfgdJqQ/mqdefault.jpg"
       },
       {
         "title": "התחברות מהירה - 30 שניות וסיימתם",
@@ -1061,13 +1054,6 @@
         "image": "https://img.youtube.com/vi/Zsf5kTvmf8U/mqdefault.jpg"
       },
       {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=c0SxYc_LRYI",
-        "summary": "",
-        "date": "2026-11-11T10:06:43.984284+00:00",
-        "image": "https://img.youtube.com/vi/c0SxYc_LRYI/mqdefault.jpg"
-      },
-      {
         "title": "Not a tool",
         "link": "https://www.youtube.com/watch?v=ObqzF1V1m8I",
         "summary": "",
@@ -1089,13 +1075,6 @@
         "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
       },
       {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=fWTm_K1w9JQ",
-        "summary": "",
-        "date": "2026-11-10T10:38:56.315836+00:00",
-        "image": "https://img.youtube.com/vi/fWTm_K1w9JQ/mqdefault.jpg"
-      },
-      {
         "title": "שלוש רמות האישור",
         "link": "https://www.youtube.com/watch?v=DpRDlP386VY",
         "summary": "",
@@ -1108,13 +1087,6 @@
         "summary": "",
         "date": "2026-11-09T10:43:31.808120+00:00",
         "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
-        "summary": "",
-        "date": "2026-11-09T10:43:31.808118+00:00",
-        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
       },
       {
         "title": "Not a tool",
@@ -1243,13 +1215,6 @@
         "image": "https://img.youtube.com/vi/JSBrKCFhnzc/mqdefault.jpg"
       },
       {
-        "title": "איך המועדון עובד ואיפה צופים בהקלטות",
-        "link": "https://www.youtube.com/watch?v=CF6C-DwxAhI",
-        "summary": "",
-        "date": "2026-11-04T10:14:29.781416+00:00",
-        "image": "https://img.youtube.com/vi/CF6C-DwxAhI/mqdefault.jpg"
-      },
-      {
         "title": "העלאת קבצים - הפיצ׳ר שישנה לכם את החיים",
         "link": "https://www.youtube.com/watch?v=BOAANwSFP9w",
         "summary": "",
@@ -1262,13 +1227,6 @@
         "summary": "",
         "date": "2026-11-01T09:56:05.537819+00:00",
         "image": "https://img.youtube.com/vi/1wqmo0D6XWc/mqdefault.jpg"
-      },
-      {
-        "title": "מה זה Codex, ולמה 2026 היא שנת הסוכנים",
-        "link": "https://www.youtube.com/watch?v=lR0hDRT2e88",
-        "summary": "",
-        "date": "2026-10-31T09:08:16.117609+00:00",
-        "image": "https://img.youtube.com/vi/lR0hDRT2e88/mqdefault.jpg"
       },
       {
         "title": "שימוש ראשון בקלוד: ניהול מיילים ותקשורת בסגנון האישי שלכם",
@@ -1304,30 +1262,23 @@
         "summary": "",
         "date": "2026-10-30T09:21:31.050077+00:00",
         "image": "https://img.youtube.com/vi/AgKReXGrdl0/mqdefault.jpg"
-      },
-      {
-        "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
-        "link": "https://www.youtube.com/watch?v=D7qGd74-4rY",
-        "summary": "",
-        "date": "2026-10-29T09:10:07.890946+00:00",
-        "image": "https://img.youtube.com/vi/D7qGd74-4rY/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=77dcx8r47zc",
-        "summary": "",
-        "date": "2026-10-29T09:10:07.890945+00:00",
-        "image": "https://img.youtube.com/vi/77dcx8r47zc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=1r8mdu0JlQQ",
-        "summary": "",
-        "date": "2026-10-29T09:10:07.890941+00:00",
-        "image": "https://img.youtube.com/vi/1r8mdu0JlQQ/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-11-11T10:06:44.575949+00:00",
+    "scraped_at": "2026-11-12T10:30:24.621394+00:00",
     "error": null
+  },
+  "קמפוס GOV": {
+    "url": "https://campus.gov.il",
+    "category": "קמפוס GOV",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:23.163909+00:00",
+    "error": null
+  },
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-11-12T10:30:22.653802+00:00",
+    "error": "HTTP Status 404"
   }
 }
