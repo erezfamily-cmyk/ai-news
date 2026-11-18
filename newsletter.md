@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 17/11/2026
+# 🤖 עדכוני AI Pulse — 18/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [מאנליטיקה לתהליך עסקי מבוסס סוכני AI](https://www.youtube.com/watch?v=g2OyuGPUaDc)
+### 1. [פתיחה ומצב Work](https://www.youtube.com/watch?v=lUgOEYLKp98)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [שלושת היסודות של Qlik: אמון, הקשר וחופש](https://www.youtube.com/watch?v=-Z9DP6eF9kw)
+### 2. [סיכום](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [אתגרי Agentic AI בארגונים: דאטה, עלויות ואמינות](https://www.youtube.com/watch?v=UZvE5fXtJJU)
+### 3. [עורך התמונות](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [פתיחה והיכרות – Make Agentic AI Real](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 4. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [מתחילים לעבוד!](https://www.youtube.com/watch?v=rEkdgzS_e4g)
+### 5. [תמונה ראשונה מבקשה רגילה](https://www.youtube.com/watch?v=DpRDlP386VY)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
