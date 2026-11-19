@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 18/11/2026
+# 🤖 עדכוני AI Pulse — 19/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה ומצב Work](https://www.youtube.com/watch?v=lUgOEYLKp98)
+### 1. [02 מה אלה עושה כבר היום](https://www.youtube.com/watch?v=UZvE5fXtJJU)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [סיכום](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
+### 2. [01 מי זאת אלה, ובמה היא שונה מצ'אטבוט](https://www.youtube.com/watch?v=S5lWOPAS_E4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [עורך התמונות](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 3. [מה נעבור היום](https://www.youtube.com/watch?v=JAj9UYYVLn8)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שלט בעברית, ומה לבדוק](https://www.youtube.com/watch?v=dMdThspsSbo)
+### 4. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [תמונה ראשונה מבקשה רגילה](https://www.youtube.com/watch?v=DpRDlP386VY)
+### 5. [פתיחה ומצב Work](https://www.youtube.com/watch?v=dMdThspsSbo)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
