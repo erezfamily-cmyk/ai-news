@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 22/11/2026
+# 🤖 עדכוני AI Pulse — 23/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיח](https://www.youtube.com/watch?v=tq5KmXWRNYU)
+### 1. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [הגדרת סוכן ידנית: שם, תיאור והנחיות (Instructions)](https://www.youtube.com/watch?v=lSM4rt9_qZc)
+### 2. [סיכום: מתי כל מצב](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [שתי דרכים ליצירת סוכן: שיחה (Create) מול הגדרה ידנית (Configure)](https://www.youtube.com/watch?v=6nuyCZ2ZlcE)
+### 3. [מצב קודקס](https://www.youtube.com/watch?v=IAs3e6H2qPg)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [איך מתחילים? כניסה לממשק ה-GPTs](https://www.youtube.com/watch?v=1pmcbqOO6YM)
+### 4. [שאלה ותשובה בצ'אט](https://www.youtube.com/watch?v=QLsumfMB3Bs)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [3 סוגי הסוכנים: מובנה, API ואוטונומי](https://www.youtube.com/watch?v=RYletuVrY4U)
+### 5. [המעבר לצ'אט](https://www.youtube.com/watch?v=RYletuVrY4U)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
