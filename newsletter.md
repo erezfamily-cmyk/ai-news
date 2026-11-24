@@ -1,24 +1,24 @@
-# 🤖 עדכוני AI Pulse — 23/11/2026
+# 🤖 עדכוני AI Pulse — 24/11/2026
 
 הנה 5 הכתבות החמות של היום בבינה מלאכותית:
 
-### 1. [פתיחה](https://www.youtube.com/watch?v=GZIGwEOG3uw)
+### 1. [ארבעת השלבים בתהליך עסקי מבוסס AI](https://www.youtube.com/watch?v=mBuUesZkWiA)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 2. [סיכום: מתי כל מצב](https://www.youtube.com/watch?v=8m5LbJ8Nnaw)
+### 2. [פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud](https://www.youtube.com/watch?v=GZIGwEOG3uw)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 3. [מצב קודקס](https://www.youtube.com/watch?v=IAs3e6H2qPg)
+### 3. [פתיח: מהם סוכני בינה מלאכותית?](https://www.youtube.com/watch?v=1pmcbqOO6YM)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 4. [שאלה ותשובה בצ'אט](https://www.youtube.com/watch?v=QLsumfMB3Bs)
+### 4. [המעבר לצ'אט](https://www.youtube.com/watch?v=CRR5QGpcsgE)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
-### 5. [המעבר לצ'אט](https://www.youtube.com/watch?v=RYletuVrY4U)
+### 5. [הכנה לפגישות](https://www.youtube.com/watch?v=kLCwzx-Rev4)
 - **קטגוריה:** הדרכות
 - **מקור:** YouTube — הדרכות
 
