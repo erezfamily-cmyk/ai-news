@@ -1,243 +1,78 @@
 {
-  "ynet כללי — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "חשד למתקפת סייבר סינית על ה-CIA: האקרים חדרו למערכות המודיעין בעזרת AI",
-        "link": "https://www.ynet.co.il/news/article/bjp4qsmkme",
-        "summary": "אחרי הפריצה למאגר המידע של ה-FBI וקריסת רשת התקשורת המסווגת של הסוכנות לביטחון לאומי, \"ניו יורק טיימס\" חושף כי האקרים חדרו למערכת שמשמשת לפחות 3 סוכנויות מודיעין אמריקניות. לפי החשד, הפורצים השתמשו בכלי בינה מלאכותית שפיתח מהנדס סיני ושנקשר לעשרות מתקפות ברחבי העולם. מידע מסווג לא נפגע, אך בוושינגטון גוברת הדאגה בצל רצף התקלות",
-        "date": "2026-11-25T01:06:51+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/25/H1kHG3myQe/H1kHG3myQe_0_0_850_479_0_medium.jpg"
-      },
-      {
-        "title": "בזמן מלחמה עם איראן: התקלה ב-NSA שיבשה את פעילות המודיעין האמריקני במזרח התיכון",
-        "link": "https://www.ynet.co.il/news/article/byg3cx2agg",
-        "summary": "לפי CNN, התקלה החמורה ברשת התקשורת המסווגת של הסוכנות לביטחון לאומי פגעה גם במרכז בג'ורג'יה, שאחראי על פעילות סייבר ומודיעין במזרח התיכון: \"עובדים לא הצליחו לתקשר עם עמיתיהם והשתמשו במערכות גיבוי\". הממשל שולל מתקפת סייבר, ומצביע על עדכוני תוכנה בעקבות פרצות אבטחה שזוהו בעזרת בינה מלאכותית: \"ה-AI מזהה פרצות במהירות חסרת תקדים\"",
-        "date": "2026-11-19T09:58:57+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/19/HyvKLBnCGl/HyvKLBnCGl_0_97_860_485_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-27T11:38:22.128848+00:00",
-    "error": null
-  },
-  "הארץ טכנולוגיה": {
-    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:21.545805+00:00",
-    "error": "HTTP Status 404"
-  },
-  "קמפוס GOV": {
-    "url": "https://campus.gov.il",
-    "category": "קמפוס GOV",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:23.935549+00:00",
-    "error": null
-  },
-  "ynet טכנולוגיה — מגזר ציבורי": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "הולנד מזהירה מפני \"משקפי סוטים\": \"לצילום בציבור אין כמעט הצדקה\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/ryjdk11q1xx",
-        "summary": "הרשות ההולנדית להגנת נתונים קוראת לציבור להימנע מרכישת משקפיים חכמים מבוססי בינה מלאכותית עם מצלמה, לאחר שבדיקות העלו שגיאות בטיחות מסוכנות, פגיעה קשה בפרטיות עוברי אורח ושימוש לרעה להטרדות",
-        "date": "2026-11-24T13:05:04+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/09/18/HkSnrjBtixl/HkSnrjBtixl_0_0_1600_901_0_medium.jpg"
-      },
-      {
-        "title": "לזהות זיופים, לחשוף מתחזים ולעקוב אחרי הילדים: טיקטוק שולפת כלים חדשים",
-        "link": "https://www.ynet.co.il/digital/technews/article/rkhhb00paml",
-        "summary": "הרשת החברתית משיקה כלי חדש לזיהוי תכנים שנוצרו בבינה מלאכותית, לצד מערכת שתתריע על שימוש לא מורשה בפנים של משתמשים. במקביל, החברה מרחיבה את הפיקוח ההורי, כולל התרעות על סימני מצוקה בקרב בני נוער, וחושפת נתונים מפתיעים על הרגלי הגלישה של דור ה-Z",
-        "date": "2026-11-20T07:38:00+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/20/BkZndOTRGx/BkZndOTRGx_0_0_1024_576_0_medium.jpg"
-      },
-      {
-        "title": "מיקרוסופט חשפה סוכני AI אוטונומיים – עם חותמת ישראלית",
-        "link": "https://www.ynet.co.il/digital/technews/article/b1suw4iazx",
-        "summary": "בכנס Ignite 2026 של החברה הכריז המנכ\"ל סאטיה נאדלה כי קופיילוט הופך ל\"מערכת ההפעלה החדשה לעבודה\". לצד סוכנים שמקדמים פרויקטים מסביב לשעון, מערכת סייבר אוטונומית, טכנולוגיית ענן מנותקת מרשת והאצת תעבורת נתונים",
-        "date": "2026-11-18T14:49:31+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/18/HyKiFEiRMe/HyKiFEiRMe_0_67_1024_577_0_medium.jpg"
-      },
-      {
-        "title": "גוגל: נחשפה המתקפה האוטונומית הראשונה המבוססת על בינה מלאכותית",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkhbzayamg",
-        "summary": "דוח חטיבת מודיעין הסייבר של גוגל ומנדיאנט מצביע על נקודת מפנה דרמטית: האקרים דוברי רוסית הפעילו סוכן AI שזיהה פרצות ותקף אתרים בצרפת באופן עצמאי לחלוטין. במקביל, איראן מפעילה כלי בינה מלאכותית לזירה המזרח-תיכונית, וטכנולוגיות של וויז הישראלית משולבות במערך ההגנה החדש",
-        "date": "2026-11-17T12:32:12+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/26/H1u3RAMgMe/H1u3RAMgMe_0_0_828_466_0_medium.jpg"
-      },
-      {
-        "title": "קודם תפענחו לבד, ואז תפנו ל-AI: ההוראה החדשה לרופאים",
-        "link": "https://www.ynet.co.il/digital/technews/article/bkj1j3f0fg",
-        "summary": "בועידת הבריאות של ynet ו\"ידיעות אחרונות\" עלה נושא ה-AI לדיון בהמשך למספר נתונים: כ-50% מהרופאים בארה\"ב כבר נעזרים בו לאבחון, בבתי החולים בישראל מנותחות מאות אלפי בדיקות בחודש באמצעות AI, וזמן האשפוז התקצר בשעות. אבל, בכירים מזהירים מפני שחיקת מיומנויות המתמחים, מאבחנות שגויות שמלחיצות מטופלים ומכך שהרופא יהפוך לחותמת גומי של המכונה",
-        "date": "2026-11-17T11:04:11+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/17/rJW6gatK0Ge/rJW6gatK0Ge_0_0_3000_1689_0_medium.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-27T11:38:22.027495+00:00",
-    "error": null
-  },
-  "וואלה טק": {
-    "url": "https://rss.walla.co.il/feed/22",
-    "category": "חדשות טכנולוגיה",
-    "items": [
-      {
-        "title": "בסנט: ״טראמפ ושי הסכימו כי אין לפתוח במבצע צבאי ללא מעורבות אנושית״",
-        "link": "https://www.walla.co.il/news/breaking-news/383962333",
-        "summary": "מזכיר האוצר האמריקני, סקוט בסנט, התראיין היום (שישי) לרשת CNBC והתייחס לפגישתו של הנשיא האמריקני, דונלד טראמפ, עם נשיא סין שי ג׳ינפינג. ״טראמפ ושי הסכימו שבני אדם צריכים להיות מעורבים בכל החלטה צבאית שמתקבלת על ידי בינה מלאכותית״, אמר. לדבריו, ״שני הצדדים מסכימים כי אין לפתוח במבצע צבאי משמעותי ללא מעורבות של בן אנוש״.",
-        "date": "2026-11-20T15:23:22+00:00",
-        "image": null
-      },
-      {
-        "title": "נשיא סין קורא לשיתוף פעולה עם ארה\"ב בתחום הבינה המלאכותית",
-        "link": "https://www.walla.co.il/news/breaking-news/383962112",
-        "summary": "נשיא סין שי ג'ינפינג קרא היום (חמישי) לשיתוף פעולה בין סין לארצות הברית בתחום הבינה המלאכותית. \"אנו קוראים לשיתוף פעולה בין סין לארה\"ב כדי לשמור על הבינה המלאכותית תחת שליטה\", אמר שי.",
-        "date": "2026-11-19T08:59:35+00:00",
-        "image": null
-      },
-      {
-        "title": "נשיא סין לטראמפ: ארה\"ב חייבת לפעול נכון בסוגיית טייוואן",
-        "link": "https://www.walla.co.il/news/breaking-news/383962108",
-        "summary": "נשיא סין שי ג'ינפינג אמר היום (חמישי) לנשיא ארה\"ב דונלד טראמפ כי וושינגטון חייבת לפעול נכון בסוגיית טייוואן כדי למנוע טלטלות משמעותיות ביחסים בין המדינות, כך דיווחה התקשורת הממלכתית בסין. שי קרא להעמקת שיתוף הפעולה בתחומי הסחר והבינה המלאכותית, ולהבטחת שליטה אנושית בטכנולוגיה. לדבריו, המדינות הסכימו לגבש תוכנית פעולה ליחסים יציבים.",
-        "date": "2026-11-19T08:28:29+00:00",
-        "image": null
-      },
-      {
-        "title": "חשד להפצת סמים מדירת Airbnb בתל אביב: בן 31 נעצר",
-        "link": "https://www.walla.co.il/news/breaking-news/383961616",
-        "summary": "שוטרי תחנת לב תל אביב עצרו הלילה (שני) תושב מזרח ירושלים בן 31 בחשד שהפעיל מרכז לחלוקת סמים מדירת Airbnb במרכז העיר. במהלך חיפוש בדירה נתפסו מאות גרמים של חומרים החשודים כסמים, בהם קוקאין, קטמין, קנאביס וחשיש, לצד 490 בולי LSD ו-86 כדורי אקסטזי. בנוסף, נתפסו טלפונים ניידים ו-8,700 שקלים במזומן. החשוד הועבר לחקירה ויובא היום לבית המשפט לדיון בהארכת מעצרו.",
-        "date": "2026-11-16T09:55:39+00:00",
-        "image": null
-      }
-    ],
-    "scraped_at": "2026-11-27T11:38:20.613413+00:00",
-    "error": null
-  },
-  "גיקטיים — מגזר ציבורי": {
-    "url": "https://www.geektime.co.il/feed/",
-    "category": "מחשוב וממשל",
-    "items": [
-      {
-        "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה",
-        "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
-        "summary": "פעם אמרו שכלי AI לא יחליפו מתכנתים, אלא רק \"יהפכו אותם ליעילים יותר\" או \"יחליפו את מי שלא משתמש ב-AI\". ובכן, דוח חדש שמפרסם היום (ד') שירות התעסוקה מצייר תמונה קצת יותר מורכבת לעובדים בתעשיית ההייטק המקומית. לפי הנתונים, 56% מהשימוש שנבדק ב-Claude במקצוע \"פיתוח התוכנה וניתוח היישומים\" מוגדר כ\"אוטומציה\", כלומר האצלת ביצוע המשימה למערכת, [&#8230;] The post דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתי",
-        "date": "2026-11-25T09:06:53+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Laptop-Startup-Tech-Unsplash-1024x767.jpg"
-      },
-      {
-        "title": "\"הסוכן הוא רק הצינור\": יוצאי אימפרבה מגייסים 10 מיליון דולר כדי לשמור על סוכני ה-AI שלכם",
-        "link": "https://www.geektime.co.il/dante-security-thinks-ai-agents-are-no-divine-comedy/",
-        "summary": "לא. אף אחד במשרד לא רוצה לשמוע על האייג'נט שבנית שמכין רשימת קניות בסופר ומתאם לך דייטים עם בן או בת הזוג. הבנו את הקטע. אבל אם בניתם כבר סוכנים שמשמשים אתכם במקום העבודה שלכם, זה כבר יותר מעניין. זה כנראה מספיק מעניין כדי שבכירי אימפרבה לשעבר יציעו פלטפורמה שלמה שתשגיח על הסוכנים שלכם, ויגייסו [&#8230;] The post &quot;הסוכן הוא רק הצינור&quot;: יוצאי אימפרבה מגייסים 10 מיליון דולר כדי לשמור על סו",
-        "date": "2026-11-24T13:10:48+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Dante-employees.-Photo-credit-Victor-Levi-1-1024x684.jpg"
-      },
-      {
-        "title": "גייסו 53 מיליון דולר כדי שהאייג'נטים יפסיקו לנפח לכם את החשבון",
-        "link": "https://www.geektime.co.il/zipher-comes-out-of-stealth-with-autonomous-data-infrastructure/",
-        "summary": "סוכני AI כבר כותבים ומריצים קוד בארגונים בקצב מסחרר, אבל מישהו צריך לנהל את כל עומס המחשוב הזה בלי לשרוף את התקציב. סטארטאפ ישראלי חדש בשם Zipher (זייפר), שנחשף היום (ג') עם גיוס משמעותי, רוצה לתת לסוכנים שלו לנהל את העבודה מאחורי הקלעים &#8211; ולחתוך בעלויות הענן. אותה משימה, חשבון אחר \"ב-Zipher הלקוח מגדיר יעדי [&#8230;] The post גייסו 53 מיליון דולר כדי שהאייג&#039;נטים יפסיקו לנפח לכם את החשב",
-        "date": "2026-11-24T13:00:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/zipher-founders-1024x683.jpeg"
-      },
-      {
-        "title": "נפתחה ההרשמה לתוכנית ה-Deep Tech MBA של אוניברסיטת תל אביב",
-        "link": "https://www.geektime.co.il/tau-coller-deep-tech-mba-2027/",
-        "summary": "אם אתם קוראים את זה, כנראה שיש לכם מומחיות טכנולוגית בעולמות הפיתוח והמחקר. אבל האם אתם יודעים להפוך אותה ליכולת לנהל עסק או יחידה עסקית, או להוביל מיזם המתבסס על טכנולוגיה עמוקה? פיתוח טכנולוגיה פורצת דרך הוא רק חלק מהדרך להפוך רעיון לחברה מצליחה. בתחומים כמו AI, סייבר, רובוטיקה, ביוטכנולוגיה, טכנולוגיות רפואיות, אקלים ו-Deep Tech, [&#8230;] The post נפתחה ההרשמה לתוכנית ה-Deep Tech MBA של אוניבר",
-        "date": "2026-11-24T12:07:35+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_221457949-1024x576.jpg"
-      },
-      {
-        "title": "ה-CISO של אמזון: \"חסמנו 2,900 צפון-קוריאנים שניסו להתקבל לעבודה\"",
-        "link": "https://www.geektime.co.il/ai-native-cybersecurity-pod-ep1-amazon/",
-        "summary": "מאת שחר פלד \"חסמנו לפחות 2,900 גורמים מצפון-קוריאה שניסו להתקבל לעבודה באמזון\", סיפר סי-ג'יי מוזס, מנהל אבטחת המידע של ענקית האיקומרס ושירותי הענן האמריקאית. \"הם משתמשים ב-AI כדי לבנות זהויות בדויות שנראות אמינות, ולהתקבל לעבודה בחברות כמו שלנו\", הסביר. \"הכסף שהם מקבלים מהעבודה בחברות האלה חוזר לצפון-קוריאה ומממן את הפעילות הצבאית של המשטר. ה-AI מאפשר [&#8230;] The post ה-CISO של אמזון: &quot;חסמנ",
-        "date": "2026-11-24T09:16:34+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/0940_-_Nordkorea_2015_-_Pjongjang_-_Parade_zum_75._JT_der_Arbeiterpartei_22976923725-1024x678.jpg"
-      },
-      {
-        "title": "9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-Python ל-Go",
-        "link": "https://www.geektime.co.il/python-to-go-migration-ai-agents/",
-        "summary": "שבעה ימי עבודה &#8211; זה הזמן שלקח לנו להעביר את הקוד הפעיל שלנו בפרודקשן מ-Python ל-Go, באמצעות AI. התוצאה? ירידה של 80 אחוז בעלויות הענן ושיפור ביצועים של עד פי 11 בפונקציות מסוימות. עלות הטוקנים הסתכמה בכ-5% בלבד מהחיסכון שהשגנו. עד לאחרונה, פרויקט כזה היה דורש השקעה משמעותית של זמן ומשאבי פיתוח, אבל השימוש ב-AI [&#8230;] The post 9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-P",
-        "date": "2026-11-22T16:07:00+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/GO-PROGRAMMING-GEEKTIME-1024x568.jpg"
-      },
-      {
-        "title": "בואו ללמוד בלייב איך מביאים סוכנים לפרודקשן (בלי לאבד שנה מהחיים)",
-        "link": "https://www.geektime.co.il/agents-at-work-meetup-7122026/",
-        "summary": "מנהלי IT ואבטחת מידע עומדים היום מול דילמה דחופה: מצד אחד, קיים לחץ עסקי לאמץ סוכני AI ולהפיק מהם ערך במהירות. מצד שני, האימוץ הזה מגיע עם סכנות אבטחה משמעותיות &#8211; סוכנים שפועלים בלי פיקוח, חשיפת מידע רגיש וקושי לנטר את הפעילות. בארגונים רבים חסרה מסגרת Governance ברורה, ולכן הם תקועים באמצע הדרך שבין פיילוט [&#8230;] The post בואו ללמוד בלייב איך מביאים סוכנים לפרודקשן (בלי לאבד שנה מהחיים) ",
-        "date": "2026-11-22T09:32:36+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_453126363-1024x576.jpg"
-      },
-      {
-        "title": "במשחק הזה אתם צריכים שיפטרו את כל ההייטקיסטים",
-        "link": "https://www.geektime.co.il/agentrix-will-let-you-take-over-the-world/",
-        "summary": "בזמן שרבים בהייטק חוששים שה-AI יחליף אותם (והנתונים בהחלט מעידים על מקום לדאגה), משחק ישראלי חדש מציע לכם לעבור דווקא לצד השני של המתרס. במקום לעדכן קורות חיים ולעבוד על יכולות הריאיון שלכם, אתם תיכנסו לנעליים של מעבדת AI ותנסו להשתלט על שוק העבודה העולמי, מקצוע אחר מקצוע, לפני שהרגולציה תשתלט עליכם. כשסין ניסתה לגנוב [&#8230;] The post במשחק הזה אתם צריכים שיפטרו את כל ההייטקיסטים appeared first ",
-        "date": "2026-11-21T08:21:29+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-14.10.38-1024x703.jpg"
-      },
-      {
-        "title": "הממשלה מקדמת \"ארגז חול\" לסטארטאפים, אבל שכחה 4 דברים בדרך",
-        "link": "https://www.geektime.co.il/regulatory-sandbox-startups-israel/",
-        "summary": "תחשבו על יזמת שפיתחה מערכת AI שמנתחת אולטרסאונד שאישה בהיריון עושה בבית. או על שלושה מהנדסים שבנו רמזור שמחליט לבד מתי להתחלף לפי מצב התנועה. או על סטארטאפ שרוצה לנסות הסעות משותפות בתשלום ברכב פרטי. לכולם יש אותה בעיה: המוצר עובד, אבל החוק לא מאפשר לנסות אותו. לא כי מישהו קבע שזה מסוכן, אלא כי [&#8230;] The post הממשלה מקדמת &quot;ארגז חול&quot; לסטארטאפים, אבל שכחה 4 דברים בדרך appeared first on",
-        "date": "2026-11-18T14:08:52+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/coral.ai_.startup.meeting-1024x681.jpg"
-      },
-      {
-        "title": "אירוע בהזמנה בלבד: כך תתגוננו מפני מתקפות AI עם הכלים של Google Cloud",
-        "link": "https://www.geektime.co.il/cxo-security-breakfast-6122026/",
-        "summary": "כשמדברים על הגנת סייבר, סוכני AI הם גם הבעיה וגם הפתרון: תוקפים משתמשים בהם כדי לייצר מתקפות פישינג משכנעות בעברית מושלמת, לזייף קולות של מנהלים, לסרוק חולשות בקנה מידה עצום ולהריץ קמפיינים שפעם דרשו צוות שלם. באותו זמן, הארגונים עצמם מכניסים AI לכל פינה: עוזרים חכמים לעובדים, סוכנים אוטונומיים שמבצעים פעולות במערכות הליבה ומודלים שנוגעים [&#8230;] The post אירוע בהזמנה בלבד: כך תתגוננו מפני מתקפו",
-        "date": "2026-11-18T09:33:03+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_357130779-1024x701.jpg"
-      },
-      {
-        "title": "תקלה רחבה בשירותי אפל: App Store ו-iCloud קרסו",
-        "link": "https://www.geektime.co.il/apple-icloud-app-store-internal-update-outage/",
-        "summary": "זה לא רק אצלכם. משתמשי אפל בכל העולם דיווחו בשעות האחרונות על שיבושים נרחבים במספר שירותים מרכזיים של החברה. על פי עמוד הסטטוס של אפל, נרשמו השבתות מלאות ב-App Store לצד תקלות ביישומי הרשת ובעיות בהתחברות לשירותי iCloud ול-AppleCare. בנוסף, התלוננו משתמשים על שיבושים ברשת Find My וכן ב-iCloud‌ Mail, ‌iCloud‌ Calendar ו-iCloud‌ Contacts. התקלות [&#8230;] The post תקלה רחבה בשירותי אפל: App Store ו-",
-        "date": "2026-11-17T20:33:10+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/apple-down.jpg"
-      },
-      {
-        "title": "124 מיליון דולר לסטארטאפ הישראלי שיאפשר להציב דאטה סנטרים בחלל",
-        "link": "https://www.geektime.co.il/ramon-space-raises-124m-series-b/",
-        "summary": "בשנים האחרונות, עם הקשיים בהן נתקלות חברות ה-AI הגדולות, החל להתפתח הרעיון של הצבת דאטה סנטרים ולוויינים מיוחדים בחלל. אחד הסטארטאפים הישראלים הוותיקים בתחום הזה הוא Ramon.Space, שמפתח שבבים שיכולים לספק ביצועים של מערכות מחשוב על הקרקע &#8211; אבל בתנאים הבלתי אפשריים של החלל. היום (ג') הוא מכריז על מגה-גיוס מרשים. האם SpaceX כבר לקוחה? [&#8230;] The post 124 מיליון דולר לסטארטאפ הישראלי שיאפשר ל",
-        "date": "2026-11-17T13:00:43+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Ramon.Space-2-1024x682.jpg"
-      },
-      {
-        "title": "3 חודשים אחרי הגיוס הראשון, הסטארטאפ הזה כבר הפך לחד קרן",
-        "link": "https://www.geektime.co.il/3-months-after-first-funding-round-this-startup-is-already-a-unicorn/",
-        "summary": "רק לפני שלושה חודשים סיפרנו לכם כאן על סטארטאפ חדש ומעניין בשם Corma שמפתח מודל בסיס לתעשיית הסייבר, המיועד למגינים ולאו דווקא לתוקפים. היום (ב'), אחרי סבב סיד חריג, הוא חושף סבב גיוס ענק נוסף, שמביא אותו היישר למועדון חדי הקרן. כל עדכוני ההייטק, בלי שטויות: ערוץ העדכונים השקט של גיקטיים יוצאי גוגל, DeepMind ו-8200 [&#8230;] The post 3 חודשים אחרי הגיוס הראשון, הסטארטאפ הזה כבר הפך לחד קרן appeare",
-        "date": "2026-11-16T12:02:45+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/corma-team-1024x683.jpg"
-      },
-      {
-        "title": "מיליוני משתמשים עצבניים ואלפי טיסות מקורקעות: מה לעזאזל קרה בסופ\"ש למיקרוסופט ולשדות התעופה בארה\"ב?",
-        "link": "https://www.geektime.co.il/microsoft-outlook-faa-major-outages-explained/",
-        "summary": "אם ניסיתם במהלך הסופ\"ש להיכנס למייל שלכם באאוטלוק, לשלוח הודעה ב-Teams או להשתמש ב-Copilot (סתם סתם, אנחנו יודעים שאף אחד לא מנסה מרצונו להשתמש בקופיילוט) וגיליתם שכלום לא עובד, אתם כבר יודעים שאתם לא לבד. תקלה נרחבת בשירותי הענן של ענקית הטכנולוגיה השביתה במשך יותר מיממה כמה מהשירותים החשובים ביותר שלה, והשפיעה על מיליוני משתמשים [&#8230;] The post מיליוני משתמשים עצבניים ואלפי טיסות מקורקעות: מה",
-        "date": "2026-11-15T08:40:34+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/erik-mclean-sxiSod0tyYQ-unsplash-1024x683.jpg"
-      },
-      {
-        "title": "כנס ה-AI של Google Cloud מגיע לירושלים ועוד המלצות רותחות",
-        "link": "https://www.geektime.co.il/geek-events-15112026/",
-        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. AI Reimagined מתי? 26 בנובמבר (9:00-14:30) איפה? סינמה סיטי ירושלים [&#8230;] The post כנס ה-AI של Google Clo",
-        "date": "2026-11-14T16:24:28+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
-      }
-    ],
-    "scraped_at": "2026-11-27T11:38:21.682582+00:00",
-    "error": "HTTP Status 403"
-  },
-  "ספארקס — בינה מלאכותית": {
-    "url": "https://sparks.news/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:21.580092+00:00",
-    "error": null
-  },
   "YouTube — הדרכות": {
     "url": "https://www.youtube.com",
     "category": "הדרכות",
     "items": [
+      {
+        "title": "האם AI מחליף את האנליטיקה וה-BI?",
+        "link": "https://www.youtube.com/watch?v=fIOh2s33P74",
+        "summary": "",
+        "date": "2026-11-28T11:12:54.748478+00:00",
+        "image": "https://img.youtube.com/vi/fIOh2s33P74/mqdefault.jpg"
+      },
+      {
+        "title": "ארבעת השלבים בתהליך עסקי מבוסס AI",
+        "link": "https://www.youtube.com/watch?v=g2OyuGPUaDc",
+        "summary": "",
+        "date": "2026-11-28T11:12:54.748474+00:00",
+        "image": "https://img.youtube.com/vi/g2OyuGPUaDc/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה – חוויית ה-Agentic AI ב-Qlik Cloud",
+        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
+        "summary": "",
+        "date": "2026-11-28T11:12:54.748452+00:00",
+        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
+      },
+      {
+        "title": "פתיח: מהם סוכני בינה מלאכותית?",
+        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
+        "summary": "",
+        "date": "2026-11-28T11:12:54.106061+00:00",
+        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
+      },
+      {
+        "title": "מצב קודקס",
+        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
+        "summary": "",
+        "date": "2026-11-28T11:12:54.106057+00:00",
+        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
+      },
+      {
+        "title": "סקירת ממשק של claude ai",
+        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
+        "summary": "",
+        "date": "2026-11-28T11:12:53.358442+00:00",
+        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
+      },
+      {
+        "title": "הרשמה לקלוד",
+        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
+        "summary": "",
+        "date": "2026-11-28T11:12:53.358440+00:00",
+        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
+      },
+      {
+        "title": "רוצים להכיר את קלוד AI כמו שצריך?",
+        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
+        "summary": "",
+        "date": "2026-11-28T11:12:53.358438+00:00",
+        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
+      },
+      {
+        "title": "New Projects",
+        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
+        "summary": "",
+        "date": "2026-11-28T11:12:53.358435+00:00",
+        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
+      },
+      {
+        "title": "Use big prompts",
+        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
+        "summary": "",
+        "date": "2026-11-28T11:12:53.358432+00:00",
+        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
+      },
       {
         "title": "Playback",
         "link": "https://www.youtube.com/watch?v=S5lWOPAS_E4",
@@ -253,25 +88,11 @@
         "image": "https://img.youtube.com/vi/TE5NjMgnASo/mqdefault.jpg"
       },
       {
-        "title": "Search filters",
-        "link": "https://www.youtube.com/watch?v=GZIGwEOG3uw",
-        "summary": "",
-        "date": "2026-11-27T11:38:27.695018+00:00",
-        "image": "https://img.youtube.com/vi/GZIGwEOG3uw/mqdefault.jpg"
-      },
-      {
         "title": "פתיח: מהם סוכני בינה מלאכותית?",
         "link": "https://www.youtube.com/watch?v=MrxfffxrXkA",
         "summary": "",
         "date": "2026-11-27T11:38:26.965253+00:00",
         "image": "https://img.youtube.com/vi/MrxfffxrXkA/mqdefault.jpg"
-      },
-      {
-        "title": "המעבר לצ'אט",
-        "link": "https://www.youtube.com/watch?v=CRR5QGpcsgE",
-        "summary": "",
-        "date": "2026-11-27T11:38:26.965246+00:00",
-        "image": "https://img.youtube.com/vi/CRR5QGpcsgE/mqdefault.jpg"
       },
       {
         "title": "סקירת ממשק של claude ai",
@@ -286,27 +107,6 @@
         "summary": "",
         "date": "2026-11-27T11:38:26.139874+00:00",
         "image": "https://img.youtube.com/vi/vWSkr3Q78IQ/mqdefault.jpg"
-      },
-      {
-        "title": "רוצים להכיר את קלוד AI כמו שצריך?",
-        "link": "https://www.youtube.com/watch?v=YsJz00qVyRc",
-        "summary": "",
-        "date": "2026-11-27T11:38:26.139872+00:00",
-        "image": "https://img.youtube.com/vi/YsJz00qVyRc/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=Vqhy3VD-34U",
-        "summary": "",
-        "date": "2026-11-27T11:38:26.139870+00:00",
-        "image": "https://img.youtube.com/vi/Vqhy3VD-34U/mqdefault.jpg"
-      },
-      {
-        "title": "Use big prompts",
-        "link": "https://www.youtube.com/watch?v=MfyyUxBtOS0",
-        "summary": "",
-        "date": "2026-11-27T11:38:26.139868+00:00",
-        "image": "https://img.youtube.com/vi/MfyyUxBtOS0/mqdefault.jpg"
       },
       {
         "title": "האם AI מחליף את האנליטיקה וה-BI?",
@@ -328,34 +128,6 @@
         "summary": "",
         "date": "2026-11-26T11:44:50.809693+00:00",
         "image": "https://img.youtube.com/vi/h1Y0yeHJNyc/mqdefault.jpg"
-      },
-      {
-        "title": "פתיח: מהם סוכני בינה מלאכותית?",
-        "link": "https://www.youtube.com/watch?v=QLsumfMB3Bs",
-        "summary": "",
-        "date": "2026-11-26T11:44:50.100918+00:00",
-        "image": "https://img.youtube.com/vi/QLsumfMB3Bs/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת ממשק של claude ai",
-        "link": "https://www.youtube.com/watch?v=qFFrDVqCAF0",
-        "summary": "",
-        "date": "2026-11-26T11:44:49.273297+00:00",
-        "image": "https://img.youtube.com/vi/qFFrDVqCAF0/mqdefault.jpg"
-      },
-      {
-        "title": "הרשמה לקלוד",
-        "link": "https://www.youtube.com/watch?v=ultqhPpEaao",
-        "summary": "",
-        "date": "2026-11-26T11:44:49.273295+00:00",
-        "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "זיהוי חריגות ומגמות – Qlik Alerts ו-Discovery Agent",
-        "link": "https://www.youtube.com/watch?v=g2OyuGPUaDc",
-        "summary": "",
-        "date": "2026-11-25T11:56:38.487385+00:00",
-        "image": "https://img.youtube.com/vi/g2OyuGPUaDc/mqdefault.jpg"
       },
       {
         "title": "האם AI מחליף את האנליטיקה וה-BI?",
@@ -573,37 +345,171 @@
         "summary": "",
         "date": "2026-11-15T10:14:24.775361+00:00",
         "image": "https://img.youtube.com/vi/fAOg5XfUZeg/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה ומצב Work",
-        "link": "https://www.youtube.com/watch?v=DZoMm_mc7OI",
-        "summary": "",
-        "date": "2026-11-14T09:40:44.637421+00:00",
-        "image": "https://img.youtube.com/vi/DZoMm_mc7OI/mqdefault.jpg"
-      },
-      {
-        "title": "שלט בעברית, ומה לבדוק",
-        "link": "https://www.youtube.com/watch?v=_z60sWsd0WQ",
-        "summary": "",
-        "date": "2026-11-14T09:40:44.637414+00:00",
-        "image": "https://img.youtube.com/vi/_z60sWsd0WQ/mqdefault.jpg"
-      },
-      {
-        "title": "תמונה ראשונה מבקשה רגילה",
-        "link": "https://www.youtube.com/watch?v=jCf9FvrXNMI",
-        "summary": "",
-        "date": "2026-11-14T09:40:44.637411+00:00",
-        "image": "https://img.youtube.com/vi/jCf9FvrXNMI/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה: למה קורס שלם ביוטיוב, ומה נלמד היום",
-        "link": "https://www.youtube.com/watch?v=PyG0mV69K34",
-        "summary": "",
-        "date": "2026-11-14T09:40:43.880750+00:00",
-        "image": "https://img.youtube.com/vi/PyG0mV69K34/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-11-27T11:38:27.695544+00:00",
+    "scraped_at": "2026-11-28T11:12:54.749583+00:00",
+    "error": null
+  },
+  "הארץ טכנולוגיה": {
+    "url": "https://www.haaretz.co.il/srv/haaretz-main-rss",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:48.243859+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ynet טכנולוגיה": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [
+      {
+        "title": "לפני שלוחצים \"אישור\": כך תחברו סוכני AI בלי לסכן את עצמכם והארגון",
+        "link": "https://www.ynet.co.il/digital/technews/article/bjz7otsj7g",
+        "summary": "מנהלים, עובדים וסטודנטים מעניקים לכלי בינה מלאכותית הרשאות לפעול בשמם במערכות האישיות או הארגוניות. החל מצמצום גישה ועד להשארת הבקרה בידיים אנושיות - שוחחנו עם Linx Security על הכללים שימנעו שימוש לרעה של סוכני בינה מלאכותית",
+        "date": "2026-11-26T15:25:40+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/26/HyxoT6aHy7l/HyxoT6aHy7l_0_36_1000_563_0_medium.jpg"
+      },
+      {
+        "title": "צפון קוריאה חשפה צ'אטבוט AI עם אזהרה: לא לשאול שאלות",
+        "link": "https://www.ynet.co.il/digital/technews/article/sk9zyuv1qg",
+        "summary": "המערכת, שזכתה לשם \"מעיין החוכמה\" ופותחה באוניברסיטת קים איל סונג, הוצגה בתערוכת טכנולוגיה בפיונגיאנג. הממשק מזכיר את ChatGPT, המנוע מבוסס ככל הנראה על מודלים פתוחים מערביים או סיניים – והמשתמשים מוזהרים לבל ישאלו שאלות בעלות \"תוכן חברתי-פוליטי\"",
+        "date": "2026-11-25T12:15:19+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/02/B1Rg11mLTze/B1Rg11mLTze_0_0_3000_1689_0_medium.jpg"
+      },
+      {
+        "title": "הולנד מזהירה מפני \"משקפי סוטים\": \"לצילום בציבור אין כמעט הצדקה\"",
+        "link": "https://www.ynet.co.il/digital/technews/article/ryjdk11q1xx",
+        "summary": "הרשות ההולנדית להגנת נתונים קוראת לציבור להימנע מרכישת משקפיים חכמים מבוססי בינה מלאכותית עם מצלמה, לאחר שבדיקות העלו שגיאות בטיחות מסוכנות, פגיעה קשה בפרטיות עוברי אורח ושימוש לרעה להטרדות",
+        "date": "2026-11-24T13:05:04+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/09/18/HkSnrjBtixl/HkSnrjBtixl_0_0_1600_901_0_medium.jpg"
+      },
+      {
+        "title": "מנכ\"ל ענקית התרופות מצנן את ההתלהבות: \"AI לא ירפא סרטן תוך עשור\"",
+        "link": "https://www.ynet.co.il/digital/technews/article/hyvbheq17g",
+        "summary": "בעוד שבכירי עמק הסיליקון מבטיחים פריצות דרך רפואיות בזק בעזרת מודלי שפה ובינה מלאכותית, ואס נאראסימהן – העומד בראש ענקית התרופות השוויצרית נוברטיס וחבר בדירקטוריון אנתרופיק – מציג תמונת מצב מפוכחת בהרבה: \"אנחנו מבינים רק כ-5% ממה שקורה בגוף האדם\"",
+        "date": "2026-11-24T12:41:44+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/24/rJQaTYz5Me/rJQaTYz5Me_0_0_1000_567_0_medium.jpg"
+      },
+      {
+        "title": "בלי מסך, עם כפתור הקלטה: Nothing תחשוף מכשיר AI ראשון",
+        "link": "https://www.ynet.co.il/digital/technews/article/sjenw2bkme",
+        "summary": "מנכ\"ל החברה הבריטית, קארל פיי, אישר כי הגאדג'ט החדש יגיע למדפים עוד החודש. בניגוד לניסיונות הכושלים בעמק הסיליקון להחליף את הסמארטפון, ב-Nothing מכוונים לכלי עבודה ייעודי שנועד לגשר על \"פער הקונטקסט\" של ה-AI",
+        "date": "2026-11-23T13:06:14+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/23/BkTZKhby7g/BkTZKhby7g_1_0_1200_675_0_medium.jpg"
+      },
+      {
+        "title": "יוצר הסימס חוזר אחרי עשור, והפעם הוא רוצה לשחק בחיים שלכם",
+        "link": "https://www.ynet.co.il/digital/gaming/article/ryfwmdzkxg",
+        "summary": "יותר מ-25 שנה אחרי ששינה את עולם הגיימינג, ויל רייט חוזר עם משחק חדש שעליו עבד במשך עשור. הפעם, במקום לשלוט בחייהן של דמויות וירטואליות, השחקנים יוכלו להפוך את הזיכרונות, החברים ובני המשפחה שלהם לעולם שלם המבוסס על בינה מלאכותית. ההשקה מתוכננת ל-2027, אבל יש גם שאלות",
+        "date": "2026-11-23T08:29:20+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/23/SJfJv00bJXe/SJfJv00bJXe_0_127_1448_816_0_medium.jpg"
+      },
+      {
+        "title": "שלושה מחקרים ישראליים, שורה של מחדלים: המבוכה החדשה של אילון מאסק",
+        "link": "https://www.ynet.co.il/digital/technews/article/syt3mpzyxe",
+        "summary": "פרצה שמאפשרת להשתלט על שרתים, עשרות אלפי אפליקציות חשופות למידע רגיש וסוכני AI שניסו לגשת למיילים וליומנים גם אחרי שהמשתמשים סירבו: שלושה מחקרים חדשים חושפים שורת כשלי אבטחה ופרטיות בגרוק, ומעלים שאלות קשות על המחיר של פיתוח מהיר מדי",
+        "date": "2026-11-23T07:59:07+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/01/13/ryYDSdmBZg/ryYDSdmBZg_0_0_1207_673_0_medium.jpg"
+      },
+      {
+        "title": "המרד נגד גוגל מתרחב: בתי הספר בארה\"ב מאיימים לעבור למתחרות",
+        "link": "https://www.ynet.co.il/digital/technews/article/s1k717gjmx",
+        "summary": "ניו יורק, לוס אנג'לס ושיקגו בוחנות לנטוש את מנוע החיפוש של גוגל, בעקבות סירובה לאפשר לתלמידים להשתמש בו ללא בינה מלאכותית. ההורים יצאו להפגין, מנהלי החינוך מאיימים לעבור לבינג ול-DuckDuckGo, ותביעה שהגישו הורים לילדה בת 13 רק מוסיפה שמן למדורה",
+        "date": "2026-11-22T08:41:02+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/15/S1MUlDTWfg/S1MUlDTWfg_0_0_1500_844_0_medium.jpg"
+      },
+      {
+        "title": "לזהות זיופים, לחשוף מתחזים ולעקוב אחרי הילדים: טיקטוק שולפת כלים חדשים",
+        "link": "https://www.ynet.co.il/digital/technews/article/rkhhb00paml",
+        "summary": "הרשת החברתית משיקה כלי חדש לזיהוי תכנים שנוצרו בבינה מלאכותית, לצד מערכת שתתריע על שימוש לא מורשה בפנים של משתמשים. במקביל, החברה מרחיבה את הפיקוח ההורי, כולל התרעות על סימני מצוקה בקרב בני נוער, וחושפת נתונים מפתיעים על הרגלי הגלישה של דור ה-Z",
+        "date": "2026-11-20T07:38:00+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/20/BkZndOTRGx/BkZndOTRGx_0_0_1024_576_0_medium.jpg"
+      },
+      {
+        "title": "78% שואלים על בריאות, רק 25% כותבים קוד: כך הישראלים משתמשים ב-AI",
+        "link": "https://www.ynet.co.il/digital/article/rjrkdooczg",
+        "summary": "מחקר חדש של שנקר, ויקימדיה ישראל, מוסד שמואל נאמן ואיגוד האינטרנט הישראלי מגלה ש-85% פונים לבינה מלאכותית כדי לספק סקרנות, 53% יודעים שהיא עלולה להציג מידע שגוי, ורק כ-38% בודקים את התשובות שלה מול מקורות אחרים. צעירים משתמשים בה הרבה יותר ממבוגרים, ומודעים יותר למגבלות שלה",
+        "date": "2026-11-19T04:00:00+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/18/rk11CY00sAfl/rk11CY00sAfl_36_0_1365_769_0_medium.jpg"
+      },
+      {
+        "title": "מיקרוסופט חשפה סוכני AI אוטונומיים – עם חותמת ישראלית",
+        "link": "https://www.ynet.co.il/digital/technews/article/b1suw4iazx",
+        "summary": "בכנס Ignite 2026 של החברה הכריז המנכ\"ל סאטיה נאדלה כי קופיילוט הופך ל\"מערכת ההפעלה החדשה לעבודה\". לצד סוכנים שמקדמים פרויקטים מסביב לשעון, מערכת סייבר אוטונומית, טכנולוגיית ענן מנותקת מרשת והאצת תעבורת נתונים",
+        "date": "2026-11-18T14:49:31+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/18/HyKiFEiRMe/HyKiFEiRMe_0_67_1024_577_0_medium.jpg"
+      },
+      {
+        "title": "גוגל: נחשפה המתקפה האוטונומית הראשונה המבוססת על בינה מלאכותית",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkhbzayamg",
+        "summary": "דוח חטיבת מודיעין הסייבר של גוגל ומנדיאנט מצביע על נקודת מפנה דרמטית: האקרים דוברי רוסית הפעילו סוכן AI שזיהה פרצות ותקף אתרים בצרפת באופן עצמאי לחלוטין. במקביל, איראן מפעילה כלי בינה מלאכותית לזירה המזרח-תיכונית, וטכנולוגיות של וויז הישראלית משולבות במערך ההגנה החדש",
+        "date": "2026-11-17T12:32:12+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/26/H1u3RAMgMe/H1u3RAMgMe_0_0_828_466_0_medium.jpg"
+      },
+      {
+        "title": "קודם תפענחו לבד, ואז תפנו ל-AI: ההוראה החדשה לרופאים",
+        "link": "https://www.ynet.co.il/digital/technews/article/bkj1j3f0fg",
+        "summary": "בועידת הבריאות של ynet ו\"ידיעות אחרונות\" עלה נושא ה-AI לדיון בהמשך למספר נתונים: כ-50% מהרופאים בארה\"ב כבר נעזרים בו לאבחון, בבתי החולים בישראל מנותחות מאות אלפי בדיקות בחודש באמצעות AI, וזמן האשפוז התקצר בשעות. אבל, בכירים מזהירים מפני שחיקת מיומנויות המתמחים, מאבחנות שגויות שמלחיצות מטופלים ומכך שהרופא יהפוך לחותמת גומי של המכונה",
+        "date": "2026-11-17T11:04:11+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/17/rJW6gatK0Ge/rJW6gatK0Ge_0_0_3000_1689_0_medium.jpg"
+      },
+      {
+        "title": "יש אדם שאין לו תחליף בינה מלאכותית",
+        "link": "https://www.ynet.co.il/digital/technews/article/yokra14960397",
+        "summary": "ה-AI מצמצם את הצורך בעובדים בכמה תחומים, אולם סוף השבוע האחרון סיפק דוגמה מצוינת לכך שלא כולנו צריכים למהר לעשות הסבה למקצועות ידניים, על תקלות הענק במיקרוסופט ובשדות התעופה בארה\"ב היו אחראיות דווקא המכונות – ובני האדם הם שפתרו אותן",
+        "date": "2026-11-16T22:00:00+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/18/S1mXZcWvfl/S1mXZcWvfl_44_0_1365_769_0_medium.jpg"
+      },
+      {
+        "title": "בלי מסך, עם הרבה AI: ההימור הגדול הבא של אפל",
+        "link": "https://www.ynet.co.il/digital/technews/article/rj17owocgl",
+        "summary": "ענקית הטק נערכת להשקת המשקפיים החכמים הראשונים שלה ב-2027, ומתכננת להתחרות במטא עם מוצר שיתבסס על בינה מלאכותית, פקודות קוליות ושילוב עמוק עם האייפון. אלא שבדור הראשון לא יהיו תצוגה או יכולות מציאות רבודה, וחוויית השימוש תישען בעיקר על סירי, שעדיין מפגרת מאחורי המתחרים",
+        "date": "2026-11-16T11:48:30+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/17/rygVYPq00g11x/rygVYPq00g11x_0_95_1921_1081_0_medium.jpg"
+      },
+      {
+        "title": "מה אנבידיה לא מספרת? ההודאה הסודית שמסבכת את ענקית השבבים",
+        "link": "https://www.ynet.co.il/digital/technews/article/h1zfdfwrmx",
+        "summary": "בעיצומה של סערת הריגול שמטלטלת את ענקית השבבים, חבר קונגרס אמריקני חושף כי נציגי אנבידיה הודו בפניו בשיחות סגורות שהחברה מסוגלת לעקוב אחר מיקומם של שבבי ה-AI שלה, בניגוד לעמדה שהציגה בפומבי. כעת מקדמת וושינגטון חקיקה שתחייב מנגנוני מעקב ואימות, במטרה למנוע הברחות לסין",
+        "date": "2026-11-15T12:19:47+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/07/23/BkLju7AIgx/BkLju7AIgx_0_37_1062_598_0_medium.jpg"
+      },
+      {
+        "title": "גוגל מורידה את הכפפות: מודלי בינה מלאכותית חדשים, שבבי-על ומשקפיים חכמים",
+        "link": "https://www.ynet.co.il/digital/technews/article/hysgowvczg",
+        "summary": "ענקית הטק יוצאת למתקפה בכל החזיתות: מודלי AI חדשים, שבבים שיאתגרו את אנבידיה, משקפיים חכמים שיתחרו במטא ורובוטים מתקדמים. המטרה היא לא רק לנצח במרוץ הבינה המלאכותית, אלא לשלוט בכל שרשרת הטכנולוגיה - מהשבב ועד למשתמש",
+        "date": "2026-11-15T11:26:02+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/15/SyO7IzP0zl/SyO7IzP0zl_0_0_1705_959_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-28T11:12:47.858033+00:00",
+    "error": null
+  },
+  "ספארקס — בינה מלאכותית": {
+    "url": "https://sparks.news/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:48.398458+00:00",
+    "error": null
+  },
+  "TheMarker טכנולוגיה": {
+    "url": "https://www.themarker.com/cmlink/1.4658981",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:46.620048+00:00",
+    "error": null
+  },
+  "כלכליסט טק": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "חדשות טכנולוגיה",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:45.918347+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ICT Israel": {
+    "url": "https://ictisrael.com/feed/",
+    "category": "AI ישראל",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:48.523835+00:00",
     "error": null
   },
   "גיקטיים": {
@@ -650,7 +556,7 @@
         "link": "https://www.geektime.co.il/zipher-comes-out-of-stealth-with-autonomous-data-infrastructure/",
         "summary": "סוכני AI כבר כותבים ומריצים קוד בארגונים בקצב מסחרר, אבל מישהו צריך לנהל את כל עומס המחשוב הזה בלי לשרוף את התקציב. סטארטאפ ישראלי חדש בשם Zipher (זייפר), שנחשף היום (ג') עם גיוס משמעותי, רוצה לתת לסוכנים שלו לנהל את העבודה מאחורי הקלעים &#8211; ולחתוך בעלויות הענן. אותה משימה, חשבון אחר \"ב-Zipher הלקוח מגדיר יעדי [&#8230;] The post גייסו 53 מיליון דולר כדי שהאייג&#039;נטים יפסיקו לנפח לכם את החשב",
         "date": "2026-11-24T13:00:14+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/zipher-founders-1024x683.jpeg"
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/zipher-crew-1024x683.jpeg"
       },
       {
         "title": "נפתחה ההרשמה לתוכנית ה-Deep Tech MBA של אוניברסיטת תל אביב",
@@ -854,43 +760,207 @@
         "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. AI Reimagined מתי? 26 בנובמבר (9:00-14:30) איפה? סינמה סיטי ירושלים [&#8230;] The post כנס ה-AI של Google Clo",
         "date": "2026-11-14T16:24:28+00:00",
         "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
-      },
-      {
-        "title": "הכלי הזה מאפשר לכם לשכפל כל תוכנה או משחק",
-        "link": "https://www.geektime.co.il/craft-anything-allows-you-to-clone-anything/",
-        "summary": "האם אנחנו בדרך לסופם של התשלומים החודשיים המוגזמים לחברות הענק? אחרי ששיכפל בהצלחה את התוכנות של אדובי ומיקרוסופט, מפתח תוכנה זועם אחד שחרר את נשק יום הדין של עולם הקוד הפתוח: כלי חינמי שמנתח כל תוכנה, אתר או אפליקציה, מהנדס אותה לאחור, ובונה לכם גרסה זהה בעזרת AI. ככה בדיוק זה עובד. התחיל עם אדובי, [&#8230;] The post הכלי הזה מאפשר לכם לשכפל כל תוכנה או משחק appeared first on גיקטיים .",
-        "date": "2026-11-13T14:30:51+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/aitoff-stormtrooper-2899993_1920-1024x657.jpg"
-      },
-      {
-        "title": "ואם היינו אומרים לכם שהסרט הכי מדובר השנה נוצר באמצעות AI?",
-        "link": "https://www.geektime.co.il/ai-art-creativity-originality-and-the-future-of-art/",
-        "summary": "רעיון התודעה המשותפת הופיע ביצירות מדע בדיוני הרבה לפני שנוצר מודל ה-AI הראשון. מ\"המשחק של אנדר\", דרך \"סטארטרק\" ועד \"פלוריבוס\" &#8211; \"מח כוורת\" הוא כר פורה לעלילות דיסטופיות ואוטופיות (תלוי את מי שואלים) שמעוררות שאלות על אובדן העצמי, ומנגד מציעות פתרון לבדידות האנושית ולמלחמות. במציאות, הרעיון הזה הופך את כולנו למומחים להכל שחולקים צבר אדיר [&#8230;] The post ואם היינו אומרים לכם שהסרט הכי מדוב",
-        "date": "2026-11-13T13:12:04+00:00",
-        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/con-1024x576.jpg"
       }
     ],
-    "scraped_at": "2026-11-27T11:38:18.258714+00:00",
-    "error": "HTTP Status 403"
+    "scraped_at": "2026-11-28T11:12:44.967403+00:00",
+    "error": null
   },
-  "ynet טכנולוגיה": {
-    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+  "כלכליסט — מגזר ציבורי": {
+    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
+    "category": "מחשוב וממשל",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:51.094547+00:00",
+    "error": "HTTP Status 404"
+  },
+  "ynet כללי — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss2.xml",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "פריצות הדרך והחשש הדרמטי: \"מעבדות AI יושבות על פצצה\" שתגרום לכאוס עולמי",
+        "link": "https://www.ynet.co.il/news/article/bk00zjf001ml",
+        "summary": "לפי הגרדיאן הבריטי, ייתכן שבינה מלאכותית פיצחה בעיות מתמטיות בנות עשרות שנים העומדות בבסיס ההצפנה של בנקים וסוכנויות ממשלתיות. מתמטיקאי מוביל הסביר שייתכן ש\"כולם שומרים על שקט\" בגלל ההשלכות העצומות, אחר הוסיף: \"צריכים להיות מוכנים לכך שמשהו יצוץ פתאום\". עד כמה הסכנה מיידית?",
+        "date": "2026-11-28T08:48:41+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/06/BkscC9cTzx/BkscC9cTzx_0_0_1672_941_0_medium.jpg"
+      },
+      {
+        "title": "חשד למתקפת סייבר סינית על ה-CIA: האקרים חדרו למערכות המודיעין בעזרת AI",
+        "link": "https://www.ynet.co.il/news/article/bjp4qsmkme",
+        "summary": "אחרי הפריצה למאגר המידע של ה-FBI וקריסת רשת התקשורת המסווגת של הסוכנות לביטחון לאומי, \"ניו יורק טיימס\" חושף כי האקרים חדרו למערכת שמשמשת לפחות 3 סוכנויות מודיעין אמריקניות. לפי החשד, הפורצים השתמשו בכלי בינה מלאכותית שפיתח מהנדס סיני ושנקשר לעשרות מתקפות ברחבי העולם. מידע מסווג לא נפגע, אך בוושינגטון גוברת הדאגה בצל רצף התקלות",
+        "date": "2026-11-25T01:06:51+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/25/H1kHG3myQe/H1kHG3myQe_0_0_850_479_0_medium.jpg"
+      },
+      {
+        "title": "בזמן מלחמה עם איראן: התקלה ב-NSA שיבשה את פעילות המודיעין האמריקני במזרח התיכון",
+        "link": "https://www.ynet.co.il/news/article/byg3cx2agg",
+        "summary": "לפי CNN, התקלה החמורה ברשת התקשורת המסווגת של הסוכנות לביטחון לאומי פגעה גם במרכז בג'ורג'יה, שאחראי על פעילות סייבר ומודיעין במזרח התיכון: \"עובדים לא הצליחו לתקשר עם עמיתיהם והשתמשו במערכות גיבוי\". הממשל שולל מתקפת סייבר, ומצביע על עדכוני תוכנה בעקבות פרצות אבטחה שזוהו בעזרת בינה מלאכותית: \"ה-AI מזהה פרצות במהירות חסרת תקדים\"",
+        "date": "2026-11-19T09:58:57+00:00",
+        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/19/HyvKLBnCGl/HyvKLBnCGl_0_97_860_485_0_medium.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-28T11:12:51.297336+00:00",
+    "error": null
+  },
+  "קמפוס GOV": {
+    "url": "https://campus.gov.il",
+    "category": "קמפוס GOV",
+    "items": [],
+    "scraped_at": "2026-11-28T11:12:51.566039+00:00",
+    "error": null
+  },
+  "גיקטיים — מגזר ציבורי": {
+    "url": "https://www.geektime.co.il/feed/",
+    "category": "מחשוב וממשל",
+    "items": [
+      {
+        "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה",
+        "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
+        "summary": "פעם אמרו שכלי AI לא יחליפו מתכנתים, אלא רק \"יהפכו אותם ליעילים יותר\" או \"יחליפו את מי שלא משתמש ב-AI\". ובכן, דוח חדש שמפרסם היום (ד') שירות התעסוקה מצייר תמונה קצת יותר מורכבת לעובדים בתעשיית ההייטק המקומית. לפי הנתונים, 56% מהשימוש שנבדק ב-Claude במקצוע \"פיתוח התוכנה וניתוח היישומים\" מוגדר כ\"אוטומציה\", כלומר האצלת ביצוע המשימה למערכת, [&#8230;] The post דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתי",
+        "date": "2026-11-25T09:06:53+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Laptop-Startup-Tech-Unsplash-1024x767.jpg"
+      },
+      {
+        "title": "\"הסוכן הוא רק הצינור\": יוצאי אימפרבה מגייסים 10 מיליון דולר כדי לשמור על סוכני ה-AI שלכם",
+        "link": "https://www.geektime.co.il/dante-security-thinks-ai-agents-are-no-divine-comedy/",
+        "summary": "לא. אף אחד במשרד לא רוצה לשמוע על האייג'נט שבנית שמכין רשימת קניות בסופר ומתאם לך דייטים עם בן או בת הזוג. הבנו את הקטע. אבל אם בניתם כבר סוכנים שמשמשים אתכם במקום העבודה שלכם, זה כבר יותר מעניין. זה כנראה מספיק מעניין כדי שבכירי אימפרבה לשעבר יציעו פלטפורמה שלמה שתשגיח על הסוכנים שלכם, ויגייסו [&#8230;] The post &quot;הסוכן הוא רק הצינור&quot;: יוצאי אימפרבה מגייסים 10 מיליון דולר כדי לשמור על סו",
+        "date": "2026-11-24T13:10:48+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Dante-employees.-Photo-credit-Victor-Levi-1-1024x684.jpg"
+      },
+      {
+        "title": "גייסו 53 מיליון דולר כדי שהאייג'נטים יפסיקו לנפח לכם את החשבון",
+        "link": "https://www.geektime.co.il/zipher-comes-out-of-stealth-with-autonomous-data-infrastructure/",
+        "summary": "סוכני AI כבר כותבים ומריצים קוד בארגונים בקצב מסחרר, אבל מישהו צריך לנהל את כל עומס המחשוב הזה בלי לשרוף את התקציב. סטארטאפ ישראלי חדש בשם Zipher (זייפר), שנחשף היום (ג') עם גיוס משמעותי, רוצה לתת לסוכנים שלו לנהל את העבודה מאחורי הקלעים &#8211; ולחתוך בעלויות הענן. אותה משימה, חשבון אחר \"ב-Zipher הלקוח מגדיר יעדי [&#8230;] The post גייסו 53 מיליון דולר כדי שהאייג&#039;נטים יפסיקו לנפח לכם את החשב",
+        "date": "2026-11-24T13:00:14+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/zipher-crew-1024x683.jpeg"
+      },
+      {
+        "title": "נפתחה ההרשמה לתוכנית ה-Deep Tech MBA של אוניברסיטת תל אביב",
+        "link": "https://www.geektime.co.il/tau-coller-deep-tech-mba-2027/",
+        "summary": "אם אתם קוראים את זה, כנראה שיש לכם מומחיות טכנולוגית בעולמות הפיתוח והמחקר. אבל האם אתם יודעים להפוך אותה ליכולת לנהל עסק או יחידה עסקית, או להוביל מיזם המתבסס על טכנולוגיה עמוקה? פיתוח טכנולוגיה פורצת דרך הוא רק חלק מהדרך להפוך רעיון לחברה מצליחה. בתחומים כמו AI, סייבר, רובוטיקה, ביוטכנולוגיה, טכנולוגיות רפואיות, אקלים ו-Deep Tech, [&#8230;] The post נפתחה ההרשמה לתוכנית ה-Deep Tech MBA של אוניבר",
+        "date": "2026-11-24T12:07:35+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_221457949-1024x576.jpg"
+      },
+      {
+        "title": "ה-CISO של אמזון: \"חסמנו 2,900 צפון-קוריאנים שניסו להתקבל לעבודה\"",
+        "link": "https://www.geektime.co.il/ai-native-cybersecurity-pod-ep1-amazon/",
+        "summary": "מאת שחר פלד \"חסמנו לפחות 2,900 גורמים מצפון-קוריאה שניסו להתקבל לעבודה באמזון\", סיפר סי-ג'יי מוזס, מנהל אבטחת המידע של ענקית האיקומרס ושירותי הענן האמריקאית. \"הם משתמשים ב-AI כדי לבנות זהויות בדויות שנראות אמינות, ולהתקבל לעבודה בחברות כמו שלנו\", הסביר. \"הכסף שהם מקבלים מהעבודה בחברות האלה חוזר לצפון-קוריאה ומממן את הפעילות הצבאית של המשטר. ה-AI מאפשר [&#8230;] The post ה-CISO של אמזון: &quot;חסמנ",
+        "date": "2026-11-24T09:16:34+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/0940_-_Nordkorea_2015_-_Pjongjang_-_Parade_zum_75._JT_der_Arbeiterpartei_22976923725-1024x678.jpg"
+      },
+      {
+        "title": "9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-Python ל-Go",
+        "link": "https://www.geektime.co.il/python-to-go-migration-ai-agents/",
+        "summary": "שבעה ימי עבודה &#8211; זה הזמן שלקח לנו להעביר את הקוד הפעיל שלנו בפרודקשן מ-Python ל-Go, באמצעות AI. התוצאה? ירידה של 80 אחוז בעלויות הענן ושיפור ביצועים של עד פי 11 בפונקציות מסוימות. עלות הטוקנים הסתכמה בכ-5% בלבד מהחיסכון שהשגנו. עד לאחרונה, פרויקט כזה היה דורש השקעה משמעותית של זמן ומשאבי פיתוח, אבל השימוש ב-AI [&#8230;] The post 9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-P",
+        "date": "2026-11-22T16:07:00+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/GO-PROGRAMMING-GEEKTIME-1024x568.jpg"
+      },
+      {
+        "title": "בואו ללמוד בלייב איך מביאים סוכנים לפרודקשן (בלי לאבד שנה מהחיים)",
+        "link": "https://www.geektime.co.il/agents-at-work-meetup-7122026/",
+        "summary": "מנהלי IT ואבטחת מידע עומדים היום מול דילמה דחופה: מצד אחד, קיים לחץ עסקי לאמץ סוכני AI ולהפיק מהם ערך במהירות. מצד שני, האימוץ הזה מגיע עם סכנות אבטחה משמעותיות &#8211; סוכנים שפועלים בלי פיקוח, חשיפת מידע רגיש וקושי לנטר את הפעילות. בארגונים רבים חסרה מסגרת Governance ברורה, ולכן הם תקועים באמצע הדרך שבין פיילוט [&#8230;] The post בואו ללמוד בלייב איך מביאים סוכנים לפרודקשן (בלי לאבד שנה מהחיים) ",
+        "date": "2026-11-22T09:32:36+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_453126363-1024x576.jpg"
+      },
+      {
+        "title": "במשחק הזה אתם צריכים שיפטרו את כל ההייטקיסטים",
+        "link": "https://www.geektime.co.il/agentrix-will-let-you-take-over-the-world/",
+        "summary": "בזמן שרבים בהייטק חוששים שה-AI יחליף אותם (והנתונים בהחלט מעידים על מקום לדאגה), משחק ישראלי חדש מציע לכם לעבור דווקא לצד השני של המתרס. במקום לעדכן קורות חיים ולעבוד על יכולות הריאיון שלכם, אתם תיכנסו לנעליים של מעבדת AI ותנסו להשתלט על שוק העבודה העולמי, מקצוע אחר מקצוע, לפני שהרגולציה תשתלט עליכם. כשסין ניסתה לגנוב [&#8230;] The post במשחק הזה אתם צריכים שיפטרו את כל ההייטקיסטים appeared first ",
+        "date": "2026-11-21T08:21:29+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-14.10.38-1024x703.jpg"
+      },
+      {
+        "title": "הממשלה מקדמת \"ארגז חול\" לסטארטאפים, אבל שכחה 4 דברים בדרך",
+        "link": "https://www.geektime.co.il/regulatory-sandbox-startups-israel/",
+        "summary": "תחשבו על יזמת שפיתחה מערכת AI שמנתחת אולטרסאונד שאישה בהיריון עושה בבית. או על שלושה מהנדסים שבנו רמזור שמחליט לבד מתי להתחלף לפי מצב התנועה. או על סטארטאפ שרוצה לנסות הסעות משותפות בתשלום ברכב פרטי. לכולם יש אותה בעיה: המוצר עובד, אבל החוק לא מאפשר לנסות אותו. לא כי מישהו קבע שזה מסוכן, אלא כי [&#8230;] The post הממשלה מקדמת &quot;ארגז חול&quot; לסטארטאפים, אבל שכחה 4 דברים בדרך appeared first on",
+        "date": "2026-11-18T14:08:52+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/coral.ai_.startup.meeting-1024x681.jpg"
+      },
+      {
+        "title": "אירוע בהזמנה בלבד: כך תתגוננו מפני מתקפות AI עם הכלים של Google Cloud",
+        "link": "https://www.geektime.co.il/cxo-security-breakfast-6122026/",
+        "summary": "כשמדברים על הגנת סייבר, סוכני AI הם גם הבעיה וגם הפתרון: תוקפים משתמשים בהם כדי לייצר מתקפות פישינג משכנעות בעברית מושלמת, לזייף קולות של מנהלים, לסרוק חולשות בקנה מידה עצום ולהריץ קמפיינים שפעם דרשו צוות שלם. באותו זמן, הארגונים עצמם מכניסים AI לכל פינה: עוזרים חכמים לעובדים, סוכנים אוטונומיים שמבצעים פעולות במערכות הליבה ומודלים שנוגעים [&#8230;] The post אירוע בהזמנה בלבד: כך תתגוננו מפני מתקפו",
+        "date": "2026-11-18T09:33:03+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/dreamstime_m_357130779-1024x701.jpg"
+      },
+      {
+        "title": "תקלה רחבה בשירותי אפל: App Store ו-iCloud קרסו",
+        "link": "https://www.geektime.co.il/apple-icloud-app-store-internal-update-outage/",
+        "summary": "זה לא רק אצלכם. משתמשי אפל בכל העולם דיווחו בשעות האחרונות על שיבושים נרחבים במספר שירותים מרכזיים של החברה. על פי עמוד הסטטוס של אפל, נרשמו השבתות מלאות ב-App Store לצד תקלות ביישומי הרשת ובעיות בהתחברות לשירותי iCloud ול-AppleCare. בנוסף, התלוננו משתמשים על שיבושים ברשת Find My וכן ב-iCloud‌ Mail, ‌iCloud‌ Calendar ו-iCloud‌ Contacts. התקלות [&#8230;] The post תקלה רחבה בשירותי אפל: App Store ו-",
+        "date": "2026-11-17T20:33:10+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/apple-down.jpg"
+      },
+      {
+        "title": "124 מיליון דולר לסטארטאפ הישראלי שיאפשר להציב דאטה סנטרים בחלל",
+        "link": "https://www.geektime.co.il/ramon-space-raises-124m-series-b/",
+        "summary": "בשנים האחרונות, עם הקשיים בהן נתקלות חברות ה-AI הגדולות, החל להתפתח הרעיון של הצבת דאטה סנטרים ולוויינים מיוחדים בחלל. אחד הסטארטאפים הישראלים הוותיקים בתחום הזה הוא Ramon.Space, שמפתח שבבים שיכולים לספק ביצועים של מערכות מחשוב על הקרקע &#8211; אבל בתנאים הבלתי אפשריים של החלל. היום (ג') הוא מכריז על מגה-גיוס מרשים. האם SpaceX כבר לקוחה? [&#8230;] The post 124 מיליון דולר לסטארטאפ הישראלי שיאפשר ל",
+        "date": "2026-11-17T13:00:43+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/Ramon.Space-2-1024x682.jpg"
+      },
+      {
+        "title": "3 חודשים אחרי הגיוס הראשון, הסטארטאפ הזה כבר הפך לחד קרן",
+        "link": "https://www.geektime.co.il/3-months-after-first-funding-round-this-startup-is-already-a-unicorn/",
+        "summary": "רק לפני שלושה חודשים סיפרנו לכם כאן על סטארטאפ חדש ומעניין בשם Corma שמפתח מודל בסיס לתעשיית הסייבר, המיועד למגינים ולאו דווקא לתוקפים. היום (ב'), אחרי סבב סיד חריג, הוא חושף סבב גיוס ענק נוסף, שמביא אותו היישר למועדון חדי הקרן. כל עדכוני ההייטק, בלי שטויות: ערוץ העדכונים השקט של גיקטיים יוצאי גוגל, DeepMind ו-8200 [&#8230;] The post 3 חודשים אחרי הגיוס הראשון, הסטארטאפ הזה כבר הפך לחד קרן appeare",
+        "date": "2026-11-16T12:02:45+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/corma-team-1024x683.jpg"
+      },
+      {
+        "title": "מיליוני משתמשים עצבניים ואלפי טיסות מקורקעות: מה לעזאזל קרה בסופ\"ש למיקרוסופט ולשדות התעופה בארה\"ב?",
+        "link": "https://www.geektime.co.il/microsoft-outlook-faa-major-outages-explained/",
+        "summary": "אם ניסיתם במהלך הסופ\"ש להיכנס למייל שלכם באאוטלוק, לשלוח הודעה ב-Teams או להשתמש ב-Copilot (סתם סתם, אנחנו יודעים שאף אחד לא מנסה מרצונו להשתמש בקופיילוט) וגיליתם שכלום לא עובד, אתם כבר יודעים שאתם לא לבד. תקלה נרחבת בשירותי הענן של ענקית הטכנולוגיה השביתה במשך יותר מיממה כמה מהשירותים החשובים ביותר שלה, והשפיעה על מיליוני משתמשים [&#8230;] The post מיליוני משתמשים עצבניים ואלפי טיסות מקורקעות: מה",
+        "date": "2026-11-15T08:40:34+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/11/erik-mclean-sxiSod0tyYQ-unsplash-1024x683.jpg"
+      },
+      {
+        "title": "כנס ה-AI של Google Cloud מגיע לירושלים ועוד המלצות רותחות",
+        "link": "https://www.geektime.co.il/geek-events-15112026/",
+        "summary": "ההייטק הישראלי לא עוצר: הנה המיטאפים, הכנסים והרצאות הטכנולוגיה המסקרנים שצפויים בקרוב. בפיזי או ברשת &#8211; אלו אירועי ההייטק המומלצים שאתם רוצים לשריין להם מקום ביומן. מארגנים אירוע או שמעתם על אירוע לקהילה הטכנולוגית בישראל? מוזמנים לעדכן אותנו כאן ולפרסם אותו בחינם בלוח האירועים שלנו. AI Reimagined מתי? 26 בנובמבר (9:00-14:30) איפה? סינמה סיטי ירושלים [&#8230;] The post כנס ה-AI של Google Clo",
+        "date": "2026-11-14T16:24:28+00:00",
+        "image": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg"
+      }
+    ],
+    "scraped_at": "2026-11-28T11:12:50.647697+00:00",
+    "error": null
+  },
+  "וואלה טק": {
+    "url": "https://rss.walla.co.il/feed/22",
     "category": "חדשות טכנולוגיה",
     "items": [
       {
-        "title": "לפני שלוחצים \"אישור\": כך תחברו סוכני AI בלי לסכן את עצמכם והארגון",
-        "link": "https://www.ynet.co.il/digital/technews/article/bjz7otsj7g",
-        "summary": "מנהלים, עובדים וסטודנטים מעניקים לכלי בינה מלאכותית הרשאות לפעול בשמם במערכות האישיות או הארגוניות. החל מצמצום גישה ועד להשארת הבקרה בידיים אנושיות - שוחחנו עם Linx Security על הכללים שימנעו שימוש לרעה של סוכני בינה מלאכותית",
-        "date": "2026-11-26T15:25:40+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/26/HyxoT6aHy7l/HyxoT6aHy7l_0_36_1000_563_0_medium.jpg"
+        "title": "בסנט: ״טראמפ ושי הסכימו כי אין לפתוח במבצע צבאי ללא מעורבות אנושית״",
+        "link": "https://www.walla.co.il/news/breaking-news/383962333",
+        "summary": "מזכיר האוצר האמריקני, סקוט בסנט, התראיין היום (שישי) לרשת CNBC והתייחס לפגישתו של הנשיא האמריקני, דונלד טראמפ, עם נשיא סין שי ג׳ינפינג. ״טראמפ ושי הסכימו שבני אדם צריכים להיות מעורבים בכל החלטה צבאית שמתקבלת על ידי בינה מלאכותית״, אמר. לדבריו, ״שני הצדדים מסכימים כי אין לפתוח במבצע צבאי משמעותי ללא מעורבות של בן אנוש״.",
+        "date": "2026-11-20T15:23:22+00:00",
+        "image": null
       },
       {
-        "title": "צפון קוריאה חשפה צ'אטבוט AI עם אזהרה: לא לשאול שאלות",
-        "link": "https://www.ynet.co.il/digital/technews/article/sk9zyuv1qg",
-        "summary": "המערכת, שזכתה לשם \"מעיין החוכמה\" ופותחה באוניברסיטת קים איל סונג, הוצגה בתערוכת טכנולוגיה בפיונגיאנג. הממשק מזכיר את ChatGPT, המנוע מבוסס ככל הנראה על מודלים פתוחים מערביים או סיניים – והמשתמשים מוזהרים לבל ישאלו שאלות בעלות \"תוכן חברתי-פוליטי\"",
-        "date": "2026-11-25T12:15:19+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/02/B1Rg11mLTze/B1Rg11mLTze_0_0_3000_1689_0_medium.jpg"
+        "title": "נשיא סין קורא לשיתוף פעולה עם ארה\"ב בתחום הבינה המלאכותית",
+        "link": "https://www.walla.co.il/news/breaking-news/383962112",
+        "summary": "נשיא סין שי ג'ינפינג קרא היום (חמישי) לשיתוף פעולה בין סין לארצות הברית בתחום הבינה המלאכותית. \"אנו קוראים לשיתוף פעולה בין סין לארה\"ב כדי לשמור על הבינה המלאכותית תחת שליטה\", אמר שי.",
+        "date": "2026-11-19T08:59:35+00:00",
+        "image": null
       },
+      {
+        "title": "נשיא סין לטראמפ: ארה\"ב חייבת לפעול נכון בסוגיית טייוואן",
+        "link": "https://www.walla.co.il/news/breaking-news/383962108",
+        "summary": "נשיא סין שי ג'ינפינג אמר היום (חמישי) לנשיא ארה\"ב דונלד טראמפ כי וושינגטון חייבת לפעול נכון בסוגיית טייוואן כדי למנוע טלטלות משמעותיות ביחסים בין המדינות, כך דיווחה התקשורת הממלכתית בסין. שי קרא להעמקת שיתוף הפעולה בתחומי הסחר והבינה המלאכותית, ולהבטחת שליטה אנושית בטכנולוגיה. לדבריו, המדינות הסכימו לגבש תוכנית פעולה ליחסים יציבים.",
+        "date": "2026-11-19T08:28:29+00:00",
+        "image": null
+      },
+      {
+        "title": "חשד להפצת סמים מדירת Airbnb בתל אביב: בן 31 נעצר",
+        "link": "https://www.walla.co.il/news/breaking-news/383961616",
+        "summary": "שוטרי תחנת לב תל אביב עצרו הלילה (שני) תושב מזרח ירושלים בן 31 בחשד שהפעיל מרכז לחלוקת סמים מדירת Airbnb במרכז העיר. במהלך חיפוש בדירה נתפסו מאות גרמים של חומרים החשודים כסמים, בהם קוקאין, קטמין, קנאביס וחשיש, לצד 490 בולי LSD ו-86 כדורי אקסטזי. בנוסף, נתפסו טלפונים ניידים ו-8,700 שקלים במזומן. החשוד הועבר לחקירה ויובא היום לבית המשפט לדיון בהארכת מעצרו.",
+        "date": "2026-11-16T09:55:39+00:00",
+        "image": null
+      }
+    ],
+    "scraped_at": "2026-11-28T11:12:47.372396+00:00",
+    "error": null
+  },
+  "ynet טכנולוגיה — מגזר ציבורי": {
+    "url": "http://www.ynet.co.il/Integration/StoryRss544.xml",
+    "category": "מחשוב וממשל",
+    "items": [
       {
         "title": "הולנד מזהירה מפני \"משקפי סוטים\": \"לצילום בציבור אין כמעט הצדקה\"",
         "link": "https://www.ynet.co.il/digital/technews/article/ryjdk11q1xx",
@@ -899,53 +969,11 @@
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/09/18/HkSnrjBtixl/HkSnrjBtixl_0_0_1600_901_0_medium.jpg"
       },
       {
-        "title": "מנכ\"ל ענקית התרופות מצנן את ההתלהבות: \"AI לא ירפא סרטן תוך עשור\"",
-        "link": "https://www.ynet.co.il/digital/technews/article/hyvbheq17g",
-        "summary": "בעוד שבכירי עמק הסיליקון מבטיחים פריצות דרך רפואיות בזק בעזרת מודלי שפה ובינה מלאכותית, ואס נאראסימהן – העומד בראש ענקית התרופות השוויצרית נוברטיס וחבר בדירקטוריון אנתרופיק – מציג תמונת מצב מפוכחת בהרבה: \"אנחנו מבינים רק כ-5% ממה שקורה בגוף האדם\"",
-        "date": "2026-11-24T12:41:44+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/24/rJQaTYz5Me/rJQaTYz5Me_0_0_1000_567_0_medium.jpg"
-      },
-      {
-        "title": "בלי מסך, עם כפתור הקלטה: Nothing תחשוף מכשיר AI ראשון",
-        "link": "https://www.ynet.co.il/digital/technews/article/sjenw2bkme",
-        "summary": "מנכ\"ל החברה הבריטית, קארל פיי, אישר כי הגאדג'ט החדש יגיע למדפים עוד החודש. בניגוד לניסיונות הכושלים בעמק הסיליקון להחליף את הסמארטפון, ב-Nothing מכוונים לכלי עבודה ייעודי שנועד לגשר על \"פער הקונטקסט\" של ה-AI",
-        "date": "2026-11-23T13:06:14+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/23/BkTZKhby7g/BkTZKhby7g_1_0_1200_675_0_medium.jpg"
-      },
-      {
-        "title": "יוצר הסימס חוזר אחרי עשור, והפעם הוא רוצה לשחק בחיים שלכם",
-        "link": "https://www.ynet.co.il/digital/gaming/article/ryfwmdzkxg",
-        "summary": "יותר מ-25 שנה אחרי ששינה את עולם הגיימינג, ויל רייט חוזר עם משחק חדש שעליו עבד במשך עשור. הפעם, במקום לשלוט בחייהן של דמויות וירטואליות, השחקנים יוכלו להפוך את הזיכרונות, החברים ובני המשפחה שלהם לעולם שלם המבוסס על בינה מלאכותית. ההשקה מתוכננת ל-2027, אבל יש גם שאלות",
-        "date": "2026-11-23T08:29:20+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/23/SJfJv00bJXe/SJfJv00bJXe_0_127_1448_816_0_medium.jpg"
-      },
-      {
-        "title": "שלושה מחקרים ישראליים, שורה של מחדלים: המבוכה החדשה של אילון מאסק",
-        "link": "https://www.ynet.co.il/digital/technews/article/syt3mpzyxe",
-        "summary": "פרצה שמאפשרת להשתלט על שרתים, עשרות אלפי אפליקציות חשופות למידע רגיש וסוכני AI שניסו לגשת למיילים וליומנים גם אחרי שהמשתמשים סירבו: שלושה מחקרים חדשים חושפים שורת כשלי אבטחה ופרטיות בגרוק, ומעלים שאלות קשות על המחיר של פיתוח מהיר מדי",
-        "date": "2026-11-23T07:59:07+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/01/13/ryYDSdmBZg/ryYDSdmBZg_0_0_1207_673_0_medium.jpg"
-      },
-      {
-        "title": "המרד נגד גוגל מתרחב: בתי הספר בארה\"ב מאיימים לעבור למתחרות",
-        "link": "https://www.ynet.co.il/digital/technews/article/s1k717gjmx",
-        "summary": "ניו יורק, לוס אנג'לס ושיקגו בוחנות לנטוש את מנוע החיפוש של גוגל, בעקבות סירובה לאפשר לתלמידים להשתמש בו ללא בינה מלאכותית. ההורים יצאו להפגין, מנהלי החינוך מאיימים לעבור לבינג ול-DuckDuckGo, ותביעה שהגישו הורים לילדה בת 13 רק מוסיפה שמן למדורה",
-        "date": "2026-11-22T08:41:02+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/15/S1MUlDTWfg/S1MUlDTWfg_0_0_1500_844_0_medium.jpg"
-      },
-      {
         "title": "לזהות זיופים, לחשוף מתחזים ולעקוב אחרי הילדים: טיקטוק שולפת כלים חדשים",
         "link": "https://www.ynet.co.il/digital/technews/article/rkhhb00paml",
         "summary": "הרשת החברתית משיקה כלי חדש לזיהוי תכנים שנוצרו בבינה מלאכותית, לצד מערכת שתתריע על שימוש לא מורשה בפנים של משתמשים. במקביל, החברה מרחיבה את הפיקוח ההורי, כולל התרעות על סימני מצוקה בקרב בני נוער, וחושפת נתונים מפתיעים על הרגלי הגלישה של דור ה-Z",
         "date": "2026-11-20T07:38:00+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/20/BkZndOTRGx/BkZndOTRGx_0_0_1024_576_0_medium.jpg"
-      },
-      {
-        "title": "78% שואלים על בריאות, רק 25% כותבים קוד: כך הישראלים משתמשים ב-AI",
-        "link": "https://www.ynet.co.il/digital/article/rjrkdooczg",
-        "summary": "מחקר חדש של שנקר, ויקימדיה ישראל, מוסד שמואל נאמן ואיגוד האינטרנט הישראלי מגלה ש-85% פונים לבינה מלאכותית כדי לספק סקרנות, 53% יודעים שהיא עלולה להציג מידע שגוי, ורק כ-38% בודקים את התשובות שלה מול מקורות אחרים. צעירים משתמשים בה הרבה יותר ממבוגרים, ומודעים יותר למגבלות שלה",
-        "date": "2026-11-19T04:00:00+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/18/rk11CY00sAfl/rk11CY00sAfl_36_0_1365_769_0_medium.jpg"
       },
       {
         "title": "מיקרוסופט חשפה סוכני AI אוטונומיים – עם חותמת ישראלית",
@@ -967,71 +995,85 @@
         "summary": "בועידת הבריאות של ynet ו\"ידיעות אחרונות\" עלה נושא ה-AI לדיון בהמשך למספר נתונים: כ-50% מהרופאים בארה\"ב כבר נעזרים בו לאבחון, בבתי החולים בישראל מנותחות מאות אלפי בדיקות בחודש באמצעות AI, וזמן האשפוז התקצר בשעות. אבל, בכירים מזהירים מפני שחיקת מיומנויות המתמחים, מאבחנות שגויות שמלחיצות מטופלים ומכך שהרופא יהפוך לחותמת גומי של המכונה",
         "date": "2026-11-17T11:04:11+00:00",
         "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/17/rJW6gatK0Ge/rJW6gatK0Ge_0_0_3000_1689_0_medium.jpg"
-      },
-      {
-        "title": "יש אדם שאין לו תחליף בינה מלאכותית",
-        "link": "https://www.ynet.co.il/digital/technews/article/yokra14960397",
-        "summary": "ה-AI מצמצם את הצורך בעובדים בכמה תחומים, אולם סוף השבוע האחרון סיפק דוגמה מצוינת לכך שלא כולנו צריכים למהר לעשות הסבה למקצועות ידניים, על תקלות הענק במיקרוסופט ובשדות התעופה בארה\"ב היו אחראיות דווקא המכונות – ובני האדם הם שפתרו אותן",
-        "date": "2026-11-16T22:00:00+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/18/S1mXZcWvfl/S1mXZcWvfl_44_0_1365_769_0_medium.jpg"
-      },
-      {
-        "title": "בלי מסך, עם הרבה AI: ההימור הגדול הבא של אפל",
-        "link": "https://www.ynet.co.il/digital/technews/article/rj17owocgl",
-        "summary": "ענקית הטק נערכת להשקת המשקפיים החכמים הראשונים שלה ב-2027, ומתכננת להתחרות במטא עם מוצר שיתבסס על בינה מלאכותית, פקודות קוליות ושילוב עמוק עם האייפון. אלא שבדור הראשון לא יהיו תצוגה או יכולות מציאות רבודה, וחוויית השימוש תישען בעיקר על סירי, שעדיין מפגרת מאחורי המתחרים",
-        "date": "2026-11-16T11:48:30+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/17/rygVYPq00g11x/rygVYPq00g11x_0_95_1921_1081_0_medium.jpg"
-      },
-      {
-        "title": "מה אנבידיה לא מספרת? ההודאה הסודית שמסבכת את ענקית השבבים",
-        "link": "https://www.ynet.co.il/digital/technews/article/h1zfdfwrmx",
-        "summary": "בעיצומה של סערת הריגול שמטלטלת את ענקית השבבים, חבר קונגרס אמריקני חושף כי נציגי אנבידיה הודו בפניו בשיחות סגורות שהחברה מסוגלת לעקוב אחר מיקומם של שבבי ה-AI שלה, בניגוד לעמדה שהציגה בפומבי. כעת מקדמת וושינגטון חקיקה שתחייב מנגנוני מעקב ואימות, במטרה למנוע הברחות לסין",
-        "date": "2026-11-15T12:19:47+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/07/23/BkLju7AIgx/BkLju7AIgx_0_37_1062_598_0_medium.jpg"
-      },
-      {
-        "title": "גוגל מורידה את הכפפות: מודלי בינה מלאכותית חדשים, שבבי-על ומשקפיים חכמים",
-        "link": "https://www.ynet.co.il/digital/technews/article/hysgowvczg",
-        "summary": "ענקית הטק יוצאת למתקפה בכל החזיתות: מודלי AI חדשים, שבבים שיאתגרו את אנבידיה, משקפיים חכמים שיתחרו במטא ורובוטים מתקדמים. המטרה היא לא רק לנצח במרוץ הבינה המלאכותית, אלא לשלוט בכל שרשרת הטכנולוגיה - מהשבב ועד למשתמש",
-        "date": "2026-11-15T11:26:02+00:00",
-        "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/15/SyO7IzP0zl/SyO7IzP0zl_0_0_1705_959_0_medium.jpg"
       }
     ],
-    "scraped_at": "2026-11-27T11:38:21.214486+00:00",
+    "scraped_at": "2026-11-28T11:12:51.196367+00:00",
     "error": null
-  },
-  "ICT Israel": {
-    "url": "https://ictisrael.com/feed/",
-    "category": "AI ישראל",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:21.636650+00:00",
-    "error": null
-  },
-  "TheMarker טכנולוגיה": {
-    "url": "https://www.themarker.com/cmlink/1.4658981",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:19.834240+00:00",
-    "error": null
-  },
-  "כלכליסט — מגזר ציבורי": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "מחשוב וממשל",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:21.934328+00:00",
-    "error": "HTTP Status 404"
-  },
-  "כלכליסט טק": {
-    "url": "https://www.calcalist.co.il/rss/AjaxPage,1342,L-CalculistRssList,00.xml",
-    "category": "חדשות טכנולוגיה",
-    "items": [],
-    "scraped_at": "2026-11-27T11:38:19.090014+00:00",
-    "error": "HTTP Status 404"
   },
   "YouTube — סרטונים": {
     "url": "https://www.youtube.com",
     "category": "סרטונים",
     "items": [
+      {
+        "title": "מצב קודקס",
+        "link": "https://www.youtube.com/watch?v=jCf9FvrXNMI",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.719661+00:00",
+        "image": "https://img.youtube.com/vi/jCf9FvrXNMI/mqdefault.jpg"
+      },
+      {
+        "title": "שאלה ותשובה בצ'אט",
+        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.719659+00:00",
+        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
+      },
+      {
+        "title": "המעבר לצ'אט",
+        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.719656+00:00",
+        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
+      },
+      {
+        "title": "פתיחה ומצב Work",
+        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.719635+00:00",
+        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
+      },
+      {
+        "title": "Spherical Videos",
+        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159737+00:00",
+        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
+      },
+      {
+        "title": "Subtitles and closed captions",
+        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159735+00:00",
+        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
+      },
+      {
+        "title": "General",
+        "link": "https://www.youtube.com/watch?v=ObqzF1V1m8I",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159733+00:00",
+        "image": "https://img.youtube.com/vi/ObqzF1V1m8I/mqdefault.jpg"
+      },
+      {
+        "title": "Playback",
+        "link": "https://www.youtube.com/watch?v=hEzDhFnRRGE",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159731+00:00",
+        "image": "https://img.youtube.com/vi/hEzDhFnRRGE/mqdefault.jpg"
+      },
+      {
+        "title": "Keyboard shortcuts",
+        "link": "https://www.youtube.com/watch?v=uYC44fRSc-o",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159728+00:00",
+        "image": "https://img.youtube.com/vi/uYC44fRSc-o/mqdefault.jpg"
+      },
+      {
+        "title": "Search filters",
+        "link": "https://www.youtube.com/watch?v=dsULPW19wDk",
+        "summary": "",
+        "date": "2026-11-28T11:12:52.159708+00:00",
+        "image": "https://img.youtube.com/vi/dsULPW19wDk/mqdefault.jpg"
+      },
       {
         "title": "מצב קודקס",
         "link": "https://www.youtube.com/watch?v=jqWRNfgdJqQ",
@@ -1040,67 +1082,11 @@
         "image": "https://img.youtube.com/vi/jqWRNfgdJqQ/mqdefault.jpg"
       },
       {
-        "title": "שאלה ותשובה בצ'אט",
-        "link": "https://www.youtube.com/watch?v=Twz13lSDot0",
-        "summary": "",
-        "date": "2026-11-27T11:38:25.496102+00:00",
-        "image": "https://img.youtube.com/vi/Twz13lSDot0/mqdefault.jpg"
-      },
-      {
-        "title": "המעבר לצ'אט",
-        "link": "https://www.youtube.com/watch?v=fwANhfjQt9E",
-        "summary": "",
-        "date": "2026-11-27T11:38:25.496099+00:00",
-        "image": "https://img.youtube.com/vi/fwANhfjQt9E/mqdefault.jpg"
-      },
-      {
-        "title": "פתיחה ומצב Work",
-        "link": "https://www.youtube.com/watch?v=G0FLdVbrfNQ",
-        "summary": "",
-        "date": "2026-11-27T11:38:25.496078+00:00",
-        "image": "https://img.youtube.com/vi/G0FLdVbrfNQ/mqdefault.jpg"
-      },
-      {
-        "title": "תצוגת טבלה",
-        "link": "https://www.youtube.com/watch?v=g2BigYYKJeM",
-        "summary": "",
-        "date": "2026-11-27T11:38:24.580274+00:00",
-        "image": "https://img.youtube.com/vi/g2BigYYKJeM/mqdefault.jpg"
-      },
-      {
         "title": "תצוגה לפי תגיות",
         "link": "https://www.youtube.com/watch?v=lGYveg3Hl3A",
         "summary": "",
         "date": "2026-11-27T11:38:24.580272+00:00",
         "image": "https://img.youtube.com/vi/lGYveg3Hl3A/mqdefault.jpg"
-      },
-      {
-        "title": "כניסה לטבלת הכלים",
-        "link": "https://www.youtube.com/watch?v=uleaHfle9T4",
-        "summary": "",
-        "date": "2026-11-27T11:38:24.580271+00:00",
-        "image": "https://img.youtube.com/vi/uleaHfle9T4/mqdefault.jpg"
-      },
-      {
-        "title": "סקירת דף התוכן של הקהילה",
-        "link": "https://www.youtube.com/watch?v=ObqzF1V1m8I",
-        "summary": "",
-        "date": "2026-11-27T11:38:24.580269+00:00",
-        "image": "https://img.youtube.com/vi/ObqzF1V1m8I/mqdefault.jpg"
-      },
-      {
-        "title": "גישה לטבלת הכלים",
-        "link": "https://www.youtube.com/watch?v=hEzDhFnRRGE",
-        "summary": "",
-        "date": "2026-11-27T11:38:24.580266+00:00",
-        "image": "https://img.youtube.com/vi/hEzDhFnRRGE/mqdefault.jpg"
-      },
-      {
-        "title": "מבוא והקדמה",
-        "link": "https://www.youtube.com/watch?v=uYC44fRSc-o",
-        "summary": "",
-        "date": "2026-11-27T11:38:24.580245+00:00",
-        "image": "https://img.youtube.com/vi/uYC44fRSc-o/mqdefault.jpg"
       },
       {
         "title": "5 דברים מטורפים שרק Gemini יודע לעשות",
@@ -1325,23 +1311,9 @@
         "summary": "",
         "date": "2026-11-15T10:14:22.205611+00:00",
         "image": "https://img.youtube.com/vi/ultqhPpEaao/mqdefault.jpg"
-      },
-      {
-        "title": "התחברות מהירה - 30 שניות וסיימתם",
-        "link": "https://www.youtube.com/watch?v=JON8g64fMGo",
-        "summary": "",
-        "date": "2026-11-14T09:40:42.580752+00:00",
-        "image": "https://img.youtube.com/vi/JON8g64fMGo/mqdefault.jpg"
-      },
-      {
-        "title": "New Projects",
-        "link": "https://www.youtube.com/watch?v=Ut39lxrMqS8",
-        "summary": "",
-        "date": "2026-11-14T09:40:42.580748+00:00",
-        "image": "https://img.youtube.com/vi/Ut39lxrMqS8/mqdefault.jpg"
       }
     ],
-    "scraped_at": "2026-11-27T11:38:25.496397+00:00",
+    "scraped_at": "2026-11-28T11:12:52.720640+00:00",
     "error": null
   }
 }
